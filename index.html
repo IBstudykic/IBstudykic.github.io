@@ -126,7 +126,21 @@ mark.hl{background:color-mix(in srgb,var(--warn) 30%,transparent);color:inherit;
 .fsheet>div{padding:12px 16px}.fn{display:flex;gap:10px;align-items:baseline;font-weight:600}.fn a{margin-left:auto}.fx{overflow-x:auto;padding:2px 0}.fx .katex-display{margin:.4em 0;text-align:left}
 .ctab{width:100%;border-collapse:collapse;font-size:14px}.ctab td{padding:8px 14px;border-bottom:1px solid var(--line)}.ctab tr:last-child td{border-bottom:none}
 .cases{grid-template-columns:repeat(auto-fill,minmax(300px,1fr))}.case{padding:14px 16px;display:flex;flex-direction:column;gap:4px}.case b{font:600 16.5px/1.3 var(--f-read)}.case p{margin:6px 0;font-size:14px;line-height:1.55}.case .ghost{align-self:flex-start;margin-top:6px;padding:5px 8px;font-size:13px}
-.mmset{margin-bottom:16px}.mmrow{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:8px;margin-top:8px}
+.mmset{margin-bottom:20px}.mmrow{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:10px;margin-top:8px}
+.mmint{background:var(--bg);overflow:hidden;position:relative;touch-action:none;cursor:grab}.mmcv{position:absolute;left:0;top:0;transform-origin:0 0}.mmln{position:absolute;left:0;top:0;pointer-events:none}
+.mmn{position:absolute;max-width:270px;padding:7px 11px;background:var(--panel);border:1.5px solid var(--c);border-radius:12px;font-size:14px;line-height:1.35;cursor:pointer;box-shadow:0 1px 3px rgba(0,0,0,.08);transition:box-shadow .15s,opacity .15s}
+.mmn:hover{box-shadow:0 0 0 3px color-mix(in srgb,var(--c) 25%,transparent)}.mmn.sel{box-shadow:0 0 0 4px color-mix(in srgb,var(--c) 45%,transparent)}
+.mmn.d0{max-width:240px;padding:14px 20px;font:700 20px/1.2 var(--f-read);background:var(--ink);color:var(--bg);border-color:var(--ink);text-align:center}
+.mmn.d1{padding:10px 14px;font-weight:700;font-size:15.5px;background:var(--c);color:#fff;border-color:var(--c)}.mmn.d1 .katex{color:#fff}
+.mmn.d3{font-size:13px}.mmtx p{margin:0}.mmtx table{font-size:12px;border-collapse:collapse;margin:2px 0}.mmtx td,.mmtx th{border:1px solid var(--line);padding:1px 6px}.mmtx .katex{font-size:1.05em}
+.mmk{position:absolute;top:50%;right:-13px;transform:translateY(-50%);min-width:24px;height:24px;padding:0 5px;border-radius:12px;font:700 12px/1 var(--f-ui,inherit);background:var(--panel);color:var(--c);border:1.5px solid var(--c);justify-content:center;z-index:1}
+.mmn.L .mmk{right:auto;left:-13px}.mmtt{max-width:280px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.mmcv.dim .mmn:not(.hit){opacity:.28}.mmn.hit{box-shadow:0 0 0 4px #f5c518}
+.mmact{position:absolute;left:50%;bottom:calc(14px + env(safe-area-inset-bottom));transform:translateX(-50%);width:min(680px,calc(100% - 24px));background:var(--panel);border:1px solid var(--line);border-radius:14px;box-shadow:var(--sh);padding:12px 14px;display:flex;flex-direction:column;gap:10px}
+.mmsel{max-height:120px;overflow:auto;font-size:15px}.mmsel p{margin:0}.mmv .seg button.on,.mmbar button.on{background:var(--ink);color:var(--bg)}
+.mmbar{flex-wrap:wrap}.mmbar select{width:auto;max-width:220px}.mmbar input{width:150px}.mmv{position:fixed}.mmv>.mmsc{position:relative}
+body.mmopen .drawer{z-index:56;top:0}body.mmopen .ask{display:none}
+.mmxm{display:none}
+@media (max-width:700px){.mmtt,.mmw,#mmq{display:none}.mmxm{display:inline-flex;order:0}.mmbar{gap:6px;padding:8px}.mmbar select{flex:1;max-width:none;min-width:0}.mmbar .sp{flex-basis:100%;height:0}.mmbar button{padding:6px 10px}.mmn{max-width:210px;font-size:13px}.mmact{padding:10px}.mmact button{padding:6px 10px;font-size:13px}}
 .mmt{flex-direction:column;align-items:stretch;padding:6px;gap:6px;text-align:left;font-size:13px}.mmt img{width:100%;aspect-ratio:1.414;object-fit:cover;border-radius:5px;background:#fff;border:1px solid var(--line)}
 .mmv{position:fixed;inset:0;z-index:50;background:var(--bg);display:flex;flex-direction:column}.mmbar{display:flex;align-items:center;gap:8px;padding:10px 14px;border-bottom:1px solid var(--line);background:var(--panel)}
 .mmsc{flex:1;overflow:auto;cursor:grab;touch-action:pan-x pan-y pinch-zoom;background:#fff}.mmsc:active{cursor:grabbing}.mmsc img{display:block;max-width:none;user-select:none}
@@ -574,6 +588,7 @@ function drawChat(busy) {
 // where the student is, as one line for Claude; the full question/draft/card is only sent as `screen`, which Claude reads with a tool if it needs it
 function where() {
   const B = S.book;
+  if (S.mm) { const m = S.mm; return {label: 'mind map “' + m.pg.title + '”' + (m.sel ? ' · ' + m.sel : ''), book: 'math', note: `[Location: ${m.M.title} mind map, topic ${m.pg.title}${m.sel ? ', selected bubble: ' + m.sel : ''}]`, screen: 'Mind map outline:\n' + m.outline}; }
   if (S.tab === 'lib' && S.reading && B) { const sec = secOf(B, S.n), bp = ($('#pn') && $('#pn').dataset.bp) || S.n;
     return {label: `${B.subject} p. ${bp}${sec ? ' · ' + (sec.num ? sec.num + ' ' : '') + sec.title : ''}`, book: B.id, n: S.n, note: `[Location: reading the ${B.subject} textbook, p. ${bp}${sec ? ', section ' + (sec.num ? sec.num + ' ' : '') + sec.title : ''}]`}; }
   if (S.tab === 'prac' && S.q) { const q = S.q, ta = $('#ans'), d = ta ? ta.value.trim() : '';
@@ -1547,7 +1562,7 @@ async function renderRef(F) {
   const draw = () => {
     const q = F.q.toLowerCase(), hit = o => !q || JSON.stringify(o).toLowerCase().includes(q), ts = topicsOf(B), tname = n => { const t = ts.find(x => inTopic(n, x.num) || x.num === n) || B.toc.find(x => x.num === n); return t ? t.num + ' ' + t.title : n; };
     let h = (R.maps || []).length && !F.q ? `<h3 style="margin-top:0">Mind maps</h3>${R.maps.map(M => `<div class="mmset"><div class="row"><b>${esc(M.title)}</b><span class="sp"></span><a class="meta" href="${RELAY}/ib/file?b=${M.id}" download>PDF</a></div>
-      <div class="mmrow">${M.pages.map(pg => `<button class="mmt" data-mm="${M.id}" data-n="${pg.n}"><img loading="lazy" alt="" src="${RELAY}/ib/img?b=${M.id}&n=${pg.n}"><span>${esc(pg.title)}</span></button>`).join('')}</div></div>`).join('')}` : '';
+      <div class="mmrow">${M.pages.map(pg => `<button class="mmt" data-mm="${M.id}" data-n="${pg.n}"><img loading="lazy" alt="" src="${RELAY}/ib/img?b=${M.id}&n=${pg.n}"><span>${esc(pg.title)}${pg.tree ? ' <span class="tag">interactive</span>' : ''}</span></button>`).join('')}</div></div>`).join('')}` : '';
     h += `<div class="filters"><input id="rfq" placeholder="${(R.cases || []).length ? (B.subject.startsWith('TOK') ? 'Search examples, thinkers, topics…' : 'Search cases, actors, places…') : 'Search formulas…'}" value="${esc(F.q)}" style="max-width:340px">`;
     if ((R.cases || []).length) { const cs = {}; for (const c of R.cases) for (const k of c.concepts || []) cs[k] = (cs[k] || 0) + 1;
       h += `<select id="rfc" style="width:auto"><option value="">All concepts</option>${Object.entries(cs).sort((a, b) => b[1] - a[1]).map(([k, n]) => `<option value="${esc(k)}" ${F.c === k ? 'selected' : ''}>${esc(k)} (${n})</option>`).join('')}</select>`; }
@@ -1568,25 +1583,128 @@ async function renderRef(F) {
   }; draw();
 }
 
-// full-screen mind-map viewer: fit to width, zoom with buttons / ctrl+wheel / pinch (native), drag to pan, arrows for next page
+// full-screen mind maps. Pages with a tree (ib/mindmap.py) open as an interactive map: branches fold/unfold, tap a bubble for
+// Explain / Quiz me / Flashcards / Find in textbook, recall mode hides everything below the hubs. "Original" shows the drawn page (zoom + drag).
+const MMC = ['#c0392b', '#1f7a8c', '#7b4fb0', '#b9770e', '#2e8b57', '#c2185b', '#3d5a99', '#6d7f12'];
+const mmPlain = t => String(t || '').replace(/\$([^$]*)\$/g, (_, m) => m.replace(/\\(frac|dfrac)\{([^}]*)\}\{([^}]*)\}/g, '($2)/($3)').replace(/\\[a-zA-Z]+/g, ' ').replace(/[{}^_]/g, '')).replace(/\s+/g, ' ').trim();
 function mapView(maps, id, n) {
-  const M = maps.find(x => x.id === id); let z = 1;
-  const ov = document.createElement('div'); ov.className = 'mmv'; document.body.appendChild(ov);
-  const draw = () => { const pg = M.pages.find(x => x.n === n);
-    ov.innerHTML = `<div class="mmbar"><b>${esc(M.title)}</b><span class="meta">${esc(pg.title)}</span><span class="sp"></span><button data-a="prev" ${n <= 1 ? 'disabled' : ''} aria-label="Previous"><svg class="i"><use href="#i-l"/></svg></button><button data-a="next" ${n >= M.pages.length ? 'disabled' : ''} aria-label="Next"><svg class="i"><use href="#i-r"/></svg></button><button data-a="out">−</button><span class="meta num" style="width:44px;text-align:center">${Math.round(z * 100)}%</span><button data-a="in">+</button><button data-a="x" aria-label="Close"><svg class="i"><use href="#i-x"/></svg></button></div>
-      <div class="mmsc"><img src="${RELAY}/ib/img?b=${M.id}&n=${n}" alt="${esc(pg.title)}" style="width:${z * 100}%" draggable="false"></div>`;
-    const sc = ov.querySelector('.mmsc'); let drag = null;
+  const M = maps.find(x => x.id === id); let mode = 'map', z = 1, view = null, sel = null, recall = false, q = '';
+  const ov = document.createElement('div'); ov.className = 'mmv'; document.body.appendChild(ov); document.body.classList.add('mmopen');
+  let nodes = [], root = null;
+  const build = () => { // flatten the tree with ids, depth, branch colour; everything starts open (recall mode starts folded)
+    nodes = []; const pg = M.pages.find(x => x.n === n);
+    const walk = (t, d, par, br) => { const o = {i: nodes.length, t: t.t, d, par, br, kids: [], open: d === 0 || !recall}; nodes.push(o);
+      (t.c || []).forEach((c, k) => o.kids.push(walk(c, d + 1, o, d === 0 ? k : br))); return o; };
+    root = pg.tree ? walk(pg.tree, 0, null, 0) : null; sel = null; view = null; };
+  const label = o => (() => { try { return mdx(o.t, !o.t.includes('\n|')); } catch (e) { return esc(o.t); } })();
+  const path = o => { const a = []; for (let x = o; x; x = x.par) a.unshift(mmPlain(x.t)); return a.join(' › '); };
+  const outline = (o, ind = '') => ind + '- ' + o.t + '\n' + o.kids.map(k => outline(k, ind + '  ')).join('');
+  const nhid = o => o.kids.length - 0;
+  const draw = () => {
+    const pg = M.pages.find(x => x.n === n), tree = !!pg.tree; if (!tree) mode = 'img';
+    S.mm = {M, pg, sel: null, outline: root ? outline(root) : ''};
+    ov.innerHTML = `<div class="mmbar"><b class="mmtt">${esc(M.title)}</b><select id="mmpg" aria-label="Topic">${M.pages.map(x => `<option value="${x.n}" ${x.n === n ? 'selected' : ''}>${esc(x.title)}</option>`).join('')}</select>
+      <button data-a="prev" ${n <= 1 ? 'disabled' : ''} aria-label="Previous topic"><svg class="i"><use href="#i-l"/></svg></button><button data-a="next" ${n >= M.pages.length ? 'disabled' : ''} aria-label="Next topic"><svg class="i"><use href="#i-r"/></svg></button>
+      <button data-a="x" aria-label="Close" class="mmxm"><svg class="i"><use href="#i-x"/></svg></button><span class="sp"></span>${tree ? `<div class="seg"><button data-a="map" class="${mode === 'map' ? 'on' : ''}">Interactive</button><button data-a="img" class="${mode === 'img' ? 'on' : ''}">Original</button></div>` : ''}
+      ${mode === 'map' ? `<input id="mmq" placeholder="Find on map…" value="${esc(q)}"><button data-a="recall" class="${recall ? 'on' : ''}" title="Fold everything below the main branches, then open them one level at a time to test yourself">Recall mode</button><button data-a="all" class="mmw">Open all</button>` : ''}
+      <button data-a="out" aria-label="Zoom out" class="mmw">−</button><button data-a="fit" class="num" title="Fit to screen" style="min-width:58px">${Math.round(z * 100)}%</button><button data-a="in" aria-label="Zoom in" class="mmw">+</button>
+      <button data-a="x" aria-label="Close" class="mmw"><svg class="i"><use href="#i-x"/></svg></button></div>
+      ${mode === 'map' ? `<div class="mmsc mmint"><div class="mmcv"><svg class="mmln"></svg></div></div><div class="mmact hide"></div>` : `<div class="mmsc"><img src="${RELAY}/ib/img?b=${M.id}&n=${n}" alt="${esc(pg.title)}" style="width:${z * 100}%" draggable="false"></div>`}`;
+    ov.querySelector('#mmpg').onchange = e => go(+e.target.value);
+    ov.querySelectorAll('.mmbar [data-a]').forEach(b => b.onclick = () => ({prev: () => go(n - 1), next: () => go(n + 1), in: () => zoom(1.3), out: () => zoom(1 / 1.3), x: close, fit: () => mode === 'map' ? fit() : (z = 1, draw()),
+      map: () => { mode = 'map'; z = 1; draw(); }, img: () => { mode = 'img'; z = 1; draw(); }, recall: () => { recall = !recall; build(); draw(); }, all: () => { recall = false; nodes.forEach(o => o.open = true); draw(); }})[b.dataset.a]());
+    if (mode === 'map') { const qi = ov.querySelector('#mmq'); qi.oninput = () => { q = qi.value; find(); }; qi.onkeydown = e => e.stopPropagation(); paint(); } else imgWire();
+  };
+  const go = k => { n = Math.max(1, Math.min(M.pages.length, k)); z = 1; q = ''; build(); draw(); };
+  // ---- interactive map
+  const vis = o => { for (let x = o.par; x; x = x.par) if (!x.open) return false; return true; };
+  const paint = () => {
+    const cv = ov.querySelector('.mmcv'), sc = ov.querySelector('.mmsc');
+    cv.querySelectorAll('.mmn').forEach(x => x.remove());
+    for (const o of nodes) if (vis(o)) { const el = document.createElement('div'); el.className = 'mmn d' + Math.min(o.d, 3) + (o === sel ? ' sel' : ''); el.dataset.i = o.i; el.style.setProperty('--c', MMC[o.br % MMC.length]);
+      el.innerHTML = `<div class="mmtx">${label(o)}</div>${o.kids.length && o.d ? `<button class="mmk" data-k="${o.i}" aria-label="${o.open ? 'Fold' : 'Open'} branch">${o.open ? '−' : '+' + o.kids.length}</button>` : ''}`; cv.appendChild(el); o.el = el; } else o.el = null;
+    cv.style.width = cv.style.height = '20000px'; // room to measure at natural width, then lock the width
+    for (const o of nodes) if (o.el) { o.w = Math.ceil(o.el.getBoundingClientRect().width / (view ? view.s : 1)) + 1; o.el.style.width = o.w + 'px'; o.h = o.el.offsetHeight; o.w = o.el.offsetWidth; }
+    // layout: hubs split left/right by size, each side a tidy tree growing outwards
+    const GX = 46, GY = 12, sz = o => o.sz = Math.max(o.h, o.open && o.kids.length ? o.kids.reduce((s, k) => s + sz(k) + GY, -GY) : 0);
+    sz(root); root.x = 0; root.y = 0;
+    const hubs = root.open ? root.kids : [], tot = hubs.reduce((s, k) => s + k.sz, 0); let cut = 0, best = 1e9, acc = 0;
+    for (let i = 0; i <= hubs.length; i++) { const d = Math.abs(2 * acc - tot); if (i && d < best) { best = d; cut = i; } if (i < hubs.length) acc += hubs[i].sz; }
+    if (hubs.length === 1) cut = 1; const R = hubs.slice(0, cut), L = hubs.slice(cut).reverse();
+    const place = (list, side, px, cy) => { let y = cy - (list.reduce((s, k) => s + k.sz + GY, -GY)) / 2;
+      for (const k of list) { k.side = side; k.x = px + side * (GX + k.w / 2); k.y = y + k.sz / 2; y += k.sz + GY;
+        if (k.open && k.kids.length) place(k.kids, side, k.x + side * k.w / 2, k.y); } };
+    place(R, 1, root.w / 2, 0); place(L, -1, -root.w / 2, 0);
+    let x0 = 1e9, y0 = 1e9, x1 = -1e9, y1 = -1e9;
+    for (const o of nodes) if (o.el) { x0 = Math.min(x0, o.x - o.w / 2); x1 = Math.max(x1, o.x + o.w / 2); y0 = Math.min(y0, o.y - o.h / 2); y1 = Math.max(y1, o.y + o.h / 2); }
+    const P = 40, W = x1 - x0 + 2 * P, H = y1 - y0 + 2 * P, ox = P - x0, oy = P - y0;
+    cv.style.width = W + 'px'; cv.style.height = H + 'px';
+    for (const o of nodes) if (o.el) { o.el.style.left = (o.x + ox - o.w / 2) + 'px'; o.el.style.top = (o.y + oy - o.h / 2) + 'px'; }
+    const svg = cv.querySelector('.mmln'); svg.setAttribute('width', W); svg.setAttribute('height', H);
+    svg.innerHTML = nodes.filter(o => o.el && o.par).map(o => { const p = o.par, s = o.side, ax = p.x + ox + s * p.w / 2, ay = p.y + oy, bx = o.x + ox - s * o.w / 2, by = o.y + oy, m = (ax + bx) / 2;
+      return `<path d="M${ax},${ay} C${m},${ay} ${m},${by} ${bx},${by}" stroke="${MMC[o.br % MMC.length]}" stroke-width="${o.d === 1 ? 3.5 : 2}" fill="none" opacity=".75"/>`; }).join('');
+    const nb = {W, H, cx: root.x + ox, cy: root.y + oy};
+    for (const o of nodes) if (o.el) o.el.classList.toggle('L', o.side === -1);
+    if (!view) { view = {}; mmFitTo(nb); }
+    view.ox = ox; view.oy = oy; view.nb = nb; apply();
+    cv.querySelectorAll('.mmk').forEach(b => b.onclick = e => { e.stopPropagation(); toggle(nodes[+b.dataset.k]); });
+    cv.querySelectorAll('.mmn').forEach(el => el.onclick = e => { if (sc.dataset.moved) return; const o = nodes[+el.dataset.i]; select(o === sel ? null : o); });
+    find(true); wire(sc);
+  };
+  const toggle = o => { const ax = o.x + view.ox, ay = o.y + view.oy;
+    o.open = !o.open; if (!o.open) (function f(k) { for (const c of k.kids) { if (sel === c) sel = null; f(c); } })(o);
+    paint(); const nx = o.x + view.ox, ny = o.y + view.oy; view.x -= (nx - ax) * view.s; view.y -= (ny - ay) * view.s; apply(); if (sel) select(sel); };
+  const mmFitTo = (nb, any) => { const sc = ov.querySelector('.mmsc'), f = Math.min((sc.clientWidth - 20) / nb.W, (sc.clientHeight - 20) / nb.H), s = Math.min(1.25, Math.max(any ? .1 : .55, f));
+    view.s = s; if (s > f) { view.x = sc.clientWidth / 2 - nb.cx * s; view.y = sc.clientHeight / 2 - nb.cy * s; } // too big to fit readably: start on the centre topic
+    else { view.x = (sc.clientWidth - nb.W * s) / 2; view.y = (sc.clientHeight - nb.H * s) / 2; } };
+  const fit = () => { mmFitTo(view.nb, true); apply(); };
+  const apply = () => { const cv = ov.querySelector('.mmcv'); if (!cv) return; cv.style.transform = `translate(${view.x}px,${view.y}px) scale(${view.s})`; z = view.s; const f = ov.querySelector('[data-a="fit"]'); if (f) f.textContent = Math.round(view.s * 100) + '%'; };
+  const zoomAt = (f, cx, cy) => { const s = Math.min(3, Math.max(.15, view.s * f)); view.x = cx - (cx - view.x) * s / view.s; view.y = cy - (cy - view.y) * s / view.s; view.s = s; apply(); };
+  const wire = sc => { if (sc.dataset.w) return; sc.dataset.w = 1; const pts = new Map(); let pinch = null, drag = null;
+    sc.onpointerdown = e => { if (e.target.closest('.mmk')) return; pts.set(e.pointerId, {x: e.clientX, y: e.clientY}); sc.setPointerCapture(e.pointerId); delete sc.dataset.moved;
+      if (pts.size === 1) drag = {x: e.clientX, y: e.clientY, vx: view.x, vy: view.y}; else { const [a, b] = [...pts.values()]; pinch = {d: Math.hypot(a.x - b.x, a.y - b.y), s: view.s}; drag = null; } };
+    sc.onpointermove = e => { if (!pts.has(e.pointerId)) return; pts.set(e.pointerId, {x: e.clientX, y: e.clientY});
+      if (pinch && pts.size === 2) { const [a, b] = [...pts.values()], r = sc.getBoundingClientRect(); zoomAt(pinch.s * Math.hypot(a.x - b.x, a.y - b.y) / pinch.d / view.s, (a.x + b.x) / 2 - r.left, (a.y + b.y) / 2 - r.top); sc.dataset.moved = 1; }
+      else if (drag) { const dx = e.clientX - drag.x, dy = e.clientY - drag.y; if (Math.abs(dx) + Math.abs(dy) > 5) sc.dataset.moved = 1; view.x = drag.vx + dx; view.y = drag.vy + dy; apply(); } };
+    sc.onpointerup = sc.onpointercancel = e => { pts.delete(e.pointerId); if (pts.size < 2) pinch = null; if (!pts.size) { drag = null; setTimeout(() => delete sc.dataset.moved, 0); } };
+    sc.onwheel = e => { e.preventDefault(); const r = sc.getBoundingClientRect(); if (e.ctrlKey || !e.shiftKey && Math.abs(e.deltaY) > Math.abs(e.deltaX) && !e.deltaMode && Math.abs(e.deltaY) >= 50) zoomAt(Math.exp(-e.deltaY * (e.ctrlKey ? .01 : .0015)), e.clientX - r.left, e.clientY - r.top); else { view.x -= e.deltaX; view.y -= e.deltaY; apply(); } };
+    sc.onclick = e => { if (!e.target.closest('.mmn') && !sc.dataset.moved) select(null); }; };
+  const find = keep => { const t = q.trim().toLowerCase(); ov.querySelector('.mmcv').classList.toggle('dim', !!t); if (!t) return;
+    const hit = nodes.filter(o => mmPlain(o.t).toLowerCase().includes(t) || o.t.toLowerCase().includes(t));
+    if (!keep) { let ch = false; for (const o of hit) for (let x = o.par; x; x = x.par) if (!x.open) { x.open = true; ch = true; } if (ch) return paint(); }
+    for (const o of nodes) if (o.el) o.el.classList.toggle('hit', hit.includes(o)); };
+  const select = o => { sel = o; S.mm && (S.mm.sel = o ? path(o) : null); ov.querySelectorAll('.mmn').forEach(el => el.classList.toggle('sel', !!o && +el.dataset.i === o.i));
+    const bar = ov.querySelector('.mmact'); if (!o) return bar.classList.add('hide');
+    const pg = M.pages.find(x => x.n === n), withKids = []; (function f(k) { if (k.kids.length) withKids.push(k); k.kids.forEach(f); })(o);
+    bar.innerHTML = `<div class="mmsel">${label(o)}</div><div class="row" style="gap:6px;flex-wrap:wrap">
+      <button class="pri" data-x="exp"><svg class="i"><use href="#i-spark"/></svg>Explain</button><button data-x="quiz">Quiz me</button>
+      ${withKids.length ? `<button data-x="cards"><svg class="i"><use href="#i-cards"/></svg>Flashcards (${withKids.length})</button>` : ''}<button data-x="find"><svg class="i"><use href="#i-search"/></svg>Find in textbook</button>
+      ${o.kids.length ? `<button data-x="fold">${o.open ? 'Fold branch' : 'Open branch'}</button>` : ''}<span class="meta" id="mmmsg"></span></div>`;
+    bar.classList.remove('hide');
+    const ctx = `my ${M.title} mind map, topic "${pg.title}", the bubble ${path(o)}` + (o.kids.length ? `. Its branches:\n${o.kids.map(k => outline(k)).join('')}` : '');
+    bar.querySelectorAll('[data-x]').forEach(b => b.onclick = () => ({
+      exp: () => { openChat({title: 'Mind map: ' + mmPlain(o.t).slice(0, 40), book: 'math', pages: [], intro: ''}); sendChat(`Explain this part of ${ctx}\nTeach it intuitively: why it works, a worked example, and the common mistakes. Keep it short.`); },
+      quiz: () => { openChat({title: 'Quiz: ' + mmPlain(o.t).slice(0, 40), book: 'math', pages: [], intro: ''}); sendChat(`Quiz me on ${ctx}\nAsk me one exam-style question at a time (no answers yet), wait for my reply, mark it, then ask the next. Start easy and get harder.`); },
+      cards: () => { const cards = withKids.map(k => ({f: (k.par ? mmPlain(k.par.t) + ' › ' : '') + k.t, b: k.kids.map(c => '- ' + c.t).join('\n'), book: 'math'})), d = addCards('Mind map: ' + pg.title, 'math', cards);
+        bar.querySelector('#mmmsg').textContent = `Added to deck “${d.name}” (${d.cards.length} cards) in Flashcards → My decks`; },
+      find: () => { let t = ''; for (let x = o; x && t.length < 4; x = x.par) t = mmPlain(x.t).replace(/[^A-Za-z ]+/g, ' ').replace(/\s+/g, ' ').trim(); close(); search(t || pg.title); },
+      fold: () => { toggle(o); select(o); }})[b.dataset.x]()); };
+  // ---- original image
+  const imgWire = () => { const sc = ov.querySelector('.mmsc'); let drag = null;
     sc.onpointerdown = e => { drag = {x: e.clientX, y: e.clientY, l: sc.scrollLeft, t: sc.scrollTop}; sc.setPointerCapture(e.pointerId); };
     sc.onpointermove = e => { if (drag) { sc.scrollLeft = drag.l - (e.clientX - drag.x); sc.scrollTop = drag.t - (e.clientY - drag.y); } };
     sc.onpointerup = () => drag = null;
-    sc.onwheel = e => { if (e.ctrlKey) { e.preventDefault(); zoom(e.deltaY < 0 ? 1.15 : 1 / 1.15); } };
-    ov.querySelectorAll('[data-a]').forEach(b => b.onclick = () => ({prev: () => { n--; z = 1; draw(); }, next: () => { n++; z = 1; draw(); }, in: () => zoom(1.4), out: () => zoom(1 / 1.4), x: close})[b.dataset.a]()); };
-  const zoom = f => { const sc = ov.querySelector('.mmsc'), cx = (sc.scrollLeft + sc.clientWidth / 2) / sc.scrollWidth, cy = (sc.scrollTop + sc.clientHeight / 2) / sc.scrollHeight;
-    z = Math.min(5, Math.max(1, z * f)); ov.querySelector('.mmsc img').style.width = z * 100 + '%'; ov.querySelector('.mmbar .num').textContent = Math.round(z * 100) + '%';
+    sc.onwheel = e => { if (e.ctrlKey) { e.preventDefault(); zoom(e.deltaY < 0 ? 1.15 : 1 / 1.15); } }; };
+  const zoom = f => { if (mode === 'map') { const sc = ov.querySelector('.mmsc'); return zoomAt(f, sc.clientWidth / 2, sc.clientHeight / 2); }
+    const sc = ov.querySelector('.mmsc'), cx = (sc.scrollLeft + sc.clientWidth / 2) / sc.scrollWidth, cy = (sc.scrollTop + sc.clientHeight / 2) / sc.scrollHeight;
+    z = Math.min(5, Math.max(1, z * f)); ov.querySelector('.mmsc img').style.width = z * 100 + '%'; ov.querySelector('[data-a="fit"]').textContent = Math.round(z * 100) + '%';
     sc.scrollLeft = cx * sc.scrollWidth - sc.clientWidth / 2; sc.scrollTop = cy * sc.scrollHeight - sc.clientHeight / 2; };
-  const key = e => { if (e.key === 'Escape') close(); if (e.key === 'ArrowRight' && n < M.pages.length) { n++; z = 1; draw(); } if (e.key === 'ArrowLeft' && n > 1) { n--; z = 1; draw(); } if (e.key === '+' || e.key === '=') zoom(1.4); if (e.key === '-') zoom(1 / 1.4); };
-  const close = () => { ov.remove(); document.removeEventListener('keydown', key, true); };
-  document.addEventListener('keydown', key, true); draw();
+  const key = e => { if (/INPUT|TEXTAREA|SELECT/.test(e.target.tagName) || !$('#drawer').classList.contains('hide') && e.target.closest('#drawer')) return;
+    if (e.key === 'Escape') { if (!$('#drawer').classList.contains('hide')) return; if (sel) return select(null); close(); }
+    if (e.key === 'ArrowRight' && n < M.pages.length) go(n + 1); if (e.key === 'ArrowLeft' && n > 1) go(n - 1); if (e.key === '+' || e.key === '=') zoom(1.3); if (e.key === '-') zoom(1 / 1.3); };
+  const onResize = () => mode === 'map' && view && (mmFitTo(view.nb), apply());
+  const close = () => { ov.remove(); S.mm = null; document.body.classList.remove('mmopen'); document.removeEventListener('keydown', key, true); removeEventListener('resize', onResize); };
+  document.addEventListener('keydown', key, true); addEventListener('resize', onResize); build(); draw();
 }
 
 // ---------- library shelf ----------
