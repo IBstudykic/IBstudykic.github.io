@@ -5,14 +5,14 @@
   "kind": "mcq",
   "topic": "R3.1",
   "tname": "Proton transfer reactions",
-  "text": "What is the conjugate base of $\\ce{H2PO4-}$?\n\nA. $\\ce{H3PO4}$\nB. $\\ce{HPO4^2-}$\nC. $\\ce{PO4^3-}$\nD. $\\ce{OH-}$",
+  "text": "What is the conjugate base of $\\ce{H2PO4-}$?\n\nA. $\\ce{H3PO4}$\nB. $\\ce{PO4^3-}$\nC. $\\ce{OH-}$\nD. $\\ce{HPO4^2-}$",
   "marks": 1,
-  "ms": "**B.** A conjugate base has one $\\ce{H+}$ fewer than the acid: $\\ce{H2PO4- -> HPO4^2- + H+}$. A is the conjugate *acid* of $\\ce{H2PO4-}$; C has lost two protons; $\\ce{OH-}$ is the conjugate base of water, not of $\\ce{H2PO4-}$.",
+  "ms": "**D.** A conjugate base has one $\\ce{H+}$ fewer than the acid: $\\ce{H2PO4- -> HPO4^2- + H+}$. A is the conjugate *acid* of $\\ce{H2PO4-}$; B has lost two protons; $\\ce{OH-}$ (C) is the conjugate base of water, not of $\\ce{H2PO4-}$.",
   "diff": 1,
   "paper": "1A",
   "src": "gen",
   "set": "IB-style practice",
-  "ans": "B"
+  "ans": "D"
  },
  {
   "id": "gen:chem:R3.1:2",
@@ -50,14 +50,14 @@
   "kind": "mcq",
   "topic": "R3.1",
   "tname": "Proton transfer reactions",
-  "text": "At $50\\ ^\\circ\\text{C}$ the ionic product of water, $K_\\text{w}$, is $5.5\\times10^{-14}$. Which statement about pure water at $50\\ ^\\circ\\text{C}$ is correct?\n\nA. pH = 7.0 and the water is neutral\nB. pH < 7.0 and the water is neutral\nC. pH < 7.0 and the water is acidic\nD. pH > 7.0 and the water is neutral",
+  "text": "At $50\\ ^\\circ\\text{C}$ the ionic product of water, $K_\\text{w}$, is $5.5\\times10^{-14}$. Which statement about pure water at $50\\ ^\\circ\\text{C}$ is correct?\n\nA. pH = 7.0 and the water is neutral\nB. pH < 7.0 and the water is acidic\nC. pH < 7.0 and the water is neutral\nD. pH > 7.0 and the water is neutral",
   "marks": 1,
-  "ms": "**B.** $[\\ce{H+}] = \\sqrt{5.5\\times10^{-14}} = 2.3\\times10^{-7}\\ \\text{mol dm}^{-3}$, so pH = 6.63, which is below 7. The water is still neutral because $[\\ce{H+}] = [\\ce{OH-}]$. C wrongly links pH < 7 with acidity at all temperatures; A assumes $K_\\text{w}$ is constant.",
+  "ms": "**C.** $[\\ce{H+}] = \\sqrt{5.5\\times10^{-14}} = 2.3\\times10^{-7}\\ \\text{mol dm}^{-3}$, so pH = 6.63, which is below 7. The water is still neutral because $[\\ce{H+}] = [\\ce{OH-}]$. B wrongly links pH < 7 with acidity at all temperatures; A assumes $K_\\text{w}$ is constant.",
   "diff": 3,
   "paper": "1A",
   "src": "gen",
   "set": "IB-style practice",
-  "ans": "B"
+  "ans": "C"
  },
  {
   "id": "gen:chem:R3.1:5",
@@ -65,14 +65,14 @@
   "kind": "mcq",
   "topic": "R3.1",
   "tname": "Proton transfer reactions",
-  "text": "A weak monoprotic acid, HA, has $K_\\text{a} = 1.0\\times10^{-5}$ at 298 K. What is the pH of a $0.10\\ \\text{mol dm}^{-3}$ solution of HA?\n\nA. 1.0\nB. 3.0\nC. 5.0\nD. 6.0",
+  "text": "A weak monoprotic acid, HA, has $K_\\text{a} = 1.0\\times10^{-5}$ at 298 K. What is the pH of a $0.10\\ \\text{mol dm}^{-3}$ solution of HA?\n\nA. 3.0\nB. 1.0\nC. 5.0\nD. 6.0",
   "marks": 1,
-  "ms": "**B.** $[\\ce{H+}] \\approx \\sqrt{K_\\text{a}\\times c} = \\sqrt{1.0\\times10^{-5}\\times0.10} = 1.0\\times10^{-3}\\ \\text{mol dm}^{-3}$, pH = 3.0. A treats HA as a strong acid; C is the $\\text{p}K_\\text{a}$; D forgets the square root ($-\\log(K_\\text{a}c)$).",
+  "ms": "**A.** $[\\ce{H+}] \\approx \\sqrt{K_\\text{a}\\times c} = \\sqrt{1.0\\times10^{-5}\\times0.10} = 1.0\\times10^{-3}\\ \\text{mol dm}^{-3}$, pH = 3.0. B treats HA as a strong acid; C is the $\\text{p}K_\\text{a}$; D forgets the square root ($-\\log(K_\\text{a}c)$).",
   "diff": 2,
   "paper": "1A",
   "src": "gen",
   "set": "IB-style practice",
-  "ans": "B",
+  "ans": "A",
   "lvl": "HL"
  },
  {
@@ -81,14 +81,14 @@
   "kind": "mcq",
   "topic": "R3.1",
   "tname": "Proton transfer reactions",
-  "text": "Which mixture forms a buffer solution?\n\nA. $50\\ \\text{cm}^3$ of $0.10\\ \\text{mol dm}^{-3}\\ \\ce{HCl}$ and $50\\ \\text{cm}^3$ of $0.10\\ \\text{mol dm}^{-3}\\ \\ce{NaCl}$\nB. $50\\ \\text{cm}^3$ of $0.10\\ \\text{mol dm}^{-3}\\ \\ce{CH3COOH}$ and $25\\ \\text{cm}^3$ of $0.10\\ \\text{mol dm}^{-3}\\ \\ce{NaOH}$\nC. $50\\ \\text{cm}^3$ of $0.10\\ \\text{mol dm}^{-3}\\ \\ce{CH3COOH}$ and $50\\ \\text{cm}^3$ of $0.10\\ \\text{mol dm}^{-3}\\ \\ce{NaOH}$\nD. $50\\ \\text{cm}^3$ of $0.10\\ \\text{mol dm}^{-3}\\ \\ce{NH3}$ and $50\\ \\text{cm}^3$ of $0.10\\ \\text{mol dm}^{-3}\\ \\ce{HCl}$",
+  "text": "Which mixture forms a buffer solution?\n\nA. $50\\ \\text{cm}^3$ of $0.10\\ \\text{mol dm}^{-3}\\ \\ce{HCl}$ and $50\\ \\text{cm}^3$ of $0.10\\ \\text{mol dm}^{-3}\\ \\ce{NaCl}$\nB. $50\\ \\text{cm}^3$ of $0.10\\ \\text{mol dm}^{-3}\\ \\ce{NH3}$ and $50\\ \\text{cm}^3$ of $0.10\\ \\text{mol dm}^{-3}\\ \\ce{HCl}$\nC. $50\\ \\text{cm}^3$ of $0.10\\ \\text{mol dm}^{-3}\\ \\ce{CH3COOH}$ and $50\\ \\text{cm}^3$ of $0.10\\ \\text{mol dm}^{-3}\\ \\ce{NaOH}$\nD. $50\\ \\text{cm}^3$ of $0.10\\ \\text{mol dm}^{-3}\\ \\ce{CH3COOH}$ and $25\\ \\text{cm}^3$ of $0.10\\ \\text{mol dm}^{-3}\\ \\ce{NaOH}$",
   "marks": 1,
-  "ms": "**B.** Half of the ethanoic acid is neutralized, leaving equal amounts of $\\ce{CH3COOH}$ and $\\ce{CH3COO-}$ (a weak acid and its conjugate base). A contains a strong acid and its non-basic conjugate; in C and D the weak acid/base is completely neutralized, so only the salt (plus water) remains.",
+  "ms": "**D.** Half of the ethanoic acid is neutralized, leaving equal amounts of $\\ce{CH3COOH}$ and $\\ce{CH3COO-}$ (a weak acid and its conjugate base). A contains a strong acid and its non-basic conjugate; in B and C the weak base/acid is completely neutralized, so only the salt (plus water) remains.",
   "diff": 2,
   "paper": "1A",
   "src": "gen",
   "set": "IB-style practice",
-  "ans": "B",
+  "ans": "D",
   "lvl": "HL"
  },
  {
@@ -201,14 +201,14 @@
   "kind": "mcq",
   "topic": "R3.2",
   "tname": "Electron transfer reactions",
-  "text": "What is the oxidation state of chromium in potassium dichromate(VI), $\\ce{K2Cr2O7}$?\n\nA. +3\nB. +6\nC. +7\nD. +12",
+  "text": "What is the oxidation state of chromium in potassium dichromate(VI), $\\ce{K2Cr2O7}$?\n\nA. +3\nB. +7\nC. +12\nD. +6",
   "marks": 1,
-  "ms": "**B.** $2(+1) + 2x + 7(-2) = 0$, so $2x = +12$ and $x = +6$. D is the total for both Cr atoms; C is the highest oxidation state of manganese in $\\ce{MnO4-}$, not chromium; A is the oxidation state of Cr in $\\ce{Cr^3+}$, the reduction product.",
+  "ms": "**D.** $2(+1) + 2x + 7(-2) = 0$, so $2x = +12$ and $x = +6$. C is the total for both Cr atoms; B is the highest oxidation state of manganese in $\\ce{MnO4-}$, not chromium; A is the oxidation state of Cr in $\\ce{Cr^3+}$, the reduction product.",
   "diff": 1,
   "paper": "1A",
   "src": "gen",
   "set": "IB-style practice",
-  "ans": "B"
+  "ans": "D"
  },
  {
   "id": "gen:chem:R3.2:2",
@@ -277,14 +277,14 @@
   "kind": "mcq",
   "topic": "R3.2",
   "tname": "Electron transfer reactions",
-  "text": "$$\\ce{2Fe^3+(aq) + 2I-(aq) -> 2Fe^2+(aq) + I2(aq)}$$\n\n$E^\\ominus(\\ce{Fe^3+}/\\ce{Fe^2+}) = +0.77\\ \\text{V}$; $E^\\ominus(\\ce{I2}/\\ce{I-}) = +0.54\\ \\text{V}$; $F = 96\\,500\\ \\text{C mol}^{-1}$.\n\nWhat is $\\Delta G^\\ominus$, in $\\text{kJ}$, for the reaction as written?\n\nA. −22.2\nB. −44.4\nC. −88.8\nD. +44.4",
+  "text": "$$\\ce{2Fe^3+(aq) + 2I-(aq) -> 2Fe^2+(aq) + I2(aq)}$$\n\n$E^\\ominus(\\ce{Fe^3+}/\\ce{Fe^2+}) = +0.77\\ \\text{V}$; $E^\\ominus(\\ce{I2}/\\ce{I-}) = +0.54\\ \\text{V}$; $F = 96\\,500\\ \\text{C mol}^{-1}$.\n\nWhat is $\\Delta G^\\ominus$, in $\\text{kJ}$, for the reaction as written?\n\nA. −22.2\nB. +44.4\nC. −88.8\nD. −44.4",
   "marks": 1,
-  "ms": "**B.** $E^\\ominus_\\text{cell} = 0.77 - 0.54 = +0.23\\ \\text{V}$; two electrons are transferred in the equation as written, so $\\Delta G^\\ominus = -nFE^\\ominus = -2\\times96\\,500\\times0.23 = -44\\,390\\ \\text{J} = -44.4\\ \\text{kJ}$. A uses $n = 1$; C uses $n = 4$ (counting both sides); D has the wrong sign for a spontaneous reaction.",
+  "ms": "**D.** $E^\\ominus_\\text{cell} = 0.77 - 0.54 = +0.23\\ \\text{V}$; two electrons are transferred in the equation as written, so $\\Delta G^\\ominus = -nFE^\\ominus = -2\\times96\\,500\\times0.23 = -44\\,390\\ \\text{J} = -44.4\\ \\text{kJ}$. A uses $n = 1$; C uses $n = 4$ (counting both sides); B has the wrong sign for a spontaneous reaction.",
   "diff": 3,
   "paper": "1A",
   "src": "gen",
   "set": "IB-style practice",
-  "ans": "B",
+  "ans": "D",
   "lvl": "HL"
  },
  {
@@ -411,14 +411,14 @@
   "kind": "mcq",
   "topic": "R3.3",
   "tname": "Electron sharing reactions",
-  "text": "Which equation represents a propagation step in the reaction of methane with chlorine in ultraviolet light?\n\nA. $\\ce{Cl2 -> } 2\\ce{Cl}\\bullet$\nB. $\\ce{CH3}\\bullet + \\ce{Cl2 -> CH3Cl} + \\ce{Cl}\\bullet$\nC. $\\ce{CH3}\\bullet + \\ce{Cl}\\bullet \\ce{-> CH3Cl}$\nD. $\\ce{CH4 + Cl2 -> CH3Cl + HCl}$",
+  "text": "Which equation represents a propagation step in the reaction of methane with chlorine in ultraviolet light?\n\nA. $\\ce{CH3}\\bullet + \\ce{Cl}\\bullet \\ce{-> CH3Cl}$\nB. $\\ce{Cl2 -> } 2\\ce{Cl}\\bullet$\nC. $\\ce{CH3}\\bullet + \\ce{Cl2 -> CH3Cl} + \\ce{Cl}\\bullet$\nD. $\\ce{CH4 + Cl2 -> CH3Cl + HCl}$",
   "marks": 1,
-  "ms": "**B.** A propagation step uses one radical and produces another, so the chain continues. A is initiation, C is termination (two radicals combine), and D is the overall equation.",
+  "ms": "**C.** A propagation step uses one radical and produces another, so the chain continues. B is initiation, A is termination (two radicals combine), and D is the overall equation.",
   "diff": 1,
   "paper": "1A",
   "src": "gen",
   "set": "IB-style practice",
-  "ans": "B"
+  "ans": "C"
  },
  {
   "id": "gen:chem:R3.3:3",
@@ -513,14 +513,14 @@
   "kind": "mcq",
   "topic": "R3.4",
   "tname": "Electron-pair sharing reactions",
-  "text": "What is the organic product of the reaction between but-2-ene and hydrogen bromide?\n\nA. 1-bromobutane\nB. 2-bromobutane\nC. 2,3-dibromobutane\nD. 1,2-dibromobutane",
+  "text": "What is the organic product of the reaction between but-2-ene and hydrogen bromide?\n\nA. 2,3-dibromobutane\nB. 1-bromobutane\nC. 2-bromobutane\nD. 1,2-dibromobutane",
   "marks": 1,
-  "ms": "**B.** Electrophilic addition of HBr across the C=C bond between C2 and C3 puts H on one carbon and Br on the other, giving 2-bromobutane (the alkene is symmetrical, so only one product). C and D would require $\\ce{Br2}$; A would need a double bond at C1.",
+  "ms": "**C.** Electrophilic addition of HBr across the C=C bond between C2 and C3 puts H on one carbon and Br on the other, giving 2-bromobutane (the alkene is symmetrical, so only one product). A and D would require $\\ce{Br2}$; B would need a double bond at C1.",
   "diff": 1,
   "paper": "1A",
   "src": "gen",
   "set": "IB-style practice",
-  "ans": "B"
+  "ans": "C"
  },
  {
   "id": "gen:chem:R3.4:3",
@@ -576,14 +576,14 @@
   "kind": "mcq",
   "topic": "R3.4",
   "tname": "Electron-pair sharing reactions",
-  "text": "What are the coordination number and the oxidation state of copper in the complex ion $\\ce{[Cu(NH3)4(H2O)2]^2+}$?\n\nA. coordination number 4, oxidation state +2\nB. coordination number 6, oxidation state +2\nC. coordination number 6, oxidation state 0\nD. coordination number 4, oxidation state 0",
+  "text": "What are the coordination number and the oxidation state of copper in the complex ion $\\ce{[Cu(NH3)4(H2O)2]^2+}$?\n\nA. coordination number 6, oxidation state +2\nB. coordination number 4, oxidation state +2\nC. coordination number 6, oxidation state 0\nD. coordination number 4, oxidation state 0",
   "marks": 1,
-  "ms": "**B.** Six ligands (4 $\\ce{NH3}$ + 2 $\\ce{H2O}$) each form one coordination bond, so the coordination number is 6; all ligands are neutral, so the metal oxidation state equals the overall charge, +2. A counts only the ammonia ligands; C and D ignore the charge of the ion.",
+  "ms": "**A.** Six ligands (4 $\\ce{NH3}$ + 2 $\\ce{H2O}$) each form one coordination bond, so the coordination number is 6; all ligands are neutral, so the metal oxidation state equals the overall charge, +2. B counts only the ammonia ligands; C and D ignore the charge of the ion.",
   "diff": 2,
   "paper": "1A",
   "src": "gen",
   "set": "IB-style practice",
-  "ans": "B",
+  "ans": "A",
   "lvl": "HL"
  },
  {
