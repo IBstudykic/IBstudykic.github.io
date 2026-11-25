@@ -29,8 +29,8 @@
 <text x="455" y="65" text-anchor="start">gas collected</text>
 <line x1="292" y1="160" x2="200" y2="80" stroke="#555" stroke-width="1"/>
 <text x="195" y="85" text-anchor="end">measuring cylinder</text>
-<line x1="340" y1="350" x2="400" y2="350" stroke="#555" stroke-width="1"/>
-<text x="405" y="355" text-anchor="start">butane lighter</text>
-<text x="405" y="375" text-anchor="start">(valve held open)</text>
-<text x="125" y="305" text-anchor="start">water</text>
+<line x1="300" y1="345" x2="240" y2="345" stroke="#555" stroke-width="1"/>
+<text x="235" y="350" text-anchor="end">butane lighter</text>
+<text x="235" y="370" text-anchor="end">(valve held open)</text>
+<text x="95" y="245" text-anchor="start">water</text>
 </svg>
