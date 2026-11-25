@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-11-25T10:47:26.616842</dc:date>
+    <dc:date>2026-11-25T10:48:15.105407</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -214,19 +214,19 @@ z
     </g>
    </g>
    <g id="line2d_1">
-    <path d="M 42.699057 36.070642 
-L 326.551231 36.070642 
-" clip-path="url(#p30028aac3f)" style="fill: none; stroke: #111111; stroke-width: 2.5; stroke-linecap: square"/>
+    <path d="M 39.436389 36.070642 
+L 264.560527 36.070642 
+" clip-path="url(#p747c0e3491)" style="fill: none; stroke: #111111; stroke-width: 2.5; stroke-linecap: square"/>
    </g>
    <g id="line2d_2">
-    <path d="M 168.855579 89.481328 
-L 326.551231 89.481328 
-" clip-path="url(#p30028aac3f)" style="fill: none; stroke: #111111; stroke-width: 2.5; stroke-linecap: square"/>
+    <path d="M 139.491561 89.481328 
+L 264.560527 89.481328 
+" clip-path="url(#p747c0e3491)" style="fill: none; stroke: #111111; stroke-width: 2.5; stroke-linecap: square"/>
    </g>
    <g id="line2d_3">
-    <path d="M 42.699057 225.654521 
-L 326.551231 225.654521 
-" clip-path="url(#p30028aac3f)" style="fill: none; stroke: #111111; stroke-width: 2.5; stroke-linecap: square"/>
+    <path d="M 39.436389 225.654521 
+L 264.560527 225.654521 
+" clip-path="url(#p747c0e3491)" style="fill: none; stroke: #111111; stroke-width: 2.5; stroke-linecap: square"/>
    </g>
    <g id="patch_3">
     <path d="M 26.929492 262.224 
@@ -235,7 +235,7 @@ L 26.929492 7.2
    </g>
    <g id="text_2">
     <!-- C(s) + O$_2$(g) -->
-    <g transform="translate(121.546883 28.852981) scale(0.13 -0.13)">
+    <g transform="translate(101.970871 28.852981) scale(0.13 -0.13)">
      <defs>
       <path id="Inter-Regular-49" d="M 2447 -63 
 C 3400 -63 4163 519 4325 1466 
@@ -380,7 +380,7 @@ z
    </g>
    <g id="text_3">
     <!-- CO(g) + $\frac{1}{2}$O$_2$(g) -->
-    <g transform="translate(200.39471 82.263668) scale(0.13 -0.13)">
+    <g transform="translate(269.563285 92.84957) scale(0.13 -0.13)">
      <defs>
       <path id="DejaVuSans-14" d="M 794 531 
 L 1825 531 
@@ -423,7 +423,7 @@ z
    </g>
    <g id="text_4">
     <!-- CO$_2$(g) -->
-    <g transform="translate(153.086014 247.788679) scale(0.13 -0.13)">
+    <g transform="translate(126.984665 247.788679) scale(0.13 -0.13)">
      <use xlink:href="#Inter-Regular-49" transform="translate(0 0.796875)"/>
      <use xlink:href="#Inter-Regular-142" transform="translate(73.046875 0.796875)"/>
      <use xlink:href="#DejaVuSans-15" transform="translate(150.46875 -14.203076) scale(0.7)"/>
@@ -433,18 +433,18 @@ z
     </g>
    </g>
    <g id="patch_4">
-    <path d="M 74.238188 36.070642 
-Q 74.238188 130.862581 74.238188 223.97747 
+    <path d="M 64.450182 36.070642 
+Q 64.450182 130.862581 64.450182 223.97747 
 " style="fill: none; stroke: #111111; stroke-width: 1.5; stroke-linecap: round"/>
-    <path d="M 77.438188 217.57747 
-L 74.238188 223.97747 
-L 71.038188 217.57747 
+    <path d="M 67.650182 217.57747 
+L 64.450182 223.97747 
+L 61.250182 217.57747 
 z
 " style="fill: #111111; stroke: #111111; stroke-width: 1.5; stroke-linecap: round"/>
    </g>
    <g id="text_5">
     <!-- $-394$ kJ mol$^{-1}$ -->
-    <g transform="translate(80.546014 132.306113) scale(0.13 -0.13)">
+    <g transform="translate(69.45294 132.306113) scale(0.13 -0.13)">
      <defs>
       <path id="DejaVuSans-c9c" d="M 678 2272 
 L 4684 2272 
@@ -615,18 +615,18 @@ z
     </g>
    </g>
    <g id="patch_5">
-    <path d="M 200.39471 36.070642 
-Q 200.39471 62.775985 200.39471 87.804277 
+    <path d="M 164.505354 36.070642 
+Q 164.505354 62.775985 164.505354 87.804277 
 " style="fill: none; stroke: #111111; stroke-width: 1.5; stroke-linecap: round"/>
-    <path d="M 203.59471 81.404277 
-L 200.39471 87.804277 
-L 197.19471 81.404277 
+    <path d="M 167.705354 81.404277 
+L 164.505354 87.804277 
+L 161.305354 81.404277 
 z
 " style="fill: #111111; stroke: #111111; stroke-width: 1.5; stroke-linecap: round"/>
    </g>
    <g id="text_6">
     <!-- $\Delta H_x$ -->
-    <g transform="translate(206.702536 64.941283) scale(0.13 -0.13)">
+    <g transform="translate(169.508113 64.941283) scale(0.13 -0.13)">
      <defs>
       <path id="DejaVuSans-329" d="M 2188 4044 
 L 906 525 
@@ -677,18 +677,18 @@ z
     </g>
    </g>
    <g id="patch_6">
-    <path d="M 285.550362 89.481328 
-Q 285.550362 157.567925 285.550362 223.97747 
+    <path d="M 232.042596 89.481328 
+Q 232.042596 157.567925 232.042596 223.97747 
 " style="fill: none; stroke: #111111; stroke-width: 1.5; stroke-linecap: round"/>
-    <path d="M 288.750362 217.57747 
-L 285.550362 223.97747 
-L 282.350362 217.57747 
+    <path d="M 235.242596 217.57747 
+L 232.042596 223.97747 
+L 228.842596 217.57747 
 z
 " style="fill: #111111; stroke: #111111; stroke-width: 1.5; stroke-linecap: round"/>
    </g>
    <g id="text_7">
     <!-- $-283$ -->
-    <g transform="translate(291.858188 145.447263) scale(0.13 -0.13)">
+    <g transform="translate(237.045354 145.447263) scale(0.13 -0.13)">
      <defs>
       <path id="DejaVuSans-1b" d="M 2034 2216 
 Q 1584 2216 1326 1975 
@@ -736,7 +736,7 @@ z
      <use xlink:href="#DejaVuSans-16" transform="translate(211.035156 0.78125)"/>
     </g>
     <!-- kJ mol$^{-1}$ -->
-    <g transform="translate(291.858188 161.176755) scale(0.13 -0.13)">
+    <g transform="translate(237.045354 161.176755) scale(0.13 -0.13)">
      <use xlink:href="#Inter-Regular-2d9" transform="translate(0 0.665625)"/>
      <use xlink:href="#Inter-Regular-10b" transform="translate(54.882812 0.665625)"/>
      <use xlink:href="#Inter-Regular-6eb" transform="translate(111.962891 0.665625)"/>
@@ -750,7 +750,7 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="p30028aac3f">
+  <clipPath id="p747c0e3491">
    <rect x="26.929492" y="7.2" width="362.7" height="255.024"/>
   </clipPath>
  </defs>
