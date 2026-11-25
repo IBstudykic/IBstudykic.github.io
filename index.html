@@ -773,7 +773,7 @@ const front = q => /^[ivxlc]+$/i.test(q.bp || '');
 const preview = t => { const cut = t.split(/\n\s*\n|\n\s*\||\n\s*(?:- )?\**[A-D]\.\s/)[0]; if (cut.length <= 240) return cut + (cut.length < t.length ? ' …' : ''); let c = cut.slice(0, 240); if ((c.match(/\$/g) || []).length % 2) c = c.slice(0, c.lastIndexOf('$')); return c.replace(/\s+\S*$/, '') + '…'; };
 const DIFFN = {1: 'Easy', 2: 'Medium', 3: 'Hard'};
 const qTags = q => (q.diff ? `<span class="tag d${q.diff}">${DIFFN[q.diff]}</span>` : '') + (q.paper ? `<span class="tag">Paper ${esc(q.paper)}</span>` : '') + (q.lvl === 'HL' ? '<span class="tag">HL</span>' : '') + (q.src === 'gen' ? '<span class="tag" title="Written for this site in IB exam style">IB-style</span>' : '');
-const optLines = t => String(t || '').replace(/\n[ \t]*(?=[A-E]\. )/g, '\n\n'); // multiple-choice options on their own lines
+const optLines = t => String(t || '').replace(/\n[ \t]*(?=(?:[A-E]|I{1,3}|IV|V)\. |\((?:[a-h]|i{1,3}|iv|v|vi)\) |\*\*\((?:[a-h]|i{1,3}|iv|v)\)\*\* )/g, '\n\n'); // multiple-choice options on their own lines
 const qMax = q => q.marks || (q.kind === 'essay' ? 15 : q.kind === 'mcq' ? 1 : 10);
 const attOf = id => S.prog.att[id] || [];
 const best = id => attOf(id).reduce((m, a) => a.max ? Math.max(m, a.score / a.max) : m, -1);
@@ -821,7 +821,7 @@ function openQ(id) {
     <div class="card qbig"><div style="font-family:var(--f-ui);margin-bottom:10px"><span class="tag">${KIND[q.kind] || q.kind}</span>${qTags(q)}${q.marks ? '<span class="tag">' + q.marks + (q.marks === 1 ? ' mark' : ' marks') + '</span>' : ''}${q.calc === 'no' ? '<span class="tag w">No calculator</span>' : q.calc === 'yes' ? '<span class="tag">Calculator</span>' : ''}<span class="meta">${esc(q.set ? q.set + ' · ' : '')}${esc(q.topic ? topicName(B, q.topic) : '')}</span></div>${ctxBox(q.ctx)}${mdx(optLines(q.text))}${ctxLine(q.ctx)}</div>
     <div style="margin-top:14px"><textarea id="ans" rows="${q.kind === 'essay' ? 18 : 8}" placeholder="Answer">${esc(draft)}</textarea>
     <div class="row" style="margin-top:8px"><span class="meta" id="wc"></span><span class="meta" id="tm"></span><span style="flex:1"></span><button id="hint">Hint</button><button class="pri" id="mark">Mark with Claude</button></div></div>
-    <div id="fbx"></div>${q.ms ? `<details class="card" style="padding:12px 16px;margin-top:14px"><summary><b>Official answer</b> <span class="meta">(try it first)</span></summary><div style="margin-top:8px">${mdx(q.ms)}</div></details>` : ''}
+    <div id="fbx"></div>${q.ms ? `<details class="card" style="padding:12px 16px;margin-top:14px"><summary><b>${q.src === 'gen' ? 'Markscheme' : 'Official answer'}</b> <span class="meta">(try it first)</span></summary><div style="margin-top:8px">${mdx(optLines(q.ms))}</div></details>` : ''}
     ${prev.length ? `<h3 style="margin-top:28px">Past attempts</h3>${prev.slice().reverse().map((a, i) => `<details class="card" style="padding:10px 14px;margin-bottom:8px"><summary><b>${a.score}/${a.max}</b> <span class="meta">${new Date(a.t).toLocaleString()}</span></summary><div class="fb" style="padding:6px 0 0">${fbHtml(a.fb)}<h4>Your answer</h4><div class="meta" style="white-space:pre-wrap">${esc(a.ans)}</div></div></details>`).join('')}` : ''}</div>`;
   const ta = $('#ans'), t0 = Date.now();
   const wc = () => { const n = (ta.value.match(/\S+/g) || []).length; $('#wc').textContent = n + ' words'; LS.set(LSK('ib-d-' + id), ta.value); }; ta.oninput = wc; wc();
@@ -1231,7 +1231,7 @@ function mistakes(book) {
 const DEF_BOUNDS = [[7, 70], [6, 58], [5, 47], [4, 36], [3, 25], [2, 14], [1, 0]];
 // a question's shared setup (scenario, data, diagram) is a full box above it; short notes stay a grey line under it
 const bigCtx = c => !!c && (c.length > 90 || /\n|\$|!\[/.test(c));
-const ctxBox = (c, same) => !bigCtx(c) ? '' : same ? `<div class="qctx"><div class="meta">Same setup as question ${esc(same)}</div></div>` : `<div class="qctx"><div class="meta">Setup</div>${mdx(c)}</div>`;
+const ctxBox = (c, same) => !bigCtx(c) ? '' : same ? `<div class="qctx"><div class="meta">Same setup as question ${esc(same)}</div></div>` : `<div class="qctx"><div class="meta">Setup</div>${mdx(optLines(c))}</div>`;
 const ctxLine = c => c && !bigCtx(c) ? `<div class="meta" style="font-family:var(--f-ui);margin-top:10px">${esc(c)}</div>` : '';
 const ppQ = (P, q) => q.qid ? {...(S.qs.find(x => x.id === q.qid) || {}), id: q.qid, kind: q.kind, marks: q.marks} : ({id: 'pp:' + P.id + ':' + q.n, book: P.book, kind: q.kind || (q.opts || q.ans ? 'mcq' : 'structured'), marks: q.marks, text: q.text, ms: q.ms, ans: q.ans, topic: q.topic, ctx: q.ctx, pp: P.id, ppn: q.n, bp: '', pages: []});
 async function loadPapers() { if (S.papers) return S.papers; try { S.papers = await api('papers'); if (!Array.isArray(S.papers)) S.papers = []; } catch (e) { S.papers = []; }
@@ -2562,7 +2562,7 @@ addEventListener('popstate', () => { NAVN = Math.max(0, NAVN - 1); if (S.books.l
 async function boot() {
   $('#login').classList.add('hide'); $('#app').classList.remove('hide');
   $('#main').innerHTML = '<p><span class="spin"></span> Loading…</p>';
-  try { [S.books, S.qs] = await Promise.all([api('books'), api('qs')]); S.qs = S.qs.filter(q => q.src !== 'bank' && !/openstax/i.test(q.set || '')); } await loadGen(); // IB material only: the imported OpenStax banks are hidden catch (e) { $('#main').innerHTML = '<p>Could not load: ' + esc(e.message) + '</p>'; return; }
+  try { [S.books, S.qs] = await Promise.all([api('books'), api('qs')]); S.qs = S.qs.filter(q => q.src !== 'bank' && !/openstax/i.test(q.set || '')); /* IB material only: the imported OpenStax banks are hidden */ await loadGen(); } catch (e) { $('#main').innerHTML = '<p>Could not load: ' + esc(e.message) + '</p>'; return; }
   drawMe(); drawPins(); pullProg(); loadPapers();
   const last = S.prog.last; S.book = (last && bookOf(last.b)) || S.books.find(x => x.pages) || S.books[0];
   if (!S.book) { $('#main').innerHTML = '<p>No books uploaded yet.</p>'; return; }
