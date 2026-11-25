@@ -259,13 +259,27 @@
   "text": "The table shows data for three compounds of similar molar mass.\n\n| compound | formula | $M$ / $\\text{g mol}^{-1}$ | boiling point / °C |\n|---|---|---|---|\n| butane | $\\ce{CH3CH2CH2CH3}$ | 58.14 | −0.5 |\n| propanone | $\\ce{CH3COCH3}$ | 58.09 | 56 |\n| propan-1-ol | $\\ce{CH3CH2CH2OH}$ | 60.11 | 97 |\n\n(a) Explain the order of boiling points in terms of the intermolecular forces present. [4]\n\n(b) Predict, with a reason, which of butane and propan-1-ol is more soluble in water. [2]\n\n(c) Diamond, graphite and silicon dioxide are covalent network structures.\n\n(i) Explain why graphite conducts electricity but diamond does not. [2]\n\n(ii) Explain why silicon dioxide has a much higher melting point than carbon dioxide. [2]",
   "marks": 10,
   "ms": "(a)\n- all three have London (dispersion) forces of similar strength (similar molar mass/number of electrons) ✓\n- butane is non-polar/has only London forces so lowest boiling point ✓\n- propanone is polar/has (permanent) dipole–dipole forces in addition ✓\n- propan-1-ol forms hydrogen bonds (O–H group), the strongest intermolecular force, so highest boiling point ✓\n\n(b)\n- propan-1-ol ✓\n- can form hydrogen bonds with water molecules (butane cannot) ✓\n\n(c)(i)\n- in graphite each C is bonded to three others leaving one delocalized electron per atom (between the layers) ✓\n- in diamond all four valence electrons are used in (localized) covalent bonds, so no mobile electrons ✓\n\n(c)(ii)\n- $\\ce{SiO2}$ is a covalent network/giant covalent structure: melting requires breaking strong covalent bonds ✓\n- $\\ce{CO2}$ is a simple molecular substance: only weak intermolecular (London) forces are overcome ✓",
-  "diff": 1,
+  "diff": 2,
   "paper": "2",
   "src": "gen",
   "set": "IB-style practice"
  },
  {
   "id": "gen:chem:S2.2:10",
+  "book": "chem",
+  "kind": "structured",
+  "topic": "S2.2",
+  "tname": "The covalent model",
+  "text": "Boron trifluoride, $\\ce{BF3}$, reacts with ammonia, $\\ce{NH3}$, to form a single product, $\\ce{F3B-NH3}$.\n\n(a) Draw the Lewis formulas of $\\ce{BF3}$ and $\\ce{NH3}$. [2]\n\n(b) State the molecular geometry and bond angle of $\\ce{BF3}$ and of $\\ce{NH3}$. [2]\n\n(c) Describe how the bond between nitrogen and boron forms in $\\ce{F3B-NH3}$. [2]\n\n(d) Predict the F–B–F bond angle in $\\ce{F3B-NH3}$ and explain your answer. [2]\n\n(e) Explain why $\\ce{BF3}$ is a non-polar molecule although the B–F bonds are polar. [1]",
+  "marks": 9,
+  "ms": "(a)\n- $\\ce{BF3}$: B with three single bonds to F, no lone pair on B, three lone pairs on each F ✓\n- $\\ce{NH3}$: N with three single bonds to H and one lone pair ✓\n\n(b)\n- $\\ce{BF3}$: trigonal planar, 120° ✓\n- $\\ce{NH3}$: trigonal pyramidal, 107° ✓ *Accept 106–108°.*\n\n(c)\n- coordination/dative covalent bond ✓\n- the lone pair on N is donated into the empty orbital of B / B has an incomplete octet and accepts the electron pair ✓\n\n(d)\n- 109.5° / approximately 109° ✓ *Accept \"slightly less than 109.5°\".*\n- B now has four electron domains, all bonding pairs, so the arrangement around B is tetrahedral ✓\n\n(e)\n- symmetrical (trigonal planar) shape so the three bond dipoles cancel / no net dipole moment ✓",
+  "diff": 3,
+  "paper": "2",
+  "src": "gen",
+  "set": "IB-style practice"
+ },
+ {
+  "id": "gen:chem:S2.2:11",
   "book": "chem",
   "kind": "structured",
   "topic": "S2.2",
@@ -280,7 +294,7 @@
   "lvl": "HL"
  },
  {
-  "id": "gen:chem:S2.2:11",
+  "id": "gen:chem:S2.2:12",
   "book": "chem",
   "kind": "structured",
   "topic": "S2.2",
@@ -659,7 +673,7 @@
   "text": "Oxides of sulfur and nitrogen released into the atmosphere cause acid deposition.\n\n(a) Write an equation for the reaction of sulfur dioxide with water. [1]\n\n(b) Nitrogen dioxide reacts with water: $\\ce{2NO2(g) + H2O(l) -> HNO2(aq) + HNO3(aq)}$. Deduce the oxidation state of nitrogen in $\\ce{NO2}$, $\\ce{HNO2}$ and $\\ce{HNO3}$, and state what type of reaction this is. [2]\n\n(c) Lakes affected by acid deposition can be treated with powdered calcium carbonate.\n\n$\\ce{CaCO3(s) + H2SO4(aq) -> CaSO4(s) + H2O(l) + CO2(g)}$\n\nCalculate the minimum mass, in kg, of calcium carbonate needed to neutralize 5.00 kg of sulfuric acid. [3]\n\n(d) Magnesium oxide could also be used to neutralize acidic water. Explain, in terms of bonding, why magnesium oxide is basic whereas sulfur dioxide is acidic. [2]",
   "marks": 8,
   "ms": "(a)\n- $\\ce{SO2(g) + H2O(l) -> H2SO3(aq)}$ ✓ *Accept equilibrium arrow.*\n\n(b)\n- $\\ce{NO2}$ +4, $\\ce{HNO2}$ +3, $\\ce{HNO3}$ +5 ✓\n- disproportionation / (simultaneous) oxidation and reduction of nitrogen ✓ *Accept redox.*\n\n(c)\n- $n(\\ce{H2SO4}) = \\frac{5000}{98.09} = 50.97\\ \\text{mol}$ ✓\n- $n(\\ce{CaCO3}) = 50.97\\ \\text{mol}$ (1 : 1 ratio) ✓\n- $m = 50.97 \\times 100.09 = 5102\\ \\text{g} = 5.10\\ \\text{kg}$ ✓\n*Award [3] for correct final answer. Accept 5.1 kg.*\n\n(d)\n- MgO is ionic and contains oxide ions, $\\ce{O^2-}$, which accept protons/react with water or acids to form $\\ce{OH-}$/water ✓\n- $\\ce{SO2}$ is a covalent (non-metal) oxide which reacts with water to form an acid that releases $\\ce{H+}$ ✓",
-  "diff": 2,
+  "diff": 3,
   "paper": "2",
   "src": "gen",
   "set": "IB-style practice"
