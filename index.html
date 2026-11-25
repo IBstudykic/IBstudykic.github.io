@@ -603,11 +603,12 @@ async function pullProg() { if (!USER) return; try { const r = await api('sync')
 function mergeIn(r) {
   { if (!r || !r.att) return;
     for (const [k, v] of Object.entries(r.att)) if (!S.prog.att[k]) S.prog.att[k] = v; else { const ids = new Set(S.prog.att[k].map(a => a.t)); for (const a of v) if (!ids.has(a.t)) S.prog.att[k].push(a); }
+    for (const k of Object.keys(r.att)) { const L = S.prog.att[k], reps = new Set(L.map(a => a.rep).filter(Boolean)); if (reps.size) S.prog.att[k] = L.filter(a => !reps.has(a.t)); } // re-marked attempts replace the old ones
     for (const [k, v] of Object.entries(r.terms || {})) if (!S.prog.terms[k] || S.prog.terms[k].t < v.t) S.prog.terms[k] = v;
     if ((r.pt || 0) > (S.prog.pt || 0)) { S.prog.pins = r.pins || []; S.prog.marks = r.marks || []; S.prog.hls = r.hls || []; S.prog.pt = r.pt; }
     const D = S.prog.days = S.prog.days || {}; for (const [d, o] of Object.entries(r.days || {})) { const x = D[d] = D[d] || {}; for (const k of ['m', 'q', 'c', 'p']) x[k] = Math.max(x[k] || 0, o[k] || 0); }
     if ((r.calt || 0) > (S.prog.calt || 0)) { S.prog.cals = r.cals || []; S.prog.calt = r.calt; setTimeout(loadExt, 0); }
-    for (const f of ['decks', 'maps', 'spaces', 'notes']) { const DK = S.prog[f] = S.prog[f] || {}; for (const [id, d] of Object.entries(r[f] || {})) if (!DK[id] || (DK[id].t || 0) < (d.t || 0)) DK[id] = d; }
+    for (const f of ['decks', 'maps', 'spaces', 'notes']) { const DK = S.prog[f] = S.prog[f] || {}; for (const [id, d] of Object.entries(r[f] || {})) if (!DK[id] || (DK[id].t || 0) < (d.t || 0)) { if (f === 'notes' && DK[id]) { for (const k of Object.keys(DK[id])) if (!(k in d) && k[0] !== '_') delete DK[id][k]; Object.assign(DK[id], d); } else DK[id] = d; } }
     for (const k of ['secs', 'rev', 'recall']) { const L = S.prog[k] = S.prog[k] || {}; for (const [kk, v] of Object.entries(r[k] || {})) if (!L[kk] || (L[kk].t || 0) < (v.t || 0)) L[kk] = v; }
     const PP = S.prog.pp = S.prog.pp || {}; for (const [k, v] of Object.entries(r.pp || {})) { const ts = new Set((PP[k] || []).map(x => x.t)); PP[k] = [...(PP[k] || []), ...v.filter(x => !ts.has(x.t))]; }
     for (const [k, v] of Object.entries(r.lastBy || {})) if (!S.prog.lastBy[k] || S.prog.lastBy[k].t < v.t) S.prog.lastBy[k] = v;
@@ -903,14 +904,13 @@ function openQ(id) {
     const user = `Question (${KIND[q.kind] || q.kind}${q.marks ? ', ' + q.marks + ' marks' : ''}): ${q.text}${q.ctx ? '\nContext: ' + q.ctx : ''}\n\n` + (imgs.length ? (ans ? `Typed part of the student's answer:\n"""\n${ans}\n"""\n\n` : '') + `The student's handwritten working is in the ${imgs.length} attached image${imgs.length > 1 ? 's' : ''}.` : `Student answer:\n"""\n${ans}\n"""`)
       + (fixed ? `\n\nThe student checked your reading of their handwriting and corrected it. Treat this as exactly what they wrote (use the images only for diagrams and layout):\n"""\n${fixed}\n"""` : '');
     try {
-      const fb = await markWork({rubric: rubricFor(q) + (q.ms ? '\n\nOfficial markscheme (follow it):\n' + q.ms : '') + MARK_FMT + (hwM ? STEP_FMT : ''), text: user, imgs, book: q.book, pages: q.pages});
-      if (fixed && !String(fb.read || '').trim()) fb.read = fixed;
+      const fb = await markWork({rubric: rubricFor(q) + (q.ms ? '\n\nOfficial markscheme (follow it):\n' + q.ms : '') + MARK_FMT + (hwM ? STEP_FMT : ''), text: user, imgs, book: q.book, pages: q.pages, fixed});
       fb.max = fb.max || qMax(q);
       const att = {t: Date.now(), score: Math.max(0, +fb.score || 0), max: fb.max, ans: imgs.length ? hwAns(ans, fb) : ans, fb, secs: (Date.now() - t0) / 1000 | 0};
       if (imgs.length) { att.hw = imgs.length; IDB.set(hwKey('att:' + id + ':' + att.t), imgs); }
       const L = S.prog.att[id] = S.prog.att[id] || [];
-      if (fixed && lastAtt && L[L.length - 1] === lastAtt) { L.pop(); IDB.del(hwKey('att:' + id + ':' + lastAtt.t)); } // a corrected reading replaces the misread attempt
-      L.push(att); lastAtt = att; act('q'); sessMark('q', id, att.max ? att.score / att.max : 0);
+      const rep = fixed && lastAtt && L[L.length - 1] === lastAtt; if (rep) { L.pop(); IDB.del(hwKey('att:' + id + ':' + lastAtt.t)); att.rep = lastAtt.t; } // a corrected reading replaces the misread attempt
+      L.push(att); lastAtt = att; if (!rep) act('q'); sessMark('q', id, att.max ? att.score / att.max : 0);
       const chatUser = user + (fb.read && !fixed ? '\n\nHandwritten working, as read by Claude:\n' + fb.read : '');
       $('#fbx').innerHTML = `<div class="card fb">${fbHtml(fb, {fix: imgs.length > 0})}<div class="row" style="margin-top:14px"><button class="${sessCur('q', id) ? '' : 'pri'}" id="disc">Ask Claude about this feedback</button><button id="again">Try again</button>${sessCur('q', id) ? '<span class="sp"></span><button class="pri" data-sx="next">Next →</button>' : ''}</div></div>`;
       $('#disc').onclick = () => openChat({title: 'Feedback discussion', book: q.book, pages: q.pages, fixed: true, msgs: [{role: 'user', content: chatUser, show: 'My answer to: ' + q.text}, {role: 'assistant', content: fbMd(fb)}]});
@@ -951,7 +951,7 @@ const IDB = (() => { let p;
     delPre: pre => IDB.keys(pre).then(ks => Promise.all(ks.map(k => IDB.del(k))))};
 })();
 const hwKey = k => 'hw:' + (UK() || 'guest') + ':' + k;
-const HW_MAXPH = 8, HW_MAXPAGES = 30, HW_PX = 1568; // Claude reads images up to ~1568px on the long edge; bigger is just downscaled
+const HW_MAXPH = 8, HW_MAXPAGES = 30, HW_MAXIMG = 30, HW_PX = 1568; // Claude reads images up to ~1568px on the long edge; bigger is just downscaled
 const STEPKINDS = /^(exercise|challenge|structured|mtest|mreview|mexam|mex)$/;
 const stepped = q => q.kind !== 'mcq' && (STEPKINDS.test(q.kind) || !!(bookOf(q.book) || {}).math); // maths & sciences: method marks, ECF
 const SLIPS = ['algebra', 'arithmetic', 'sign', 'units', 'sig figs', 'notation', 'method', 'concept', 'misread question', 'incomplete'];
@@ -968,10 +968,12 @@ function askContent(text, imgs, label = 'Image') {
   return out;
 }
 // one marking call; with images it insists on a transcription so a relay that drops images can't record a bogus 0
-async function markWork({rubric, text, imgs = [], book, pages = []}) {
+async function markWork({rubric, text, imgs = [], book, pages = [], fixed}) {
+  if (imgs.length > HW_MAXIMG) throw new Error(`That's ${imgs.length} images; Claude can read up to ${HW_MAXIMG} at once. Remove some photos or clear unused writing.`);
   const r = await api('ask', {mode: 'mark', rubric: rubric + (imgs.length ? HW_FMT : ''), book, pages, hw: imgs.length, messages: [{role: 'user', content: askContent(text, imgs)}]});
   let fb; try { fb = pj(r.text); } catch (e) { if (imgs.length) throw new Error('Claude replied in an unexpected format. Try again.'); return {score: 0, max: 0, verdict: '', raw: r.text}; }
-  if (imgs.length && !String(fb.read || '').trim()) throw new Error(HW_NONE);
+  if (fixed) fb.read = fixed; // the student's corrected reading is what they wrote
+  else if (imgs.length && !String(fb.read || '').trim()) throw new Error(HW_NONE);
   return fb;
 }
 // what an attempt stores as its answer: typed text plus Claude's reading of the handwriting
@@ -1016,7 +1018,7 @@ const inkBox = st => { let a = Infinity, b = Infinity, c = -Infinity, d = -Infin
 // ink -> PNG data URLs on white, cropped to the writing and cut into readable chunks at blank rows
 function inkExport(st) {
   if (!st || !st.strokes || !st.strokes.length) return []; const bb = inkBox(st); if (!bb) return [];
-  const M = 24, x0 = Math.max(0, bb[0] - M), x1 = Math.min(INK_W, bb[2] + M), y0 = Math.max(0, bb[1] - M), y1 = bb[3] + M, w = Math.max(x1 - x0, 320), CH = Math.max(w * 1.4, 640);
+  const M = 24, x0 = Math.max(0, bb[0] - M), x1 = Math.min(INK_W, bb[2] + M), y0 = Math.max(0, bb[1] - M), y1 = bb[3] + M, w = Math.max(x1 - x0, 320), CH = Math.max(w * 1.4, 640, (y1 - y0) / 20);
   const occ = new Float32Array(Math.ceil((y1 - y0) / 4) + 2); // ink coverage per 4-unit row, to cut between lines of writing
   for (const s of st.strokes) for (let i = 0; i < s.p.length; i += 3) { const j = i + 3 < s.p.length ? i + 3 : i, lo = Math.min(s.p[i + 1], s.p[j + 1]) - s.w * 2, hi = Math.max(s.p[i + 1], s.p[j + 1]) + s.w * 2; for (let r = Math.max(0, (lo - y0) / 4 | 0); r <= Math.min(occ.length - 1, (hi - y0) / 4 | 0); r++) occ[r]++; }
   const cuts = [y0]; let y = y0;
@@ -1160,7 +1162,7 @@ function photoStrip(host, list, o = {}) { // list is mutated in place; o: {onCha
     host.querySelectorAll('[data-v]').forEach(im => im.onclick = () => hwView(list, +im.dataset.v));
     host.querySelectorAll('[data-del]').forEach(b => b.onclick = () => { list.splice(+b.dataset.del, 1); done(); });
     host.querySelectorAll('[data-mv]').forEach(b => b.onclick = () => { const i = +b.dataset.mv; [list[i - 1], list[i]] = [list[i], list[i - 1]]; done(); });
-    host.querySelectorAll('[data-rot]').forEach(b => b.onclick = async () => { b.disabled = true; try { list[+b.dataset.rot] = await hwRotate(list[+b.dataset.rot]); } catch (e) {} done(); });
+    host.querySelectorAll('[data-rot]').forEach(b => b.onclick = async () => { b.disabled = true; const u = list[+b.dataset.rot]; try { const r = await hwRotate(u), j = list.indexOf(u); if (j >= 0) list[j] = r; } catch (e) {} done(); });
   };
   const done = () => { draw(); o.onChange && o.onChange(); };
   async function add(files) {
@@ -1173,11 +1175,13 @@ function photoStrip(host, list, o = {}) { // list is mutated in place; o: {onCha
   host.ondragover = e => { e.preventDefault(); host.firstElementChild && host.firstElementChild.classList.add('drag'); };
   host.ondragleave = () => host.firstElementChild && host.firstElementChild.classList.remove('drag');
   host.ondrop = e => { e.preventDefault(); host.firstElementChild && host.firstElementChild.classList.remove('drag'); add([...(e.dataTransfer.files || [])]); };
-  HWPASTE = {host, add}; draw();
+  const mine = () => { HWPASTE = {host, add}; }; host.addEventListener('pointerdown', mine); host.addEventListener('focusin', mine); mine(); draw();
   return {add, draw};
 }
 { const h = document.querySelector('header'); if (h && window.ResizeObserver) new ResizeObserver(() => document.documentElement.style.setProperty('--hdrh', h.offsetHeight + 'px')).observe(h); } // sticky ink toolbar sits under the header
-let HWPASTE = null; // the photo strip that Ctrl+V pastes into
+let HWPASTE = null, HW_PERSIST = 0;
+// attempt images older than 4 months are cleared so the browser's storage doesn't fill up
+setTimeout(async () => { const cut = Date.now() - 120 * 864e5; for (const k of await IDB.keys(hwKey('att:'))) { const t = +String(k).slice(String(k).lastIndexOf(':') + 1); if (t && t < cut) IDB.del(k); } }, 30e3); // the photo strip that Ctrl+V pastes into
 document.addEventListener('paste', e => { if (!HWPASTE || !HWPASTE.host.isConnected || !HWPASTE.host.offsetParent || /INPUT|TEXTAREA/.test((document.activeElement || {}).tagName || '')) return;
   const fs = [...(e.clipboardData ? e.clipboardData.files : [])].filter(f => /^image\//.test(f.type)); if (fs.length) { e.preventDefault(); HWPASTE.add(fs); } });
 
@@ -1189,7 +1193,7 @@ async function hwImagesFor(key) { const v = await IDB.get(hwKey(key)); return v 
 function hwBox(host, o) { // o: {key, text, rows, math, onText(v), onChange(), compact, placeholder}
   for (const b of HWB) if (!b.el.isConnected) HWB.delete(b);
   const st = {mode: o.mode || hwDefMode(o.math), ink: {strokes: [], h: 0}, photos: []}; let pad = null, tm = 0, loaded = false;
-  const tabs = [['type', 'Type', 'type'], ['ink', 'Write', 'pen'], ['photo', 'Photo', 'cam']];
+  const tabs = [['type', 'Type', 'type'], ['ink', 'Write', 'pen'], ['photo', 'Photo', 'cam']].filter(t => !o.only || o.only.includes(t[0])); if (o.only && !o.only.includes(st.mode)) st.mode = o.only[0];
   host.innerHTML = `<div class="hw"><div class="row hwtop"><div class="seg hwm" role="tablist">${tabs.map(([k, l, i]) => `<button data-hm="${k}" role="tab"><svg class="i"><use href="#i-${i}"/></svg>${l}</button>`).join('')}</div><span class="meta hws"></span></div>
     <div class="hwp" data-p="type"><textarea${o.id ? ` id="${o.id}"` : ''} rows="${o.rows || 8}" placeholder="${esc(o.placeholder || 'Answer')}"${o.compact ? ' style="font:15px/1.6 var(--f-ui)"' : ''}>${esc(o.text || '')}</textarea></div>
     <div class="hwp hwink" data-p="ink"></div><div class="hwp" data-p="photo"><p class="meta" style="margin:0 0 8px">Photograph your written working${o.math ? ' (keep each page flat, well lit, and the whole working in frame)' : ''}. Photos stay on this device.</p><div class="phw"></div></div></div>`;
@@ -1211,11 +1215,11 @@ function hwBox(host, o) { // o: {key, text, rows, math, onText(v), onChange(), c
   ta.oninput = () => { o.onText && o.onText(ta.value); status(); o.onChange && o.onChange(); };
   const api_ = {
     el: host, get mode() { return st.mode; }, text: () => ta.value, words, get hasImages() { return st.ink.strokes.length > 0 || st.photos.length > 0; }, get counts() { return {ink: st.ink.strokes.length, ph: st.photos.length}; },
-    images: () => [...inkExport(st.ink), ...st.photos], focus: () => (st.mode === 'type' ? ta : host.querySelector('.inkw') || ta).focus(),
-    flush: () => { clearTimeout(tm); if (!loaded) return Promise.resolve(); const k = hwKey(o.key); return st.ink.strokes.length || st.photos.length ? IDB.set(k, {mode: st.mode, ink: st.ink, photos: st.photos, t: Date.now()}) : IDB.del(k); },
+    cancel: () => { clearTimeout(tm); loaded = false; }, images: () => [...inkExport(st.ink), ...st.photos], focus: () => (st.mode === 'type' ? ta : host.querySelector('.inkw') || ta).focus(),
+    flush: () => { clearTimeout(tm); if (!loaded) return Promise.resolve(); const k = hwKey(o.key); if ((st.ink.strokes.length || st.photos.length) && !HW_PERSIST) { HW_PERSIST = 1; try { navigator.storage && navigator.storage.persist && navigator.storage.persist(); } catch (e) {} } return st.ink.strokes.length || st.photos.length ? IDB.set(k, {mode: st.mode, ink: st.ink, photos: st.photos, t: Date.now()}) : IDB.del(k); },
   };
   show(st.mode); HWB.add(api_);
-  IDB.get(hwKey(o.key)).then(v => { loaded = true; if (!host.isConnected) return; if (v) { if (v.ink && v.ink.strokes) { st.ink.strokes = v.ink.strokes; st.ink.h = v.ink.h || 0; } st.photos.splice(0, st.photos.length, ...(v.photos || [])); if (pad && pad.destroy) pad.destroy(); pad = null; host.querySelector('.hwink').innerHTML = ''; show(o.mode && !v.ink ? o.mode : v.mode || st.mode); } o.onChange && o.onChange('load'); });
+  IDB.get(hwKey(o.key)).then(v => { loaded = true; if (!host.isConnected) return; if (v) { if (v.ink && v.ink.strokes) { st.ink.strokes = [...v.ink.strokes, ...st.ink.strokes]; st.ink.h = Math.max(v.ink.h || 0, st.ink.h || 0); } st.photos.splice(0, st.photos.length, ...[...(v.photos || []), ...st.photos].slice(0, HW_MAXPH)); if (pad && pad.destroy) pad.destroy(); pad = null; host.querySelector('.hwink').innerHTML = ''; const m = o.mode && !v.ink ? o.mode : v.mode || st.mode; show(!o.only || o.only.includes(m) ? m : o.only[0]); } o.onChange && o.onChange('load'); });
   return api_;
 }
 // past-attempt images (kept on this device only)
@@ -1631,14 +1635,17 @@ function openPaper(id) {
       : st.paper ? '<p class="meta" style="font-family:var(--f-ui);margin:10px 0 0">Answer on paper. Write the question number next to your answer.</p>' : `<div class="ppa" data-hq="${esc(q.n)}" style="margin-top:10px;font-family:var(--f-ui);font-size:15px"></div>`}</div>`; }).join('')}
     <div class="row" style="margin:18px 0"><span class="sp"></span><button class="pri" id="ppSub2">Submit paper</button></div></div>`;
   $('#tutor').classList.add('hide');
+  const boxes = S.ppBoxes = {};
   document.querySelectorAll('#main [data-hq]').forEach(el => { const q = P.qs.find(x => String(x.n) === el.dataset.hq); if (!q) return;
-    hwBox(el, {key: 'pp:' + id + ':' + q.n, text: st.ans[q.n] || '', rows: (q.marks || 4) > 6 ? 12 : 5, math: stepped(ppQ(P, q)), compact: true, onText: v => { st.ans[q.n] = v; LS.set(K, st); }}); });
+    boxes[q.n] = hwBox(el, {key: 'pp:' + id + ':' + q.n, text: st.ans[q.n] || '', rows: (q.marks || 4) > 6 ? 12 : 5, math: stepped(ppQ(P, q)), compact: true, onText: v => { st.ans[q.n] = v; LS.set(K, st); }}); });
   document.querySelectorAll('#main [data-n]').forEach(el => el.oninput = el.onchange = () => { if (el.type !== 'radio' || el.checked) st.ans[el.dataset.n] = el.value; LS.set(K, st); });
-  const tick = setInterval(() => { const el = $('#ppT'); if (!el) { clearInterval(tick); $('#tutor').classList.remove('hide'); return; } const s = (Date.now() - st.start) / 1000 | 0, left = lim ? Math.round(lim / 1000) - s : s, a = Math.abs(left);
+  const tick = setInterval(() => { const el = $('#ppT'); if (!el) { clearInterval(tick); if (!$('#ppPh')) $('#tutor').classList.remove('hide'); return; } const s = (Date.now() - st.start) / 1000 | 0, left = lim ? Math.round(lim / 1000) - s : s, a = Math.abs(left);
     el.textContent = (left < 0 ? 'Over by ' : lim ? '' : 'Elapsed ') + (a / 3600 | 0 ? (a / 3600 | 0) + ':' : '') + String((a / 60 | 0) % 60).padStart(2, '0') + ':' + String(a % 60).padStart(2, '0'); el.style.color = lim && left < 300 ? 'var(--red)' : ''; }, 500);
-  $('#ppQuit').onclick = async () => { if (!confirm('Abandon this attempt? Your answers are cleared.')) return; LS.set(K, {ans: {}, start: 0}); await IDB.delPre(hwKey('pp:' + id + ':')); openPaper(id); };
-  $('#ppSub').onclick = $('#ppSub2').onclick = async () => { if (!confirm(st.paper ? 'Stop the clock and photograph your pages?' : 'Submit for marking?')) return; await hwFlushAll();
-    if (st.paper) { st.done = Date.now(); LS.set(K, st); paperPhotos(P, st, K); } else submitPaper(P, st, K); };
+  $('#ppQuit').onclick = async () => { if (!confirm('Abandon this attempt? Your answers are cleared.')) return; Object.values(boxes).forEach(b => b.cancel()); LS.set(K, {ans: {}, start: 0}); await IDB.delPre(hwKey('pp:' + id + ':')); openPaper(id); };
+  $('#ppSub').onclick = $('#ppSub2').onclick = async () => {
+    const onPaper = st.paper && P.qs.some(q => !(ppQ(P, q).kind === 'mcq' && st.ans[q.n])); // everything was multiple choice ticked on screen: nothing to photograph
+    if (!confirm(onPaper ? 'Stop the clock and photograph your pages?' : 'Submit for marking?')) return; clearInterval(tick); await hwFlushAll();
+    if (onPaper) { st.done = Date.now(); LS.set(K, st); paperPhotos(P, st, K); } else { st.done = Date.now(); submitPaper(P, st, K); } };
 }
 // sat on real paper: photograph every page, then Claude finds each answer and marks it
 async function paperPhotos(P, st, K, err) {
@@ -1652,36 +1659,61 @@ async function paperPhotos(P, st, K, err) {
   $('#ppAb').onclick = async () => { if (!confirm('Abandon this attempt? Your photos are deleted.')) return; LS.set(K, {ans: {}, start: 0}); await IDB.delPre(hwKey('pp:' + P.id + ':')); $('#tutor').classList.remove('hide'); openPaper(P.id); };
   $('#ppMk').onclick = () => submitPaper(P, st, K, pages);
 }
-async function submitPaper(P, st, K, pages) {
-  const secs = ((st.done || Date.now()) - st.start) / 1000 | 0, out = []; $('#tutor').classList.remove('hide');
-  let map = null;
-  if (pages) { // which photographed pages hold which answer
+const qKey = n => String(n).trim().replace(/^q(uestion)?\s*/i, '').replace(/[.):\s]+$/, '').toLowerCase();
+function normMap(raw, n) { // Claude's {question: [pages]} -> clean integer page lists, tolerant of "2-3", "2, 3", "Q1." keys
+  const out = {};
+  for (const [k, v] of Object.entries(raw && typeof raw === 'object' ? raw : {})) {
+    const arr = (Array.isArray(v) ? v : [v]).flatMap(x => String(x).split(/[,;]/)).flatMap(x => { const m = String(x).match(/^\s*(\d+)\s*[-–]\s*(\d+)\s*$/); if (m) { const r = []; for (let i = +m[1]; i <= Math.min(+m[2], n); i++) r.push(i); return r; } return [parseInt(x, 10)]; })
+      .filter(i => Number.isInteger(i) && i >= 1 && i <= n);
+    if (arr.length) out[qKey(k)] = [...new Set([...(out[qKey(k)] || []), ...arr])];
+  }
+  return out;
+}
+async function submitPaper(P, st, K, pages, prev) { // prev: {out, map, live} when retrying questions that failed
+  const secs = ((st.done || Date.now()) - st.start) / 1000 | 0; $('#tutor').classList.remove('hide');
+  const live = prev ? prev.live : {}; if (!prev) for (const [n, b] of Object.entries(S.ppBoxes || {})) if (b.el.isConnected && b.hasImages) live[n] = b.images(); // straight from the screen, not just IndexedDB
+  let map = prev ? prev.map : null;
+  if (pages && !map) { // which photographed pages hold which answer
+    const need = P.qs.filter(q => !(ppQ(P, q).kind === 'mcq' && st.ans[q.n]));
     $('#main').innerHTML = `<div class="prac"><div class="card fb"><span class="spin"></span> Finding your answers on ${pages.length} page${pages.length > 1 ? 's' : ''}…</div></div>`;
     try {
-      const list = P.qs.filter(q => !(ppQ(P, q).kind === 'mcq' && st.ans[q.n])).map(q => `${q.n}: ${String(q.text).replace(/!\[[^\]]*\]\([^)]*\)/g, '[figure]').replace(/\s+/g, ' ').slice(0, 180)}`).join('\n');
+      const list = need.map(q => `${q.n}: ${String(q.text).replace(/!\[[^\]]*\]\([^)]*\)/g, '[figure]').replace(/\s+/g, ' ').slice(0, 180)}`).join('\n');
       const r = await api('ask', {mode: 'mark', rubric: ASSIGN_SYS, book: P.book, pages: [], hw: pages.length, messages: [{role: 'user', content: askContent(`Questions in this paper:\n${list}\n\nThe student's ${pages.length} page(s) follow, in order.`, pages, 'Page')}]});
-      map = (pj(r.text) || {}).pages || {};
+      map = normMap((pj(r.text) || {}).pages, pages.length);
     } catch (e) { return paperPhotos(P, st, K, 'Could not read your pages: ' + e.message); }
-    if (!Object.values(map).some(a => Array.isArray(a) && a.length)) return paperPhotos(P, st, K, "Claude couldn't find any answers in these photos. Check they're sharp and the question numbers are visible, then try again.");
+    if (!Object.keys(map).length) return paperPhotos(P, st, K, "Claude couldn't find any answers in these photos. Check they're sharp and the question numbers are visible, then try again.");
   }
-  $('#main').innerHTML = `<div class="prac"><div class="card fb"><span class="spin"></span> Marking <span id="ppN">0</span> / ${P.qs.length}…</div></div>`;
+  const todo = prev ? prev.out.filter(o => o.fail).map(o => o.q) : P.qs, res = [];
+  $('#main').innerHTML = `<div class="prac"><div class="card fb"><span class="spin"></span> Marking <span id="ppN">0</span> / ${todo.length}…</div></div>`;
   let done = 0; const tick = () => { done++; const e = $('#ppN'); if (e) e.textContent = done; };
   const blank = (max, verdict) => ({score: 0, max, verdict, good: [], missed: [], fix: [], plan: '', terms: []});
-  const one = async q => { const x = ppQ(P, q), a = (st.ans[q.n] || '').trim(), max = q.marks || (x.kind === 'mcq' ? 1 : 4);
-    if (x.kind === 'mcq' && q.ans && a) { tick(); const ok = a.toUpperCase() === String(q.ans).toUpperCase(); return {q, x, a, imgs: [], fb: {...blank(max, ok ? 'Correct.' : 'Answer: ' + q.ans), score: ok ? max : 0}}; }
-    const imgs = map ? [...new Set((map[String(q.n)] || []).map(Number))].map(i => pages[i - 1]).filter(Boolean).slice(0, 5) : x.kind === 'mcq' ? [] : await hwImagesFor('pp:' + P.id + ':' + q.n);
-    if (!a && !imgs.length) { tick(); return {q, x, a, imgs, fb: blank(max, map ? "Couldn't find an answer to this question in your photos." : 'Not answered.')}; }
+  const one = async q => { const x = ppQ(P, q), a = (st.ans[q.n] || '').trim(), max = q.marks || (x.kind === 'mcq' ? 1 : 4); let imgs = [];
     try {
-      const fb = await markWork({rubric: (RUBRIC[x.kind] || RUBRIC.structured) + (q.ms ? '\n\nOfficial markscheme (follow it):\n' + q.ms : '') + MARK_FMT + (stepped(x) ? STEP_FMT : '') + (map ? `\n\nThe photos are pages of the student's whole script, so they may also show answers to other questions: transcribe and mark ONLY question ${q.n}.` : ''),
+      if (x.kind === 'mcq' && q.ans && a) { const ok = a.toUpperCase() === String(q.ans).toUpperCase(); return {q, x, a, imgs, fb: {...blank(max, ok ? 'Correct.' : 'Answer: ' + q.ans), score: ok ? max : 0}}; }
+      imgs = map ? (map[qKey(q.n)] || []).map(i => pages[i - 1]).filter(Boolean).slice(0, 5) : x.kind === 'mcq' ? [] : live[q.n] || await hwImagesFor('pp:' + P.id + ':' + q.n);
+      if (!a && !imgs.length) return {q, x, a, imgs, fb: blank(max, map ? "Couldn't find an answer to this question in your photos." : 'Not answered.')};
+      const fb = await markWork({rubric: (RUBRIC[x.kind] || RUBRIC.structured) + (q.ms ? '\n\nOfficial markscheme (follow it):\n' + q.ms : '') + MARK_FMT + (stepped(x) ? STEP_FMT : '')
+          + (x.kind === 'mcq' && q.ans ? `\n\nThe correct option is ${q.ans}. Award ${max} only if the letter the student chose is ${q.ans}, otherwise 0.` : '')
+          + (map ? `\n\nThe photos are pages of the student's whole script, so they may also show answers to other questions: transcribe and mark ONLY question ${q.n}.` : ''),
         text: `${(q.ctx || x.ctx) ? 'Setup / context: ' + (q.ctx || x.ctx) + '\n\n' : ''}Question ${q.n} (${max} marks): ${q.text}` + (a ? `\n\nStudent answer${imgs.length ? ' (typed part)' : ''}:\n"""\n${a}\n"""` : '') + (imgs.length ? `\n\nThe student's handwritten working is in the attached image${imgs.length > 1 ? 's' : ''}.` : ''), imgs, book: P.book});
       if (fb.raw) throw new Error('Claude replied in an unexpected format');
-      fb.max = max; fb.score = Math.max(0, Math.min(max, +fb.score || 0)); tick(); return {q, x, a: imgs.length ? hwAns(a, fb) : a, imgs, fb};
-    } catch (e) { tick(); return {q, x, a, imgs, fail: 1, fb: blank(max, 'Marking failed: ' + e.message)}; } };
-  const qs = [...P.qs]; const work = async () => { while (qs.length) { const q = qs.shift(); out.push(await one(q)); } }; await Promise.all([work(), work(), work()]);
-  out.sort((a, b) => P.qs.indexOf(a.q) - P.qs.indexOf(b.q));
+      fb.max = max; fb.score = Math.max(0, Math.min(max, +fb.score || 0)); return {q, x, a: imgs.length ? hwAns(a, fb) : a, imgs, fb};
+    } catch (e) { return {q, x, a, imgs, fail: 1, fb: blank(max, 'Marking failed: ' + e.message)}; } };
+  const qs = [...todo]; const work = async () => { while (qs.length) { const q = qs.shift(); res.push(await one(q)); tick(); } }; await Promise.all([work(), work(), work()]);
+  const out = prev ? prev.out.map(o => o.fail ? res.find(r => r.q === o.q) || o : o) : res.sort((a, b) => P.qs.indexOf(a.q) - P.qs.indexOf(b.q));
+  const failed = out.filter(o => o.fail);
+  if (failed.length && !(prev && prev.force)) { // never grade a paper (or wipe the answers) because marking hiccupped
+    $('#main').innerHTML = `<div class="prac"><div class="card fb"><h3 style="margin-top:0">${failed.length} question${failed.length > 1 ? 's' : ''} couldn't be marked</h3><p class="meta">Your answers are kept. ${out.length - failed.length} other question${out.length - failed.length === 1 ? ' is' : 's are'} marked and waiting.</p>
+      <ul>${failed.map(o => `<li><b>Question ${esc(o.q.n)}</b>: ${esc(o.fb.verdict.replace(/^Marking failed: /, ''))}</li>`).join('')}</ul>
+      <div class="row" style="margin-top:12px"><button class="pri" id="ppRetry">Try those again</button><button id="ppForce">Finish anyway (count them as 0)</button><span class="sp"></span><button id="ppLater">Leave it for now</button></div></div></div>`;
+    $('#ppRetry').onclick = () => submitPaper(P, st, K, pages, {out, map, live});
+    $('#ppForce').onclick = () => submitPaper(P, st, K, pages, {out: out.map(o => o.fail ? {...o, fail: 0, skip: 1} : o), map, live, force: 1});
+    $('#ppLater').onclick = () => { LS.set(K, st); S.pf = {...(S.pf || {}), view: 'papers'}; renderPrac(); };
+    return;
+  }
   const score = out.reduce((s, o) => s + o.fb.score, 0), max = out.reduce((s, o) => s + o.fb.max, 0), grade = gradeOf(P, max ? score / max : 0), t = Date.now();
-  for (const o of out) if ((o.a || o.imgs.length) && !o.fail) { const at = {t, score: o.fb.score, max: o.fb.max, ans: o.a, fb: o.fb}; if (o.imgs.length) { at.hw = o.imgs.length; IDB.set(hwKey('att:' + o.x.id + ':' + t), o.imgs); } (S.prog.att[o.x.id] = S.prog.att[o.x.id] || []).push(at); }
-  (S.prog.pp = S.prog.pp || {})[P.id] = [...(S.prog.pp[P.id] || []), {t, score, max, grade, secs, book: P.book, mock: P.mock ? 1 : 0, hw: pages ? 'paper' : out.some(o => o.imgs.length) ? 1 : 0}]; act('q', out.filter(o => (o.a || o.imgs.length) && !o.fail).length); LS.set(K, {ans: {}, start: 0}); IDB.delPre(hwKey('pp:' + P.id + ':'));
+  for (const o of out) if ((o.a || o.imgs.length) && !o.fail && !o.skip) { const at = {t, score: o.fb.score, max: o.fb.max, ans: o.a, fb: o.fb}; if (o.imgs.length) { at.hw = o.imgs.length; IDB.set(hwKey('att:' + o.x.id + ':' + t), o.imgs); } (S.prog.att[o.x.id] = S.prog.att[o.x.id] || []).push(at); }
+  (S.prog.pp = S.prog.pp || {})[P.id] = [...(S.prog.pp[P.id] || []), {t, score, max, grade, secs, book: P.book, mock: P.mock ? 1 : 0, hw: pages ? 'paper' : out.some(o => o.imgs.length) ? 1 : 0}]; act('q', out.filter(o => (o.a || o.imgs.length) && !o.fail && !o.skip).length); LS.set(K, {ans: {}, start: 0}); IDB.delPre(hwKey('pp:' + P.id + ':'));
   $('#main').innerHTML = `<div class="prac"><div class="card fb" style="text-align:center"><div class="meta">${esc(P.title)}</div><div class="score" style="font-size:54px;margin:8px 0">${score}/${max}</div><div style="font:600 20px var(--f-read)">Grade ${grade} <span class="meta">(${Math.round(score / max * 100)}%, ${Math.round(secs / 60)} min${P.bounds ? '' : ', approximate boundaries'})</span></div>
     <div class="row" style="justify-content:center;margin-top:14px"><button class="pri" id="ppRev"><svg class="i"><use href="#i-spark"/></svg>Go through it with Claude</button><button id="ppBack">Back to exam mode</button></div></div>
     ${breakdown(P, out)}<h3>Question by question</h3>
@@ -1998,7 +2030,10 @@ async function runReview(k) {
 // prog.decks[id] = {id, name, book, cards: [{id, f, b, book?, tp?}], t, del?}
 const NEW_PER_DAY = 15;
 const uid = () => Date.now().toString(36) + Math.random().toString(36).slice(2, 7);
-const pj = t => { const s = String(t || '').replace(/```(json)?/g, ''), m = s.match(/\{[\s\S]*\}/); return JSON.parse(m ? m[0] : s); };
+// LaTeX commands that start with a valid JSON escape (\t, \n, \f, \b, \r) would silently turn into tabs/newlines: double those backslashes first
+const LATEX_ESC = /(?<!\\)\\(?=(?:times|theta|tau|tan|tanh|text|textbf|textrm|to|top|triangle|therefore|nabla|neq|ne|nu|neg|not|newline|right|rightarrow|Rightarrow|rho|rangle|rfloor|rceil|frac|dfrac|tfrac|forall|beta|bar|bf|binom|bmod|big|Big|bigg|boxed|bullet|because)(?![a-zA-Z]))/g;
+const fixBs = s => s.replace(/\\(?:(["\\/bfnrt]|u[0-9a-fA-F]{4})|)/g, (m, ok) => ok ? m : '\\\\');
+const pj = t => { let s = String(t || '').replace(/```(json)?/g, ''); const m = s.match(/\{[\s\S]*\}/); s = (m ? m[0] : s).replace(LATEX_ESC, '\\\\'); try { return JSON.parse(s); } catch (e) { return JSON.parse(fixBs(s)); } };
 const pcCol = pc => pc < .4 ? 'var(--bad)' : pc < .7 ? 'var(--warn)' : 'var(--good)';
 const cardDue = s => !!s && Date.now() >= s.t + BOXDAYS[s.box] * 864e5;
 const nextBox = (s, g) => { const b = s ? s.box : 0; return g === 0 ? 0 : g === 1 ? Math.max(1, b) : Math.min(5, b + (g === 3 ? 2 : 1)); };
@@ -2971,44 +3006,60 @@ const noteDefMode = () => SETG().hwPen === 'pen' || LS.get('ib-pen', 0) || match
 function noteSubjects() {
   return S.books.map(B => `${B.id}: ${B.subject || B.title}\n` + topicsOf(B).slice(0, 90).map(T => `  ${T.num} ${T.title}`).join('\n')).join('\n');
 }
-// relay note store (for ink and photos); quietly off if this relay doesn't have one yet
-let NOTE_SRV = LS.get('ib-nsrv', 1);
-const noteSrvOff = e => { if (/unknown|unsupported|not found|no such|bad op|404/i.test(e.message || '')) { NOTE_SRV = 0; LS.set('ib-nsrv', 0); setTimeout(() => { NOTE_SRV = 1; LS.set('ib-nsrv', 1); }, 864e5); } };
+// relay note store (for ink and photos); paused for a day if this relay doesn't have one yet
+const nsrvOn = () => !(LS.get('ib-nsrv-until', 0) > Date.now());
+const noteSrvOff = e => { if (/unknown|unsupported|no such op|bad op|\b404\b/i.test(e.message || '')) LS.set('ib-nsrv-until', Date.now() + 864e5); };
 const NPUSH = {};
-function notePush(n) { if (!USER || !NOTE_SRV) return; clearTimeout(NPUSH[n.id]); NPUSH[n.id] = setTimeout(async () => {
-  const v = await IDB.get(hwKey(NOTE_PRE + n.id)); try { await api(v ? 'noteput' : 'notedel', v ? {id: n.id, t: n.e || Date.now(), data: v} : {id: n.id}); n.up = n.e || Date.now(); noteSave(n); const el = $('#nSaved'); if (el && S.note === n) el.textContent = 'Backed up to your account'; } catch (e) { noteSrvOff(e); } }, 3000); }
-async function notePull(n) { // ink written on another device
-  if (!USER || !NOTE_SRV || !(n.ink || n.ph) || await IDB.get(hwKey(NOTE_PRE + n.id))) return true;
+// back up a note's ink/photos. Only deletes the account copy when the note is deleted or the student cleared ink that was loaded here.
+function notePush(n, cleared) { if (!USER || !nsrvOn()) return; clearTimeout(NPUSH[n.id]); NPUSH[n.id] = setTimeout(async () => { delete NPUSH[n.id];
+  if (n.del) return api('notedel', {id: n.id}).catch(noteSrvOff);
+  const v = await IDB.get(hwKey(NOTE_PRE + n.id)); if (!v && !cleared) return;
+  try { await api(v ? 'noteput' : 'notedel', v ? {id: n.id, t: n.e || Date.now(), data: v} : {id: n.id}); if (n.del) return; n.up = n.e || Date.now(); noteSave(n); const el = $('#nSaved'); if (el && S.note === n) el.textContent = 'Backed up to your account'; } catch (e) { noteSrvOff(e); } }, 3000); }
+async function notePull(n) { // ink written on another device; false = it exists but couldn't be fetched
+  if (!(n.ink || n.ph) || await IDB.get(hwKey(NOTE_PRE + n.id))) return true;
+  if (!USER || !nsrvOn()) return false;
   try { const r = await api('noteget', {id: n.id}); if (r && r.data) { await IDB.set(hwKey(NOTE_PRE + n.id), r.data); return true; } } catch (e) { noteSrvOff(e); }
   return false;
 }
 // Claude: file it (subject, topic, title, tags), transcribe the handwriting, summarise, flag gaps
 async function noteOrganise(n) {
-  await notePull(n); const imgs = await hwImagesFor(NOTE_PRE + n.id), txt = (n.text || '').trim();
-  if (!txt && !imgs.length) return null;
+  const got = await notePull(n), imgs = got ? await hwImagesFor(NOTE_PRE + n.id) : [], txt = (n.text || '').trim(), e0 = n.e || 0, oldRead = (n.ink || n.ph) && !imgs.length ? (n.read || '') : '';
+  if (!txt && !imgs.length && !oldRead) { n.orgFail = Date.now(); noteSave(n); throw new Error((n.ink || n.ph) ? "The handwriting in this note is on another device." : 'The note is empty.'); }
+  const body = [txt, oldRead && '[Handwritten part, as read earlier]\n' + oldRead].filter(Boolean).join('\n\n');
   const r = await api('ask', {mode: 'mark', rubric: NOTE_SYS + '\n\nThe student\'s subjects (id: subject) and syllabus sections:\n' + noteSubjects(), book: n.book || (S.book && S.book.id), pages: [], hw: imgs.length,
-    messages: [{role: 'user', content: askContent(`${n.bookSet && n.book ? `The student filed this under "${n.book}": keep that subject and pick the topic within it.\n` : ''}${n.titleSet && n.title ? `Their title: "${n.title}" (keep it).\n` : ''}Typed text in the note:\n"""\n${txt.slice(0, 15000) || '(none)'}\n"""${imgs.length ? `\n\nHandwritten pages: ${imgs.length} image(s) follow.` : ''}`, imgs, 'Page')}]});
+    messages: [{role: 'user', content: askContent(`${n.bookSet && n.book ? `The student filed this under "${n.book}": keep that subject and pick the topic within it.\n` : ''}${n.titleSet && n.title ? `Their title: "${n.title}" (keep it).\n` : ''}Typed text in the note:\n"""\n${body.slice(0, 20000) || '(none)'}\n"""${imgs.length ? `\n\nHandwritten pages: ${imgs.length} image(s) follow.` : ''}`, imgs, 'Page')}]});
   const j = pj(r.text);
   if (imgs.length && !txt && !String(j.read || '').trim()) throw new Error(HW_NONE);
+  if (n.del) return null;
   if (!n.titleSet && j.title) n.title = String(j.title).slice(0, 80);
   if (!n.bookSet) n.book = bookOf(String(j.book || '')) ? String(j.book) : '';
-  const B = bookOf(n.book); if (!n.topicSet) n.topic = B && topicsOf(B).some(T => T.num === String(j.topic || '')) ? String(j.topic) : '';
+  const B = bookOf(n.book); if (!n.topicSet || !(B && topicsOf(B).some(T => T.num === n.topic))) { n.topicSet = 0; n.topic = B && topicsOf(B).some(T => T.num === String(j.topic || '')) ? String(j.topic) : ''; }
   n.tags = (Array.isArray(j.tags) ? j.tags : []).map(x => String(x).toLowerCase().slice(0, 30)).filter(Boolean).slice(0, 6);
-  n.summary = String(j.summary || '').slice(0, 400); n.read = imgs.length ? String(j.read || '').slice(0, 30000) : '';
+  n.summary = String(j.summary || '').slice(0, 400); n.read = imgs.length ? String(j.read || '').slice(0, 30000) : oldRead;
   n.terms = (Array.isArray(j.terms) ? j.terms : []).map(String).slice(0, 20); n.gaps = (Array.isArray(j.gaps) ? j.gaps : []).map(String).slice(0, 8);
-  n.org = Date.now(); delete n.orgFail; noteSave(n); return n;
+  n.org = (n.e || 0) === e0 ? Date.now() : e0; delete n.orgFail; noteSave(n); return n; // edited while Claude was reading: stays "changed"
 }
 const noteDirty = n => noteHas(n) && (n.e || 0) > (n.org || 0) && (n.e || 0) > (n.orgFail || 0);
-// background filing: notes you changed on this device get organised once you've paused for a bit
+// background filing: notes you changed on this device get organised once you've paused for a bit; also backs up notes saved while the store was off
 const NOTE_BG = {busy: 0, local: new Set(LS.get('ib-nloc', []))};
 async function noteAuto() {
-  if (NOTE_BG.busy || SETG().noteAuto === false || !S.prog || !S.prog.notes) return;
+  if (NOTE_BG.busy || !S.prog || !S.prog.notes) return;
+  if (USER && nsrvOn()) { const b = notesAll().find(x => (x.ink || x.ph) && (x.up || 0) < (x.e || 0) && NOTE_BG.local.has(x.id) && !NPUSH[x.id] && S.note !== x); if (b) notePush(b); }
+  if (SETG().noteAuto === false) return;
   const n = notesAll().find(x => noteDirty(x) && Date.now() - x.e > 20e3 && NOTE_BG.local.has(x.id) && S.note !== x); if (!n) return;
-  NOTE_BG.busy = 1; try { await noteOrganise(n); } catch (e) { n.orgFail = Date.now(); noteSave(n); } NOTE_BG.busy = 0; if (S.tab === 'notes' && !S.note) renderNotes();
+  NOTE_BG.busy = 1; try { await noteOrganise(n); } catch (e) { n.orgFail = Date.now(); noteSave(n); } NOTE_BG.busy = 0;
+  if (S.tab === 'notes' && !S.note && !(document.activeElement && document.activeElement.closest && document.activeElement.closest('#main'))) renderNotes();
 }
 setInterval(() => { if (S.books.length) noteAuto(); }, 15e3);
 const noteLocal = id => { NOTE_BG.local.add(id); LS.set('ib-nloc', [...NOTE_BG.local].slice(-300)); };
-function noteDel(n) { if (!confirm(`Delete “${noteTitle(n)}”? This can't be undone.`)) return false; n.del = 1; n.text = ''; n.read = ''; n.clean = ''; noteSave(n); IDB.del(hwKey(NOTE_PRE + n.id)); if (USER && NOTE_SRV) api('notedel', {id: n.id}).catch(noteSrvOff); return true; }
+function noteDel(n) { if (!confirm(`Delete “${noteTitle(n)}”? This can't be undone.`)) return false; clearTimeout(NPUSH[n.id]);
+  for (const k of ['text', 'read', 'clean', 'summary', 'title', 'tags', 'terms', 'gaps', 'book', 'topic']) delete n[k]; n.del = 1; n.ink = n.ph = 0; noteSave(n);
+  IDB.del(hwKey(NOTE_PRE + n.id)); if (USER && nsrvOn()) api('notedel', {id: n.id}).catch(noteSrvOff); return true; }
+// notes and handwriting made as a guest move into the account when signing in
+async function hwAdoptGuest(key) {
+  for (const k of await IDB.keys('hw:guest:')) { const v = await IDB.get(k); if (v !== undefined) { const nk = 'hw:' + key + ':' + k.slice(9); if ((await IDB.get(nk)) === undefined) await IDB.set(nk, v); } await IDB.del(k); }
+  for (const id of NOTE_BG.local) { const n = noteOf(id); if (n && (n.ink || n.ph)) notePush(n); }
+}
 async function noteThumb(el, n) {
   const v = await IDB.get(hwKey(NOTE_PRE + n.id)); if (!v || !el.isConnected) return;
   if (v.ink && v.ink.strokes && v.ink.strokes.length) { const bb = inkBox(v.ink); if (!bb) return; const W = el.clientWidth || 240, H = 110, d = Math.min(2, window.devicePixelRatio || 1), c = document.createElement('canvas'); c.width = W * d; c.height = H * d; c.style.width = W + 'px'; c.style.height = H + 'px';
@@ -3032,25 +3083,25 @@ function renderNotes() {
     : `<div class="card nempty"><svg class="i" style="width:34px;height:34px"><use href="#i-note"/></svg><h3>Your notebook</h3><p>Write notes with a stylus or your finger, type them, or snap photos of paper notes. Claude reads your handwriting, files each note under the right subject and topic, gives it a title and tags, and can tidy it into a revision sheet or turn it into flashcards.</p><p class="meta">${USER ? 'Notes are saved on this device and backed up to your account.' : 'Notes are saved in this browser. Sign in to keep them on your account too.'}</p></div>`}</div>`;
   $('#nNew').onclick = () => { const n = {id: uid(), made: Date.now(), t: Date.now(), e: 0, title: '', book: '', topic: '', text: '', mode: noteDefMode()}; if (F.b && F.b !== '-') { n.book = F.b; n.bookSet = 1; } S.newNote = n; openNote(n.id); };
   if (!all.length) return;
-  $('#nQ').oninput = e => { F.q = e.target.value; clearTimeout(S.nqT); S.nqT = setTimeout(() => { renderNotes(); const i = $('#nQ'); i.focus(); i.setSelectionRange(i.value.length, i.value.length); }, 250); };
+  $('#nQ').oninput = e => { F.q = e.target.value; clearTimeout(S.nqT); S.nqT = setTimeout(() => { if (S.tab !== 'notes' || S.note || !$('#nQ')) return; renderNotes(); const i = $('#nQ'); i.focus(); i.setSelectionRange(i.value.length, i.value.length); }, 250); };
   $('#nB').onchange = e => { F.b = e.target.value; renderNotes(); };
   document.querySelectorAll('.nc').forEach(c => { c.onclick = () => openNote(c.dataset.nt); c.onkeydown = e => { if (e.key === 'Enter') openNote(c.dataset.nt); }; });
   document.querySelectorAll('[data-th]').forEach(el => { const n = noteOf(el.dataset.th); if (n && (n.ink || n.ph)) noteThumb(el, n); });
-  $('#nOrgA').onclick = async () => { const b = $('#nOrgA'), todo = notesAll().filter(noteDirty); b.disabled = true; let i = 0, bad = 0;
-    for (const n of todo) { $('#nMsg').innerHTML = `<span class="spin"></span> Organising ${++i} of ${todo.length}: ${esc(noteTitle(n))}`; try { if (!(await noteOrganise(n))) bad++; } catch (e) { bad++; n.orgFail = Date.now(); noteSave(n); } }
+  $('#nOrgA').onclick = async () => { if (NOTE_BG.busy) return; const b = $('#nOrgA'), todo = notesAll().filter(noteDirty); b.disabled = true; let i = 0, bad = 0; NOTE_BG.busy = 1;
+    for (const n of todo) { $('#nMsg').innerHTML = `<span class="spin"></span> Organising ${++i} of ${todo.length}: ${esc(noteTitle(n))}`; try { if (!(await noteOrganise(n))) bad++; } catch (e) { bad++; n.orgFail = Date.now(); noteSave(n); } } NOTE_BG.busy = 0;
     if (S.tab === 'notes' && !S.note) { renderNotes(); if (bad) $('#nMsg').textContent = `${bad} note${bad > 1 ? 's' : ''} couldn't be organised (handwriting on another device, or unreadable).`; } };
   $('#nAsk').onclick = () => { let ctx = '', n0 = 0; for (const n of list) { const B = bookOf(n.book), s = `\n## ${noteTitle(n)}${B ? ' (' + B.subject + (n.topic ? ' ' + n.topic : '') + ')' : ''}\n${[n.text, n.read].filter(Boolean).join('\n\n').slice(0, 4000) || n.summary || ''}\n`; if (ctx.length + s.length > 40000) break; ctx += s; n0++; }
     openChat({title: 'Ask about my notes', book: F.b && F.b !== '-' ? F.b : (S.book && S.book.id), pages: [], intro: `[These are my own study notes (${n0} of ${list.length}${F.b ? ', filtered' : ''}). Answer from them first, say when something isn't in them, and point out anything in them that's wrong.\n${ctx}]\n\n`, msgs: []}); };
 }
 async function openNote(id) {
   let n = noteOf(id); if (!n && S.newNote && S.newNote.id === id) n = S.newNote; if (!n) return renderNotes();
-  shell('notes'); setHash('#/notes/' + id); S.note = n; title([['Notes', 'notes'], noteTitle(n)]);
+  shell('notes'); setHash('#/notes/' + id); S.note = n; clearTimeout(S.nqT); title([['Notes', 'notes'], noteTitle(n)]);
   $('#main').innerHTML = '<div class="prac"><span class="spin"></span></div>';
   const got = await notePull(n); if (S.note !== n) return;
   const B = () => bookOf(n.book), subs = S.books, tps = () => B() ? topicsOf(B()) : [];
   $('#main').innerHTML = `<div class="prac note-ed" style="max-width:1000px">
     <div class="row" style="margin-bottom:10px"><button id="nBack"><svg class="i"><use href="#i-l"/></svg>All notes</button><span class="sp" style="flex:1"></span><span class="meta" id="nSaved">${n.e ? (n.up >= n.e ? 'Backed up to your account' : 'Saved on this device') : ''}</span><button id="nDel" class="ghost" title="Delete note" aria-label="Delete note"><svg class="i"><use href="#i-trash"/></svg></button></div>
-    ${got ? '' : '<div class="wrong" style="margin-bottom:10px">The handwriting in this note is on another device and couldn\'t be fetched from your account. Typed text and Claude\'s transcript are below.</div>'}
+    ${got ? '' : '<div class="wrong row" style="margin-bottom:10px"><span style="flex:1">The handwriting in this note is on another device and couldn\'t be fetched from your account, so writing and photos are locked here to keep it safe. You can still type, and Claude\'s transcript is below.</span><button id="nRetry">Try again</button></div>'}
     <input id="nT" class="ntitle" placeholder="Untitled (Claude will name it)" value="${esc(n.title || '')}" maxlength="80">
     <div class="row nmeta"><select id="nB" aria-label="Subject"><option value="">${n.book ? 'Unsorted' : 'Subject: let Claude decide'}</option>${subs.map(b => `<option value="${b.id}" ${n.book === b.id ? 'selected' : ''}>${esc(b.subject || b.title)}</option>`).join('')}</select><select id="nTp" aria-label="Topic"></select><span id="nTags"></span></div>
     <div id="nBox"></div>
@@ -3066,25 +3117,28 @@ async function openNote(id) {
     if ($('#nClr')) $('#nClr').onclick = () => { n.clean = ''; noteSave(n); drawOut(); }; };
   drawTp(); drawTags(); drawOut();
   let sT = 0; const saved = (t) => { const el = $('#nSaved'); if (el) el.textContent = t; };
-  const touch = () => { n.e = Date.now(); n.mode = box.mode; noteLocal(n.id); S.newNote = null; clearTimeout(sT); saved('Saving…'); sT = setTimeout(async () => { const c = box.counts; n.ink = c.ink; n.ph = c.ph; await box.flush(); noteSave(n); saved(USER && NOTE_SRV ? 'Saved on this device' : 'Saved'); notePush(n); }, 700); };
-  const box = hwBox($('#nBox'), {key: NOTE_PRE + n.id, text: n.text || '', rows: 18, math: !!(B() && B().math), mode: n.mode || noteDefMode(), big: true, placeholder: 'Type your notes… (or switch to Write to use your stylus)',
+  const counts = () => { if (!got) return false; const had = n.ink || n.ph, c = box.counts; n.ink = c.ink; n.ph = c.ph; return !!had && !c.ink && !c.ph; }; // false when the ink lives elsewhere: keep its counts
+  const touch = () => { n.e = Date.now(); if (got) n.mode = box.mode; noteLocal(n.id); S.newNote = null; clearTimeout(sT); saved('Saving…'); sT = setTimeout(async () => { const cl = counts(); await box.flush(); noteSave(n); saved(USER && nsrvOn() ? 'Saved on this device' : 'Saved'); if (got) notePush(n, cl); }, 700); };
+  const box = hwBox($('#nBox'), {key: NOTE_PRE + n.id, text: n.text || '', rows: 18, math: !!(B() && B().math), mode: n.mode || noteDefMode(), big: true, only: got ? null : ['type'], placeholder: 'Type your notes… (or switch to Write to use your stylus)',
     onText: v => { n.text = v; touch(); }, onChange: k => { if (k !== 'load') touch(); }});
-  $('#nBack').onclick = async () => { await box.flush(); clearTimeout(sT); if (n.e && noteHas(n)) { const c = box.counts; n.ink = c.ink; n.ph = c.ph; noteSave(n); notePush(n); } renderNotes(); };
-  $('#nDel').onclick = async () => { clearTimeout(sT); if (!noteOf(n.id)) { if (noteHas(n) && !confirm('Discard this note?')) return; S.newNote = null; await box.flush(); IDB.del(hwKey(NOTE_PRE + n.id)); return renderNotes(); } if (noteDel(n)) renderNotes(); };
+  $('#nBack').onclick = async () => { const pend = !!sT; clearTimeout(sT); sT = 0; await box.flush(); if (n.e && (noteHas(n) || noteOf(n.id))) { const cl = counts(); if (pend || cl) { noteSave(n); if (got) notePush(n, cl); } } renderNotes(); };
+  if ($('#nRetry')) $('#nRetry').onclick = () => openNote(n.id);
+  $('#nDel').onclick = async () => { clearTimeout(sT); sT = 0; if (noteOf(n.id)) { if (noteDel(n)) { box.cancel(); IDB.del(hwKey(NOTE_PRE + n.id)); renderNotes(); } return; } if (!noteOf(n.id)) { if (noteHas(n) && !confirm('Discard this note?')) return; S.newNote = null; await box.flush(); IDB.del(hwKey(NOTE_PRE + n.id)); return renderNotes(); } if (noteDel(n)) renderNotes(); };
   $('#nT').oninput = e => { n.title = e.target.value.trim(); n.titleSet = n.title ? 1 : 0; title([['Notes', 'notes'], noteTitle(n)]); if (noteHas(n) || n.title) { clearTimeout(n._tt); n._tt = setTimeout(() => { delete n._tt; noteSave(n); }, 500); } };
   $('#nB').onchange = e => { n.book = e.target.value; n.bookSet = n.book ? 1 : 0; n.topic = ''; n.topicSet = 0; drawTp(); if (noteHas(n)) noteSave(n); };
-  $('#nTp').onchange = e => { n.topic = e.target.value; n.topicSet = n.topic ? 1 : 0; if (noteHas(n)) noteSave(n); };
+  $('#nTp').onchange = e => { n.topic = e.target.value; n.topicSet = n.topic ? 1 : 0; if (n.topic) n.bookSet = 1; if (noteHas(n)) noteSave(n); };
   const busy = (b, msg) => { ['nOrgB', 'nTidy', 'nCards'].forEach(i => $('#' + i).disabled = !!b); $('#nMsg').innerHTML = b ? '<span class="spin"></span> ' + esc(msg) : esc(msg || ''); };
-  const need = async () => { await box.flush(); const c = box.counts; n.ink = c.ink; n.ph = c.ph; if (!noteHas(n)) { busy(0, 'Write or type something first.'); return false; } if (!n.e) n.e = Date.now(); noteLocal(n.id); noteSave(n); return true; };
+  const need = async () => { await box.flush(); counts(); if (!noteHas(n)) { busy(0, 'Write or type something first.'); return false; } if (!n.e) n.e = Date.now(); noteLocal(n.id); noteSave(n); return true; };
   $('#nOrgB').onclick = async () => { if (!(await need())) return; busy(1, box.hasImages ? 'Reading your handwriting and filing it…' : 'Filing it…');
     try { await noteOrganise(n); if (S.note !== n) return; $('#nT').value = n.title || ''; title([['Notes', 'notes'], noteTitle(n)]); $('#nB').value = n.book || ''; drawTp(); drawTags(); drawOut(); const Bk = B(); busy(0, Bk ? 'Filed under ' + Bk.subject + (n.topic ? ' · ' + n.topic : '') : 'Organised'); }
     catch (e) { n.orgFail = Date.now(); noteSave(n); busy(0, 'Could not organise: ' + e.message); } };
+  const fresh = async () => { if (box.hasImages && (!n.read || noteDirty(n))) { busy(1, 'Reading your handwriting first…'); await noteOrganise(n); if (S.note === n) { $('#nT').value = n.title || ''; drawTags(); drawOut(); } } };
   $('#nTidy').onclick = async () => { if (!(await need())) return; busy(1, 'Writing your revision sheet…');
-    try { const imgs = n.read ? [] : box.images(), r = await api('ask', {mode: 'mark', rubric: NOTE_TIDY, book: n.book || (S.book && S.book.id), pages: [], hw: imgs.length, messages: [{role: 'user', content: askContent(`My notes${n.title ? ' on ' + n.title : ''}:\n"""\n${[n.text, n.read && '[Handwritten part]\n' + n.read].filter(Boolean).join('\n\n').slice(0, 30000) || '(handwritten, see the images)'}\n"""`, imgs, 'Page')}]});
+    try { await fresh(); busy(1, 'Writing your revision sheet…'); const imgs = [], r = await api('ask', {mode: 'mark', rubric: NOTE_TIDY, book: n.book || (S.book && S.book.id), pages: [], hw: imgs.length, messages: [{role: 'user', content: askContent(`My notes${n.title ? ' on ' + n.title : ''}:\n"""\n${[n.text, n.read && '[Handwritten part]\n' + n.read].filter(Boolean).join('\n\n').slice(0, 30000) || '(handwritten, see the images)'}\n"""`, imgs, 'Page')}]});
       const md = String(r.text || '').replace(/^```(?:markdown|md)?\s*|\s*```$/g, '').trim(); if (!md) throw new Error('empty reply'); if (S.note !== n) return; n.clean = md.slice(0, 30000); noteSave(n); drawOut(); busy(0, ''); $('.nclean') && $('.nclean').scrollIntoView({behavior: 'smooth'}); }
     catch (e) { busy(0, 'Could not tidy: ' + e.message); } };
   $('#nCards').onclick = async () => { if (!(await need())) return; busy(1, 'Writing flashcards from your note…');
-    try { const imgs = n.read ? [] : box.images(), r = await api('ask', {mode: 'mark', rubric: CARD_SYS, book: n.book || (S.book && S.book.id), pages: [], hw: imgs.length, messages: [{role: 'user', content: askContent(`Write 8-15 flashcards covering the most examinable content of these study notes (only what is in them):\n"""\n${[n.text, n.read].filter(Boolean).join('\n\n').slice(0, 30000) || '(handwritten, see the images)'}\n"""`, imgs, 'Page')}]});
+    try { await fresh(); busy(1, 'Writing flashcards from your note…'); const imgs = [], r = await api('ask', {mode: 'mark', rubric: CARD_SYS, book: n.book || (S.book && S.book.id), pages: [], hw: imgs.length, messages: [{role: 'user', content: askContent(`Write 8-15 flashcards covering the most examinable content of these study notes (only what is in them):\n"""\n${[n.text, n.read].filter(Boolean).join('\n\n').slice(0, 30000) || '(handwritten, see the images)'}\n"""`, imgs, 'Page')}]});
       const cards = ((pj(r.text) || {}).cards || []).filter(c => c && c.f && c.b); if (!cards.length) throw new Error('no cards came back'); const d = addCards('Notes · ' + noteTitle(n).slice(0, 50), n.book || '', cards.map(c => ({...c, ...(n.topic ? {tp: n.topic} : {})})));
       saveDeck(d); if (S.note !== n) return; $('#nMsg').innerHTML = `Added ${cards.length} cards to “${esc(d.name)}”. <a href="#" id="nGoC">Study them</a>`; ['nOrgB', 'nTidy', 'nCards'].forEach(i => $('#' + i).disabled = false);
       $('#nGoC').onclick = e => { e.preventDefault(); S.tv = 'decks'; LS.set('ib-tv', 'decks'); go('terms'); }; }
@@ -3174,6 +3228,7 @@ async function signIn(name) {
   const kn = knownNames().filter(x => ukey(x) !== u.key); kn.unshift(u.name); LS.set('ib-known', kn.slice(0, 6));
   const gp = LS.get('ib-prog:guest', null), gl = LS.get('ib-plan:guest', null) || [];
   loadLocal(); if (S.books.length) await pullProg();
+  await hwAdoptGuest(u.key);
   if (gp) { mergeIn({pins: [], marks: [], hls: [], ...gp, pt: 0}); for (const k of ['pins', 'marks', 'hls']) for (const x of gp[k] || []) if (!S.prog[k].some(y => JSON.stringify(y) === JSON.stringify(x))) S.prog[k].push(x); }
   if (gl.length) { let sp = []; try { sp = await api('plan'); } catch (e) {} S.plan = [...(Array.isArray(sp) ? sp : []), ...gl.filter(x => !(sp || []).some(y => y.id === x.id))]; LS.set(LSK('ib-plan'), S.plan); await api('plan', {data: S.plan}).catch(() => {}); }
   else S.planLoaded = 0;

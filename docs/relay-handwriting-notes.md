@@ -73,7 +73,7 @@ Sizes: ink is usually 20–300 KB of JSON. Photos are data URLs of about 150–4
 ### `POST /ib/notedel`
 `{"user": "...", "id": "..."}` → `{"ok":1}`. Deletes the stored object. Also called when a note ends up with no ink and no photos.
 
-Errors: reply `{"err": "..."}` as other ops do. If the worker returns an error containing "unknown", "unsupported", "not found", "no such", "bad op" or "404", the app stops calling the note store for 24 hours and keeps notes on the device only. So an un-updated worker should reply `{"err":"unknown op"}` (or 404) for these ops.
+Errors: reply `{"err": "..."}` as other ops do. If the worker returns an error containing "unknown", "unsupported", "no such op", "bad op" or "404", the app stops calling the note store for 24 hours and keeps notes on the device only. So an un-updated worker should reply `{"err":"unknown op"}` (or 404) for these ops.
 
 Guest users (no `user` key) never call these ops.
 
