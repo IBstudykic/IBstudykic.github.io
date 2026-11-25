@@ -50,6 +50,9 @@ input::placeholder,textarea::placeholder{color:var(--mut)}
 textarea{resize:vertical;line-height:1.6}
 a{color:var(--acc);text-underline-offset:3px}
 .hide{display:none!important}
+header .nb{padding:7px 9px;flex:none}header .nb.off{opacity:.35;pointer-events:none}
+.kbd{display:inline-block;min-width:22px;text-align:center;font:600 12px var(--f-ui);padding:2px 6px;border:1px solid var(--line2);border-bottom-width:2px;border-radius:5px;background:var(--panel)}.keys{display:grid;grid-template-columns:auto 1fr;gap:8px 14px;align-items:center;font-size:14px}
+.qctx{background:var(--sunk);border-left:3px solid var(--acc);border-radius:6px;padding:10px 14px;margin:0 0 14px;font-size:.93em}.qctx>.meta{font-family:var(--f-ui);font-weight:600;margin-bottom:4px}.qctx p{margin:.35em 0}.qctx img{max-width:100%;height:auto;background:#fff;border-radius:4px}
 /* settings (html classes/vars set by applySettings) */
 .reader{max-width:var(--rw,760px)!important}body.focus .reader{max-width:max(900px,var(--rw,760px))!important}
 html.lh :is(.page,.page p,.page li,.qbig,.qc .qt,.msg,.flash .def,.flash .term,.case p){line-height:var(--lh)!important}
@@ -84,7 +87,7 @@ html.rm *:not(.spin){transition:none!important;animation:none!important;scroll-b
 .me:hover{background:color-mix(in srgb,var(--ink) 6%,transparent)}
 .av{width:28px;height:28px;border-radius:50%;background:var(--acc);color:var(--acc-ink);display:inline-flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;flex:none}
 .col{min-width:0}
-header{position:sticky;top:0;z-index:5;display:flex;align-items:center;gap:8px;padding:0 20px;height:56px;background:color-mix(in srgb,var(--bg) 92%,transparent);backdrop-filter:saturate(1.4) blur(8px);border-bottom:1px solid var(--line)}
+header{position:sticky;top:0;z-index:5;display:flex;align-items:center;gap:8px;padding:0 20px;min-height:56px;background:color-mix(in srgb,var(--bg) 92%,transparent);backdrop-filter:saturate(1.4) blur(8px);border-bottom:1px solid var(--line)}
 header h1{font:600 16px/1.2 var(--f-ui);margin:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0;display:flex;gap:6px;align-items:center}
 header h1 .crumb{color:var(--mut);font-weight:500;cursor:pointer}
 header h1 .crumb:hover{color:var(--ink)}
@@ -179,8 +182,8 @@ body.mmopen #modal{z-index:57}
 .ctx{font-size:12px;color:var(--mut);padding:8px 16px;border-bottom:1px solid var(--line);background:var(--sunk)}
 .srch svg{position:absolute;left:10px;top:50%;transform:translateY(-50%);color:var(--mut)}
 #q{padding-left:32px;background:var(--panel)}
-.wrap{display:grid;grid-template-columns:270px minmax(0,1fr);min-height:calc(100vh - 56px)}
-aside{border-right:1px solid var(--line);overflow:auto;max-height:calc(100vh - 56px);position:sticky;top:56px;padding:14px 8px 40px}
+.wrap{display:grid;grid-template-columns:270px minmax(0,1fr);min-height:calc(100vh - var(--hh,56px))}
+aside{border-right:1px solid var(--line);overflow:auto;max-height:calc(100vh - var(--hh,56px));position:sticky;top:var(--hh,56px);padding:14px 8px 40px}
 aside .t{display:flex;width:100%;text-align:left;border:none;background:none;padding:5px 10px;border-radius:6px;color:var(--ink2);font-size:13.5px;line-height:1.35;gap:8px}
 aside .t span:first-child{flex:1}
 aside .t:hover{background:var(--sunk);color:var(--ink)}
@@ -228,7 +231,7 @@ mark{background:#ffe28a;color:#1c2230;border-radius:3px;padding:0 1px}
 .katex{font-size:1.04em}
 .ask{position:fixed;right:20px;bottom:20px;z-index:8;display:flex;flex-direction:column;align-items:flex-end;gap:8px}.ask>#askT{box-shadow:0 6px 18px -4px rgba(30,25,10,.3)}
 .askm{display:flex;flex-direction:column;padding:6px;gap:2px;min-width:220px;box-shadow:0 14px 40px -12px rgba(0,0,0,.3)}.askm.hide{display:none}.askm button{border:none;background:none;justify-content:flex-start;padding:9px 10px;border-radius:7px}.askm button:hover{background:var(--sunk)}
-.drawer{position:fixed;top:56px;right:0;bottom:0;width:min(460px,100%);z-index:9;display:flex;flex-direction:column;background:var(--panel);border-left:1px solid var(--line);box-shadow:-12px 0 40px -12px rgba(0,0,0,.18)}
+.drawer{position:fixed;top:var(--hh,56px);right:0;bottom:0;width:min(460px,100%);z-index:9;display:flex;flex-direction:column;background:var(--panel);border-left:1px solid var(--line);box-shadow:-12px 0 40px -12px rgba(0,0,0,.18)}
 .drawer .hd{display:flex;align-items:center;padding:12px 16px;border-bottom:1px solid var(--line);font-weight:600;gap:8px}
 .drawer .hd span{flex:1;line-height:1.3}
 .chat{flex:1;overflow:auto;padding:16px}
@@ -390,13 +393,14 @@ a.btn{display:inline-flex;padding:7px 12px;border-radius:8px;text-decoration:non
   #bot svg.i{width:20px;height:20px}
   .drawer{bottom:58px}
   .ask{bottom:76px}
-  aside{position:fixed;left:0;top:56px;bottom:0;width:86%;max-width:320px;z-index:7;transform:translateX(-105%);transition:transform .2s;max-height:none;background:var(--panel);box-shadow:8px 0 30px rgba(0,0,0,.15)}
+  aside{position:fixed;left:0;top:var(--hh,56px);bottom:0;width:86%;max-width:320px;z-index:7;transform:translateX(-105%);transition:transform .2s;max-height:none;background:var(--panel);box-shadow:8px 0 30px rgba(0,0,0,.15)}
   aside.open{transform:none}
   #menuBtn{display:inline-flex}
   main{padding:16px 16px 90px}
   .page{padding:22px 18px;font-size:17px}
-  header{padding:0 10px;gap:4px}
-  header h1{display:none}
+  header{padding:4px 8px 0;gap:2px;flex-wrap:wrap}
+  header h1{order:10;flex-basis:100%;font-size:13px;padding:0 6px 7px;min-height:22px}header h1>span:last-child{overflow:hidden;text-overflow:ellipsis}
+  header .nb{padding:7px 8px}
   .srch{flex:1 1 120px}
   .sugg{min-width:0;left:-60px;right:-90px}
   #thm{display:none}
@@ -443,6 +447,7 @@ a.btn{display:inline-flex;padding:7px 12px;border-radius:8px;text-decoration:non
 <nav id="side"><div class="brand" id="home">IB <b>Study</b></div><div class="nv tabs"><button data-tab="home"><svg class="i"><use href="#i-home"/></svg><span>Home</span></button><div class="grp">Study</div><button data-tab="rev"><svg class="i"><use href="#i-loop"/></svg><span>Review</span></button><button data-tab="lib"><svg class="i"><use href="#i-book"/></svg><span>Library</span></button><div id="pins"></div><button data-tab="prac"><svg class="i"><use href="#i-pen"/></svg><span>Practice</span></button><button data-tab="terms"><svg class="i"><use href="#i-cards"/></svg><span>Flashcards</span></button><button data-tab="ref"><svg class="i"><use href="#i-flask"/></svg><span>Reference</span></button><div class="grp">Organise</div><button data-tab="mine"><svg class="i"><use href="#i-spark"/></svg><span>My sections</span></button><button data-tab="plan"><svg class="i"><use href="#i-cal"/></svg><span>Planner</span></button><button data-tab="prog"><svg class="i"><use href="#i-chart"/></svg><span>Progress</span></button><button data-tab="set"><svg class="i"><use href="#i-gear"/></svg><span>Settings</span></button></div><button class="me" id="me"></button></nav>
 <div class="col">
 <header>
+  <button id="hHome" class="ghost nb" aria-label="Home" title="Home (g h)"><svg class="i"><use href="#i-home"/></svg></button><button id="hBack" class="ghost nb" aria-label="Back" title="Back (Alt+←)"><svg class="i"><use href="#i-l"/></svg></button>
   <button id="menuBtn" class="ghost hide" aria-label="Contents"><svg class="i"><use href="#i-menu"/></svg></button>
   <h1 id="ttl"></h1>
   <div class="srch"><svg class="i"><use href="#i-search"/></svg><input id="q" type="search" placeholder="Search  (press /)" autocomplete="off"><div id="sugg" class="card sugg hide"></div></div>
@@ -554,11 +559,14 @@ function mergeIn(r) {
 // ---------- shell ----------
 const TABN = {home: 'Home', lib: 'Library', prac: 'Practice', terms: 'Flashcards', rev: 'Review', ref: 'Reference', prog: 'Progress', plan: 'Planner', mine: 'My sections', set: 'Settings', search: 'Search'};
 // back/forward: each screen writes a hash; same-screen changes (page flips) replace instead of push
-function setHash(h) { if (location.hash === h) return; const seg = x => x.split('/').slice(1, x.startsWith('#/lib/') ? 3 : 2).join('/'), a = seg(location.hash), b = seg(h); history[a === b ? 'replaceState' : 'pushState'](null, '', h); }
+let NAVN = 0; // screens pushed this visit, so Back never leaves the site
+function setHash(h) { if (location.hash === h) return; const seg = x => x.split('/').slice(1, x.startsWith('#/lib/') ? 3 : 2).join('/'), a = seg(location.hash), b = seg(h); if (a !== b) NAVN++; history[a === b ? 'replaceState' : 'pushState'](null, '', h); }
+function goBack() { if (NAVN > 0) history.back(); else go('home'); }
 function title(parts) { $('#ttl').innerHTML = parts.map((x, i) => i < parts.length - 1 ? `<span class="crumb" data-go="${x[1]}">${esc(x[0])}</span><span class="sep">/</span>` : `<span>${esc(Array.isArray(x) ? x[0] : x)}</span>`).join('');
   $('#ttl').querySelectorAll('[data-go]').forEach(c => c.onclick = () => go(c.dataset.go)); }
 function shell(t) { // chrome for a screen: nav highlight, contents panel, title
   if (S.tab !== t) closeDrawer();
+  $('#hHome').classList.toggle('off', t === 'home'); $('#hBack').classList.toggle('off', t === 'home' && !NAVN);
   S.tab = t; document.querySelectorAll('.tabs [data-tab]').forEach(b => b.classList.toggle('on', b.dataset.tab === t)); $('#moreB').classList.toggle('on', MORE.some(x => x[0] === t));
   const rd = t === 'lib' && S.reading; $('#toc').classList.toggle('hide', !rd); $('#menuBtn').classList.toggle('hide', !rd);
   document.querySelector('.wrap').style.gridTemplateColumns = rd ? '' : 'minmax(0,1fr)'; title([TABN[t]]);
@@ -810,7 +818,7 @@ function openQ(id) {
   const q = S.qs.find(x => x.id === id); if (!q) return renderPrac(); const B = bookOf(q.book), draft = LS.get(LSK('ib-d-' + id), ''), prev = attOf(id); MATH = !!B.math;
   shell('prac'); S.q = q; S.rc = null; setHash('#/q/' + id); title([['Practice', 'prac'], (KIND[q.kind] || q.kind) + (q.topic ? ' · ' + q.topic : '')]);
   $('#main').innerHTML = `<div class="prac">${sessBar('q', id)}<div class="row" style="margin-bottom:10px"><button id="back"><svg class="i"><use href="#i-l"/></svg>All questions</button><span class="sp" style="flex:1"></span><button id="qSend" title="Send this question to a friend">Send</button>${q.n ? `<button id="src">Open in textbook (p. ${esc(q.bp)})</button>` : ''}</div>
-    <div class="card qbig"><div style="font-family:var(--f-ui);margin-bottom:10px"><span class="tag">${KIND[q.kind] || q.kind}</span>${qTags(q)}${q.marks ? '<span class="tag">' + q.marks + (q.marks === 1 ? ' mark' : ' marks') + '</span>' : ''}${q.calc === 'no' ? '<span class="tag w">No calculator</span>' : q.calc === 'yes' ? '<span class="tag">Calculator</span>' : ''}<span class="meta">${esc(q.set ? q.set + ' · ' : '')}${esc(q.topic ? topicName(B, q.topic) : '')}</span></div>${mdx(optLines(q.text))}${q.ctx ? `<div class="meta" style="font-family:var(--f-ui);margin-top:10px">${esc(q.ctx)}</div>` : ''}</div>
+    <div class="card qbig"><div style="font-family:var(--f-ui);margin-bottom:10px"><span class="tag">${KIND[q.kind] || q.kind}</span>${qTags(q)}${q.marks ? '<span class="tag">' + q.marks + (q.marks === 1 ? ' mark' : ' marks') + '</span>' : ''}${q.calc === 'no' ? '<span class="tag w">No calculator</span>' : q.calc === 'yes' ? '<span class="tag">Calculator</span>' : ''}<span class="meta">${esc(q.set ? q.set + ' · ' : '')}${esc(q.topic ? topicName(B, q.topic) : '')}</span></div>${ctxBox(q.ctx)}${mdx(optLines(q.text))}${ctxLine(q.ctx)}</div>
     <div style="margin-top:14px"><textarea id="ans" rows="${q.kind === 'essay' ? 18 : 8}" placeholder="Answer">${esc(draft)}</textarea>
     <div class="row" style="margin-top:8px"><span class="meta" id="wc"></span><span class="meta" id="tm"></span><span style="flex:1"></span><button id="hint">Hint</button><button class="pri" id="mark">Mark with Claude</button></div></div>
     <div id="fbx"></div>${q.ms ? `<details class="card" style="padding:12px 16px;margin-top:14px"><summary><b>Official answer</b> <span class="meta">(try it first)</span></summary><div style="margin-top:8px">${mdx(q.ms)}</div></details>` : ''}
@@ -1221,7 +1229,11 @@ function mistakes(book) {
 // ---------- past papers (PPP mode) ----------
 // kv 'papers': [{id, book, title, session, paper, mins, total?, bounds?: [[7, pct], [6, pct], ...], instr?, qs: [{n, text, marks, kind?, ms?, ans?, opts?}]}]
 const DEF_BOUNDS = [[7, 70], [6, 58], [5, 47], [4, 36], [3, 25], [2, 14], [1, 0]];
-const ppQ = (P, q) => q.qid ? {...(S.qs.find(x => x.id === q.qid) || {}), id: q.qid, kind: q.kind, marks: q.marks} : ({id: 'pp:' + P.id + ':' + q.n, book: P.book, kind: q.kind || (q.opts || q.ans ? 'mcq' : 'structured'), marks: q.marks, text: q.text, ms: q.ms, ans: q.ans, topic: q.topic, pp: P.id, ppn: q.n, bp: '', pages: []});
+// a question's shared setup (scenario, data, diagram) is a full box above it; short notes stay a grey line under it
+const bigCtx = c => !!c && (c.length > 90 || /\n|\$|!\[/.test(c));
+const ctxBox = (c, same) => !bigCtx(c) ? '' : same ? `<div class="qctx"><div class="meta">Same setup as question ${esc(same)}</div></div>` : `<div class="qctx"><div class="meta">Setup</div>${mdx(c)}</div>`;
+const ctxLine = c => c && !bigCtx(c) ? `<div class="meta" style="font-family:var(--f-ui);margin-top:10px">${esc(c)}</div>` : '';
+const ppQ = (P, q) => q.qid ? {...(S.qs.find(x => x.id === q.qid) || {}), id: q.qid, kind: q.kind, marks: q.marks} : ({id: 'pp:' + P.id + ':' + q.n, book: P.book, kind: q.kind || (q.opts || q.ans ? 'mcq' : 'structured'), marks: q.marks, text: q.text, ms: q.ms, ans: q.ans, topic: q.topic, ctx: q.ctx, pp: P.id, ppn: q.n, bp: '', pages: []});
 async function loadPapers() { if (S.papers) return S.papers; try { S.papers = await api('papers'); if (!Array.isArray(S.papers)) S.papers = []; } catch (e) { S.papers = []; }
   for (const P of S.papers) for (const q of P.qs || []) { const x = ppQ(P, q); if (!S.qs.some(y => y.id === x.id)) S.qs.push(x); } return S.papers; }
 const gradeOf = (P, pc) => ((P.bounds || DEF_BOUNDS).find(([, m]) => pc * 100 >= m) || [1])[0];
@@ -1242,7 +1254,7 @@ function openPaper(id) {
   }
   const lim = P.mins ? P.mins * 60e3 : 0;
   $('#main').innerHTML = `<div class="prac"><div class="ppbar card"><b>${esc(P.title)}</b><span class="sp"></span><span class="num" id="ppT"></span><button id="ppQuit">Abandon</button><button class="pri" id="ppSub">Submit</button></div>
-    ${P.qs.map(q => { const x = ppQ(P, q); return `<div class="card qbig" style="margin-top:14px"><div style="font-family:var(--f-ui);margin-bottom:8px"><b>${esc(q.n)}.</b> ${q.marks ? '<span class="tag">' + q.marks + (q.marks === 1 ? ' mark' : ' marks') + '</span>' : ''}</div>${mdx(optLines(q.text))}
+    ${P.qs.map((q, i) => { const x = ppQ(P, q), c = q.ctx || x.ctx, pr = P.qs.slice(0, i).find(y => (y.ctx || ppQ(P, y).ctx) === c); return `<div class="card qbig" style="margin-top:14px"><div style="font-family:var(--f-ui);margin-bottom:8px"><b>${esc(q.n)}.</b> ${q.marks ? '<span class="tag">' + q.marks + (q.marks === 1 ? ' mark' : ' marks') + '</span>' : ''}</div>${ctxBox(c, pr && pr.n)}${mdx(optLines(q.text))}${ctxLine(c)}
       ${x.kind === 'mcq' ? `<div class="row" style="font-family:var(--f-ui);margin-top:10px">${['A', 'B', 'C', 'D'].map(L => `<label class="opt"><input type="radio" name="o${esc(q.n)}" value="${L}" ${st.ans[q.n] === L ? 'checked' : ''} data-n="${esc(q.n)}"> ${L}</label>`).join('')}</div>`
       : `<textarea data-n="${esc(q.n)}" rows="${(q.marks || 4) > 6 ? 12 : 5}" style="margin-top:10px;font:15px/1.6 var(--f-ui)" placeholder="Answer">${esc(st.ans[q.n] || '')}</textarea>`}</div>`; }).join('')}
     <div class="row" style="margin:18px 0"><span class="sp"></span><button class="pri" id="ppSub2">Submit paper</button></div></div>`;
@@ -1260,7 +1272,7 @@ async function submitPaper(P, st, K) {
   const one = async q => { const x = ppQ(P, q), a = (st.ans[q.n] || '').trim(), max = q.marks || (x.kind === 'mcq' ? 1 : 4);
     if (!a) { tick(); return {q, x, a, fb: {score: 0, max, verdict: 'Not answered.', good: [], missed: [], fix: [], plan: '', terms: []}}; }
     if (x.kind === 'mcq' && q.ans) { tick(); const ok = a.toUpperCase() === String(q.ans).toUpperCase(); return {q, x, a, fb: {score: ok ? max : 0, max, verdict: ok ? 'Correct.' : 'Answer: ' + q.ans, good: [], missed: [], fix: [], plan: '', terms: []}}; }
-    try { const r = await api('ask', {mode: 'mark', rubric: (RUBRIC[x.kind] || RUBRIC.structured) + (q.ms ? '\n\nOfficial markscheme (follow it):\n' + q.ms : '') + MARK_FMT, book: P.book, pages: [], messages: [{role: 'user', content: `Question ${q.n} (${max} marks): ${q.text}\n\nStudent answer:\n"""\n${a}\n"""`}]});
+    try { const r = await api('ask', {mode: 'mark', rubric: (RUBRIC[x.kind] || RUBRIC.structured) + (q.ms ? '\n\nOfficial markscheme (follow it):\n' + q.ms : '') + MARK_FMT, book: P.book, pages: [], messages: [{role: 'user', content: `${(q.ctx || x.ctx) ? 'Setup / context: ' + (q.ctx || x.ctx) + '\n\n' : ''}Question ${q.n} (${max} marks): ${q.text}\n\nStudent answer:\n"""\n${a}\n"""`}]});
       const fb = JSON.parse(r.text); fb.max = max; fb.score = Math.min(max, +fb.score || 0); tick(); return {q, x, a, fb}; } catch (e) { tick(); return {q, x, a, fb: {score: 0, max, verdict: 'Marking failed: ' + e.message, good: [], missed: [], fix: [], plan: '', terms: []}}; } };
   const qs = [...P.qs]; const work = async () => { while (qs.length) { const q = qs.shift(); out.push(await one(q)); } }; await Promise.all([work(), work(), work()]);
   out.sort((a, b) => P.qs.indexOf(a.q) - P.qs.indexOf(b.q));
@@ -1300,7 +1312,7 @@ function buildMock(B, o) { // fill ~0.9 marks a minute (IB papers run close to t
   picks.sort((a, b) => (a.kind === 'mcq' ? 0 : 1) - (b.kind === 'mcq' ? 0 : 1) || (a.diff || 2) - (b.diff || 2) || mkOf(a) - mkOf(b));
   const P = {id: 'mock-' + Math.random().toString(36).slice(2, 8), mock: 1, book: B.id, mins: o.mins, title: `${B.subject} mock${o.paper ? ' · Paper ' + o.paper : ''}`, session: fmtD(todayS(), {day: 'numeric', month: 'short', year: 'numeric'}) + ` · ${o.mins} min`,
     instr: `${picks.length} questions, ${tot} marks. Answer all of them. ${o.calc === 'no' ? 'No calculator.' : ''} Your mark and an estimated IB grade come at the end, with a breakdown by topic.`,
-    qs: picks.map((q, i) => ({n: String(i + 1), qid: q.id, text: q.text, marks: mkOf(q), kind: q.kind === 'mcq' ? 'mcq' : q.kind === 'essay' ? 'essay' : 'structured', ms: q.ms, ans: q.ans, topic: q.topic}))};
+    qs: picks.map((q, i) => ({n: String(i + 1), qid: q.id, text: q.text, marks: mkOf(q), kind: q.kind === 'mcq' ? 'mcq' : q.kind === 'essay' ? 'essay' : 'structured', ms: q.ms, ans: q.ans, topic: q.topic, ctx: q.ctx}))};
   LS.set(LSK('ib-mocks'), [P, ...mocks()].slice(0, 25)); return P;
 }
 function examHtml(B) {
@@ -2527,7 +2539,7 @@ function route() {
   if (TABN[a] && a !== 'search') return go(a);
   go('home');
 }
-addEventListener('popstate', () => { if (S.books.length) { $('#modal') && $('#modal').remove(); route(); } });
+addEventListener('popstate', () => { NAVN = Math.max(0, NAVN - 1); if (S.books.length) { $('#modal') && $('#modal').remove(); route(); } });
 
 // ---------- boot ----------
 async function boot() {
@@ -2541,6 +2553,22 @@ async function boot() {
 }
 document.querySelectorAll('.tabs [data-tab]').forEach(b => b.onclick = () => go(b.dataset.tab));
 $('#menuBtn').onclick = () => $('#toc').classList.toggle('open');
+$('#hHome').onclick = () => { closeDrawer(); go('home'); }; $('#hBack').onclick = () => { if ($('#modal')) return $('#modal').remove(); goBack(); };
+new ResizeObserver(() => document.documentElement.style.setProperty('--hh', document.querySelector('header').offsetHeight + 'px')).observe(document.querySelector('header'));
+// g then a letter jumps to a screen; ? lists the shortcuts
+const GOK = {h: 'home', r: 'rev', l: 'lib', p: 'prac', f: 'terms', e: 'ref', m: 'mine', c: 'plan', g: 'prog', s: 'set'}; let gWait = 0;
+function keysHelp() { openModal(`<h3 style="margin:0 0 12px;font:600 20px var(--f-read)">Keyboard shortcuts</h3><div class="keys">
+  ${Object.entries(GOK).map(([k, t]) => `<span><span class="kbd">g</span> <span class="kbd">${k}</span></span><span>${TABN[t]}</span>`).join('')}
+  <span><span class="kbd">/</span></span><span>Search or jump to anything (sections, terms, screens)</span><span><span class="kbd">Alt</span> <span class="kbd">←</span></span><span>Back</span>
+  <span><span class="kbd">←</span> <span class="kbd">→</span></span><span>Previous / next textbook page</span><span><span class="kbd">f</span></span><span>Full-screen reading</span>
+  <span><span class="kbd">Esc</span></span><span>Close a panel or popup</span><span><span class="kbd">?</span></span><span>This list</span></div><div class="row" style="margin-top:16px"><span class="sp"></span><button id="mClose">Close</button></div>`); }
+document.addEventListener('keydown', e => {
+  if (/INPUT|TEXTAREA|SELECT/.test(document.activeElement.tagName) || e.metaKey || e.ctrlKey || e.altKey) return;
+  if (e.key === '?') { e.preventDefault(); return keysHelp(); }
+  if (e.key === 'Escape') { if ($('#modal')) $('#modal').remove(); else if (!$('#drawer').classList.contains('hide')) closeDrawer(); else $('#toc').classList.remove('open'); }
+  if (gWait && Date.now() - gWait < 1200 && GOK[e.key]) { gWait = 0; e.preventDefault(); e.stopImmediatePropagation(); closeDrawer(); return go(GOK[e.key]); }
+  gWait = e.key === 'g' ? Date.now() : 0;
+}, true);
 $('#toc').onclick = e => { const t = e.target.closest('.t'); if (t) openPage(S.book.id, +t.dataset.n); };
 $('#q').oninput = e => suggest(e.target.value);
 $('#q').onfocus = e => suggest(e.target.value);
