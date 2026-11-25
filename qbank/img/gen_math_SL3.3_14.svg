@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
   "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="349.2pt" height="244.410932pt" viewBox="0 0 349.2 244.410932" xmlns="http://www.w3.org/2000/svg" version="1.1">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="349.2pt" height="257.369143pt" viewBox="0 0 349.2 257.369143" xmlns="http://www.w3.org/2000/svg" version="1.1">
  <metadata>
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-11-25T10:45:04.176941</dc:date>
+    <dc:date>2026-11-25T10:46:46.607666</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -21,8 +21,8 @@
  </defs>
  <g id="figure_1">
   <g id="patch_1">
-   <path d="M 0 244.410932 
-L 349.2 244.410932 
+   <path d="M 0 257.369143 
+L 349.2 257.369143 
 L 349.2 0 
 L 0 0 
 z
@@ -33,7 +33,7 @@ z
     <path d="M 56.703898 179.246222 
 C 54.857197 175.285959 51.917654 171.934052 48.232314 169.586232 
 C 44.546974 167.238411 40.26681 165.990857 35.897143 165.990857 
-" clip-path="url(#pcfc4c27757)" style="fill: none; stroke: #000000; stroke-width: 1.2; stroke-linejoin: miter"/>
+" clip-path="url(#p0fd1c10356)" style="fill: none; stroke: #000000; stroke-width: 1.2; stroke-linejoin: miter"/>
    </g>
    <g id="patch_3">
     <path d="M 253.530409 108.493382 
@@ -41,18 +41,18 @@ C 257.176992 106.388026 260.028461 103.136549 261.63983 99.246359
 C 263.2512 95.35617 263.534048 91.040734 262.444236 86.9735 
 C 261.354424 82.906266 258.951752 79.310414 255.611171 76.747096 
 C 252.27059 74.183777 248.175406 72.79365 243.964695 72.79365 
-" clip-path="url(#pcfc4c27757)" style="fill: none; stroke: #000000; stroke-width: 1.2; stroke-linejoin: miter"/>
+" clip-path="url(#p0fd1c10356)" style="fill: none; stroke: #000000; stroke-width: 1.2; stroke-linejoin: miter"/>
    </g>
    <g id="line2d_1">
     <path d="M 35.897143 188.948571 
 L 243.964695 91.925078 
 L 320.490409 224.471504 
-" clip-path="url(#pcfc4c27757)" style="fill: none; stroke: #000000; stroke-width: 1.8; stroke-linecap: square"/>
+" clip-path="url(#p0fd1c10356)" style="fill: none; stroke: #000000; stroke-width: 1.8; stroke-linecap: square"/>
    </g>
    <g id="line2d_2">
     <path d="M 35.897143 188.948571 
 L 320.490409 224.471504 
-" clip-path="url(#pcfc4c27757)" style="fill: none; stroke-dasharray: 4.44,1.92; stroke-dashoffset: 0; stroke: #000000; stroke-width: 1.2"/>
+" clip-path="url(#p0fd1c10356)" style="fill: none; stroke-dasharray: 4.44,1.92; stroke-dashoffset: 0; stroke: #000000; stroke-width: 1.2"/>
    </g>
    <g id="patch_4">
     <path d="M 35.897143 186.948319 
@@ -295,7 +295,7 @@ z
    </g>
    <g id="text_7">
     <!-- 8 km -->
-    <g transform="translate(273.789807 156.574414) scale(0.14 -0.14)">
+    <g transform="translate(280.417128 152.748128) scale(0.14 -0.14)">
      <defs>
       <path id="DejaVuSans-1b" d="M 2034 2216 
 Q 1584 2216 1326 1975 
@@ -465,7 +465,7 @@ z
    </g>
    <g id="text_10">
     <!-- diagram not to scale -->
-    <g transform="translate(228.37 215.003136) scale(0.11 -0.11)">
+    <g transform="translate(228.37 247.526565) scale(0.11 -0.11)">
      <defs>
       <path id="DejaVuSans-Oblique-47" d="M 2675 525 
 Q 2444 222 2128 65 
@@ -837,8 +837,8 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="pcfc4c27757">
-   <rect x="7.2" y="7.2" width="334.8" height="210.445714"/>
+  <clipPath id="p0fd1c10356">
+   <rect x="7.2" y="7.2" width="334.8" height="242.969143"/>
   </clipPath>
  </defs>
 </svg>

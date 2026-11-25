@@ -12,7 +12,7 @@
 <circle cx="330" cy="170" r="4" fill="#111"/>
 <circle cx="330" cy="290" r="4" fill="#111"/>
 <circle cx="240" cy="290" r="4" fill="#111"/>
-<text x="48" y="176" text-anchor="end" font-size="15" fill="#111">12 V</text>
+<text x="80" y="176" text-anchor="start" font-size="15" fill="#111">12 V</text>
 <text x="222" y="176" text-anchor="end" font-size="15" fill="#111">100 Ω</text>
 <text x="300" y="160" text-anchor="middle" font-size="15" fill="#111">S</text>
 <text x="318" y="236" text-anchor="end" font-size="15" fill="#111">50 Ω</text>

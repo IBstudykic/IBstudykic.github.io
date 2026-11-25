@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-11-25T10:45:04.244939</dc:date>
+    <dc:date>2026-11-25T10:46:46.748974</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -37,7 +37,7 @@ C 124.097962 20.076923 101.889324 26.02771 82.315385 37.328729
 C 62.741445 48.629748 46.483594 64.887599 35.182575 84.461538 
 L 146.7 148.846154 
 z
-" clip-path="url(#pfd75a23f07)" style="fill: #e6e6e6; stroke: #000000; stroke-width: 1.8; stroke-linejoin: miter"/>
+" clip-path="url(#p278f0b1e54)" style="fill: #e6e6e6; stroke: #000000; stroke-width: 1.8; stroke-linejoin: miter"/>
    </g>
    <g id="patch_3">
     <path d="M 163.427614 139.188462 
@@ -45,7 +45,7 @@ C 161.732461 136.252371 159.293783 133.813693 156.357692 132.11854
 C 153.421601 130.423387 150.090306 129.530769 146.7 129.530769 
 C 143.309694 129.530769 139.978399 130.423387 137.042308 132.11854 
 C 134.106217 133.813693 131.667539 136.252371 129.972386 139.188462 
-" clip-path="url(#pfd75a23f07)" style="fill: none; stroke: #000000; stroke-width: 1.2; stroke-linejoin: miter"/>
+" clip-path="url(#p278f0b1e54)" style="fill: none; stroke: #000000; stroke-width: 1.2; stroke-linejoin: miter"/>
    </g>
    <g id="text_1">
     <!-- O -->
@@ -142,7 +142,7 @@ z
    </g>
    <g id="text_4">
     <!-- 6 cm -->
-    <g transform="translate(190.478316 129.583684) scale(0.14 -0.14)">
+    <g transform="translate(178.67447 109.138822) scale(0.14 -0.14)">
      <defs>
       <path id="DejaVuSans-19" d="M 2113 2584 
 Q 1688 2584 1439 2293 
@@ -234,8 +234,8 @@ z
     </g>
    </g>
    <g id="text_5">
-    <!-- $\frac{2\pi}{3}$ -->
-    <g transform="translate(140.2 117.757692) scale(0.13 -0.13)">
+    <!-- $\dfrac{2\pi}{3}$ -->
+    <g transform="translate(136.425 115.540385) scale(0.15 -0.15)">
      <defs>
       <path id="DejaVuSans-15" d="M 1228 531 
 L 3431 531 
@@ -317,14 +317,14 @@ Q 3006 2619 2597 2516
 z
 " transform="scale(0.015625)"/>
      </defs>
-     <use xlink:href="#DejaVuSans-15" transform="translate(6.25 36.046875) scale(0.7)"/>
-     <use xlink:href="#DejaVuSans-Oblique-354" transform="translate(50.786133 36.046875) scale(0.7)"/>
-     <use xlink:href="#DejaVuSans-16" transform="translate(27.25 -35.990625) scale(0.7)"/>
-     <path d="M 6.25 22.2125 
-L 6.25 28.4625 
-L 92.929688 28.4625 
-L 92.929688 22.2125 
-L 6.25 22.2125 
+     <use xlink:href="#DejaVuSans-15" transform="translate(6.25 74.78125)"/>
+     <use xlink:href="#DejaVuSans-Oblique-354" transform="translate(69.873047 74.78125)"/>
+     <use xlink:href="#DejaVuSans-16" transform="translate(36.25 -75.519043)"/>
+     <path d="M 6.25 21.956055 
+L 6.25 28.206055 
+L 130.078125 28.206055 
+L 130.078125 21.956055 
+L 6.25 21.956055 
 z
 "/>
     </g>
@@ -703,7 +703,7 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="pfd75a23f07">
+  <clipPath id="p278f0b1e54">
    <rect x="7.2" y="7.2" width="279" height="163.107692"/>
   </clipPath>
  </defs>
