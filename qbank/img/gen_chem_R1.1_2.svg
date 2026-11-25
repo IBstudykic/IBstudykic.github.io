@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-11-25T10:48:14.562547</dc:date>
+    <dc:date>2026-11-25T10:48:27.914760</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -400,27 +400,27 @@ L 298.770523 128.65163
 L 331.668483 128.685701 
 L 372.358064 128.685913 
 L 372.358064 128.685913 
-" clip-path="url(#p4031707f95)" style="fill: none; stroke: #111111; stroke-width: 2; stroke-linecap: square"/>
+" clip-path="url(#pb73c80f4fd)" style="fill: none; stroke: #111111; stroke-width: 2; stroke-linecap: square"/>
    </g>
    <g id="line2d_2">
     <path d="M 78.743778 189.42887 
 L 182.372349 189.42887 
-" clip-path="url(#p4031707f95)" style="fill: none; stroke-dasharray: 3.7,1.6; stroke-dashoffset: 0; stroke: #111111"/>
+" clip-path="url(#pb73c80f4fd)" style="fill: none; stroke-dasharray: 3.7,1.6; stroke-dashoffset: 0; stroke: #111111"/>
    </g>
    <g id="line2d_3">
     <path d="M 182.372349 128.685913 
 L 365.449492 128.685913 
-" clip-path="url(#p4031707f95)" style="fill: none; stroke-dasharray: 3.7,1.6; stroke-dashoffset: 0; stroke: #111111"/>
+" clip-path="url(#pb73c80f4fd)" style="fill: none; stroke-dasharray: 3.7,1.6; stroke-dashoffset: 0; stroke: #111111"/>
    </g>
    <g id="line2d_4">
     <path d="M 113.286635 37.571478 
 L 286.000921 37.571478 
-" clip-path="url(#p4031707f95)" style="fill: none; stroke-dasharray: 3.7,1.6; stroke-dashoffset: 0; stroke: #111111"/>
+" clip-path="url(#pb73c80f4fd)" style="fill: none; stroke-dasharray: 3.7,1.6; stroke-dashoffset: 0; stroke: #111111"/>
    </g>
    <g id="line2d_5">
     <path d="M 182.372349 189.42887 
 L 365.449492 189.42887 
-" clip-path="url(#p4031707f95)" style="fill: none; stroke-dasharray: 3.7,1.6; stroke-dashoffset: 0; stroke: #111111"/>
+" clip-path="url(#pb73c80f4fd)" style="fill: none; stroke-dasharray: 3.7,1.6; stroke-dashoffset: 0; stroke: #111111"/>
    </g>
    <g id="patch_3">
     <path d="M 26.929492 240.048 
@@ -632,7 +632,7 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="p4031707f95">
+  <clipPath id="pb73c80f4fd">
    <rect x="26.929492" y="7.2" width="362.7" height="232.848"/>
   </clipPath>
  </defs>
