@@ -686,7 +686,7 @@ function where() {
       screen: `Question (${KIND[q.kind] || q.kind}${q.marks ? ', ' + q.marks + ' marks' : ''}, textbook p. ${q.bp || '?'}):\n${q.text}${q.ctx ? '\nContext: ' + q.ctx : ''}\n\nStudent's draft:\n${d || '(empty)'}`}; }
   if (S.tab === 'terms' && S.term) return {label: 'flashcard “' + S.term.k + '”', book: B.id, note: `[Location: Key terms flashcards (${B.subject}), card "${S.term.k}"]`, screen: `${S.term.k}: ${S.term.d}`};
   if (S.tab === 'prog' && B) return {label: 'your progress', book: B.id, note: `[Location: Progress page (${B.subject})]`, screen: progSummary(B)};
-  const n = {ref: 'Reference (' + (B && B.math ? 'formula sheet' : 'case studies') + ')', home: 'Home page', lib: 'Library (book list)', prac: S.rc ? 'Free recall (help with understanding only; do not give away the answers while they are recalling)' : 'Practice question list', terms: 'Flashcards', rev: 'Review page', plan: 'Planner', search: 'search results'}[S.tab];
+  const n = {ref: 'Reference (' + (B && B.math ? 'formula sheet' : B ? B.subject + ' examples' : 'examples') + ')', home: 'Home page', lib: 'Library (book list)', prac: S.rc ? 'Free recall (help with understanding only; do not give away the answers while they are recalling)' : 'Practice question list', terms: 'Flashcards', rev: 'Review page', plan: 'Planner', search: 'search results'}[S.tab];
   return n && B ? {label: n, book: B.id, note: `[Location: ${n}${S.tab === 'prac' || S.tab === 'terms' ? ' (' + B.subject + ')' : ''}]`} : null;
 }
 function progSummary(B) {
@@ -695,12 +695,18 @@ function progSummary(B) {
   const rows = Object.entries(by).map(([t, a]) => topicName(B, t) + ' ' + Math.round(a.reduce((s, x) => s + x, 0) / a.length * 100) + '%');
   return `${B.subject}: ${qs.length} questions tried. Best mark by topic: ${rows.join('; ') || 'none yet'}.`;
 }
+// the relay attaches CH.book's textbook; say the subject outright so Claude doesn't assume it from the book, and on general pages let it switch
+function subjNote(o) { const B = bookOf(o.book); if (!B) return '';
+  const others = [...new Set(S.books.map(b => b.subject).filter(x => x !== B.subject))];
+  return o.general ? `[Subject: the attached textbook is ${B.subject} (${B.title}), only because it is the book the student last had open. They also study ${others.join(', ')}. Work out which subject they mean from the question and tutor that subject; don't assume ${B.subject}.]\n`
+    : `[Subject: IB ${B.subject}. You are tutoring ${B.subject} from ${B.title}. Answer as a ${B.subject} teacher.]\n`; }
 async function sendChat(text) {
   if (!CH || !text.trim() || CH.busy) return;
   const first = !CH.msgs.some(m => m.role === 'user'), w = CH.agent ? null : where();
   // one line saying where the student is (only when it changed); Claude fetches pages / the open question itself with tools
   let note = '';
   if (w && w.note !== CH.lastNote) { note = w.note + '\n'; CH.lastNote = w.note; }
+  if (first && !CH.agent) note = subjNote(CH) + note;
   CH.msgs.push({role: 'user', content: note + (first && CH.intro ? CH.intro : '') + text, show: text}); CH.busy = true; drawChat(true);
   if (CH.agent) {
     if (!USER) { CH.msgs.push({role: 'assistant', content: 'Sign in (top right) to use the planner assistant. It saves to your account.'}); CH.busy = false; drawChat(); return; }
@@ -1240,7 +1246,7 @@ async function submitPaper(P, st, K) {
   const one = async q => { const x = ppQ(P, q), a = (st.ans[q.n] || '').trim(), max = q.marks || (x.kind === 'mcq' ? 1 : 4);
     if (!a) { tick(); return {q, x, a, fb: {score: 0, max, verdict: 'Not answered.', good: [], missed: [], fix: [], plan: '', terms: []}}; }
     if (x.kind === 'mcq' && q.ans) { tick(); const ok = a.toUpperCase() === String(q.ans).toUpperCase(); return {q, x, a, fb: {score: ok ? max : 0, max, verdict: ok ? 'Correct.' : 'Answer: ' + q.ans, good: [], missed: [], fix: [], plan: '', terms: []}}; }
-    try { const r = await api('ask', {mode: 'mark', rubric: (RUBRIC[x.kind] || RUBRIC.structured) + (q.ms ? '\n\nOfficial markscheme (follow it):\n' + q.ms : '') + MARK_FMT, book: P.book, pages: [], messages: [{role: 'user', content: `Question ${q.n} (${max} marks): ${q.text}\n\nStudent answer:\n"""\n${a}\n"""`}]});
+    try { const r = await api('ask', {mode: 'mark', rubric: rubricFor({book: P.book, kind: RUBRIC[x.kind] ? x.kind : 'structured'}) + (q.ms ? '\n\nOfficial markscheme (follow it):\n' + q.ms : '') + MARK_FMT, book: P.book, pages: [], messages: [{role: 'user', content: `Question ${q.n} (${max} marks): ${q.text}\n\nStudent answer:\n"""\n${a}\n"""`}]});
       const fb = JSON.parse(r.text); fb.max = max; fb.score = Math.min(max, +fb.score || 0); tick(); return {q, x, a, fb}; } catch (e) { tick(); return {q, x, a, fb: {score: 0, max, verdict: 'Marking failed: ' + e.message, good: [], missed: [], fix: [], plan: '', terms: []}}; } };
   const qs = [...P.qs]; const work = async () => { while (qs.length) { const q = qs.shift(); out.push(await one(q)); } }; await Promise.all([work(), work(), work()]);
   out.sort((a, b) => P.qs.indexOf(a.q) - P.qs.indexOf(b.q));
@@ -2422,8 +2428,8 @@ $('#q').onkeydown = e => {
 $('#dClose').onclick = closeDrawer;
 $('#home').onclick = () => go('home');
 $('#tutor').onclick = () => { if (S.tab === 'mine' && S.sp && spOf(S.sp)) return spChat(spOf(S.sp)); if (S.tab === 'plan') return openChat({title: 'Planner assistant', agent: true, msgs: S.planChat || []});
-  const w = where(), B = w && w.book ? bookOf(w.book) : S.book;
-  openChat({title: 'Claude tutor · ' + B.subject, book: B.id, pages: [], intro: ''}); };
+  const w = where(), B = w && w.book ? bookOf(w.book) : S.book, general = !S.mm && (!['lib', 'prac', 'terms', 'prog', 'ref'].includes(S.tab) || (S.tab === 'lib' && !S.reading));
+  openChat({title: 'Claude tutor' + (general ? '' : ' · ' + B.subject), book: B.id, pages: [], intro: '', general}); };
 $('#cf').onsubmit = e => { e.preventDefault(); const v = $('#ci').value; $('#ci').value = ''; sendChat(v); };
 $('#ci').onkeydown = e => { if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); $('#cf').requestSubmit(); } };
 document.addEventListener('keydown', e => {
