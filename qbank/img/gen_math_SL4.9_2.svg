@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-11-25T10:45:48.835209</dc:date>
+    <dc:date>2026-11-25T10:59:50.772466</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -375,7 +375,7 @@ L 25.007916 184.608
 L 24.34714 184.608 
 L 23.686364 184.608 
 z
-" clip-path="url(#pe09481d6e6)" style="fill: #9ecae1"/>
+" clip-path="url(#pdf6b1e9a16)" style="fill: #9ecae1"/>
    </g>
    <g id="FillBetweenPolyCollection_2">
     <path d="M 243.724804 184.608 
@@ -715,18 +715,18 @@ L 245.046356 184.608
 L 244.38558 184.608 
 L 243.724804 184.608 
 z
-" clip-path="url(#pe09481d6e6)" style="fill: #9ecae1"/>
+" clip-path="url(#pdf6b1e9a16)" style="fill: #9ecae1"/>
    </g>
    <g id="matplotlib.axis_1">
     <g id="xtick_1">
      <g id="line2d_1">
       <defs>
-       <path id="mc053c17ddf" d="M 0 0 
+       <path id="mc7c6e1e8fc" d="M 0 0 
 L 0 3.5 
 " style="stroke: #000000; stroke-width: 0.8"/>
       </defs>
       <g>
-       <use xlink:href="#mc053c17ddf" x="133.595455" y="184.608" style="stroke: #000000; stroke-width: 0.8"/>
+       <use xlink:href="#mc7c6e1e8fc" x="133.595455" y="184.608" style="stroke: #000000; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_1">
@@ -736,7 +736,7 @@ L 0 3.5
     <g id="xtick_2">
      <g id="line2d_2">
       <g>
-       <use xlink:href="#mc053c17ddf" x="243.504545" y="184.608" style="stroke: #000000; stroke-width: 0.8"/>
+       <use xlink:href="#mc7c6e1e8fc" x="243.504545" y="184.608" style="stroke: #000000; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_2">
@@ -839,23 +839,41 @@ L 344.823547 182.509444
 L 351.431308 183.165601 
 L 353.413636 183.32295 
 L 353.413636 183.32295 
-" clip-path="url(#pe09481d6e6)" style="fill: none; stroke: #000000; stroke-width: 1.6; stroke-linecap: square"/>
+" clip-path="url(#pdf6b1e9a16)" style="fill: none; stroke: #000000; stroke-width: 1.6; stroke-linecap: square"/>
    </g>
    <g id="patch_3">
     <path d="M 7.2 184.608 
 L 369.9 184.608 
 " style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
    </g>
+   <g id="patch_4">
+    <path d="M 59.018591 102.606045 
+Q 84.702173 135.561652 109.698491 167.635403 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 108.552776 161.935636 
+L 109.698491 167.635403 
+L 104.451249 165.132115 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+   </g>
    <g id="text_4">
-    <text style="font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: middle" x="100.622727" y="162.0288" transform="rotate(-0 100.622727 162.0288)">0.15</text>
+    <text style="font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: middle" x="51.163636" y="95.904" transform="rotate(-0 51.163636 95.904)">0.15</text>
+   </g>
+   <g id="patch_5">
+    <path d="M 318.081409 102.606045 
+Q 292.397827 135.561652 267.401509 167.635403 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 272.648751 165.132115 
+L 267.401509 167.635403 
+L 268.547224 161.935636 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
    </g>
    <g id="text_5">
-    <text style="font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: middle" x="276.477273" y="162.0288" transform="rotate(-0 276.477273 162.0288)">0.15</text>
+    <text style="font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: middle" x="325.936364" y="95.904" transform="rotate(-0 325.936364 95.904)">0.15</text>
    </g>
   </g>
  </g>
  <defs>
-  <clipPath id="pe09481d6e6">
+  <clipPath id="pdf6b1e9a16">
    <rect x="7.2" y="7.2" width="362.7" height="177.408"/>
   </clipPath>
  </defs>

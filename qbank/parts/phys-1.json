@@ -227,7 +227,7 @@
   "tname": "Forces and momentum",
   "text": "A ball of mass $0.15\\ \\text{kg}$ travels horizontally at $8.0\\ \\text{m s}^{-1}$ towards a bat. The graph shows how the force exerted on the ball by the bat varies with time. The force acts in the direction opposite to the ball's initial velocity.\n\n![force-time graph: triangle rising to 120 N at 25 ms and back to zero at 50 ms](qbank/img/gen_phys_A.2_5.svg)\n\nWhat is the speed of the ball when it leaves the bat?\n\nA. $12\\ \\text{m s}^{-1}$\nB. $20\\ \\text{m s}^{-1}$\nC. $28\\ \\text{m s}^{-1}$\nD. $32\\ \\text{m s}^{-1}$",
   "marks": 1,
-  "ms": "Impulse = area $= \\frac{1}{2}(0.050)(120) = 3.0\\ \\text{N s}$. Taking the bat's force as positive: $p_{\\text{final}} = -0.15 \\times 8.0 + 3.0 = 1.8\\ \\text{kg m s}^{-1}$, so $v = 12\\ \\text{m s}^{-1}$. B ignores the initial momentum; C adds it with the wrong sign; D omits the $\\frac{1}{2}$ in the triangle area and the reversal.",
+  "ms": "Impulse = area $= \\frac{1}{2}(0.050)(120) = 3.0\\ \\text{N s}$. Taking the bat's force as positive: $p_{\\text{final}} = -0.15 \\times 8.0 + 3.0 = 1.8\\ \\text{kg m s}^{-1}$, so $v = 12\\ \\text{m s}^{-1}$. B ignores the initial momentum; C adds it with the wrong sign; D omits the $\\frac{1}{2}$ in the triangle area (impulse taken as $6.0\\ \\text{N s}$).",
   "diff": 3,
   "paper": "1A",
   "ans": "A",

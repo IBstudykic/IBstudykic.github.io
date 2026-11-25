@@ -248,7 +248,7 @@
   "tname": "Electron transfer reactions",
   "text": "The half-equation for the reduction of manganate(VII) ions to manganese(II) ions in acidic solution is balanced. What are the numbers of electrons and of $\\ce{H+}$ ions on the left-hand side?\n\nA. 5 electrons and 8 $\\ce{H+}$\nB. 5 electrons and 4 $\\ce{H+}$\nC. 3 electrons and 8 $\\ce{H+}$\nD. 7 electrons and 8 $\\ce{H+}$",
   "marks": 1,
-  "ms": "**A.** $\\ce{MnO4- + 8H+ + 5e- -> Mn^2+ + 4H2O}$: Mn goes from +7 to +2 (5 electrons) and 8 $\\ce{H+}$ are needed to form 4 $\\ce{H2O}$ with the four O atoms. B balances O with only 2 $\\ce{H2O}$; D uses the oxidation state +7 as the number of electrons; C uses the change for $\\ce{MnO4- -> MnO2}$.",
+  "ms": "**A.** $\\ce{MnO4- + 8H+ + 5e- -> Mn^2+ + 4H2O}$: Mn goes from +7 to +2 (5 electrons) and 8 $\\ce{H+}$ are needed to form 4 $\\ce{H2O}$ with the four O atoms. B balances O with only 2 $\\ce{H2O}$; D uses the oxidation state +7 as the number of electrons; C uses the 3-electron change for reduction to $\\ce{MnO2}$ (+7 → +4) with the $\\ce{H+}$ count for $\\ce{Mn^2+}$.",
   "diff": 2,
   "paper": "1A",
   "src": "gen",
@@ -627,7 +627,8 @@
   "diff": 2,
   "paper": "2",
   "src": "gen",
-  "set": "IB-style practice"
+  "set": "IB-style practice",
+  "lvl": "HL"
  },
  {
   "id": "gen:chem:R3.4:10",
