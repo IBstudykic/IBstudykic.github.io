@@ -460,6 +460,28 @@ a.btn{display:inline-flex;padding:7px 12px;border-radius:8px;text-decoration:non
 .nb{padding:10px 12px 12px;display:flex;flex-direction:column;gap:3px}.nsum{font-size:13.5px;color:var(--ink2)}
 .nempty{padding:34px 28px;text-align:center;max-width:620px;margin:30px auto}.nempty p{color:var(--ink2)}
 .nclean .page{margin-top:6px}
+
+/* French B section */
+.fr h2{font:600 26px/1.2 var(--f-read);letter-spacing:-.015em;margin:0}.fr h3{margin:22px 0 10px}
+.frnav{display:flex;max-width:100%;overflow-x:auto;scrollbar-width:none}.frnav::-webkit-scrollbar{display:none}.frnav button{white-space:nowrap;flex:none}
+.frt{display:flex;flex-direction:column;align-items:flex-start;gap:4px;text-align:left;padding:14px 16px;box-shadow:var(--sh)}.frt b{font-weight:600;font-size:15.5px}.frt:hover{border-color:var(--acc)}
+.frst{margin-top:4px;font-size:12px;font-weight:600;color:var(--acc)}
+.frk{display:flex;flex-wrap:wrap;gap:4px;margin:8px 0 0}.frk button{padding:3px 0;min-width:30px;justify-content:center;font-size:15px;background:var(--sunk);border-color:var(--line)}
+.frres{font-weight:600}.frres.ok{color:var(--good)}.frres.no{color:var(--bad)}.frres.accent{color:var(--warn)}
+.frq input{font:18px var(--f-read)}.frq button{font-family:var(--f-ui);font-size:15px}
+.frci{padding:10px 0;border-bottom:1px solid var(--line)}.frci:last-of-type{border-bottom:none}.frci>div:first-child{margin-bottom:6px;font-family:var(--f-read);font-size:16.5px}.frci input:not([type]){max-width:420px}.frcr{margin-top:4px;font-size:14px}
+.frwl>div{display:flex;align-items:center;gap:6px;flex-wrap:wrap;padding:8px 14px}.frwl>div>span:last-child{color:var(--ink2)}
+.frsay{padding:3px 6px;border-color:transparent;background:none}.frsay.on{color:var(--acc)}
+.frg{display:flex;align-items:center;gap:10px;text-decoration:none;color:inherit}.frg:hover b{color:var(--acc)}
+.frpage{padding:30px 40px}.frpage ul.frpit li{margin:4px 0}.frtpl blockquote,.frtpl{font-family:var(--f-read)}
+.frpr{gap:12px;align-items:center}
+.frread{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:14px;margin-top:10px;align-items:start}.frread>.fb{position:sticky;top:calc(var(--hh,60px) + 10px);max-height:calc(100vh - var(--hh,60px) - 30px);overflow:auto}
+.frhid>*{filter:blur(7px);user-select:none}
+.frstim{margin-top:12px;padding:26px 28px;text-align:center;background:linear-gradient(135deg,var(--acc2),var(--sunk))}.frscene{font:17px/1.6 var(--f-read);max-width:62ch;margin:8px auto 14px;font-style:italic}.frcap{font:600 22px/1.3 var(--f-read)}
+.frbig{font:600 30px/1 var(--f-read)}.frcrit{padding:14px 16px}.frcrit p{margin:6px 0 0;font-size:14.5px}
+.frcor{width:100%;border-collapse:collapse;font-size:14px}.frcor td,.frcor th{border-bottom:1px solid var(--line);padding:6px 8px;text-align:left;vertical-align:top}
+.frvt .card{padding:12px 14px;font-size:14.5px}.frvt .card>div[lang]{margin-top:6px;line-height:1.7;font-family:var(--f-read);font-size:16px}
+@media (max-width:820px){.frread{grid-template-columns:1fr}.frread>.fb{position:static;max-height:none}.frpage{padding:22px 18px}}
 </style>
 </head>
 <body>
@@ -497,6 +519,7 @@ a.btn{display:inline-flex;padding:7px 12px;border-radius:8px;text-decoration:non
 <symbol id="i-grid" viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="1.5"/><path d="M4 9.3h16M4 14.6h16M9.3 4v16M14.6 4v16"/></symbol>
 <symbol id="i-note" viewBox="0 0 24 24"><path d="M6 3.5h8.5l4 4v13H6z"/><path d="M14.5 3.5v4h4"/><path d="M9 12.5h6M9 16h4"/></symbol>
 <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+<symbol id="i-lang" viewBox="0 0 24 24"><path d="M4.5 5.5h15v10h-8l-4.5 3.5v-3.5H4.5z"/><path d="M8.5 9h7M8.5 12h4.5"/></symbol>
 <symbol id="i-trash" viewBox="0 0 24 24"><path d="M4 7h16M9.5 7V4.5h5V7M6.5 7l.9 12.5h9.2L17.5 7"/></symbol>
 </svg>
 <div id="login" class="card hide">
@@ -504,7 +527,7 @@ a.btn{display:inline-flex;padding:7px 12px;border-radius:8px;text-decoration:non
   <form id="lf" class="row" style="flex-direction:column;align-items:stretch;gap:12px"><input id="lp" type="password" placeholder="Site password" autocomplete="current-password"><input id="ln" autocomplete="given-name" maxlength="30" placeholder="First name (optional, to sync)"><button class="pri" style="justify-content:center">Continue</button><div id="le" class="meta" style="color:var(--bad)"></div><div id="known"></div></form>
 </div>
 <div id="app" class="hide">
-<nav id="side"><div class="brand" id="home">IB <b>Study</b></div><div class="nv tabs"><button data-tab="home"><svg class="i"><use href="#i-home"/></svg><span>Home</span></button><div class="grp">Study</div><button data-tab="rev"><svg class="i"><use href="#i-loop"/></svg><span>Review</span></button><button data-tab="lib"><svg class="i"><use href="#i-book"/></svg><span>Library</span></button><div id="pins"></div><button data-tab="prac"><svg class="i"><use href="#i-pen"/></svg><span>Practice</span></button><button data-tab="terms"><svg class="i"><use href="#i-cards"/></svg><span>Flashcards</span></button><button data-tab="ref"><svg class="i"><use href="#i-flask"/></svg><span>Reference</span></button><div class="grp">Organise</div><button data-tab="notes"><svg class="i"><use href="#i-note"/></svg><span>Notes</span></button><button data-tab="mine"><svg class="i"><use href="#i-spark"/></svg><span>My sections</span></button><button data-tab="plan"><svg class="i"><use href="#i-cal"/></svg><span>Planner</span></button><button data-tab="prog"><svg class="i"><use href="#i-chart"/></svg><span>Progress</span></button><button data-tab="set"><svg class="i"><use href="#i-gear"/></svg><span>Settings</span></button></div><button class="me" id="me"></button></nav>
+<nav id="side"><div class="brand" id="home">IB <b>Study</b></div><div class="nv tabs"><button data-tab="home"><svg class="i"><use href="#i-home"/></svg><span>Home</span></button><div class="grp">Study</div><button data-tab="rev"><svg class="i"><use href="#i-loop"/></svg><span>Review</span></button><button data-tab="lib"><svg class="i"><use href="#i-book"/></svg><span>Library</span></button><div id="pins"></div><button data-tab="prac"><svg class="i"><use href="#i-pen"/></svg><span>Practice</span></button><button data-tab="terms"><svg class="i"><use href="#i-cards"/></svg><span>Flashcards</span></button><button data-tab="ref"><svg class="i"><use href="#i-flask"/></svg><span>Reference</span></button><button data-tab="fr"><svg class="i"><use href="#i-lang"/></svg><span>French B</span></button><div class="grp">Organise</div><button data-tab="notes"><svg class="i"><use href="#i-note"/></svg><span>Notes</span></button><button data-tab="mine"><svg class="i"><use href="#i-spark"/></svg><span>My sections</span></button><button data-tab="plan"><svg class="i"><use href="#i-cal"/></svg><span>Planner</span></button><button data-tab="prog"><svg class="i"><use href="#i-chart"/></svg><span>Progress</span></button><button data-tab="set"><svg class="i"><use href="#i-gear"/></svg><span>Settings</span></button></div><button class="me" id="me"></button></nav>
 <div class="col">
 <header>
   <button id="hHome" class="ghost nb" aria-label="Home" title="Home (g h)"><svg class="i"><use href="#i-home"/></svg></button><button id="hBack" class="ghost nb" aria-label="Back" title="Back (Alt+←)"><svg class="i"><use href="#i-l"/></svg></button>
@@ -609,6 +632,7 @@ function mergeIn(r) {
     const D = S.prog.days = S.prog.days || {}; for (const [d, o] of Object.entries(r.days || {})) { const x = D[d] = D[d] || {}; for (const k of ['m', 'q', 'c', 'p']) x[k] = Math.max(x[k] || 0, o[k] || 0); }
     if ((r.calt || 0) > (S.prog.calt || 0)) { S.prog.cals = r.cals || []; S.prog.calt = r.calt; setTimeout(loadExt, 0); }
     for (const f of ['decks', 'maps', 'spaces', 'notes']) { const DK = S.prog[f] = S.prog[f] || {}; for (const [id, d] of Object.entries(r[f] || {})) if (!DK[id] || (DK[id].t || 0) < (d.t || 0)) { if (f === 'notes' && DK[id]) { for (const k of Object.keys(DK[id])) if (!(k in d) && k[0] !== '_') delete DK[id][k]; Object.assign(DK[id], d); } else DK[id] = d; } }
+    if (r.fr && (r.fr.t || 0) > ((S.prog.fr || {}).t || 0)) S.prog.fr = r.fr;
     for (const k of ['secs', 'rev', 'recall']) { const L = S.prog[k] = S.prog[k] || {}; for (const [kk, v] of Object.entries(r[k] || {})) if (!L[kk] || (L[kk].t || 0) < (v.t || 0)) L[kk] = v; }
     const PP = S.prog.pp = S.prog.pp || {}; for (const [k, v] of Object.entries(r.pp || {})) { const ts = new Set((PP[k] || []).map(x => x.t)); PP[k] = [...(PP[k] || []), ...v.filter(x => !ts.has(x.t))]; }
     for (const [k, v] of Object.entries(r.lastBy || {})) if (!S.prog.lastBy[k] || S.prog.lastBy[k].t < v.t) S.prog.lastBy[k] = v;
@@ -618,7 +642,7 @@ function mergeIn(r) {
 }
 
 // ---------- shell ----------
-const TABN = {home: 'Home', lib: 'Library', prac: 'Practice', terms: 'Flashcards', rev: 'Review', ref: 'Reference', prog: 'Progress', plan: 'Planner', mine: 'My sections', notes: 'Notes', set: 'Settings', search: 'Search'};
+const TABN = {home: 'Home', lib: 'Library', prac: 'Practice', terms: 'Flashcards', rev: 'Review', ref: 'Reference', fr: 'French B', prog: 'Progress', plan: 'Planner', mine: 'My sections', notes: 'Notes', set: 'Settings', search: 'Search'};
 // back/forward: each screen writes a hash; same-screen changes (page flips) replace instead of push
 let NAVN = 0; // screens pushed this visit, so Back never leaves the site
 function setHash(h) { if (location.hash === h) return; const seg = x => x.split('/').slice(1, x.startsWith('#/lib/') ? 3 : 2).join('/'), a = seg(location.hash), b = seg(h); if (a !== b) NAVN++; history[a === b ? 'replaceState' : 'pushState'](null, '', h); }
@@ -633,7 +657,7 @@ function shell(t) { // chrome for a screen: nav highlight, contents panel, title
   document.querySelector('.wrap').style.gridTemplateColumns = rd ? '' : 'minmax(0,1fr)'; title([TABN[t]]);
   document.querySelectorAll('#pins [data-b]').forEach(x => x.classList.toggle('on', rd && x.dataset.b === S.book.id));
 }
-function tab(t) { shell(t); ({home: renderHome, lib: () => S.reading ? openPage(S.book.id, S.n) : renderShelf(), prac: () => renderPrac(), terms: () => renderTerms(), ref: () => renderRef(), prog: renderProg, rev: renderReview, plan: () => renderPlan(true), mine: () => renderMine(), notes: () => renderNotes(), set: renderSettings})[t](); }
+function tab(t) { shell(t); ({home: renderHome, lib: () => S.reading ? openPage(S.book.id, S.n) : renderShelf(), prac: () => renderPrac(), terms: () => renderTerms(), ref: () => renderRef(), prog: renderProg, rev: renderReview, plan: () => renderPlan(true), mine: () => renderMine(), notes: () => renderNotes(), fr: () => renderFrench('home'), set: renderSettings})[t](); }
 function go(t) { if (t === 'lib') S.reading = false; tab(t); }
 function drawPins() { const el = $('#pins'); if (!el || !S.prog) return;
   el.innerHTML = S.prog.pins.map(bookOf).filter(Boolean).map(B => `<button class="sub" data-b="${B.id}"><span class="dot" style="background:${bookC(B)}"></span>${esc(B.subject || B.title)}</button>`).join('');
@@ -729,6 +753,7 @@ function suggest(q) {
   const box = $('#sugg'), v = q.trim().toLowerCase(); if (v.length < 2) { box.classList.add('hide'); return; }
   const out = [], has = t => String(t).toLowerCase().includes(v);
   for (const [k, n] of Object.entries(TABN)) if (k !== 'search' && has(n)) out.push({k: 'Go to', s: n, f: () => go(k)});
+  if (window.frSuggest) frSuggest(v, out);
   const pm = v.match(/^p(?:age|\.)?\s*(\d+)$/); if (pm && S.book) { const pg = S.book.pages; out.push({k: 'Page', s: S.book.subject + ' page ' + pm[1], f: () => openPage(S.book.id, Math.min(pg, +pm[1]))}); }
   for (const B of S.books) for (const t of B.toc) if (out.length < 30 && t.lvl <= 3 && (has(t.title) || (t.num && has(t.num)))) out.push({k: B.subject.split(' ')[0], s: (t.num ? t.num + ' ' : '') + t.title, f: () => openPage(B.id, t.n)});
   for (const B of S.books) for (const t of B.terms || []) if (out.length < 40 && has(t.k)) out.push({k: 'Term', s: (t.k + ' — ' + t.d).replace(/\$/g, ''), f: () => openPage(B.id, t.n, t.k)});
@@ -770,6 +795,8 @@ function where() {
   if (S.mm) { const m = S.mm; return {label: 'mind map “' + m.pg.title + '”' + (m.sel ? ' · ' + m.sel : ''), book: m.M.book || 'math', note: `[Location: ${m.M.title} mind map, topic ${m.pg.title}${m.sel ? ', selected bubble: ' + m.sel : ''}]`, screen: 'Mind map outline:\n' + m.outline}; }
   if (S.tab === 'lib' && S.reading && B) { const sec = secOf(B, S.n), bp = ($('#pn') && $('#pn').dataset.bp) || S.n;
     return {label: `${B.subject} p. ${bp}${sec ? ' · ' + (sec.num ? sec.num + ' ' : '') + sec.title : ''}`, book: B.id, n: S.n, note: `[Location: reading the ${B.subject} textbook, p. ${bp}${sec ? ', section ' + (sec.num ? sec.num + ' ' : '') + sec.title : ''}]`}; }
+  if (S.tab === 'fr' && typeof FR !== 'undefined') { const c = FR.ctx || {}, sc = typeof c.screen === 'function' ? c.screen() : c.screen;
+    return {label: c.label || 'the French B section', book: B && B.id, note: `[Location: French B (SL) study section${c.label ? ', ' + c.label : ''}. The student is learning French: explain in English unless they write in French, give French examples, and correct their French gently]`, ...(sc ? {screen: sc} : {})}; }
   if (S.tab === 'prac' && S.q) { const q = S.q, ta = $('#ans'), d = ta ? ta.value.trim() : '';
     return {label: 'the question you have open', book: q.book, note: `[Location: Practice, answering a ${bookOf(q.book).subject} ${KIND[q.kind] || q.kind} question${q.topic ? ' on ' + q.topic : ''}${d ? ', draft started' : ''}]`,
       screen: `Question (${KIND[q.kind] || q.kind}${q.marks ? ', ' + q.marks + ' marks' : ''}, textbook p. ${q.bp || '?'}):\n${q.text}${q.ctx ? '\nContext: ' + q.ctx : ''}\n\nStudent's draft:\n${d || '(empty)'}${S.qBox && S.qBox.el.isConnected && S.qBox.hasImages ? '\n(They also have handwritten working on screen, which you cannot see. Ask them to type the step they are stuck on if you need it.)' : ''}`}; }
@@ -2882,7 +2909,7 @@ function meMenu() { if (!USER) return signInBox();
   $('#mIcs').onclick = icsModal; $('#mOut').onclick = () => { LS.set('ib-user', null); location.hash = ''; location.reload(); };
 }
 // phones: the bottom bar holds the main tabs, the rest live in this sheet
-const MORE = [['notes', 'Notes', 'note'], ['mine', 'My sections', 'spark'], ['terms', 'Flashcards', 'cards'], ['ref', 'Reference', 'flask'], ['prog', 'Progress', 'chart'], ['set', 'Settings', 'gear']];
+const MORE = [['fr', 'French B', 'lang'], ['notes', 'Notes', 'note'], ['mine', 'My sections', 'spark'], ['terms', 'Flashcards', 'cards'], ['ref', 'Reference', 'flask'], ['prog', 'Progress', 'chart'], ['set', 'Settings', 'gear']];
 function moreSheet() {
   const th = LS.get('ib-theme', 'auto');
   const m = openModal(`<div class="mgo">${MORE.map(([k, l, i]) => `<button data-mt="${k}" class="${S.tab === k ? 'on' : ''}"><svg class="i"><use href="#i-${i}"/></svg>${l}</button>`).join('')}<button id="moIn"><svg class="i"><use href="#i-inbox"/></svg>Messages</button></div>
@@ -3154,6 +3181,7 @@ function route() {
   if (a === 'q' && b) return openQ(b);
   if (a === 'recall' && b && bookOf(b)) return renderRecall(b, c ? +c : undefined);
   if (a === 'ref') return go('ref');
+  if (a === 'fr') return renderFrench(b || 'home', c);
   if (a === 'mine' && b) return openSpace(b);
   if (a === 'notes' && b) return openNote(b);
   if (a === 'paper' && b) return loadPapers().then(() => openPaper(b));
@@ -3178,7 +3206,7 @@ $('#menuBtn').onclick = () => $('#toc').classList.toggle('open');
 $('#hHome').onclick = () => { closeDrawer(); go('home'); }; $('#hBack').onclick = () => { if ($('#modal')) return $('#modal').remove(); goBack(); };
 new ResizeObserver(() => document.documentElement.style.setProperty('--hh', document.querySelector('header').offsetHeight + 'px')).observe(document.querySelector('header'));
 // g then a letter jumps to a screen; ? lists the shortcuts
-const GOK = {h: 'home', r: 'rev', l: 'lib', p: 'prac', f: 'terms', e: 'ref', m: 'mine', n: 'notes', c: 'plan', g: 'prog', s: 'set'}; let gWait = 0;
+const GOK = {b: 'fr', h: 'home', r: 'rev', l: 'lib', p: 'prac', f: 'terms', e: 'ref', m: 'mine', n: 'notes', c: 'plan', g: 'prog', s: 'set'}; let gWait = 0;
 function keysHelp() { openModal(`<h3 style="margin:0 0 12px;font:600 20px var(--f-read)">Keyboard shortcuts</h3><div class="keys">
   ${Object.entries(GOK).map(([k, t]) => `<span><span class="kbd">g</span> <span class="kbd">${k}</span></span><span>${TABN[t]}</span>`).join('')}
   <span><span class="kbd">/</span></span><span>Search or jump to anything (sections, terms, screens)</span><span><span class="kbd">Alt</span> <span class="kbd">←</span></span><span>Back</span>
@@ -3250,5 +3278,7 @@ function showLogin(needPass) {
   loadLocal(); boot();
 })();
 </script>
+<script src="fr/verbs.js"></script>
+<script src="fr/french.js"></script>
 </body>
 </html>
