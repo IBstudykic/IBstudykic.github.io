@@ -144,10 +144,10 @@ function frGram(D, id) {
 function frGramTopic(D, t) {
   const G = D.grammar, i = G.indexOf(t), p = frP(), s = p.g[t.id];
   FR.ctx = {label: 'French grammar: ' + t.title, screen: `French B grammar topic "${t.title}": ${t.summary}`};
-  title([['French B', 'fr'], ['Grammar', 'fr'], t.title]); $('#ttl').querySelectorAll('[data-go]')[1].onclick = () => renderFrench('gram');
+  title([['French B', 'fr'], ['Grammar', 'fr'], t.title.length > 34 ? t.title.slice(0, 32) + '…' : t.title]); $('#ttl').querySelectorAll('[data-go]')[1].onclick = () => renderFrench('gram');
   frBox().innerHTML = `<div class="row"><button class="ghost" id="gBack"><svg class="i"><use href="#i-l"/></svg>All grammar</button><span class="sp"></span>${s ? `<span class="tag ${s.b >= .8 ? 'g' : 'w'}">Best check ${Math.round(s.b * 100)}%</span>` : ''}</div>
     <article class="card page frpage" lang="fr"><div class="meta" style="font-family:var(--f-ui)">${esc(t.group)}${t.level === 'stretch' ? ' · stretch (lifts Criterion A)' : ''}</div><h1>${esc(t.title)}</h1><p><i>${esc(t.summary || '')}</i></p>
-      ${t.exam ? `<div class="co tip"><div class="ct">In the exam</div><p>${mdx(t.exam, true)}</p></div>` : ''}
+      ${t.exam ? `<div class="frex"><b>In the exam</b> ${mdx(t.exam, true)}</div>` : ''}
       ${mdx(t.body || '')}
       ${(t.pitfalls || []).length ? `<h2>Common mistakes</h2><ul class="frpit">${t.pitfalls.map(x => `<li>${mdx(x, true)}</li>`).join('')}</ul>` : ''}</article>
     ${(t.check || []).length ? `<h3 style="margin-top:22px">Check yourself</h3><div class="card fb" id="gc">${t.check.map((c, k) => `<div class="frci"><div>${k + 1}. ${esc(c.q)}</div><input data-k="${k}" id="gci${k}" lang="fr" autocapitalize="off" autocorrect="off" spellcheck="false" placeholder="answer"><div class="frcr" id="gcr${k}"></div></div>`).join('')}

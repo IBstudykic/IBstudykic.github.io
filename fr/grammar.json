@@ -1,0 +1,2514 @@
+[
+ {
+  "id": "present-tense",
+  "group": "Verbs: tenses",
+  "title": "Present tense (regular & spelling-change verbs)",
+  "level": "core",
+  "summary": "How to form the present tense of regular -er, -ir and -re verbs, and the spelling changes in verbs like manger, acheter, appeler and préférer.",
+  "exam": "The present is the backbone of every Paper 1 text and of the oral; spelling-change slips (nous mangons, j'appele) are small but frequent Criterion A errors that examiners notice.",
+  "body": "### What the present tense does\nFrench has only one present tense, so *je joue* can mean \"I play\", \"I am playing\" or \"I do play\". It is used for:\n\n- actions happening now: *Je lis un article sur le climat.* — I am reading an article about the climate.\n- habits and routines: *Le samedi, nous jouons au basket.* — On Saturdays we play basketball.\n- general truths: *L'eau bout à cent degrés.* — Water boils at a hundred degrees.\n- the near future, with a time marker: *Je pars demain matin.* — I'm leaving tomorrow morning.\n- an action that started in the past and is still going on, with **depuis**: *J'habite ici depuis trois ans.* — I have been living here for three years.\n\nTo stress that something is in progress right now, use **être en train de** + infinitive: *Elle est en train de réviser.* — She is (busy) revising.\n\n### The three regular groups\nRemove the infinitive ending (-er, -ir, -re) to find the stem, then add the endings.\n\n| | parler (to speak) | finir (to finish) | vendre (to sell) |\n|---|---|---|---|\n| je | parle | finis | vends |\n| tu | parles | finis | vends |\n| il / elle / on | parle | finit | vend |\n| nous | parlons | finissons | vendons |\n| vous | parlez | finissez | vendez |\n| ils / elles | parlent | finissent | vendent |\n\n- **-er verbs** are by far the largest group (in the present, *aller* is the only truly irregular one). The endings -e, -es, -e, -ent are all silent, so *je parle*, *tu parles*, *ils parlent* sound identical.\n- **-ir verbs like finir** add **-iss-** in the plural: *choisir, réussir, grandir, réfléchir, obéir, remplir*. *Nous choisissons.* — We choose.\n- **-re verbs** have no ending in the il form: *il attend, elle répond, on entend*.\n\nWatch out: verbs such as *partir, sortir, dormir, sentir, servir* end in -ir but do **not** take -iss- (*je pars, nous partons*). They are covered in the irregular-verbs topic.\n\n### Spelling-change verbs (-er verbs)\nThese verbs have regular endings but change their stem to keep the pronunciation.\n\n**1. -ger and -cer verbs (nous form only)**\n- *manger* → *nous mangeons* (the **e** keeps the g soft). Also *nager, voyager, changer, partager, ranger*.\n- *commencer* → *nous commençons* (the **ç** keeps the c soft). Also *lancer, avancer, remplacer, prononcer*.\n\n*Nous partageons nos notes et nous commençons à réviser.* — We share our notes and start revising.\n\n**2. Verbs with e or é in the last syllable of the stem** — the change happens in the \"boot\" (je, tu, il, ils), where the ending is silent. Nous and vous keep the infinitive spelling.\n\n| | acheter (è) | appeler (double l) | préférer (é → è) |\n|---|---|---|---|\n| je / j' | achète | appelle | préfère |\n| tu | achètes | appelles | préfères |\n| il / elle / on | achète | appelle | préfère |\n| nous | achetons | appelons | préférons |\n| vous | achetez | appelez | préférez |\n| ils / elles | achètent | appellent | préfèrent |\n\n- Like *acheter*: *lever, se lever, mener, emmener, amener, se promener, peser*.\n- Like *appeler*: *jeter* → *je jette*, *rappeler*, *épeler*, *s'appeler*.\n- Like *préférer*: *espérer, répéter, considérer, posséder, s'inquiéter, célébrer*.\n\n*Mes parents s'inquiètent quand je rentre tard.* — My parents worry when I come home late.\n\n**3. -yer verbs** — y becomes **i** before a silent e: *essayer* → *j'essaie*, *nettoyer* → *il nettoie*, *envoyer* → *ils envoient*, *s'ennuyer* → *je m'ennuie*. With -ayer verbs (*payer, essayer*) both spellings are accepted: *je paie / je paye*. Nous and vous keep the y: *nous payons, vous essayez*.\n\n### Questions and negatives in the present\n- *Tu parles espagnol ?* / *Est-ce que tu parles espagnol ?* / *Parles-tu espagnol ?* — Do you speak Spanish?\n- *Il ne répond pas à mes messages.* — He doesn't answer my messages.\n\nNever translate English \"do\" or \"am/is/are\" separately: \"I am eating\" is simply *je mange*, and \"do you like?\" is *tu aimes ?*.\n",
+  "pitfalls": [
+   "Translating 'I am eating' word for word: je suis mange → je mange.",
+   "Forgetting the soft-g e or the cédille in the nous form: nous mangons / nous commencons → nous mangeons / nous commençons.",
+   "Applying the accent change to nous/vous: nous achètons, vous préfèrez → nous achetons, vous préférez.",
+   "Using one l in the boot of appeler: je m'appele Léa → je m'appelle Léa.",
+   "Leaving out -iss- in -ir verbs like finir: ils finent → ils finissent.",
+   "Adding -t to -re verbs: il vendt / il attendt → il vend / il attend."
+  ],
+  "check": [
+   {
+    "q": "Nous ___ à la cantine tous les midis. (manger)",
+    "a": [
+     "mangeons"
+    ],
+    "why": "-ger verbs keep an e before -ons so the g stays soft."
+   },
+   {
+    "q": "Nous ___ le cours à huit heures. (commencer)",
+    "a": [
+     "commençons"
+    ],
+    "why": "-cer verbs need ç before o to keep the s sound."
+   },
+   {
+    "q": "Elle ___ ses légumes au marché. (acheter)",
+    "a": [
+     "achète"
+    ],
+    "why": "acheter takes è in the je/tu/il/ils forms."
+   },
+   {
+    "q": "Je m'___ Léa. (appeler)",
+    "a": [
+     "appelle"
+    ],
+    "why": "appeler doubles the l before a silent ending."
+   },
+   {
+    "q": "Vous ___ le thé ou le café ? (préférer)",
+    "a": [
+     "préférez"
+    ],
+    "why": "nous and vous keep the é of the infinitive."
+   },
+   {
+    "q": "Ils ___ leurs devoirs avant le dîner. (finir)",
+    "a": [
+     "finissent"
+    ],
+    "why": "finir-type verbs add -iss- in the plural."
+   },
+   {
+    "q": "Tu ___ la musique ? (entendre)",
+    "a": [
+     "entends"
+    ],
+    "why": "-re verbs: -s, -s, no ending, -ons, -ez, -ent."
+   },
+   {
+    "q": "J'___ réussir mon examen. (espérer)",
+    "a": [
+     "espère"
+    ],
+    "why": "espérer changes é to è in the boot forms."
+   },
+   {
+    "q": "Mes parents ___ le loyer chaque mois. (payer)",
+    "a": [
+     "paient",
+     "payent"
+    ],
+    "why": "-ayer verbs may change y to i before silent e; both spellings are accepted."
+   }
+  ]
+ },
+ {
+  "id": "irregular-present",
+  "group": "Verbs: tenses",
+  "title": "Key irregular verbs in the present",
+  "level": "core",
+  "summary": "The high-frequency irregular verbs (être, avoir, aller, faire, prendre, venir, modal verbs and others) that you must know automatically.",
+  "exam": "About half of all verbs in any text are irregular; being fluent with them in the oral and in Paper 1 is basic to Criterion A, and recognising them quickly speeds up Paper 2 reading.",
+  "body": "### Why learn these first\nThe most common verbs in French are irregular. Learn them as complete tables and say them aloud — most of their forms sound different from the spelling suggests (*ils font*, *vous dites*, *nous buvons*).\n\n### The \"big four\"\n| | être | avoir | aller | faire |\n|---|---|---|---|---|\n| je / j' | suis | ai | vais | fais |\n| tu | es | as | vas | fais |\n| il / elle / on | est | a | va | fait |\n| nous | sommes | avons | allons | faisons |\n| vous | êtes | avez | allez | faites |\n| ils / elles | sont | ont | vont | font |\n\nMany expressions use **avoir** where English uses \"to be\": *avoir faim, avoir soif, avoir chaud, avoir froid, avoir peur, avoir raison, avoir tort, avoir besoin de, avoir envie de, avoir … ans*. *J'ai seize ans et j'ai envie de voyager.* — I'm sixteen and I feel like travelling.\n\n**Faire** is used for weather and many activities: *Il fait beau. Nous faisons du bénévolat.* — The weather is nice. We do volunteer work.\n\n### Modal verbs (followed by an infinitive)\n| | pouvoir | vouloir | devoir | savoir |\n|---|---|---|---|---|\n| je | peux | veux | dois | sais |\n| tu | peux | veux | dois | sais |\n| il / elle / on | peut | veut | doit | sait |\n| nous | pouvons | voulons | devons | savons |\n| vous | pouvez | voulez | devez | savez |\n| ils / elles | peuvent | veulent | doivent | savent |\n\n- *Tu peux m'aider ?* — Can you help me?\n- *On doit protéger la planète.* — We must protect the planet.\n- **savoir** = to know a fact / how to do something: *Je sais nager.* — I can (know how to) swim.\n- **connaître** = to know a person or place: *Je connais bien Marseille.* — I know Marseille well. (*je connais, tu connais, il connaît, nous connaissons, vous connaissez, ils connaissent*)\n\n### Verbs with two stems\n| | prendre | venir | boire | recevoir |\n|---|---|---|---|---|\n| je | prends | viens | bois | reçois |\n| tu | prends | viens | bois | reçois |\n| il / elle / on | prend | vient | boit | reçoit |\n| nous | prenons | venons | buvons | recevons |\n| vous | prenez | venez | buvez | recevez |\n| ils / elles | prennent | viennent | boivent | reçoivent |\n\n- Like *prendre*: *apprendre, comprendre, surprendre*. *Ils comprennent tout.* — They understand everything.\n- Like *venir*: *devenir, revenir, se souvenir, tenir, obtenir, appartenir*. *Elle devient de plus en plus autonome.* — She is becoming more and more independent.\n\n### Other essential verbs\n| infinitive | je | il | nous | ils |\n|---|---|---|---|---|\n| dire (to say) | dis | dit | disons | disent (vous **dites**) |\n| lire (to read) | lis | lit | lisons | lisent |\n| écrire (to write) | écris | écrit | écrivons | écrivent |\n| mettre (to put) | mets | met | mettons | mettent |\n| voir (to see) | vois | voit | voyons | voient |\n| croire (to believe) | crois | croit | croyons | croient |\n| partir (to leave) | pars | part | partons | partent |\n| sortir (to go out) | sors | sort | sortons | sortent |\n| dormir (to sleep) | dors | dort | dormons | dorment |\n| ouvrir (to open) | ouvre | ouvre | ouvrons | ouvrent |\n| vivre (to live) | vis | vit | vivons | vivent |\n| suivre (to follow) | suis | suit | suivons | suivent |\n| courir (to run) | cours | court | courons | courent |\n\n- *Ouvrir, offrir, découvrir, souffrir* take **-er endings**: *j'offre, tu offres, il offre*.\n- *Je suis* can come from *être* or *suivre*: *Je suis un cours de cuisine.* — I'm taking (following) a cooking class.\n- Impersonal verbs: *il faut* (one must, from *falloir*), *il pleut* (it's raining, from *pleuvoir*).\n\n### Useful patterns\nOnly three verbs end in **-ez** irregularly for vous: *vous êtes, vous faites, vous dites*. Only four have a 3rd-person plural in **-ont**: *ils sont, ils ont, ils vont, ils font*. These patterns help you catch errors when you proofread your Paper 1.\n",
+  "pitfalls": [
+   "Regularising the vous form: vous faisez / vous disez → vous faites / vous dites.",
+   "Using être for age or hunger: je suis seize ans → j'ai seize ans; je suis faim → j'ai faim.",
+   "Confusing savoir and connaître: je sais Paris → je connais Paris.",
+   "Using the wrong stem in the plural: ils prendent → ils prennent; ils venent → ils viennent.",
+   "Treating ouvrir like finir: il ouvrit, nous ouvrissons → il ouvre, nous ouvrons (-er endings)."
+  ],
+  "check": [
+   {
+    "q": "Nous ___ du sport le samedi. (faire)",
+    "a": [
+     "faisons"
+    ],
+    "why": "faire: nous faisons."
+   },
+   {
+    "q": "Vous ___ toujours la vérité ! (dire)",
+    "a": [
+     "dites"
+    ],
+    "why": "dire is one of only three verbs with vous ending in -tes."
+   },
+   {
+    "q": "Ils ___ le bus pour aller au lycée. (prendre)",
+    "a": [
+     "prennent"
+    ],
+    "why": "prendre doubles the n in the ils form."
+   },
+   {
+    "q": "Est-ce que tu ___ venir ce soir ? (pouvoir)",
+    "a": [
+     "peux"
+    ],
+    "why": "pouvoir: je peux, tu peux."
+   },
+   {
+    "q": "Elles ___ de Montréal. (venir)",
+    "a": [
+     "viennent"
+    ],
+    "why": "venir: stem vienn- in the ils form."
+   },
+   {
+    "q": "Je ne ___ pas la réponse. (savoir)",
+    "a": [
+     "sais"
+    ],
+    "why": "savoir is used for facts: je sais."
+   },
+   {
+    "q": "Ils ___ finir leurs devoirs. (devoir)",
+    "a": [
+     "doivent"
+    ],
+    "why": "devoir: ils doivent."
+   },
+   {
+    "q": "Nous ___ beaucoup d'eau. (boire)",
+    "a": [
+     "buvons"
+    ],
+    "why": "boire has the stem buv- for nous/vous."
+   },
+   {
+    "q": "Mes amis ___ en vacances demain. (partir)",
+    "a": [
+     "partent"
+    ],
+    "why": "partir does not take -iss-: ils partent."
+   },
+   {
+    "q": "Vous ___ un roman en ce moment ? (lire)",
+    "a": [
+     "lisez"
+    ],
+    "why": "lire: vous lisez."
+   }
+  ]
+ },
+ {
+  "id": "pronominal-verbs",
+  "group": "Verbs: moods & structures",
+  "title": "Pronominal (reflexive) verbs",
+  "level": "core",
+  "summary": "Verbs used with a reflexive pronoun (me, te, se, nous, vous) — for daily routine, reciprocal actions and many idiomatic meanings.",
+  "exam": "Daily-routine and relationship vocabulary (se lever, s'entendre avec, se disputer) appears constantly in the oral and in Paper 1 blogs and diaries; wrong pronoun choice or auxiliary is a common error.",
+  "body": "### Formation\nA pronominal verb has a pronoun that refers back to the subject. The pronoun changes with the person.\n\n| | se lever (to get up) | s'habiller (to get dressed) |\n|---|---|---|\n| je | me lève | m'habille |\n| tu | te lèves | t'habilles |\n| il / elle / on | se lève | s'habille |\n| nous | nous levons | nous habillons |\n| vous | vous levez | vous habillez |\n| ils / elles | se lèvent | s'habillent |\n\n*Me, te, se* become *m', t', s'* before a vowel or silent h.\n\n### Four kinds of pronominal verb\n**1. Reflexive** — the action is done to yourself: *se laver, se doucher, se brosser les dents, se coucher, se réveiller, se maquiller, se raser*.\n*Je me douche et je m'habille en dix minutes.* — I shower and get dressed in ten minutes.\n\nWith parts of the body, French uses the reflexive pronoun + **definite article**, not a possessive: *Il se lave les mains.* — He washes his hands.\n\n**2. Reciprocal** — \"each other\", only in the plural: *s'aimer, se parler, se téléphoner, se voir, se disputer, se retrouver*.\n*Mes cousins et moi, nous nous écrivons chaque semaine.* — My cousins and I write to each other every week.\n\n**3. Idiomatic** — the meaning changes or the verb only exists in pronominal form:\n\n| verb | meaning |\n|---|---|\n| s'entendre (bien) avec | to get on (well) with |\n| se rendre compte de / que | to realise |\n| se souvenir de | to remember |\n| se tromper | to make a mistake, to be wrong |\n| s'occuper de | to look after, to deal with |\n| se moquer de | to make fun of |\n| s'intéresser à | to be interested in |\n| se débrouiller | to manage, to cope |\n| s'en aller | to go away |\n| se passer | to happen |\n| s'ennuyer | to be bored |\n| se sentir | to feel (+ adjective) |\n\n*Je m'entends bien avec ma belle-mère.* — I get on well with my stepmother.\n*Qu'est-ce qui se passe ?* — What's happening?\n\n**4. Passive meaning** — the subject is a thing: *Ce mot ne s'écrit pas comme ça.* — This word isn't written like that. *Les billets se vendent en ligne.* — Tickets are sold online.\n\n### Word order\n- **Negative**: the *ne* goes before the pronoun: *Je ne me lève jamais avant sept heures.* — I never get up before seven.\n- **Question with inversion**: *Te souviens-tu de lui ?* — Do you remember him?\n- **With an infinitive**: the pronoun matches the subject and goes before the infinitive: *Je vais me coucher. Nous devons nous dépêcher.* — I'm going to bed. We must hurry.\n- **Affirmative imperative**: pronoun after the verb, *te* becomes *toi*: *Lève-toi ! Dépêchons-nous ! Asseyez-vous.* — Get up! Let's hurry! Sit down.\n- **Negative imperative**: pronoun stays before: *Ne te lève pas ! Ne vous inquiétez pas.* — Don't get up! Don't worry.\n\n### In compound tenses\nAll pronominal verbs take **être** in the passé composé (and plus-que-parfait, futur antérieur, conditionnel passé):\n*Elle s'est réveillée tard. Nous nous sommes bien amusés.* — She woke up late. We had a great time.\nThe agreement rules (including *elle s'est lavé les mains* with no -e) are explained in the passé composé topic.\n\n### Pronominal or not?\nMany verbs exist in both forms with different meanings:\n- *Je lave la voiture.* (I wash the car) vs *Je me lave.* (I wash myself)\n- *J'appelle mon frère.* (I call my brother) vs *Je m'appelle Inès.* (My name is Inès)\n- *Il trompe sa femme.* (He cheats on his wife) vs *Il se trompe.* (He's wrong)\n- *Elle ennuie ses amis.* (She bores her friends) vs *Elle s'ennuie.* (She is bored)\n",
+  "pitfalls": [
+   "Forgetting the pronoun changes with the subject: nous se levons → nous nous levons.",
+   "Using a possessive with body parts: je me brosse mes dents → je me brosse les dents.",
+   "Using avoir in the passé composé: je m'ai levé → je me suis levé(e).",
+   "Keeping the 'se' of the infinitive with another subject: je vais se coucher → je vais me coucher.",
+   "Wrong imperative form: te lève ! / lève-te ! → lève-toi !"
+  ],
+  "check": [
+   {
+    "q": "Le matin, je ___ à sept heures. (se lever, présent)",
+    "a": [
+     "me lève"
+    ],
+    "why": "je → me; lever takes è before a silent ending."
+   },
+   {
+    "q": "Nous ___ bien avec nos voisins. (s'entendre, présent)",
+    "a": [
+     "nous entendons"
+    ],
+    "why": "With nous the reflexive pronoun is also nous."
+   },
+   {
+    "q": "Tu ___ souvent ! (se tromper, présent)",
+    "a": [
+     "te trompes"
+    ],
+    "why": "tu → te."
+   },
+   {
+    "q": "Ce soir, je vais ___ tôt. (se coucher, infinitive)",
+    "a": [
+     "me coucher"
+    ],
+    "why": "The pronoun before an infinitive matches the subject (je → me)."
+   },
+   {
+    "q": "___ ! Tu vas être en retard. (se dépêcher, imperative, tu)",
+    "a": [
+     "Dépêche-toi"
+    ],
+    "why": "Affirmative imperative: pronoun after the verb, te → toi; -er verbs drop the -s."
+   },
+   {
+    "q": "Ils ne ___ pas de son nom. (se souvenir, présent)",
+    "a": [
+     "se souviennent"
+    ],
+    "why": "se souvenir conjugates like venir: ils se souviennent."
+   },
+   {
+    "q": "Vous ___ à quelle heure ? (se réveiller, présent)",
+    "a": [
+     "vous réveillez"
+    ],
+    "why": "vous → vous."
+   },
+   {
+    "q": "Elle ___ les mains avant de manger. (se laver, présent)",
+    "a": [
+     "se lave"
+    ],
+    "why": "Body parts take the definite article; the verb is reflexive."
+   },
+   {
+    "q": "Ne ___ pas, tout va bien. (s'inquiéter, imperative, vous)",
+    "a": [
+     "vous inquiétez"
+    ],
+    "why": "Negative imperative: pronoun stays before the verb."
+   }
+  ]
+ },
+ {
+  "id": "passe-compose",
+  "group": "Verbs: tenses",
+  "title": "Passé composé",
+  "level": "core",
+  "summary": "The main past tense for completed actions: avoir or être + past participle, with the agreement rules that go with it.",
+  "exam": "Every narrative or recount text type in Paper 1 (blog, diary, article) depends on the passé composé, and auxiliary and agreement errors are among the most frequently penalised under Criterion A.",
+  "body": "### Formation\n**Present tense of avoir or être + past participle (participe passé)**\n\n*J'ai fini mes examens et je suis parti en vacances.* — I finished my exams and went on holiday.\n\n**Regular past participles**\n\n| infinitive ending | participle | example |\n|---|---|---|\n| -er | -é | parler → parlé |\n| -ir | -i | finir → fini |\n| -re | -u | vendre → vendu |\n\n**Common irregular participles**\n\n| infinitive | pp | infinitive | pp |\n|---|---|---|---|\n| avoir | eu | être | été |\n| faire | fait | dire | dit |\n| écrire | écrit | prendre | pris |\n| mettre | mis | voir | vu |\n| lire | lu | boire | bu |\n| pouvoir | pu | vouloir | voulu |\n| devoir | dû | savoir | su |\n| connaître | connu | croire | cru |\n| venir | venu | recevoir | reçu |\n| vivre | vécu | ouvrir | ouvert |\n| offrir | offert | naître | né |\n| mourir | mort | courir | couru |\n| falloir | fallu | pleuvoir | plu |\n\n### Avoir or être?\nMost verbs use **avoir**. Two groups use **être**:\n\n**1. The \"DR MRS VANDERTRAMP\" verbs** (mostly verbs of movement or change of state) and their compounds:\n\n| letter | verb | past participle | letter | verb | past participle |\n|---|---|---|---|---|---|\n| D | devenir | devenu | D | descendre | descendu |\n| R | revenir | revenu | E | entrer | entré |\n| M | monter | monté | R | rentrer | rentré |\n| R | rester | resté | T | tomber | tombé |\n| S | sortir | sorti | R | retourner | retourné |\n| V | venir | venu | A | arriver | arrivé |\n| A | aller | allé | M | mourir | mort |\n| N | naître | né | P | partir | parti |\n| | | | P | passer (by) | passé |\n\n**2. All pronominal verbs**: *je me suis levé(e), ils se sont disputés*.\n\n### Agreement of the past participle\n**With être** — the participle agrees with the **subject** like an adjective (+e feminine, +s plural):\n- *Elle est arrivée hier.* — She arrived yesterday.\n- *Mes amis sont venus à la fête.* — My friends came to the party.\n- *Nous (= Léa et moi) sommes allées au concert.* — We (two girls) went to the concert.\n\n**With avoir** — normally **no agreement** with the subject: *Elles ont mangé.* But the participle agrees with a **direct object placed before the verb** (preceding direct object):\n- *J'ai acheté la robe.* (object after → no agreement)\n- *La robe ? Je l'ai achetée hier.* — The dress? I bought it yesterday.\n- *Les lettres que tu as écrites sont magnifiques.* — The letters (that) you wrote are wonderful.\n- *Quelles villes as-tu visitées ?* — Which cities did you visit?\n\nThere is **never** agreement with *en* or with an indirect object: *Des pommes ? J'en ai mangé trois. Je leur ai parlé.*\n\n**With pronominal verbs** — agree with the reflexive pronoun when it is the direct object (which is usually the case):\n- *Elle s'est réveillée à six heures.* — She woke up at six.\nBut **no agreement** when:\n- a direct object comes after the verb: *Elle s'est lavé les cheveux.* — She washed her hair. (*les cheveux* is the object; *se* = indirect)\n- the verb takes *à* + person, so *se* is indirect: *se parler, se téléphoner, se dire, s'écrire, se sourire, se demander*. *Elles se sont téléphoné.* — They phoned each other.\n\n### Verbs that change auxiliary\n*Monter, descendre, sortir, rentrer, passer, retourner* take **avoir** when they have a direct object:\n- *Je suis sorti avec mes amis.* — I went out with my friends.\n- *J'ai sorti la poubelle.* — I took the bin out.\n- *Elle est descendue.* / *Elle a descendu l'escalier.* — She came down / She came down the stairs.\n- *J'ai passé trois semaines à Dakar.* — I spent three weeks in Dakar.\n\n### Word order\n- **Negative**: ne + auxiliary + pas + pp: *Je n'ai pas compris.* *Nous ne sommes jamais allés en Italie.*\n- **Object pronouns** go before the auxiliary: *Je l'ai vu. Il m'a téléphoné. J'y suis allé.*\n- **Short adverbs** (bien, mal, déjà, encore, souvent, toujours, trop, beaucoup) go between auxiliary and participle: *J'ai déjà vu ce film. Tu as bien dormi ?*\n- **Inversion**: *As-tu fini ? Est-elle partie ?*\n\n### Use\nThe passé composé expresses a **completed** action or a series of events in the past, often with time markers such as *hier, la semaine dernière, en 2020, soudain, tout à coup, une fois, d'abord… ensuite… enfin*. For descriptions and habits in the past, see the imparfait.\n",
+  "pitfalls": [
+   "Using avoir with être verbs: j'ai allé → je suis allé(e).",
+   "Forgetting subject agreement with être: elle est parti → elle est partie.",
+   "Agreeing with the subject after avoir: elles ont mangées → elles ont mangé.",
+   "Missing preceding-direct-object agreement: la lettre que j'ai écrit → la lettre que j'ai écrite.",
+   "Agreeing when a body part follows: elle s'est lavée les mains → elle s'est lavé les mains.",
+   "Putting pas after the participle: je n'ai vu pas → je n'ai pas vu."
+  ],
+  "check": [
+   {
+    "q": "Hier, nous ___ au cinéma. (aller)",
+    "a": [
+     "sommes allés",
+     "sommes allées"
+    ],
+    "why": "aller takes être; agree with nous (masculine or feminine plural)."
+   },
+   {
+    "q": "Elle ___ en 2008. (naître)",
+    "a": [
+     "est née"
+    ],
+    "why": "naître takes être; feminine agreement."
+   },
+   {
+    "q": "J'___ mes clés dans le bus. (perdre)",
+    "a": [
+     "ai perdu"
+    ],
+    "why": "Most verbs take avoir; -re verbs → -u."
+   },
+   {
+    "q": "Ils ___ une lettre à leur grand-mère. (écrire)",
+    "a": [
+     "ont écrit"
+    ],
+    "why": "Irregular participle: écrit. No agreement: the object comes after."
+   },
+   {
+    "q": "Les filles ___ tard samedi soir. (se coucher)",
+    "a": [
+     "se sont couchées"
+    ],
+    "why": "Pronominal verbs take être; se is the direct object, so agree (fem. pl.)."
+   },
+   {
+    "q": "Les photos ? Je les ___ sur Instagram. (mettre)",
+    "a": [
+     "ai mises"
+    ],
+    "why": "Preceding direct object les (= les photos, fem. pl.) → mises."
+   },
+   {
+    "q": "Marie ___ les dents. (se brosser)",
+    "a": [
+     "s'est brossé"
+    ],
+    "why": "No agreement: the direct object les dents follows the verb."
+   },
+   {
+    "q": "Elles ___ au téléphone pendant une heure. (se parler)",
+    "a": [
+     "se sont parlé"
+    ],
+    "why": "parler à → se is indirect, so no agreement."
+   },
+   {
+    "q": "Mon frère ___ la poubelle ce matin. (sortir)",
+    "a": [
+     "a sorti"
+    ],
+    "why": "sortir with a direct object takes avoir."
+   },
+   {
+    "q": "Tu ___ le nouveau film de ce réalisateur ? (voir)",
+    "a": [
+     "as vu"
+    ],
+    "why": "voir → vu, with avoir."
+   }
+  ]
+ },
+ {
+  "id": "imparfait",
+  "group": "Verbs: tenses",
+  "title": "Imparfait",
+  "level": "core",
+  "summary": "The past tense for description, background, habits and ongoing states: 'was doing', 'used to do'.",
+  "exam": "Paper 1 narratives need description as well as events, and using the imparfait correctly for setting, feelings and habits shows control of complex structures; it is also very common in Paper 2 literary and testimony texts.",
+  "body": "### Formation\nTake the **nous form of the present tense**, remove **-ons**, and add the endings:\n\n| | endings | parler (nous parl-ons) | finir (nous finiss-ons) | faire (nous fais-ons) |\n|---|---|---|---|---|\n| je | -ais | parlais | finissais | faisais |\n| tu | -ais | parlais | finissais | faisais |\n| il / elle / on | -ait | parlait | finissait | faisait |\n| nous | -ions | parlions | finissions | faisions |\n| vous | -iez | parliez | finissiez | faisiez |\n| ils / elles | -aient | parlaient | finissaient | faisaient |\n\nThe only irregular stem is **être → ét-**: *j'étais, tu étais, il était, nous étions, vous étiez, ils étaient*.\n\nMore examples: *avoir* → *j'avais*; *aller* → *j'allais*; *prendre* → *je prenais*; *boire* → *je buvais*; *voir* → *je voyais*; *lire* → *je lisais*; *dire* → *je disais*.\nImpersonal verbs: *il fallait* (falloir), *il pleuvait* (pleuvoir), *il y avait* (there was/were).\n\n### Spelling points\n- -ger and -cer verbs keep the e / ç **before a**, but not before i: *je mangeais, il commençait* but *nous mangions, vous commenciez*.\n- Verbs whose stem ends in **i** have **-ii-** in the nous and vous forms: *étudier* → *nous étudiions, vous étudiiez*; *rire* → *nous riions*.\n- Verbs in -yer keep the y: *nous envoyions, vous payiez*.\n\n### Uses\n**1. Description and background in the past** — what things were like, the setting:\n*Il faisait froid, la rue était déserte et un chien aboyait au loin.* — It was cold, the street was deserted and a dog was barking in the distance.\n\n**2. Habits and repeated actions** — \"used to\", \"would\" — often with *souvent, toujours, d'habitude, tous les jours, chaque été, le lundi, autrefois, à l'époque*:\n*Quand j'étais petite, je passais tous mes étés chez ma grand-mère.* — When I was little, I used to spend every summer at my grandmother's.\n\n**3. Actions in progress** — \"was/were doing\" — often interrupted by an action in the passé composé:\n*Je regardais la télé quand mon père est rentré.* — I was watching TV when my father came home.\n\n**4. States of mind, feelings, age, time and weather**:\n*J'avais quinze ans et j'étais très timide.* — I was fifteen and very shy.\n*Il était minuit et nous étions épuisés.* — It was midnight and we were exhausted.\n\n**5. Two simultaneous ongoing actions**, often with *pendant que*:\n*Pendant que je cuisinais, mon frère mettait la table.* — While I was cooking, my brother was setting the table.\n\n**6. Special structures**\n- **si + imparfait** for a suggestion: *Si on allait à la plage ?* — How about going to the beach?\n- **si + imparfait** in hypotheses: *Si j'avais le temps, je ferais du théâtre.* — If I had time, I would do drama. (see the si-clauses topic)\n- **venir de** in the past: *Je venais de rentrer quand il a appelé.* — I had just got back when he called.\n- **être en train de** in the past: *Nous étions en train de manger.* — We were (in the middle of) eating.\n- **depuis** + imparfait: *Il attendait depuis une heure.* — He had been waiting for an hour.\n\n### Translating English\nEnglish \"was ...ing\", \"used to\" and \"would\" (habit) all point to the imparfait. But be careful: English simple past (\"I lived in Lyon\") can be either tense, depending on whether you are describing a situation (*j'habitais à Lyon*) or summing up a completed period (*j'ai habité à Lyon pendant deux ans*). The next topic explains the choice.\n",
+  "pitfalls": [
+   "Building the stem from the infinitive: je finais → je finissais (from nous finissons).",
+   "Using the regular stem for être: j'êtais / j'etais → j'étais.",
+   "Forgetting the e/ç before a: je mangais, il commencait → je mangeais, il commençait.",
+   "Using 'used to' word for word: j'utilisais jouer → je jouais.",
+   "Writing only one i: nous étudions (present) for the imparfait → nous étudiions."
+  ],
+  "check": [
+   {
+    "q": "Quand j'étais petit, je ___ au foot tous les mercredis. (jouer)",
+    "a": [
+     "jouais"
+    ],
+    "why": "Habitual past action → imparfait."
+   },
+   {
+    "q": "Il ___ beau et les oiseaux chantaient. (faire)",
+    "a": [
+     "faisait"
+    ],
+    "why": "Weather/background description → imparfait; stem fais-."
+   },
+   {
+    "q": "Nous ___ à la campagne à l'époque. (habiter)",
+    "a": [
+     "habitions"
+    ],
+    "why": "à l'époque signals a past situation; nous → -ions."
+   },
+   {
+    "q": "Avant, vous ___ le travail à quelle heure ? (finir)",
+    "a": [
+     "finissiez"
+    ],
+    "why": "Stem from nous finissons → finiss- + -iez."
+   },
+   {
+    "q": "Elles ___ fatiguées après le voyage. (être)",
+    "a": [
+     "étaient"
+    ],
+    "why": "être has the irregular stem ét-."
+   },
+   {
+    "q": "Tu ___ toujours des pâtes ! (manger)",
+    "a": [
+     "mangeais"
+    ],
+    "why": "Keep the e before a to keep the g soft."
+   },
+   {
+    "q": "Nous ___ le russe au collège. (étudier)",
+    "a": [
+     "étudiions"
+    ],
+    "why": "Stem étudi- + -ions gives a double i."
+   },
+   {
+    "q": "Mon grand-père ___ que la vie était plus simple. (dire)",
+    "a": [
+     "disait"
+    ],
+    "why": "Repeated/habitual saying → imparfait; stem dis-."
+   },
+   {
+    "q": "Le cours ___ toujours à neuf heures. (commencer)",
+    "a": [
+     "commençait"
+    ],
+    "why": "ç before a."
+   }
+  ]
+ },
+ {
+  "id": "pc-vs-imparfait",
+  "group": "Verbs: tenses",
+  "title": "Passé composé vs imparfait",
+  "level": "core",
+  "summary": "How to choose between the two main past tenses: events and completed actions versus background, description and habits.",
+  "exam": "Mixing the two tenses accurately is the single clearest sign of B1–B2 control in a Paper 1 narrative (diary, blog, story), and the contrast often carries meaning in Paper 2 texts.",
+  "body": "### The core idea\nThink of a film. The **imparfait** sets the scene — the scenery, the weather, what people were doing, how they felt. The **passé composé** is the action — what happened, the events that move the story forward.\n\n| Imparfait | Passé composé |\n|---|---|\n| description, setting | completed event |\n| ongoing action (\"was doing\") | action that interrupts |\n| habit (\"used to\") | single occurrence |\n| state, feeling, age, time | change, reaction, sudden event |\n| no clear beginning or end | defined beginning/end or duration |\n\n### Signal words (helpful, not absolute)\n- Imparfait: *souvent, d'habitude, tous les jours, chaque semaine, toujours, autrefois, à cette époque, pendant que, quand j'étais petit*.\n- Passé composé: *hier, soudain, tout à coup, un jour, une fois, ce matin-là, d'abord… ensuite… enfin, pendant deux ans* (a closed period), *en 2019*.\n\n### Interrupted action\n*Je dormais quand le réveil a sonné.* — I was sleeping when the alarm rang.\n*Nous traversions la rue quand une voiture est arrivée à toute vitesse.* — We were crossing the road when a car came at full speed.\n\n### A short narrative\n*C'était un samedi de juillet. Il faisait très chaud et la plage était pleine de monde. Mes amis jouaient au volley pendant que je lisais sous un parasol. Tout à coup, j'ai entendu un cri. Un petit garçon pleurait au bord de l'eau : il avait perdu ses parents. Je me suis levée, je suis allée le voir et je l'ai aidé à les retrouver.*\n— It was a Saturday in July. It was very hot and the beach was crowded. My friends were playing volleyball while I was reading under a parasol. Suddenly I heard a scream. A little boy was crying at the water's edge: he had lost his parents. I got up, went to see him and helped him find them.\n\nNotice: the scene (*c'était, il faisait, était, jouaient, lisais, pleurait*) is in the imparfait; the sequence of events (*j'ai entendu, je me suis levée, je suis allée, je l'ai aidé*) is in the passé composé; the earlier event (*il avait perdu*) is in the plus-que-parfait.\n\n### Habit vs single event\n- *Le dimanche, nous allions chez mes grands-parents.* — On Sundays we used to go to my grandparents'.\n- *Dimanche, nous sommes allés chez mes grands-parents.* — On Sunday (last Sunday) we went to my grandparents'.\n\n### Closed period vs ongoing situation\n- *J'ai habité à Genève pendant cinq ans.* — I lived in Geneva for five years (a completed, measured period: passé composé).\n- *À l'époque, j'habitais à Genève.* — At the time, I lived in Geneva (background situation: imparfait).\n\n### Verbs that change meaning\nSome verbs of state shift meaning in the passé composé, because the passé composé marks a moment of change:\n\n| verb | imparfait | passé composé |\n|---|---|---|\n| savoir | *je savais* — I knew | *j'ai su* — I found out |\n| connaître | *je le connaissais* — I knew him | *je l'ai connu en 2020* — I met him in 2020 |\n| pouvoir | *je pouvais* — I was able to (situation) | *j'ai pu* — I managed to |\n| vouloir | *je voulais* — I wanted | *je n'ai pas voulu* — I refused |\n| avoir | *j'avais peur* — I was scared | *j'ai eu peur* — I got a fright |\n| être | *j'étais content* — I was happy (state) | *j'ai été surpris* — I was surprised (reaction) |\n\n### Checking your choice\nAsk: \"Does this move the story on to the next step?\" If yes → passé composé. \"Is it describing the situation or saying what was going on / what used to happen?\" → imparfait. When English uses \"was/were + -ing\" or \"used to\", it is almost always imparfait.\n",
+  "pitfalls": [
+   "Using the passé composé for descriptions: il a fait beau et la plage a été belle (as scene-setting) → il faisait beau et la plage était belle.",
+   "Using the imparfait for a sudden event: soudain, le téléphone sonnait → soudain, le téléphone a sonné.",
+   "Putting both verbs in the imparfait in an interruption: je dormais quand il arrivait → je dormais quand il est arrivé.",
+   "Using the imparfait for a closed period: j'habitais à Paris pendant deux ans → j'ai habité à Paris pendant deux ans.",
+   "Using the passé composé for age in the past: j'ai eu dix ans quand... (for description) → j'avais dix ans quand..."
+  ],
+  "check": [
+   {
+    "q": "Je ___ mes devoirs quand le téléphone a sonné. (faire)",
+    "a": [
+     "faisais"
+    ],
+    "why": "Ongoing action interrupted → imparfait."
+   },
+   {
+    "q": "Je faisais mes devoirs quand le téléphone ___ . (sonner)",
+    "a": [
+     "a sonné"
+    ],
+    "why": "The interrupting event → passé composé."
+   },
+   {
+    "q": "Hier soir, nous ___ un film, puis nous sommes sortis. (regarder)",
+    "a": [
+     "avons regardé"
+    ],
+    "why": "Sequence of completed events (puis) → passé composé."
+   },
+   {
+    "q": "Quand elle était jeune, elle ___ souvent chez sa tante. (aller)",
+    "a": [
+     "allait"
+    ],
+    "why": "Habit (souvent, quand elle était jeune) → imparfait."
+   },
+   {
+    "q": "Soudain, la lumière ___ . (s'éteindre)",
+    "a": [
+     "s'est éteinte"
+    ],
+    "why": "Sudden event → passé composé; pronominal → être, agreement with la lumière."
+   },
+   {
+    "q": "Ce jour-là, il ___ froid et tout le monde portait un manteau. (faire)",
+    "a": [
+     "faisait"
+    ],
+    "why": "Weather as background → imparfait."
+   },
+   {
+    "q": "L'année dernière, j'___ en Espagne pendant deux semaines. (voyager)",
+    "a": [
+     "ai voyagé"
+    ],
+    "why": "Closed period (pendant deux semaines) → passé composé."
+   },
+   {
+    "q": "J'avais faim, alors j'___ un sandwich. (acheter)",
+    "a": [
+     "ai acheté"
+    ],
+    "why": "The action taken in response → passé composé."
+   },
+   {
+    "q": "Nous ___ depuis dix minutes quand le bus est enfin arrivé. (attendre)",
+    "a": [
+     "attendions"
+    ],
+    "why": "depuis + ongoing action in the past → imparfait."
+   },
+   {
+    "q": "Je ___ la nouvelle hier soir, et j'étais sous le choc. (apprendre)",
+    "a": [
+     "ai appris"
+    ],
+    "why": "Learning the news is a single event → passé composé."
+   }
+  ]
+ },
+ {
+  "id": "plus-que-parfait",
+  "group": "Verbs: tenses",
+  "title": "Plus-que-parfait",
+  "level": "stretch",
+  "summary": "The 'past of the past' (had done): imparfait of avoir/être + past participle.",
+  "exam": "Using the plus-que-parfait to sequence events (elle avait déjà mangé quand…) and in regrets (si j'avais su…) is an easy way to show a wider range of tenses for Criterion A in Paper 1 and the oral.",
+  "body": "### Formation\n**Imparfait of avoir or être + past participle**\n\n| | finir (avoir) | partir (être) | se lever (être) |\n|---|---|---|---|\n| je / j' | avais fini | étais parti(e) | m'étais levé(e) |\n| tu | avais fini | étais parti(e) | t'étais levé(e) |\n| il / elle / on | avait fini | était parti(e) | s'était levé(e) |\n| nous | avions fini | étions parti(e)s | nous étions levé(e)s |\n| vous | aviez fini | étiez parti(e)(s) | vous étiez levé(e)(s) |\n| ils / elles | avaient fini | étaient parti(e)s | s'étaient levé(e)s |\n\nThe choice of auxiliary and all the **agreement rules are exactly the same as in the passé composé**: être verbs and pronominal verbs agree with the subject; avoir verbs agree with a preceding direct object.\n*Les livres qu'elle avait empruntés étaient en retard.* — The books she had borrowed were overdue.\n\n### Uses\n**1. An action that happened before another past action** — \"had done\":\n*Quand je suis arrivé à la gare, le train était déjà parti.* — When I got to the station, the train had already left.\n*Elle a réussi l'examen parce qu'elle avait beaucoup révisé.* — She passed the exam because she had revised a lot.\n\nCompare:\n- *Quand je suis arrivé, il est parti.* — When I arrived, he left (one after the other).\n- *Quand je suis arrivé, il était parti.* — When I arrived, he had left (he was already gone).\n\n**2. Explaining a past situation** — the cause lies further back:\n*J'étais épuisée : je n'avais pas dormi depuis deux jours.* — I was exhausted: I hadn't slept for two days.\n\n**3. Reported speech after a past reporting verb** (passé composé → plus-que-parfait):\n*« J'ai perdu mon passeport. »* → *Il a dit qu'il avait perdu son passeport.* — He said he had lost his passport.\n\n**4. Si + plus-que-parfait** — an unreal past condition, with the conditionnel passé in the main clause:\n*Si j'avais su, je serais venue plus tôt.* — If I had known, I would have come earlier.\n\n**5. Regret with si seulement**:\n*Si seulement nous avions écouté nos parents !* — If only we had listened to our parents!\n\n**6. Habitual sequence in the past** (after *quand*, *dès que*, *une fois que*):\n*Quand il avait fini ses devoirs, il allait jouer dehors.* — When(ever) he had finished his homework, he would go and play outside.\n\n### Word order\nSame as the passé composé: *Je n'avais jamais vu la mer.* — I had never seen the sea. *Nous l'avions déjà rencontré.* — We had already met him. *Ils s'étaient disputés la veille.* — They had argued the day before.\n\n### Useful time markers\n*déjà* (already), *pas encore* (not yet), *la veille* (the day before), *l'année précédente* (the year before), *auparavant* (beforehand), *avant* (before).\n\n### Why it lifts your writing\nA narrative using only the passé composé reads like a list. Adding the plus-que-parfait lets you go back in time naturally:\n*Ce matin-là, j'ai ouvert ma boîte mail. La réponse que j'attendais depuis des semaines était enfin arrivée : on m'avait accepté à l'université de mes rêves !* — That morning I opened my inbox. The answer I had been waiting weeks for had finally arrived: I had been accepted at my dream university!\n",
+  "pitfalls": [
+   "Using the passé composé where the action is earlier: quand je suis arrivé, le film a déjà commencé → le film avait déjà commencé.",
+   "Using the present of avoir/être: j'ai fini (when 'had finished' is meant) → j'avais fini.",
+   "Wrong auxiliary: j'avais allé → j'étais allé(e).",
+   "Forgetting agreement: elles étaient parti → elles étaient parties.",
+   "Using the conditional after si: si j'aurais su → si j'avais su."
+  ],
+  "check": [
+   {
+    "q": "Quand je suis arrivé, le film ___ . (commencer, plus-que-parfait)",
+    "a": [
+     "avait commencé"
+    ],
+    "why": "The film started before I arrived → imparfait of avoir + pp."
+   },
+   {
+    "q": "Elle était fatiguée parce qu'elle ___ toute la nuit. (travailler, plus-que-parfait)",
+    "a": [
+     "avait travaillé"
+    ],
+    "why": "Earlier cause of a past state."
+   },
+   {
+    "q": "Nous ___ avant la pluie. (rentrer, plus-que-parfait)",
+    "a": [
+     "étions rentrés",
+     "étions rentrées"
+    ],
+    "why": "rentrer takes être; agree with nous."
+   },
+   {
+    "q": "Ils m'ont dit qu'ils ___ le concert. (aimer, plus-que-parfait)",
+    "a": [
+     "avaient aimé"
+    ],
+    "why": "Reported speech: passé composé shifts to plus-que-parfait."
+   },
+   {
+    "q": "Elle a enfin lu les lettres qu'il lui ___ . (écrire, plus-que-parfait)",
+    "a": [
+     "avait écrites"
+    ],
+    "why": "Preceding direct object que = les lettres (fem. pl.)."
+   },
+   {
+    "q": "Elles ___ trop tard ce matin-là. (se lever, plus-que-parfait)",
+    "a": [
+     "s'étaient levées"
+    ],
+    "why": "Pronominal verb → être; agree with elles."
+   },
+   {
+    "q": "Si j'___ , je serais venu. (savoir, plus-que-parfait)",
+    "a": [
+     "avais su"
+    ],
+    "why": "si + plus-que-parfait → conditionnel passé."
+   },
+   {
+    "q": "Le prof a rendu les devoirs que nous ___ la semaine précédente. (faire, plus-que-parfait)",
+    "a": [
+     "avions faits"
+    ],
+    "why": "Preceding direct object que = les devoirs (masc. pl.)."
+   },
+   {
+    "q": "Je ne savais pas que tu ___ au Canada. (naître, plus-que-parfait)",
+    "a": [
+     "étais né",
+     "étais née"
+    ],
+    "why": "naître takes être; agree with tu (m. or f.)."
+   }
+  ]
+ },
+ {
+  "id": "passe-simple",
+  "group": "Verbs: tenses",
+  "title": "Passé simple (recognition)",
+  "level": "stretch",
+  "summary": "The literary past tense used in novels, tales and historical writing — you need to recognise it, not produce it.",
+  "exam": "Paper 2 reading texts (extracts from novels, biographies, historical articles) often use the passé simple; recognising forms like fit, eut, vint or naquit avoids serious comprehension errors.",
+  "body": "### What it is\nThe passé simple has the same meaning as the passé composé — a completed action in the past — but it belongs to **formal written** French: literature, fairy tales, history books, biographies and some newspaper articles. It is almost never spoken. At SL you are expected to **recognise** it in reading; you do not need to use it in your own writing (the passé composé is correct in all Paper 1 text types).\n\nIt combines with the imparfait exactly as the passé composé does: the passé simple carries the events, the imparfait the background.\n*Il faisait nuit. Elle ouvrit la porte et sortit sans bruit.* — It was night. She opened the door and went out silently.\n\n### Regular forms\n| | -er: parler | -ir / -re: finir, vendre |\n|---|---|---|\n| je | parlai | finis / vendis |\n| tu | parlas | finis / vendis |\n| il / elle / on | **parla** | **finit / vendit** |\n| nous | parlâmes | finîmes / vendîmes |\n| vous | parlâtes | finîtes / vendîtes |\n| ils / elles | **parlèrent** | **finirent / vendirent** |\n\nThe 3rd person forms (il / ils) are by far the most frequent — learn to spot **-a, -èrent, -it, -irent, -ut, -urent**.\n\nNotice that *il finit* is identical to the present tense; the context (other past verbs) tells you it is past.\n\n### Irregular forms you will meet\nMany irregular verbs have a passé simple built on the past participle.\n\n| infinitive | il / elle | ils / elles | meaning |\n|---|---|---|---|\n| être | fut | furent | was / were |\n| avoir | eut | eurent | had |\n| faire | fit | firent | did, made |\n| dire | dit | dirent | said |\n| voir | vit | virent | saw |\n| prendre | prit | prirent | took |\n| mettre | mit | mirent | put |\n| pouvoir | put | purent | could, managed |\n| vouloir | voulut | voulurent | wanted |\n| savoir | sut | surent | knew, found out |\n| devoir | dut | durent | had to |\n| lire | lut | lurent | read |\n| boire | but | burent | drank |\n| croire | crut | crurent | believed |\n| connaître | connut | connurent | knew, met |\n| vivre | vécut | vécurent | lived |\n| recevoir | reçut | reçurent | received |\n| écrire | écrivit | écrivirent | wrote |\n| naître | naquit | naquirent | was born |\n| mourir | mourut | moururent | died |\n| venir | vint | vinrent | came |\n| tenir | tint | tinrent | held |\n| ouvrir | ouvrit | ouvrirent | opened |\n\nNote the trap: *il fut* (he was) looks like nothing in the present, and *il vint* (he came) does not look like *venir*. *Il dit* and *il lit* can be present or past — use the context.\n\n### Reading strategy\nWhen you meet an unfamiliar verb ending in -a, -it, -ut, -int or -èrent/-irent/-urent in a narrative, mentally convert it into the passé composé:\n- *Elle naquit en 1867 et mourut en 1934.* → *Elle est née en 1867 et elle est morte en 1934.* — She was born in 1867 and died in 1934.\n- *Ils eurent peur et partirent aussitôt.* → *Ils ont eu peur et ils sont partis aussitôt.* — They got scared and left at once.\n- *Le roi fit construire un château.* → *Le roi a fait construire un château.* — The king had a castle built.\n- *Quand il vit la lettre, il comprit tout.* → *Quand il a vu la lettre, il a tout compris.* — When he saw the letter, he understood everything.\n\n### Don't confuse with\n- the **imparfait** (*il parlait* vs *il parla*): -ait is imparfait, -a is passé simple;\n- the **futur** 1st person (*je parlerai*) vs passé simple (*je parlai*);\n- the **subjonctif imparfait** (*qu'il fût, qu'il eût*), very rare and only in literary texts.\n",
+  "pitfalls": [
+   "Reading il fut as a form of futur → it is être in the passé simple: il fut = il a été.",
+   "Thinking il vint is from vaincre or vendre → it comes from venir: il est venu.",
+   "Confusing il parla (passé simple) with il parlait (imparfait) → events vs background.",
+   "Using the passé simple in a blog or diary → use the passé composé in personal, modern text types."
+  ],
+  "check": [
+   {
+    "q": "« Elle fut surprise. » = Elle ___ surprise. (passé composé)",
+    "a": [
+     "a été"
+    ],
+    "why": "fut is the passé simple of être."
+   },
+   {
+    "q": "« Ils firent leurs valises. » = Ils ___ leurs valises. (passé composé)",
+    "a": [
+     "ont fait"
+    ],
+    "why": "firent is the passé simple of faire."
+   },
+   {
+    "q": "« Il naquit à Besançon. » The infinitive of naquit is ___ .",
+    "a": [
+     "naître"
+    ],
+    "why": "naquit = est né."
+   },
+   {
+    "q": "« Elle vint me voir. » = Elle ___ me voir. (passé composé)",
+    "a": [
+     "est venue"
+    ],
+    "why": "vint is the passé simple of venir; venir takes être."
+   },
+   {
+    "q": "« Ils eurent peur. » = Ils ___ peur. (passé composé)",
+    "a": [
+     "ont eu"
+    ],
+    "why": "eurent is the passé simple of avoir."
+   },
+   {
+    "q": "« Il prit son manteau. » The infinitive of prit is ___ .",
+    "a": [
+     "prendre"
+    ],
+    "why": "prit = a pris."
+   },
+   {
+    "q": "« Nous parlâmes longtemps. » = Nous ___ longtemps. (passé composé)",
+    "a": [
+     "avons parlé"
+    ],
+    "why": "-âmes is the nous ending of -er verbs in the passé simple."
+   },
+   {
+    "q": "« Le vieil homme mourut en hiver. » The infinitive of mourut is ___ .",
+    "a": [
+     "mourir"
+    ],
+    "why": "mourut = est mort."
+   },
+   {
+    "q": "Il ___ la fenêtre. (ouvrir, passé simple)",
+    "a": [
+     "ouvrit"
+    ],
+    "why": "ouvrir: il ouvrit."
+   }
+  ]
+ },
+ {
+  "id": "future",
+  "group": "Verbs: tenses",
+  "title": "Futur proche & futur simple",
+  "level": "core",
+  "summary": "Talking about the future with aller + infinitive and with the futur simple, including the irregular future stems.",
+  "exam": "Plans, predictions and proposals are central to Paper 1 text types such as speeches, proposals and formal letters, and the futur simple with irregular stems (je serai, il faudra) shows range in the oral.",
+  "body": "### Futur proche (near future)\n**Present of aller + infinitive** — \"going to do\". It is very common in speech and for plans or things about to happen.\n\n*Je vais passer mon permis cet été.* — I'm going to take my driving test this summer.\n*Attention, tu vas tomber !* — Careful, you're going to fall!\n\n- Negative: *Je ne vais pas sortir ce soir.* — I'm not going to go out tonight.\n- Pronouns go before the infinitive: *Je vais lui téléphoner. Nous allons nous inscrire.* — I'm going to call him. We're going to sign up.\n\n### Futur simple: formation\n**Infinitive + endings** (the endings look like the present of avoir). For **-re** verbs, drop the final **e**.\n\n| | endings | parler | finir | prendre |\n|---|---|---|---|---|\n| je | -ai | parlerai | finirai | prendrai |\n| tu | -as | parleras | finiras | prendras |\n| il / elle / on | -a | parlera | finira | prendra |\n| nous | -ons | parlerons | finirons | prendrons |\n| vous | -ez | parlerez | finirez | prendrez |\n| ils / elles | -ont | parleront | finiront | prendront |\n\nThe future stem always ends in **-r**.\n\n### Irregular stems\nThe endings never change; only the stem is irregular. These are the same stems used for the conditional.\n\n| infinitive | stem | infinitive | stem |\n|---|---|---|---|\n| être | ser- | avoir | aur- |\n| aller | ir- | faire | fer- |\n| venir | viendr- | tenir | tiendr- |\n| voir | verr- | envoyer | enverr- |\n| pouvoir | pourr- | vouloir | voudr- |\n| devoir | devr- | savoir | saur- |\n| recevoir | recevr- | courir | courr- |\n| mourir | mourr- | falloir | il faudra |\n| pleuvoir | il pleuvra | valoir | il vaudra |\n\n*Il y aura* = there will be. *Il faudra* = it will be necessary.\n\n### Spelling-change verbs\n- *acheter* → *j'achèterai*; *se lever* → *je me lèverai* (è throughout)\n- *appeler* → *j'appellerai*; *jeter* → *je jetterai* (double consonant throughout)\n- *essayer* → *j'essaierai* / *j'essayerai*; *payer* → *je paierai* / *je payerai*; *nettoyer* → *je nettoierai*\n- *préférer* → *je préférerai* (é stays, because it is the infinitive + ending)\n\n### Uses of the futur simple\n- **Predictions** and more formal statements about the future: *En 2050, la population mondiale dépassera neuf milliards.* — In 2050 the world population will exceed nine billion.\n- **Promises and intentions**, especially in formal writing: *Nous ferons tout notre possible.* — We will do everything we can.\n- **Instructions / polite orders**: *Vous rendrez votre rapport vendredi.* — You will hand in your report on Friday.\n- **After si + present** (real condition): *S'il fait beau, nous pique-niquerons.* — If the weather is nice, we'll have a picnic.\n\n### After quand, lorsque, dès que, aussitôt que\nWhere English uses the present after \"when / as soon as\" in the future, **French uses the future**:\n*Quand je serai à l'université, j'étudierai le droit.* — When I'm at university, I'll study law.\n*Dès que tu arriveras, appelle-moi.* — As soon as you arrive, call me.\n\n(Stretch: if the action will be completed first, use the **futur antérieur** — futur of avoir/être + pp: *Quand j'aurai fini mes examens, je partirai en vacances.* — When I have finished my exams, I'll go on holiday.)\n\n### Proche or simple?\nBoth are correct in most contexts. The futur proche feels more immediate, certain or informal; the futur simple sounds more formal, distant or predictive. In a formal speech or proposal, prefer the futur simple; in a chatty blog, the futur proche is natural. Using both shows range.\n",
+  "pitfalls": [
+   "Using the present after quand for a future: quand je suis grand, je serai médecin → quand je serai grand.",
+   "Forgetting the irregular stem: j'allerai, je faisrai → j'irai, je ferai.",
+   "Keeping the e of -re verbs: je prendreai → je prendrai.",
+   "Adding à after aller: je vais à manger → je vais manger.",
+   "Confusing future and conditional endings: je serais demain (conditional) → je serai demain."
+  ],
+  "check": [
+   {
+    "q": "Demain, nous ___ au musée. (aller, futur simple)",
+    "a": [
+     "irons"
+    ],
+    "why": "aller has the irregular stem ir-."
+   },
+   {
+    "q": "L'année prochaine, j'___ dix-huit ans. (avoir, futur simple)",
+    "a": [
+     "aurai"
+    ],
+    "why": "avoir → aur-."
+   },
+   {
+    "q": "Quand tu ___ à Paris, appelle-moi. (être, futur simple)",
+    "a": [
+     "seras"
+    ],
+    "why": "French uses the future after quand when the meaning is future."
+   },
+   {
+    "q": "Il ___ demain, selon la météo. (pleuvoir, futur simple)",
+    "a": [
+     "pleuvra"
+    ],
+    "why": "pleuvoir → il pleuvra."
+   },
+   {
+    "q": "Vous ___ la réponse lundi. (recevoir, futur simple)",
+    "a": [
+     "recevrez"
+    ],
+    "why": "recevoir → recevr-."
+   },
+   {
+    "q": "Ils ___ leurs devoirs ce soir. (faire, futur simple)",
+    "a": [
+     "feront"
+    ],
+    "why": "faire → fer-."
+   },
+   {
+    "q": "Attention, tu ___ tomber ! (aller — futur proche)",
+    "a": [
+     "vas"
+    ],
+    "why": "Futur proche: present of aller + infinitive."
+   },
+   {
+    "q": "Je t'___ une carte postale. (envoyer, futur simple)",
+    "a": [
+     "enverrai"
+    ],
+    "why": "envoyer → enverr-."
+   },
+   {
+    "q": "On ___ bien. (voir, futur simple)",
+    "a": [
+     "verra"
+    ],
+    "why": "voir → verr-."
+   },
+   {
+    "q": "Elle ___ une robe rouge pour la fête. (acheter, futur simple)",
+    "a": [
+     "achètera"
+    ],
+    "why": "acheter keeps è throughout the future."
+   }
+  ]
+ },
+ {
+  "id": "conditionnel-present",
+  "group": "Verbs: tenses",
+  "title": "Conditionnel présent",
+  "level": "core",
+  "summary": "'Would do': future stem + imparfait endings, for politeness, wishes, advice, hypotheses and unconfirmed information.",
+  "exam": "The conditional is essential for polite requests in formal letters, for advice in Paper 1 brochures and blogs, and for hypothetical discussion in the individual oral.",
+  "body": "### Formation\n**Future stem + imparfait endings** (-ais, -ais, -ait, -ions, -iez, -aient).\n\n| | aimer | finir | être | pouvoir |\n|---|---|---|---|---|\n| je / j' | aimerais | finirais | serais | pourrais |\n| tu | aimerais | finirais | serais | pourrais |\n| il / elle / on | aimerait | finirait | serait | pourrait |\n| nous | aimerions | finirions | serions | pourrions |\n| vous | aimeriez | finiriez | seriez | pourriez |\n| ils / elles | aimeraient | finiraient | seraient | pourraient |\n\nAll the irregular future stems apply: *j'aurais, j'irais, je ferais, je viendrais, je verrais, je voudrais, je devrais, je saurais, il faudrait, il y aurait*.\n\n**Future vs conditional (je form)**: *je serai* (I will be) vs *je serais* (I would be). The pronunciation is close, so take care in writing.\n\n### Uses\n**1. Politeness** — softening requests, very important in formal letters and emails:\n*Je voudrais des renseignements sur le stage.* — I would like some information about the internship.\n*Pourriez-vous m'envoyer le programme ?* — Could you send me the programme?\n*Auriez-vous un moment ?* — Would you have a moment?\n\n**2. Wishes** — *aimer, vouloir, préférer* in the conditional:\n*J'aimerais travailler dans une ONG.* — I would like to work for an NGO.\n*Nous préférerions partir en train.* — We would prefer to go by train.\n\n**3. Advice and suggestions** — *devoir, pouvoir, falloir, valoir mieux*:\n*Tu devrais parler à un conseiller.* — You should talk to a counsellor.\n*On pourrait organiser une collecte.* — We could organise a collection.\n*Il faudrait réduire les déchets.* — We ought to reduce waste.\n*Il vaudrait mieux attendre.* — It would be better to wait.\n*À ta place, je refuserais.* — If I were you, I would refuse.\n\n**4. Hypotheses** — with **si + imparfait**:\n*Si j'avais plus d'argent, je voyagerais en Asie.* — If I had more money, I would travel in Asia.\n*Que ferais-tu si tu gagnais au loto ?* — What would you do if you won the lottery?\n\n**5. Future in the past** — after a reporting verb in the past:\n*Il a dit qu'il viendrait.* — He said he would come. (« Je viendrai. »)\n*Je savais qu'elle réussirait.* — I knew she would succeed.\n\n**6. Unconfirmed information (journalistic)** — typical of news articles, so watch for it in Paper 2:\n*Selon nos sources, le ministre démissionnerait la semaine prochaine.* — According to our sources, the minister will reportedly resign next week.\n*L'incendie aurait fait trois victimes.* (conditionnel passé) — The fire is said to have claimed three victims.\n\n**7. Imaginary situations**:\n*Ce serait génial de vivre au bord de la mer.* — It would be great to live by the sea.\n\n### \"Would\" that is not conditional\nEnglish \"would\" for a past habit is the **imparfait**: *Le dimanche, nous allions au marché.* — On Sundays we would go to the market. And \"would not\" meaning \"refused\" is the passé composé of vouloir: *Il n'a pas voulu venir.* — He wouldn't come.\n\n### Useful phrases for Paper 1 and the oral\n*Je serais ravi(e) de…* (I would be delighted to…), *Il serait souhaitable de…* (It would be desirable to…), *Je vous serais reconnaissant(e) de bien vouloir…* (I would be grateful if you would…), *On pourrait envisager de…* (We could consider…), *Ce serait l'occasion de…* (It would be a chance to…).\n",
+  "pitfalls": [
+   "Using the conditional after si: si j'aurais le temps → si j'avais le temps.",
+   "Confusing future and conditional: je voudrai un café (future) → je voudrais un café.",
+   "Using the infinitive stem for irregular verbs: je faisrais, j'allerais → je ferais, j'irais.",
+   "Translating habitual 'would' with the conditional: quand j'étais petit, je jouerais dehors → je jouais dehors.",
+   "Wrong endings: nous aimerons (future) for 'we would like' → nous aimerions."
+  ],
+  "check": [
+   {
+    "q": "Je ___ un café, s'il vous plaît. (vouloir, conditionnel)",
+    "a": [
+     "voudrais"
+    ],
+    "why": "Polite request: vouloir → voudr- + -ais."
+   },
+   {
+    "q": "Tu ___ te reposer un peu. (devoir, conditionnel)",
+    "a": [
+     "devrais"
+    ],
+    "why": "Advice: devoir in the conditional = should."
+   },
+   {
+    "q": "___-vous m'aider ? (pouvoir, conditionnel)",
+    "a": [
+     "Pourriez"
+    ],
+    "why": "Polite question with inversion: pourr- + -iez."
+   },
+   {
+    "q": "Si j'avais le temps, je ___ plus. (lire, conditionnel)",
+    "a": [
+     "lirais"
+    ],
+    "why": "si + imparfait → conditionnel présent."
+   },
+   {
+    "q": "Nous ___ visiter le Japon. (aimer, conditionnel)",
+    "a": [
+     "aimerions"
+    ],
+    "why": "Wish: aimer + -ions."
+   },
+   {
+    "q": "Il a promis qu'il ___ à l'heure. (être, conditionnel)",
+    "a": [
+     "serait"
+    ],
+    "why": "Future in the past after a past reporting verb."
+   },
+   {
+    "q": "À ta place, je ___ le train. (prendre, conditionnel)",
+    "a": [
+     "prendrais"
+    ],
+    "why": "Advice structure à ta place + conditional; -re verbs drop the e."
+   },
+   {
+    "q": "Selon la presse, le président ___ la semaine prochaine. (démissionner, conditionnel)",
+    "a": [
+     "démissionnerait"
+    ],
+    "why": "Journalistic conditional for unconfirmed news."
+   },
+   {
+    "q": "Ce ___ génial de partir ensemble ! (être, conditionnel)",
+    "a": [
+     "serait"
+    ],
+    "why": "Imaginary situation."
+   },
+   {
+    "q": "Il ___ mieux attendre. (valoir, conditionnel)",
+    "a": [
+     "vaudrait"
+    ],
+    "why": "valoir → vaudr-; il vaudrait mieux = it would be better."
+   }
+  ]
+ },
+ {
+  "id": "conditionnel-passe",
+  "group": "Verbs: tenses",
+  "title": "Conditionnel passé",
+  "level": "stretch",
+  "summary": "'Would have done': conditional of avoir/être + past participle, for regrets, reproaches and unreal past situations.",
+  "exam": "Phrases like j'aurais dû, j'aurais aimé, il aurait fallu add sophistication to reflections in the oral and to Paper 1 diaries, reviews and opinion pieces.",
+  "body": "### Formation\n**Conditionnel présent of avoir or être + past participle**\n\n| | faire (avoir) | aller (être) | se tromper (être) |\n|---|---|---|---|\n| je / j' | aurais fait | serais allé(e) | me serais trompé(e) |\n| tu | aurais fait | serais allé(e) | te serais trompé(e) |\n| il / elle / on | aurait fait | serait allé(e) | se serait trompé(e) |\n| nous | aurions fait | serions allé(e)s | nous serions trompé(e)s |\n| vous | auriez fait | seriez allé(e)(s) | vous seriez trompé(e)(s) |\n| ils / elles | auraient fait | seraient allé(e)s | se seraient trompé(e)s |\n\nChoice of auxiliary and agreement follow the same rules as the passé composé.\n\n### Uses\n**1. Unreal past hypotheses** — with **si + plus-que-parfait**:\n*Si tu m'avais prévenu, je serais venu te chercher.* — If you had warned me, I would have come to pick you up.\n*Si nous étions partis plus tôt, nous n'aurions pas raté l'avion.* — If we had left earlier, we wouldn't have missed the plane.\n\n**2. Regret**:\n*J'aurais aimé apprendre le piano.* — I would have liked to learn the piano.\n*J'aurais voulu être là.* — I would have liked to be there.\n\n**3. Reproach and missed opportunities** — with *devoir* (should have) and *pouvoir* (could have):\n*Tu aurais dû me le dire !* — You should have told me!\n*Ils auraient pu gagner le match.* — They could have won the match.\n*Il aurait fallu agir plus tôt.* — We should have acted sooner. / Action should have been taken sooner.\n*Il aurait mieux valu rester à la maison.* — It would have been better to stay at home.\n\n**4. Unconfirmed past information** (journalistic):\n*D'après la police, le suspect aurait quitté le pays.* — According to the police, the suspect allegedly left the country.\n*La tempête aurait causé d'importants dégâts.* — The storm is reported to have caused major damage.\n\n**5. Future in the past, completed** (the conditional equivalent of the futur antérieur):\n*Elle m'a dit qu'elle aurait fini avant midi.* — She told me she would have finished before noon.\n\n### With other structures\n- **Sans** + noun: *Sans ton aide, je n'aurais jamais réussi.* — Without your help I would never have succeeded.\n- **À ta place**: *À ta place, j'aurais accepté.* — In your place, I would have accepted.\n- **Au cas où** takes the conditional: *Au cas où tu aurais oublié, la réunion est à dix heures.* — In case you've forgotten, the meeting is at ten.\n\n### Word order\n- Negative: *Je n'aurais jamais cru ça.* — I would never have believed that.\n- Pronouns before the auxiliary: *Je l'aurais aidé. Tu aurais dû lui répondre.* — I would have helped him. You should have answered her.\n- Note the position with a modal: the pronoun goes before the infinitive it depends on: *Tu aurais dû le faire* (not *tu l'aurais dû faire*).\n\n### Translating \"should have\", \"could have\"\nEnglish modals put \"have\" after the modal (\"should have done\"). French puts the modal itself in the conditionnel passé and keeps the main verb in the infinitive:\n- should have done → *aurais dû faire*\n- could have done → *aurais pu faire*\n- would have liked to do → *aurais aimé faire*\n\n### In an essay or reflective oral\n*Avec le recul, nous aurions dû investir davantage dans les énergies renouvelables. Si les gouvernements avaient écouté les scientifiques, la situation serait aujourd'hui moins grave.* — With hindsight, we should have invested more in renewable energy. If governments had listened to scientists, the situation would be less serious today. (Here the second clause uses the conditionnel **présent** because the result is in the present — a \"mixed\" si clause.)\n",
+  "pitfalls": [
+   "Translating 'should have done' word for word: je devrais avoir fait → j'aurais dû faire.",
+   "Using the conditional after si: si j'aurais su → si j'avais su.",
+   "Wrong auxiliary: j'aurais allé → je serais allé(e).",
+   "Forgetting the circumflex on dû: j'aurais du → j'aurais dû.",
+   "Putting the pronoun before the modal: tu l'aurais dû faire → tu aurais dû le faire."
+  ],
+  "check": [
+   {
+    "q": "Tu ___ me prévenir ! (devoir, conditionnel passé)",
+    "a": [
+     "aurais dû"
+    ],
+    "why": "should have = conditionnel passé of devoir + infinitive."
+   },
+   {
+    "q": "Si j'avais su, je ___ plus tôt. (partir, conditionnel passé)",
+    "a": [
+     "serais parti",
+     "serais partie"
+    ],
+    "why": "si + plus-que-parfait → conditionnel passé; partir takes être."
+   },
+   {
+    "q": "Nous ___ venir, mais nous étions malades. (aimer, conditionnel passé)",
+    "a": [
+     "aurions aimé"
+    ],
+    "why": "Regret: would have liked."
+   },
+   {
+    "q": "Il ___ réviser davantage. (falloir, conditionnel passé)",
+    "a": [
+     "aurait fallu"
+    ],
+    "why": "il aurait fallu = it would have been necessary / one should have."
+   },
+   {
+    "q": "Si elles avaient pris le train, elles ___ à l'heure. (arriver, conditionnel passé)",
+    "a": [
+     "seraient arrivées"
+    ],
+    "why": "arriver takes être; agree with elles."
+   },
+   {
+    "q": "J'___ gagner, mais j'ai fait une erreur. (pouvoir, conditionnel passé)",
+    "a": [
+     "aurais pu"
+    ],
+    "why": "could have = conditionnel passé of pouvoir."
+   },
+   {
+    "q": "Sans ton aide, ils ___ l'examen. (rater, conditionnel passé)",
+    "a": [
+     "auraient raté"
+    ],
+    "why": "sans + noun can replace a si clause."
+   },
+   {
+    "q": "D'après les témoins, le voleur ___ par la fenêtre. (s'enfuir, conditionnel passé)",
+    "a": [
+     "se serait enfui"
+    ],
+    "why": "Unconfirmed past fact; pronominal → être."
+   }
+  ]
+ },
+ {
+  "id": "si-clauses",
+  "group": "Verbs: moods & structures",
+  "title": "Si clauses (conditional sentences)",
+  "level": "stretch",
+  "summary": "The three main patterns of 'if' sentences and which tenses go together.",
+  "exam": "Accurate si clauses — especially si + imparfait / conditionnel and si + plus-que-parfait / conditionnel passé — are a classic marker of complex structures for Criterion A in Paper 1 and the oral.",
+  "body": "### The golden rule\n**Never put the future or the conditional directly after si** (meaning \"if\"). The tense after *si* is present, imparfait or plus-que-parfait.\n\n### The three types\n| type | si + … | main clause | meaning |\n|---|---|---|---|\n| 1. real / likely | présent | présent, futur, impératif | possible condition |\n| 2. unlikely / imaginary (present) | imparfait | conditionnel présent | hypothesis |\n| 3. unreal past | plus-que-parfait | conditionnel passé | regret, missed chance |\n\n**Type 1 — possible condition**\n*Si tu travailles régulièrement, tu réussiras.* — If you work regularly, you'll succeed.\n*Si tu as faim, prends une pomme.* — If you're hungry, take an apple.\n*Si on chauffe la glace, elle fond.* — If you heat ice, it melts.\n*S'il pleut demain, le match sera annulé.* — If it rains tomorrow, the match will be cancelled.\n\n**Type 2 — imaginary or unlikely situation**\n*Si j'étais ministre de l'Éducation, je supprimerais les devoirs.* — If I were Minister of Education, I would get rid of homework.\n*Si nous avions une voiture, nous partirions en week-end.* — If we had a car, we would go away for weekends.\n*Qu'est-ce que tu ferais si tu pouvais vivre n'importe où ?* — What would you do if you could live anywhere?\n\n**Type 3 — unreal past**\n*Si elle avait révisé, elle aurait eu une meilleure note.* — If she had revised, she would have got a better mark.\n*Si nous étions partis à l'heure, nous n'aurions pas raté le début.* — If we had left on time, we wouldn't have missed the beginning.\n\n### Mixed sentences\nYou can mix types 2 and 3 when the condition is in the past but the result is in the present (or vice versa):\n*Si j'avais pris le parapluie, je ne serais pas trempé maintenant.* — If I had taken the umbrella, I wouldn't be soaked now. (si + PQP → conditionnel présent)\n*Si je parlais mieux l'allemand, j'aurais accepté ce poste.* — If I spoke German better, I would have accepted that job. (si + imparfait → conditionnel passé)\n\n### Order of clauses\nThe si clause can come first or second; the tenses stay the same: *Je t'aiderais si j'avais le temps.* = *Si j'avais le temps, je t'aiderais.*\n\n### Spelling: si → s'\n*Si* elides only before **il** and **ils**: *s'il, s'ils*. Not before *elle* or *on*: *si elle, si on*.\n\n### Si + imparfait for suggestions and wishes\n- Suggestion: *Si on allait au cinéma ?* — How about going to the cinema?\n- Wish / regret: *Si seulement j'avais plus de temps !* — If only I had more time! *Si seulement tu m'avais écouté !* — If only you had listened to me!\n\n### When si does NOT mean \"if\"\n- **si = whether** (indirect question): the future and conditional ARE possible: *Je ne sais pas s'il viendra.* — I don't know whether he will come.\n- **si = so** (intensifier): *Il est si gentil !* — He is so kind!\n- **si = yes** (contradicting a negative): *Tu ne viens pas ? — Si !*\n\n### Alternatives to si (stretch)\n- *Au cas où* + conditionnel: *Au cas où il pleuvrait, prends un parapluie.* — In case it rains, take an umbrella.\n- *À condition que* + subjonctif: *Je viendrai à condition que tu viennes aussi.* — I'll come provided that you come too.\n- *Même si* (even if) follows the same tense rules as si: *Même si j'étais riche, je continuerais à travailler.*\n",
+  "pitfalls": [
+   "Future after si: si tu viendras, je serai content → si tu viens, je serai content.",
+   "Conditional after si: si j'aurais de l'argent → si j'avais de l'argent.",
+   "Mismatched tenses: si j'avais su, je viendrai → si j'avais su, je serais venu(e).",
+   "Eliding si before elle: s'elle vient → si elle vient.",
+   "Using 'would' in both clauses as in some spoken English: si je serais riche, j'achèterais... → si j'étais riche, j'achèterais..."
+  ],
+  "check": [
+   {
+    "q": "Si tu ___ , tu réussiras. (travailler)",
+    "a": [
+     "travailles"
+    ],
+    "why": "Type 1: si + présent → futur."
+   },
+   {
+    "q": "S'il fait beau demain, nous ___ à la plage. (aller, futur simple)",
+    "a": [
+     "irons"
+    ],
+    "why": "Type 1: the main clause is in the future."
+   },
+   {
+    "q": "Si j'___ riche, j'achèterais une maison. (être)",
+    "a": [
+     "étais"
+    ],
+    "why": "Type 2: si + imparfait → conditionnel."
+   },
+   {
+    "q": "Si nous avions de l'argent, nous ___ le tour du monde. (faire)",
+    "a": [
+     "ferions"
+    ],
+    "why": "Type 2: conditionnel présent in the main clause."
+   },
+   {
+    "q": "Si elle ___ , elle aurait compris. (écouter)",
+    "a": [
+     "avait écouté"
+    ],
+    "why": "Type 3: si + plus-que-parfait → conditionnel passé."
+   },
+   {
+    "q": "Si vous étiez venus, vous ___ . (s'amuser, conditionnel passé)",
+    "a": [
+     "vous seriez amusés"
+    ],
+    "why": "Type 3 main clause; the gap includes the reflexive pronoun vous; pronominal → être, plural agreement."
+   },
+   {
+    "q": "Si tu as faim, ___ un fruit. (prendre, imperative, tu)",
+    "a": [
+     "prends"
+    ],
+    "why": "Type 1 can have an imperative in the main clause."
+   },
+   {
+    "q": "Si on ___ au cinéma ce soir ? (aller — suggestion)",
+    "a": [
+     "allait"
+    ],
+    "why": "si + imparfait used as a suggestion."
+   },
+   {
+    "q": "Si j'avais révisé, j'___ une meilleure note maintenant. (avoir — result in the present)",
+    "a": [
+     "aurais"
+    ],
+    "why": "Mixed: past condition, present result → conditionnel présent."
+   },
+   {
+    "q": "Je ne sais pas ___ elle viendra. (whether)",
+    "a": [
+     "si"
+    ],
+    "why": "si = whether; here the future is allowed."
+   }
+  ]
+ },
+ {
+  "id": "subjonctif",
+  "group": "Verbs: moods & structures",
+  "title": "Subjonctif présent",
+  "level": "stretch",
+  "summary": "The mood used after expressions of necessity, will, emotion and doubt and after certain conjunctions — and when not to use it.",
+  "exam": "Correct use of the subjunctive (il faut que je fasse, bien qu'il soit…) is one of the most visible markers of complex structures for Criterion A at SL; it also appears frequently in Paper 2 texts.",
+  "body": "### Formation of regular verbs\nTake the **ils/elles form of the present**, remove **-ent**, and add **-e, -es, -e, -ions, -iez, -ent**.\n\n| | parler (ils parlent) | finir (ils finissent) | attendre (ils attendent) |\n|---|---|---|---|\n| que je | parle | finisse | attende |\n| que tu | parles | finisses | attendes |\n| qu'il / elle / on | parle | finisse | attende |\n| que nous | parlions | finissions | attendions |\n| que vous | parliez | finissiez | attendiez |\n| qu'ils / elles | parlent | finissent | attendent |\n\n**Two-stem verbs**: nous and vous use the stem of the **nous form** (so they look like the imparfait):\n\n| verb | que je | que nous |\n|---|---|---|\n| venir | vienne | venions |\n| prendre | prenne | prenions |\n| boire | boive | buvions |\n| devoir | doive | devions |\n| recevoir | reçoive | recevions |\n| voir | voie | voyions |\n| croire | croie | croyions |\n| acheter | achète | achetions |\n| appeler | appelle | appelions |\n\n### Irregular verbs\n| | être | avoir | aller | faire |\n|---|---|---|---|---|\n| que je / j' | sois | aie | aille | fasse |\n| que tu | sois | aies | ailles | fasses |\n| qu'il / elle | soit | ait | aille | fasse |\n| que nous | soyons | ayons | allions | fassions |\n| que vous | soyez | ayez | alliez | fassiez |\n| qu'ils / elles | soient | aient | aillent | fassent |\n\nAlso: **pouvoir** → *que je puisse, que nous puissions*; **savoir** → *que je sache, que nous sachions*; **vouloir** → *que je veuille, que nous voulions*; **falloir** → *qu'il faille*; **pleuvoir** → *qu'il pleuve*.\n\n### When to use it (the main triggers)\nThe subjunctive appears in a **que-clause with a different subject** after these:\n\n**1. Necessity and obligation**: *il faut que, il est nécessaire que, il est important que, il est essentiel que, il est indispensable que*.\n*Il faut que tu fasses un effort.* — You must make an effort.\n*Il est essentiel que chacun puisse s'exprimer.* — It is essential that everyone can express themselves.\n\n**2. Wish, will, preference, permission**: *vouloir que, souhaiter que, préférer que, aimer (mieux) que, exiger que, demander que, accepter que, refuser que*.\n*Mes parents veulent que je sois médecin.* — My parents want me to be a doctor.\n\n**3. Emotion**: *être content / heureux / triste / déçu / surpris que, avoir peur que, regretter que, c'est dommage que*.\n*Je suis ravie que vous veniez.* — I'm delighted that you're coming.\n*C'est dommage qu'il pleuve.* — It's a pity it's raining.\n\n**4. Doubt and possibility**: *douter que, il est possible que, il se peut que, il semble que, ne pas penser que, ne pas croire que, ne pas être sûr que*.\n*Je ne pense pas qu'il ait raison.* — I don't think he's right.\n*Il est possible que le concert soit annulé.* — The concert may be cancelled.\n\n**5. Conjunctions**: *bien que / quoique* (although), *pour que / afin que* (so that), *avant que* (before), *jusqu'à ce que* (until), *à condition que* (provided that), *sans que* (without), *à moins que* (unless), *de peur que* (for fear that).\n*Bien qu'il soit tard, je continue à réviser.* — Although it's late, I'm still revising.\n*Je t'explique pour que tu comprennes.* — I'm explaining so that you understand.\n*Partons avant qu'il fasse nuit.* — Let's leave before it gets dark.\n\n**6. (Stretch)** After a superlative or *le seul / le premier / le dernier*: *C'est le meilleur film que j'aie jamais vu.* — It's the best film I have ever seen.\n\n### When NOT to use it\n- **Same subject** → use an infinitive instead: *Je veux partir* (not *je veux que je parte*); *Je suis content d'être ici*; *Je mange avant de partir*; *Je travaille pour réussir*.\n- **Certainty and probability** take the indicative: *il est certain que, il est sûr que, il est évident que, il est probable que, je sais que*: *Il est probable qu'il viendra.*\n- **Espérer que** takes the indicative: *J'espère que tu vas bien.* — I hope you're well.\n- **Penser / croire que** in the affirmative take the indicative: *Je pense que c'est vrai.* Only the negative or question form usually triggers the subjunctive: *Je ne pense pas que ce soit vrai.*\n- **Après que, pendant que, parce que, depuis que, alors que, même si** take the indicative.\n\n### Subjonctif passé (stretch)\n*que + subjunctive of avoir/être + pp* — for a completed action: *Je suis contente que tu aies réussi.* — I'm glad you passed. *Bien qu'elle soit partie tôt, elle est arrivée en retard.*\n",
+  "pitfalls": [
+   "Using the subjunctive with the same subject: je veux que je parte → je veux partir.",
+   "Using the subjunctive after espérer: j'espère qu'il vienne → j'espère qu'il viendra / qu'il vient.",
+   "Using the indicative after il faut que: il faut que tu fais → il faut que tu fasses.",
+   "Using the subjunctive after affirmative penser: je pense qu'il soit malade → je pense qu'il est malade.",
+   "Wrong form of être/avoir: que je suis / que tu as → que je sois / que tu aies.",
+   "Using the subjunctive after parce que or après que: parce qu'il soit fatigué → parce qu'il est fatigué."
+  ],
+  "check": [
+   {
+    "q": "Il faut que tu ___ tes devoirs. (faire)",
+    "a": [
+     "fasses"
+    ],
+    "why": "il faut que + subjonctif; faire → fasse."
+   },
+   {
+    "q": "Je veux que vous ___ à l'heure. (être)",
+    "a": [
+     "soyez"
+    ],
+    "why": "vouloir que + different subject → subjonctif."
+   },
+   {
+    "q": "Bien qu'il ___ froid, nous allons sortir. (faire)",
+    "a": [
+     "fasse"
+    ],
+    "why": "bien que always takes the subjunctive."
+   },
+   {
+    "q": "Mes parents sont contents que j'___ en France l'année prochaine. (aller)",
+    "a": [
+     "aille"
+    ],
+    "why": "Emotion + que → subjonctif; aller → aille."
+   },
+   {
+    "q": "Je doute qu'elle ___ la vérité. (savoir)",
+    "a": [
+     "sache"
+    ],
+    "why": "Doubt → subjonctif; savoir → sache."
+   },
+   {
+    "q": "Le prof explique lentement pour que nous ___ . (comprendre)",
+    "a": [
+     "comprenions"
+    ],
+    "why": "pour que + subjonctif; nous uses the nous stem compren-."
+   },
+   {
+    "q": "J'espère que tu ___ mieux. (aller, indicatif présent)",
+    "a": [
+     "vas"
+    ],
+    "why": "espérer que takes the indicative, not the subjunctive."
+   },
+   {
+    "q": "Il est important que les jeunes ___ donner leur avis. (pouvoir)",
+    "a": [
+     "puissent"
+    ],
+    "why": "il est important que + subjonctif; pouvoir → puisse."
+   },
+   {
+    "q": "Attends ici jusqu'à ce que je ___ . (revenir)",
+    "a": [
+     "revienne"
+    ],
+    "why": "jusqu'à ce que + subjonctif; revenir → revienne."
+   },
+   {
+    "q": "Je pense qu'il ___ raison. (avoir)",
+    "a": [
+     "a"
+    ],
+    "why": "Affirmative penser que takes the indicative."
+   }
+  ]
+ },
+ {
+  "id": "imperative",
+  "group": "Verbs: moods & structures",
+  "title": "Imperative (commands)",
+  "level": "core",
+  "summary": "Giving orders, advice and instructions with the tu, nous and vous forms, including where pronouns go.",
+  "exam": "Imperatives are the key structure of Paper 1 brochures, leaflets, instructions, guides and speeches that call the audience to action; pronoun order with the imperative is a frequent error.",
+  "body": "### Formation\nUse the **tu, nous and vous forms of the present tense without the subject pronoun**.\n\n| | parler | finir | attendre | aller |\n|---|---|---|---|---|\n| (tu) | parle | finis | attends | va |\n| (nous) | parlons | finissons | attendons | allons |\n| (vous) | parlez | finissez | attendez | allez |\n\n- **-er verbs** (and *aller*, and verbs like *ouvrir, offrir*) **drop the -s** in the tu form: *Mange ! Va ! Ouvre la porte !*\n- The -s comes back before **y** and **en** for pronunciation: *Vas-y ! Manges-en !*\n- The **nous** form means \"let's\": *Partons ! Agissons maintenant !* — Let's leave! Let's act now!\n- The **vous** form is both plural and polite singular.\n\n### Irregular imperatives\n| | être | avoir | savoir | vouloir |\n|---|---|---|---|---|\n| (tu) | sois | aie | sache | veuille |\n| (nous) | soyons | ayons | sachons | — |\n| (vous) | soyez | ayez | sachez | veuillez |\n\n*Sois sage ! Ayez confiance. Sachez que…* — Be good! Have confidence. Be aware that…\n*Veuillez* is a very formal \"please\": *Veuillez trouver ci-joint mon CV.* — Please find my CV attached.\n\n### Negative imperative\n*Ne* + verb + *pas*: *Ne parle pas si fort ! Ne soyez pas en retard. N'ayons pas peur.* — Don't speak so loudly! Don't be late. Let's not be afraid.\n\n### Pronouns with the imperative\n**Affirmative** — pronouns go **after** the verb, joined by hyphens; *me* and *te* become **moi** and **toi**:\n- *Regarde-moi ! Aide-les ! Téléphone-lui ! Prends-en ! Allez-y !*\n- Reflexive verbs: *Lève-toi ! Asseyez-vous ! Dépêchons-nous !*\n\nOrder when there are two pronouns: **verb – direct (le/la/les) – indirect (moi/toi/lui/nous/vous/leur) – y – en**\n- *Donne-le-moi.* — Give it to me.\n- *Envoyez-la-leur.* — Send it to them.\n- *Donne-m'en.* — Give me some. (moi + en → m'en)\n- *Occupe-t'en.* — Take care of it. (toi + en → t'en)\n\n**Negative** — pronouns go **before** the verb in normal order:\n- *Ne me regarde pas ! Ne les aide pas ! Ne lui téléphone pas !*\n- *Ne te lève pas ! Ne vous inquiétez pas !*\n- *Ne le lui donne pas. Ne m'en parle pas.* — Don't give it to him. Don't talk to me about it.\n\n### Softening commands\nA bare imperative can sound abrupt. Soften it with:\n- *s'il te plaît / s'il vous plaît*: *Ferme la fenêtre, s'il te plaît.*\n- *N'hésitez pas à…*: *N'hésitez pas à nous contacter.* — Don't hesitate to contact us.\n- the conditional: *Tu pourrais fermer la fenêtre ?*\n- *Pensez à…*: *Pensez à recycler vos bouteilles.* — Remember to recycle your bottles.\n\n### Alternatives in written instructions\nRecipes, notices and forms often use the **infinitive** instead: *Ne pas fumer. Mélanger la farine et le sucre. Remplir le formulaire.* In a Paper 1 leaflet or guide, the vous imperative is usually best: *Économisez l'eau : prenez des douches courtes et fermez le robinet.*\n\n### Example: a call to action (speech or leaflet)\n*Chers camarades, ne restons pas indifférents ! Rejoignez notre club, participez aux actions de nettoyage et parlez-en autour de vous. Ensemble, soyons le changement !* — Dear fellow students, let's not stay indifferent! Join our club, take part in clean-up actions and tell people around you about it. Together, let's be the change!\n",
+  "pitfalls": [
+   "Keeping the -s on -er verbs: manges ta soupe ! → mange ta soupe !",
+   "Using me/te in the affirmative: donne-me le livre → donne-moi le livre.",
+   "Putting pronouns after the verb in the negative: ne regarde-moi pas → ne me regarde pas.",
+   "Using the indicative of être/avoir: es sage ! / as confiance ! → sois sage ! / aie confiance !",
+   "Forgetting the -s before y: va-y ! → vas-y !"
+  ],
+  "check": [
+   {
+    "q": "___ tes devoirs avant de sortir ! (finir, tu)",
+    "a": [
+     "Finis"
+    ],
+    "why": "Imperative = tu form of the present without tu."
+   },
+   {
+    "q": "___ la porte, s'il te plaît. (fermer, tu)",
+    "a": [
+     "Ferme"
+    ],
+    "why": "-er verbs drop the -s in the tu imperative."
+   },
+   {
+    "q": "___ patients, les enfants ! (être, vous)",
+    "a": [
+     "Soyez"
+    ],
+    "why": "être has an irregular imperative: sois, soyons, soyez."
+   },
+   {
+    "q": "Tu as des bonbons ? ___ ! (donner, tu + me + en)",
+    "a": [
+     "Donne-m'en"
+    ],
+    "why": "moi + en → m'en after the verb."
+   },
+   {
+    "q": "___ ! Ne reste pas debout. (s'asseoir, tu)",
+    "a": [
+     "Assieds-toi",
+     "Assois-toi"
+    ],
+    "why": "Affirmative reflexive: pronoun after, te → toi."
+   },
+   {
+    "q": "Ce livre, c'est pour Marc ? Ne ___ prête pas ! (le, lui)",
+    "a": [
+     "le lui"
+    ],
+    "why": "Negative imperative: pronouns before the verb in normal order."
+   },
+   {
+    "q": "___ au parc ! C'est une belle journée. (aller, nous)",
+    "a": [
+     "Allons"
+    ],
+    "why": "The nous imperative means 'let's'."
+   },
+   {
+    "q": "Tu vas à la bibliothèque ? ___ ! (aller + y, tu)",
+    "a": [
+     "Vas-y"
+    ],
+    "why": "The -s returns before y."
+   },
+   {
+    "q": "___ peur, tout ira bien. (ne pas avoir, tu)",
+    "a": [
+     "N'aie pas"
+    ],
+    "why": "avoir → aie; negative ne… pas around it."
+   },
+   {
+    "q": "___ trouver ci-joint mon CV. (vouloir, vous — formal)",
+    "a": [
+     "Veuillez"
+    ],
+    "why": "Veuillez + infinitive is a formal 'please'."
+   }
+  ]
+ },
+ {
+  "id": "passive",
+  "group": "Verbs: moods & structures",
+  "title": "Passive voice & alternatives",
+  "level": "stretch",
+  "summary": "Forming the passive with être + past participle, and the more natural French alternatives: on, pronominal verbs and se faire.",
+  "exam": "The passive is typical of news articles and reports in Paper 2 and of formal Paper 1 text types; knowing when French prefers on or se faire avoids unnatural, anglicised sentences.",
+  "body": "### Formation\n**être (in any tense) + past participle**, agreeing with the subject. The agent is introduced by **par** (by).\n\n*Le directeur félicite les élèves.* → *Les élèves sont félicités par le directeur.* — The students are congratulated by the head teacher.\n\nThe tense is shown by **être**:\n\n| tense | example |\n|---|---|\n| présent | *La loi est votée.* — The law is passed. |\n| passé composé | *La loi a été votée.* — The law was / has been passed. |\n| imparfait | *La loi était votée chaque année.* — The law used to be passed every year. |\n| plus-que-parfait | *La loi avait été votée.* — The law had been passed. |\n| futur | *La loi sera votée.* — The law will be passed. |\n| conditionnel | *La loi serait votée.* — The law would be passed. |\n| infinitif | *La loi doit être votée.* — The law must be passed. |\n| subjonctif | *Il faut que la loi soit votée.* — The law must be passed. |\n\nThe participle always agrees with the subject: *La décision a été prise. Les vols ont été annulés. Les élèves seront interrogées* (girls).\n\n### Par or de?\n- **par** for an action: *Le tableau a été volé par deux hommes.* — The painting was stolen by two men.\n- **de** after verbs of feeling or description: *aimé de, respecté de, connu de, entouré de, couvert de, rempli de, suivi de, accompagné de*.\n*Ce professeur est respecté de tous.* — This teacher is respected by everyone. *La montagne était couverte de neige.* — The mountain was covered with snow.\n\n### An important limit\nOnly verbs with a **direct object** can be made passive. English can say \"I was told\" or \"She was given a prize\", but French verbs like *dire à, donner à, demander à, permettre à, répondre à* take an indirect object, so the passive is impossible:\n- ✗ *J'ai été dit…* → ✓ *On m'a dit…* — I was told…\n- ✗ *Elle a été donnée un prix.* → ✓ *On lui a donné un prix.* / *Un prix lui a été donné.* — She was given a prize.\n\n### Alternatives (often more natural)\n**1. On + active verb** — the most common replacement, especially when the agent is unknown or unimportant:\n*On a construit ce pont en 1900.* — This bridge was built in 1900.\n*Ici, on parle français.* — French is spoken here.\n*On m'a volé mon vélo.* — My bike was stolen.\n\n**2. Pronominal verb with passive meaning** — for general truths, habits or rules:\n*Le français se parle sur cinq continents.* — French is spoken on five continents.\n*Ce vin se boit frais.* — This wine is drunk chilled.\n*Ça ne se fait pas.* — That isn't done.\n*Les billets se vendent en ligne.* — Tickets are sold online.\n\n**3. Se faire + infinitive** — something happens to the subject (often unpleasant), or the subject has something done:\n*Il s'est fait voler son portable.* — He had his phone stolen.\n*Elle s'est fait renverser par une voiture.* — She was knocked over by a car.\n*Je me suis fait couper les cheveux.* — I had my hair cut.\n(Note: *fait* does not agree in this structure.)\n\n**4. Se voir + infinitive** (formal):\n*L'association s'est vu attribuer une subvention.* — The association was awarded a grant.\n\n### When to use which\n- In a **news report** (Paper 1 article, Paper 2 texts) the passive is common, often without an agent: *Trois personnes ont été blessées.* — Three people were injured.\n- In **conversation or blogs**, *on* sounds more natural: *On nous a annoncé la nouvelle hier.*\n- Don't overuse the passive: French generally prefers the active voice.\n\n### Recognising the passive vs the passé composé with être\n*Elle est partie* is an active passé composé (partir takes être). *Elle est invitée* is passive (present). Check whether the verb normally takes avoir: *inviter* does, so *est invitée* must be passive.\n",
+  "pitfalls": [
+   "Making indirect-object verbs passive: j'ai été dit de partir → on m'a dit de partir.",
+   "Forgetting agreement: la maison a été vendu → la maison a été vendue.",
+   "Using the wrong tense of être: la décision est prise hier → la décision a été prise hier.",
+   "Using par with feelings/description: couvert par neige → couvert de neige.",
+   "Overusing the passive where on is natural: le français est parlé ici → ici, on parle français."
+  ],
+  "check": [
+   {
+    "q": "Ce roman ___ par une autrice sénégalaise. (écrire, passé composé passif)",
+    "a": [
+     "a été écrit"
+    ],
+    "why": "Passé composé of être (a été) + participle agreeing with ce roman (masc. sing.)."
+   },
+   {
+    "q": "La décision ___ demain. (annoncer, futur passif)",
+    "a": [
+     "sera annoncée"
+    ],
+    "why": "Futur of être + pp agreeing with la décision."
+   },
+   {
+    "q": "Les élèves ___ par le directeur chaque année. (féliciter, présent passif)",
+    "a": [
+     "sont félicités"
+    ],
+    "why": "Présent of être + pp, masc. pl."
+   },
+   {
+    "q": "Ici, ___ parle français et anglais. (pronoun used instead of the passive)",
+    "a": [
+     "on"
+    ],
+    "why": "on + active verb replaces the passive."
+   },
+   {
+    "q": "Ce plat ___ froid. (manger, pronominal with passive meaning, présent)",
+    "a": [
+     "se mange"
+    ],
+    "why": "Pronominal passive: ce plat se mange froid."
+   },
+   {
+    "q": "Elle ___ voler son sac dans le métro. (se faire, passé composé)",
+    "a": [
+     "s'est fait"
+    ],
+    "why": "se faire + infinitive; fait does not agree."
+   },
+   {
+    "q": "La montagne était couverte ___ neige.",
+    "a": [
+     "de"
+    ],
+    "why": "Descriptive verbs take de, not par."
+   },
+   {
+    "q": "Les vols ___ à cause de la grève. (annuler, passé composé passif)",
+    "a": [
+     "ont été annulés"
+    ],
+    "why": "ont été + pp agreeing with les vols."
+   }
+  ]
+ },
+ {
+  "id": "gerondif-participe",
+  "group": "Verbs: moods & structures",
+  "title": "Gérondif & participe présent",
+  "level": "stretch",
+  "summary": "Forms in -ant: en + -ant (while/by doing) and the present participle used like a relative clause or to give a reason.",
+  "exam": "The gérondif (en travaillant, on réussit) is a compact way to show complex structures in Paper 1 and the oral; the participe présent is frequent in formal Paper 2 texts.",
+  "body": "### Formation\nTake the **nous form of the present**, remove **-ons**, add **-ant**:\n*parler → nous parlons → parlant*; *finir → finissant*; *faire → faisant*; *manger → mangeant*; *commencer → commençant*; *prendre → prenant*; *voir → voyant*.\n\nThree irregular forms: **être → étant**, **avoir → ayant**, **savoir → sachant**.\n\n### The gérondif: en + -ant\nThe gérondif describes an action done **by the same subject** as the main verb. It is invariable.\n\n**1. Simultaneity** — while / on (doing):\n*Je révise en écoutant de la musique.* — I revise while listening to music.\n*En arrivant à la gare, j'ai vu mon ancien prof.* — On arriving at the station, I saw my former teacher.\n\n**2. Manner or means** — by (doing):\n*Elle a appris l'espagnol en regardant des séries.* — She learned Spanish by watching series.\n*On peut réduire ses déchets en achetant en vrac.* — You can reduce your waste by buying loose products.\nProverb: *C'est en forgeant qu'on devient forgeron.* — Practice makes perfect.\n\n**3. Condition** — if (one does):\n*En partant maintenant, tu arriveras à l'heure.* — If you leave now, you'll arrive on time.\n\n**4. Tout en + -ant** — emphasises simultaneity or contrast (concession):\n*Il travaille tout en faisant ses études.* — He works while also studying.\n*Tout en comprenant ta position, je ne suis pas d'accord.* — While I understand your position, I don't agree.\n\nBe careful that the subjects match: *En traversant la rue, une voiture m'a renversé* would mean the car was crossing the street. Say instead: *Pendant que je traversais la rue, une voiture m'a renversé.*\n\n### The participe présent (without en)\nMostly found in **written, formal** French. It is invariable.\n\n**1. Replacing a qui clause** (qui + verb):\n*On recherche des bénévoles parlant arabe.* = *…qui parlent arabe.* — We're looking for volunteers who speak Arabic.\n*Les élèves souhaitant participer doivent s'inscrire.* — Students wishing to take part must sign up.\n\n**2. Giving a cause** (= comme / parce que):\n*Étant malade, elle n'est pas venue.* — Being ill, she didn't come.\n*Ne sachant pas quoi dire, il est resté silencieux.* — Not knowing what to say, he remained silent.\n\n**3. Participe passé composé** (ayant / étant + pp) — an action completed before the main one (stretch):\n*Ayant terminé ses devoirs, il est sorti.* — Having finished his homework, he went out.\n*Étant arrivée en retard, elle a raté le début.* — Having arrived late, she missed the beginning. (with être, the participle agrees)\n\n### Verbal adjective vs participle\nWhen the -ant form describes a noun as an adjective, it **agrees**: *une histoire passionnante, des résultats surprenants, une journée fatigante*. Some verbal adjectives are spelled differently from the participle: *fatigant* (tiring) vs *fatiguant* (tiring someone, verbal); *convaincant* vs *convainquant*; *différent* vs *différant*. At SL, just remember that adjectives agree and participles do not.\n\n### -ing is not always -ant\nEnglish \"-ing\" often corresponds to an **infinitive** in French:\n- After verbs: *J'aime nager.* — I like swimming. *J'ai arrêté de fumer.* — I stopped smoking.\n- After prepositions: *avant de partir* — before leaving; *sans dire au revoir* — without saying goodbye; *au lieu de travailler* — instead of working; *après avoir mangé* — after eating.\n- As a subject: *Lire est mon passe-temps préféré.* — Reading is my favourite hobby.\n- Ongoing actions: *Je suis en train de lire* or just *je lis* — I'm reading (never *je suis lisant*).\n",
+  "pitfalls": [
+   "Using -ant for 'I am doing': je suis travaillant → je travaille / je suis en train de travailler.",
+   "Using -ant after verbs or prepositions: j'aime nageant, avant partant → j'aime nager, avant de partir.",
+   "Different subjects with the gérondif: en sortant, la pluie a commencé → quand je suis sorti, la pluie a commencé.",
+   "Agreeing the participle: les élèves parlants français → les élèves parlant français.",
+   "Regularising the irregular forms: avant, savant → ayant, sachant."
+  ],
+  "check": [
+   {
+    "q": "Il écoute de la musique ___ ses devoirs. (faire, gérondif)",
+    "a": [
+     "en faisant"
+    ],
+    "why": "en + present participle; nous faisons → faisant."
+   },
+   {
+    "q": "C'est ___ qu'on devient forgeron. (forger, gérondif)",
+    "a": [
+     "en forgeant"
+    ],
+    "why": "Keep the e after g: forgeant."
+   },
+   {
+    "q": "___ malade, elle est restée à la maison. (être, participe présent)",
+    "a": [
+     "Étant"
+    ],
+    "why": "être → étant (irregular); gives a cause."
+   },
+   {
+    "q": "___ le bus, j'ai lu un article. (attendre, gérondif)",
+    "a": [
+     "En attendant"
+    ],
+    "why": "Simultaneous action, same subject."
+   },
+   {
+    "q": "On cherche un étudiant ___ l'espagnol. (parler, participe présent)",
+    "a": [
+     "parlant"
+    ],
+    "why": "Participe présent replacing qui parle; invariable."
+   },
+   {
+    "q": "Ne ___ pas la réponse, il n'a rien dit. (savoir, participe présent)",
+    "a": [
+     "sachant"
+    ],
+    "why": "savoir → sachant (irregular)."
+   },
+   {
+    "q": "Elle a appris le français ___ des séries. (regarder, gérondif)",
+    "a": [
+     "en regardant"
+    ],
+    "why": "Means: by watching."
+   },
+   {
+    "q": "J'aime ___ le dimanche matin. (nager)",
+    "a": [
+     "nager"
+    ],
+    "why": "After a verb, English -ing = French infinitive, not -ant."
+   },
+   {
+    "q": "___ ses devoirs, il est sorti. (finir, participe passé composé)",
+    "a": [
+     "Ayant fini"
+    ],
+    "why": "ayant + pp: an action completed before the main one."
+   }
+  ]
+ },
+ {
+  "id": "infinitive-constructions",
+  "group": "Verbs: moods & structures",
+  "title": "Infinitive constructions",
+  "level": "core",
+  "summary": "Which verbs are followed directly by an infinitive, which need à or de, and infinitive structures with pour, sans, avant de and après avoir/être.",
+  "exam": "Verb + preposition + infinitive patterns run through every sentence of extended writing; wrong prepositions (je commence de, j'ai décidé à) are a common Criterion A error, while après avoir + pp adds sophistication.",
+  "body": "### 1. Verb + infinitive (no preposition)\n| | | |\n|---|---|---|\n| aimer | adorer | détester |\n| préférer | vouloir | pouvoir |\n| devoir | savoir | aller |\n| venir (come to) | espérer | compter (intend) |\n| désirer | souhaiter | sembler |\n| laisser | faire | il faut |\n| oser | penser (intend) | aimer mieux |\n\n*J'espère trouver un stage.* — I hope to find an internship.\n*Nous comptons partir en juin.* — We intend to leave in June.\n*Il semble aller mieux.* — He seems to be better.\n\n### 2. Verb + à + infinitive\n| | |\n|---|---|\n| commencer à | continuer à |\n| apprendre à | réussir à |\n| arriver à (manage to) | chercher à (try to) |\n| hésiter à | s'habituer à |\n| se mettre à (start to) | penser à (remember / think of) |\n| tenir à (be keen to) | passer du temps à |\n| aider qqn à | inviter qqn à |\n| encourager qqn à | obliger qqn à |\n\n*J'ai réussi à convaincre mes parents.* — I managed to convince my parents.\n*Elle passe des heures à dessiner.* — She spends hours drawing.\n*Mon prof m'encourage à postuler.* — My teacher encourages me to apply.\n\n### 3. Verb + de + infinitive\n| | |\n|---|---|\n| décider de | essayer de |\n| arrêter de | finir de |\n| oublier de | refuser de |\n| accepter de | choisir de |\n| éviter de | risquer de |\n| rêver de | se souvenir de |\n| avoir besoin de | avoir envie de |\n| avoir peur de | avoir l'intention de |\n| venir de (have just) | être en train de |\n\n*J'ai décidé de faire du bénévolat.* — I decided to do volunteer work.\n*Évitez de laisser vos appareils en veille.* — Avoid leaving your devices on standby.\n\n**Verb + à qqn + de + infinitive** (telling / asking someone to do something):\n*demander à, dire à, conseiller à, permettre à, interdire à, promettre à, proposer à, défendre à*:\n*J'ai demandé à mon frère de m'aider.* — I asked my brother to help me.\n*Le médecin lui a conseillé de dormir plus.* — The doctor advised him to sleep more.\n*Mes parents m'ont permis de sortir.* — My parents allowed me to go out.\n\n### 4. Adjectives and impersonal expressions\n- *Il est + adjective + de + infinitive* (the infinitive has its own object): *Il est difficile de trouver un logement.* — It's hard to find accommodation.\n- *noun/pronoun + être + adjective + à + infinitive* (the subject is the object of the infinitive): *Ce texte est facile à comprendre.* — This text is easy to understand. *C'est difficile à dire.*\n- *être + adjective (feeling) + de*: *Je suis content de te voir. Elle est fière d'avoir réussi.*\n\n### 5. Preposition + infinitive\n| preposition | meaning | example |\n|---|---|---|\n| pour | (in order) to | *Je travaille l'été pour gagner de l'argent.* |\n| afin de | in order to (formal) | *afin de réduire les émissions* |\n| sans | without -ing | *Il est parti sans dire au revoir.* |\n| avant de | before -ing | *Réfléchis avant de répondre.* |\n| au lieu de | instead of -ing | *au lieu de prendre la voiture* |\n| à force de | by dint of | *À force de s'entraîner, elle a gagné.* |\n\n### 6. Après + past infinitive\n**Après avoir / après être + past participle** — \"after doing / having done\". The subject must be the same as in the main clause.\n*Après avoir mangé, nous sommes allés nous promener.* — After eating, we went for a walk.\n*Après être rentrée, elle s'est couchée.* — After getting home, she went to bed. (être: agreement with the subject)\n*Après s'être levés, ils ont pris le petit-déjeuner.* — After getting up, they had breakfast.\n\n### 7. Infinitive as subject and in negatives\n- *Voyager ouvre l'esprit.* — Travelling broadens the mind.\n- Negative infinitive: both parts go before it: *Il m'a dit de ne pas m'inquiéter.* — He told me not to worry. *Je préfère ne rien dire.* — I prefer to say nothing.\n\n### 8. Faire + infinitive (causative, stretch)\n*Je fais réparer mon vélo.* — I'm having my bike repaired. *Ce film m'a fait pleurer.* — This film made me cry.\n",
+  "pitfalls": [
+   "Wrong preposition after commencer/décider: je commence de lire, j'ai décidé à partir → je commence à lire, j'ai décidé de partir.",
+   "Adding a preposition after modal verbs: je veux de partir / je peux à venir → je veux partir / je peux venir.",
+   "Using a conjugated verb after a preposition: avant je pars → avant de partir; sans il dit → sans dire.",
+   "Forgetting the past infinitive after après: après manger (in writing) → après avoir mangé.",
+   "Using the -ant form after prepositions: sans parlant → sans parler."
+  ],
+  "check": [
+   {
+    "q": "J'ai décidé ___ partir. (preposition)",
+    "a": [
+     "de"
+    ],
+    "why": "décider de + infinitive."
+   },
+   {
+    "q": "Elle a réussi ___ convaincre ses parents. (preposition)",
+    "a": [
+     "à"
+    ],
+    "why": "réussir à + infinitive."
+   },
+   {
+    "q": "___ mangé, il s'est brossé les dents. (après + past infinitive)",
+    "a": [
+     "Après avoir"
+    ],
+    "why": "après avoir + pp = after doing; manger takes avoir."
+   },
+   {
+    "q": "___ sortie, elle a fermé la porte à clé. (après + past infinitive)",
+    "a": [
+     "Après être"
+    ],
+    "why": "sortir takes être, so après être + pp (with agreement)."
+   },
+   {
+    "q": "Lave-toi les mains ___ manger. (before)",
+    "a": [
+     "avant de"
+    ],
+    "why": "avant de + infinitive."
+   },
+   {
+    "q": "Il est parti ___ dire au revoir. (without)",
+    "a": [
+     "sans"
+    ],
+    "why": "sans + infinitive = without -ing."
+   },
+   {
+    "q": "Mon prof m'a conseillé ___ lire plus. (preposition)",
+    "a": [
+     "de"
+    ],
+    "why": "conseiller à qqn de + infinitive."
+   },
+   {
+    "q": "Ils ont commencé ___ réviser en mars. (preposition)",
+    "a": [
+     "à"
+    ],
+    "why": "commencer à + infinitive."
+   },
+   {
+    "q": "J'ai arrêté ___ manger de la viande. (preposition)",
+    "a": [
+     "de"
+    ],
+    "why": "arrêter de + infinitive."
+   },
+   {
+    "q": "Ce texte est difficile ___ comprendre. (preposition)",
+    "a": [
+     "à"
+    ],
+    "why": "noun + être + adjective + à + infinitive."
+   }
+  ]
+ },
+ {
+  "id": "negation",
+  "group": "Sentences & connectors",
+  "title": "Negation",
+  "level": "core",
+  "summary": "Ne…pas and the other negative structures (jamais, plus, rien, personne, aucun, ni…ni, que) and where they go in simple and compound tenses and with infinitives.",
+  "exam": "Negatives are everywhere in opinion writing and debate; correct position in the passé composé and before infinitives, and variety beyond ne…pas, are noticed under Criterion A.",
+  "body": "### The negative pairs\nFrench negation normally has two parts: **ne** (n' before a vowel) before the verb and a second word after it.\n\n| negative | meaning | example |\n|---|---|---|\n| ne … pas | not | *Je ne comprends pas.* — I don't understand. |\n| ne … jamais | never | *Il ne ment jamais.* — He never lies. |\n| ne … plus | no longer, not any more | *Elle ne fume plus.* — She doesn't smoke any more. |\n| ne … rien | nothing, not anything | *Je ne vois rien.* — I can't see anything. |\n| ne … personne | nobody, not anyone | *Je ne connais personne ici.* — I don't know anyone here. |\n| ne … aucun(e) | no, not any, not a single | *Il n'a aucune idée.* — He has no idea. |\n| ne … nulle part | nowhere | *Je ne le trouve nulle part.* — I can't find it anywhere. |\n| ne … ni … ni | neither … nor | *Je n'aime ni le thé ni le café.* — I like neither tea nor coffee. |\n| ne … pas encore | not yet | *Il n'est pas encore arrivé.* — He hasn't arrived yet. |\n| ne … que | only (restriction) | *Je n'ai que dix euros.* — I only have ten euros. |\n\n*Aucun* agrees with the noun and is singular: *aucun problème, aucune solution*.\n\n### Position in simple tenses\n**ne + verb + negative word**, with object pronouns between *ne* and the verb:\n*Je ne le vois pas. Nous ne nous voyons plus. Il n'y va jamais.*\n\n### Position in compound tenses\n**Most negatives wrap around the auxiliary**:\n*Je n'ai pas fini. Elle n'est jamais allée en Inde. Nous n'avons rien mangé. Ils n'étaient plus venus.*\n\n**But personne, aucun, nulle part, que (and ni…ni) go after the past participle**:\n*Je n'ai vu personne.* — I didn't see anyone.\n*Il n'a fait aucun effort.* — He made no effort.\n*Je ne suis allé nulle part.* — I didn't go anywhere.\n*Elle n'a mangé qu'une pomme.* — She only ate one apple.\n*Je n'ai vu ni Paul ni Marie.* — I saw neither Paul nor Marie.\n\n### With infinitives\n**Ne pas, ne jamais, ne plus, ne rien go together before the infinitive**:\n*Il m'a dit de ne pas m'inquiéter.* — He told me not to worry.\n*Je préfère ne rien dire.* — I'd rather say nothing.\n*J'ai décidé de ne plus utiliser de plastique.* — I decided not to use plastic any more.\nBut *personne* and *aucun* still go after: *J'ai peur de ne voir personne.*\n\nWith a modal verb, the negation goes around the modal: *Je ne peux pas venir.* (I can't come) — compare *Je peux ne pas venir.* (I may choose not to come).\n\n### Negative words as subjects\nPut the negative word first, then **ne** before the verb (never *pas*):\n*Personne n'est venu.* — Nobody came.\n*Rien n'a changé.* — Nothing has changed.\n*Aucun élève n'a compris.* — No student understood.\n*Ni mon frère ni ma sœur ne parlent italien.* — Neither my brother nor my sister speaks Italian.\n\n### Combining negatives\n*Je ne fais plus rien le dimanche.* — I don't do anything any more on Sundays.\n*Il ne dit jamais rien à personne.* — He never says anything to anyone.\n(Never combine *pas* with *rien / jamais / personne*.)\n\n### Articles after the negative\n*Un, une, des, du, de la* → **de / d'** after a negative (except after *être* and *ne… que*):\n*J'ai un vélo.* → *Je n'ai pas de vélo.* — I don't have a bike.\n*Ce n'est pas un problème.* (être — the article stays)\n*Je n'ai que des amis sympas.* (restriction, not real negation)\nWith *ni…ni*, indefinite and partitive articles disappear: *Je ne bois ni thé ni café.*\n\n### Answers and short forms\n- *Jamais !* — Never! *Rien.* — Nothing. *Personne.* — Nobody. *Pas du tout.* — Not at all. *Pas moi.* — Not me.\n- **Si** contradicts a negative question: *Tu n'as pas faim ? — Si, j'ai très faim !*\n- **Moi non plus** = me neither (agreeing with a negative); **moi aussi** = me too.\n\n### Register note\nIn casual speech the *ne* is often dropped (*je sais pas, c'est pas grave*). In Paper 1 writing — even a blog — and in the oral exam, **keep the ne**: it is expected in standard French and its omission can count as an error.\n",
+  "pitfalls": [
+   "Forgetting ne: je comprends pas → je ne comprends pas (in exam writing).",
+   "Putting personne / aucun before the participle: je n'ai personne vu → je n'ai vu personne.",
+   "Splitting ne pas around an infinitive: il m'a dit de ne partir pas → il m'a dit de ne pas partir.",
+   "Adding pas to another negative: je n'ai pas rien vu → je n'ai rien vu.",
+   "Keeping the article after a negative: je n'ai pas des frères → je n'ai pas de frères.",
+   "Answering oui to a negative question: Tu ne viens pas ? — Oui, je viens → Si, je viens."
+  ],
+  "check": [
+   {
+    "q": "Il n'a ___ compris. (nothing)",
+    "a": [
+     "rien"
+    ],
+    "why": "ne … rien; rien goes between auxiliary and participle."
+   },
+   {
+    "q": "Je n'ai vu ___ dans la rue. (nobody)",
+    "a": [
+     "personne"
+    ],
+    "why": "personne goes after the past participle."
+   },
+   {
+    "q": "___ n'est venu à la réunion. (nobody, as subject)",
+    "a": [
+     "Personne"
+    ],
+    "why": "Negative subject + ne + verb, no pas."
+   },
+   {
+    "q": "Elle ne mange ___ de viande depuis un an. (no longer)",
+    "a": [
+     "plus"
+    ],
+    "why": "ne … plus = no longer."
+   },
+   {
+    "q": "Il m'a dit de ___ parler trop fort. (negative + infinitive)",
+    "a": [
+     "ne pas"
+    ],
+    "why": "ne pas both go before the infinitive."
+   },
+   {
+    "q": "Je n'ai ___ idée. (not a single — aucun)",
+    "a": [
+     "aucune"
+    ],
+    "why": "aucun agrees with idée (feminine)."
+   },
+   {
+    "q": "Nous n'avons ___ deux heures de cours aujourd'hui. (only)",
+    "a": [
+     "que"
+    ],
+    "why": "ne … que = only."
+   },
+   {
+    "q": "Il n'aime ni le rap ___ le jazz. (neither … nor)",
+    "a": [
+     "ni"
+    ],
+    "why": "ne … ni … ni."
+   },
+   {
+    "q": "Tu ne viens pas ? — ___ , je viens ! (contradict the negative question)",
+    "a": [
+     "Si"
+    ],
+    "why": "si answers yes to a negative question."
+   },
+   {
+    "q": "Je n'aime pas les épinards. — Moi ___ . (me neither)",
+    "a": [
+     "non plus"
+    ],
+    "why": "moi non plus agrees with a negative statement."
+   }
+  ]
+ },
+ {
+  "id": "articles-partitive",
+  "group": "Nouns, articles & adjectives",
+  "title": "Articles & the partitive",
+  "level": "core",
+  "summary": "Definite, indefinite and partitive articles, contractions with à and de, and when the article becomes de or disappears.",
+  "exam": "Article errors (j'aime pizza, beaucoup des gens, je n'ai pas des…) are among the most common in English speakers' French and directly affect Criterion A accuracy in every paper.",
+  "body": "### The three kinds of article\n| | masc. | fem. | before vowel / h | plural |\n|---|---|---|---|---|\n| definite (the) | le | la | l' | les |\n| indefinite (a, some) | un | une | un / une | des |\n| partitive (some, any) | du | de la | de l' | des |\n\n### Definite article: le, la, l', les\nUsed for specific things **and** — unlike English — for **general statements, likes and dislikes, and abstract nouns**:\n- *J'adore le chocolat mais je déteste les épinards.* — I love chocolate but I hate spinach.\n- *La pollution est un problème grave.* — Pollution is a serious problem.\n- *Les jeunes passent trop de temps sur les écrans.* — Young people spend too much time on screens.\n- **Countries, regions, languages**: *La France, le Canada, le français est difficile.*\n- **Days for habits**: *Le lundi, j'ai sport.* — On Mondays I have PE. (*Lundi, j'ai un examen.* — This Monday.)\n- **Body parts** with a reflexive or obvious owner: *Il s'est cassé la jambe. J'ai mal à la tête.*\n- **Prices and rates**: *trois euros le kilo, deux fois par semaine* (note: *par* for frequency).\n\n**Contractions with à and de**:\n| | le | la | l' | les |\n|---|---|---|---|---|\n| à | **au** | à la | à l' | **aux** |\n| de | **du** | de la | de l' | **des** |\n\n*Je vais au lycée et ensuite aux magasins.* — I go to school and then to the shops.\n*Le livre du professeur, la fin des vacances.* — The teacher's book, the end of the holidays.\n\n### Indefinite article: un, une, des\n*Il y a un problème. J'ai des amis à Dakar.* — There's a problem. I have (some) friends in Dakar.\n*Des* is required where English has no article: *J'ai acheté des pommes.* — I bought apples.\nFormal written rule: **des → de before a plural adjective placed before the noun**: *de beaux paysages, de nouvelles idées, de grands progrès.*\n\n### Partitive: du, de la, de l', des\nFor an **unspecified amount** of something uncountable (or an activity):\n*Je bois du café et je mange de la salade.* — I drink coffee and eat salad.\n*Il faut de la patience.* — You need patience.\n*Elle fait du yoga et de l'escalade.* — She does yoga and climbing.\n\nCompare: *J'aime le fromage* (general — I like cheese) vs *Je mange du fromage* (some cheese) vs *Je mange le fromage* (the cheese, specific).\n\n### When the article becomes de / d'\n**1. After a negative** (un, une, des, du, de la, de l' → de):\n*Il y a du pain.* → *Il n'y a plus de pain.* — There's no more bread.\n*J'ai une voiture.* → *Je n'ai pas de voiture.*\nExceptions: after **être** (*Ce n'est pas une bonne idée*), with contrast (*Je ne bois pas du thé, je bois du café*), and with *ne… que* (*Il n'a que des dettes*). Definite articles never change: *Je n'aime pas le sport.*\n\n**2. After expressions of quantity**:\n*beaucoup de, peu de, trop de, assez de, plus de, moins de, autant de, tant de, un peu de, combien de, un kilo de, un litre de, une bouteille de, un paquet de, une tranche de, un morceau de, une boîte de*.\nThese take plain **de**: *beaucoup de gens, trop de devoirs, un litre de lait, peu d'espoir.*\nBut: **la plupart des** (most), **bien des** (many), **la moitié des** (half of the): *La plupart des élèves sont d'accord.*\n\n**3. After avoir besoin de, manquer de, se passer de, être plein de, couvert de**: *J'ai besoin d'aide. La ville manque d'espaces verts.*\n\n### No article\n- **Professions, nationalities, religions after être / devenir**: *Elle est avocate. Il est devenu médecin. Je suis canadien.* But with an adjective or after c'est: *C'est une avocate brillante. C'est un médecin.*\n- **Noun + de + noun** describing type: *un cours de maths, une salle de sport, un jus d'orange.*\n- **After avec / sans with abstract nouns**: *avec plaisir, sans difficulté, avec patience.*\n- **Feminine countries after en**, and lists or headlines.\n\n### Countries and cities\n| | to / in | from |\n|---|---|---|\n| feminine country (most end in -e) | en France, en Suisse | de France |\n| masculine country | au Japon, au Maroc | du Japon |\n| plural country | aux États-Unis | des États-Unis |\n| country starting with a vowel | en Iran, en Israël | d'Iran |\n| city | à Paris, à Genève | de Paris |\n",
+  "pitfalls": [
+   "Leaving out the article for general statements: j'aime pizza / pollution est grave → j'aime la pizza / la pollution est grave.",
+   "Using des after quantities: beaucoup des gens → beaucoup de gens.",
+   "Keeping un/des after a negative: je n'ai pas un chien → je n'ai pas de chien.",
+   "Using an article with professions: je veux être un médecin → je veux être médecin.",
+   "Forgetting contractions: à le cinéma, de les élèves → au cinéma, des élèves.",
+   "Wrong preposition with countries: à France, en Japon → en France, au Japon."
+  ],
+  "check": [
+   {
+    "q": "J'adore ___ chocolat noir. (article)",
+    "a": [
+     "le"
+    ],
+    "why": "Likes and dislikes take the definite article."
+   },
+   {
+    "q": "Le matin, je bois ___ café. (article)",
+    "a": [
+     "du"
+    ],
+    "why": "Unspecified amount → partitive du."
+   },
+   {
+    "q": "Je ne mange pas ___ viande. (article)",
+    "a": [
+     "de"
+    ],
+    "why": "After a negative, de la → de."
+   },
+   {
+    "q": "Il y a beaucoup ___ élèves dans ma classe. (article)",
+    "a": [
+     "d'"
+    ],
+    "why": "After beaucoup, plain de (d' before a vowel)."
+   },
+   {
+    "q": "Elle voudrait ___ eau, s'il vous plaît. (article)",
+    "a": [
+     "de l'"
+    ],
+    "why": "Partitive before a vowel: de l'."
+   },
+   {
+    "q": "Nous allons ___ États-Unis cet été. (preposition + article)",
+    "a": [
+     "aux"
+    ],
+    "why": "Plural country: à + les = aux."
+   },
+   {
+    "q": "Ce n'est pas ___ problème. (article)",
+    "a": [
+     "un"
+    ],
+    "why": "After être the indefinite article does not change to de."
+   },
+   {
+    "q": "J'ai acheté un kilo ___ pommes. (article)",
+    "a": [
+     "de"
+    ],
+    "why": "Quantity expression + de."
+   },
+   {
+    "q": "Je vais ___ cinéma ce soir. (preposition + article)",
+    "a": [
+     "au"
+    ],
+    "why": "à + le = au."
+   },
+   {
+    "q": "___ plupart des jeunes utilisent les réseaux sociaux. (article)",
+    "a": [
+     "La"
+    ],
+    "why": "la plupart des + plural noun."
+   }
+  ]
+ },
+ {
+  "id": "adjectives",
+  "group": "Nouns, articles & adjectives",
+  "title": "Adjectives: agreement, position & meaning",
+  "level": "core",
+  "summary": "How adjectives agree in gender and number, their irregular forms, where they go (BAGS), and adjectives that change meaning with position.",
+  "exam": "Every descriptive sentence needs agreement; consistent accuracy here is basic to Criterion A, and using meaning-changing adjectives (un ancien élève, ma propre chambre) shows refinement.",
+  "body": "### Basic agreement\nAdjectives agree in **gender and number** with the noun they describe:\n\n| | masculine | feminine |\n|---|---|---|\n| singular | petit | petit**e** |\n| plural | petit**s** | petit**es** |\n\n- Adjectives already ending in **-e** don't change in the feminine: *un garçon timide, une fille timide*.\n- Adjectives ending in **-s** or **-x** don't change in the masculine plural: *un homme gris → des hommes gris*.\n- For a mix of masculine and feminine nouns, use the **masculine plural**: *Mon frère et ma sœur sont grands.*\n\n### Regular feminine patterns\n| ending | masc. → fem. | examples |\n|---|---|---|\n| -eux | → -euse | heureux → heureuse, sérieux → sérieuse |\n| -if | → -ive | sportif → sportive, actif → active |\n| -el / -eil | → -elle / -eille | naturel → naturelle, pareil → pareille |\n| -en / -on | → -enne / -onne | ancien → ancienne, bon → bonne |\n| -er | → -ère | cher → chère, fier → fière |\n| -et | → -ette (most) | muet → muette, violet → violette |\n| -et | → -ète (a few) | complet → complète, inquiet → inquiète, secret → secrète, discret → discrète |\n| -c | → -che / -que | blanc → blanche, franc → franche, public → publique |\n| -eur | → -euse | travailleur → travailleuse, menteur → menteuse |\n| -teur | → -trice | conservateur → conservatrice, créateur → créatrice |\n| -g | → -gue | long → longue |\n\nException: *meilleur, supérieur, inférieur, extérieur, intérieur* just add -e: *une meilleure idée*.\n\n### Irregular adjectives\n| masc. | masc. before vowel | fem. | masc. pl. | fem. pl. |\n|---|---|---|---|---|\n| beau | bel | belle | beaux | belles |\n| nouveau | nouvel | nouvelle | nouveaux | nouvelles |\n| vieux | vieil | vieille | vieux | vieilles |\n| fou | fol | folle | fous | folles |\n\n*un bel appartement, un nouvel ami, un vieil homme* — the special forms are used **before a masculine singular noun starting with a vowel or silent h**.\n\nOthers: *gentil → gentille*, *gros → grosse*, *bas → basse*, *épais → épaisse*, *frais → fraîche*, *sec → sèche*, *doux → douce*, *faux → fausse*, *roux → rousse*, *favori → favorite*, *grec → grecque*.\n\n### Plurals\n- **-al → -aux**: *social → sociaux, national → nationaux, principal → principaux* (fem. pl. regular: *sociales*). Exceptions: *banal, final, fatal, natal → -als*.\n- **-eau → -eaux**: *beaux, nouveaux*.\n\n### Invariable adjectives\n- Colours that are also nouns (fruits, stones): *marron, orange* (also *cerise, crème*): *des chaussures marron*. (But *rose, mauve, fauve* agree.)\n- Compound colours: *une robe bleu clair, des yeux vert foncé*.\n- *demi* before a noun is invariable and hyphenated: *une demi-heure* (but after the noun it agrees in gender: *une heure et demie*).\n\n### Position\nMost adjectives go **after** the noun, especially colours, nationalities, shapes, religions, long adjectives and past participles: *une voiture rouge, un film français, une table ronde, une décision importante, une porte fermée.*\n\nA small group of common short adjectives go **before** — remember **BAGS**:\n| | |\n|---|---|\n| **B**eauty | beau, joli |\n| **A**ge | jeune, vieux, nouveau |\n| **G**oodness | bon, mauvais, gentil, meilleur |\n| **S**ize | grand, petit, gros, long, haut |\n\nAlso usually before: *autre, même, premier, dernier* (in a series), numbers: *une jolie petite maison, un bon repas, les deux premières semaines.*\n\n### Adjectives that change meaning with position\n| adjective | before the noun | after the noun |\n|---|---|---|\n| ancien | former: *mon ancien prof* | old, ancient: *un château ancien* |\n| cher | dear: *ma chère amie* | expensive: *un restaurant cher* |\n| propre | own: *ma propre chambre* | clean: *une chambre propre* |\n| grand | great: *un grand homme* | tall: *un homme grand* |\n| pauvre | unfortunate: *le pauvre garçon* | poor (no money): *une famille pauvre* |\n| seul | only: *la seule solution* | alone: *une femme seule* |\n| même | same: *la même question* | very / itself: *le jour même* |\n| dernier | last (of a series): *la dernière fois* | last (= previous): *la semaine dernière* |\n| prochain | next (in a series): *la prochaine fois* | next (coming): *la semaine prochaine* |\n| certain | some, certain: *certains élèves* | sure: *une victoire certaine* |\n\n*Mon ancienne école était dans un bâtiment ancien.* — My former school was in an old building.\n",
+  "pitfalls": [
+   "Forgetting agreement: une idée original / des problèmes social → une idée originale / des problèmes sociaux.",
+   "Using beau/nouveau/vieux before a vowel: un beau homme, un nouveau ami → un bel homme, un nouvel ami.",
+   "Wrong position: une rouge voiture / un garçon petit → une voiture rouge / un petit garçon.",
+   "Agreeing invariable colours: des chaussures marrons → des chaussures marron.",
+   "Ignoring meaning changes: mon prof ancien (= my former teacher) → mon ancien prof.",
+   "Wrong feminine forms: gentile, blanque, longe → gentille, blanche, longue."
+  ],
+  "check": [
+   {
+    "q": "Ma sœur est très ___ . (sportif)",
+    "a": [
+     "sportive"
+    ],
+    "why": "-if → -ive in the feminine."
+   },
+   {
+    "q": "Ce sont des idées ___ . (original)",
+    "a": [
+     "originales"
+    ],
+    "why": "Feminine plural: originale + s."
+   },
+   {
+    "q": "Il habite dans un ___ appartement. (beau)",
+    "a": [
+     "bel"
+    ],
+    "why": "Before a masculine noun starting with a vowel: bel."
+   },
+   {
+    "q": "Les problèmes ___ sont graves. (social)",
+    "a": [
+     "sociaux"
+    ],
+    "why": "-al → -aux in the masculine plural."
+   },
+   {
+    "q": "Elle porte une jupe ___ . (blanc)",
+    "a": [
+     "blanche"
+    ],
+    "why": "blanc → blanche."
+   },
+   {
+    "q": "Ma grand-mère est une femme très ___ . (gentil)",
+    "a": [
+     "gentille"
+    ],
+    "why": "gentil doubles the l in the feminine."
+   },
+   {
+    "q": "J'ai acheté des chaussures ___ . (marron)",
+    "a": [
+     "marron"
+    ],
+    "why": "marron is invariable."
+   },
+   {
+    "q": "Nous avons dormi dans un ___ hôtel. (vieux)",
+    "a": [
+     "vieil"
+    ],
+    "why": "vieux → vieil before a masculine vowel noun."
+   },
+   {
+    "q": "Ma mère est ___ . (inquiet)",
+    "a": [
+     "inquiète"
+    ],
+    "why": "-et → -ète for inquiet."
+   },
+   {
+    "q": "C'est une ___ histoire. (long)",
+    "a": [
+     "longue"
+    ],
+    "why": "long → longue; long goes before the noun (size)."
+   }
+  ]
+ },
+ {
+  "id": "comparatives-superlatives",
+  "group": "Nouns, articles & adjectives",
+  "title": "Comparatives & superlatives",
+  "level": "core",
+  "summary": "Comparing with plus/moins/aussi … que and autant, the superlative le plus / le moins, and the irregular forms meilleur, mieux and pire.",
+  "exam": "Comparing options, past and present, or different points of view is central to argumentative Paper 1 tasks and to the oral; the meilleur/mieux distinction is a classic accuracy point.",
+  "body": "### Comparing adjectives and adverbs\n| | structure | example |\n|---|---|---|\n| more … than | plus + adj/adv + que | *Le train est plus écologique que l'avion.* |\n| less … than | moins + adj/adv + que | *Ce quartier est moins bruyant que le centre.* |\n| as … as | aussi + adj/adv + que | *Elle parle aussi vite que sa mère.* |\n\nThe adjective agrees as usual: *Ma sœur est plus grande que moi.*\nAfter *que*, use a **stressed pronoun**: *plus âgé que toi, aussi motivés qu'eux.*\n\n### Comparing nouns and verbs\n| | nouns | verbs |\n|---|---|---|\n| more | plus de + noun + que | verb + plus que |\n| less | moins de + noun + que | verb + moins que |\n| as much / many | autant de + noun + que | verb + autant que |\n\n*Il y a plus de voitures qu'avant.* — There are more cars than before.\n*J'ai autant de devoirs que toi.* — I have as much homework as you.\n*Les adolescents dorment moins que les enfants.* — Teenagers sleep less than children.\n*Elle travaille autant que son frère.* — She works as much as her brother.\n\n**Plus de / moins de + number** = more / fewer than: *plus de cent personnes* — more than a hundred people.\n\n### Irregular forms\n| | adjective (good / bad) | adverb (well / badly) |\n|---|---|---|\n| base | bon(ne) / mauvais(e) | bien / mal |\n| comparative | **meilleur(e)(s)** / **pire(s)** or plus mauvais(e) | **mieux** / plus mal |\n| superlative | **le meilleur** / **le pire** | **le mieux** / le plus mal |\n\n- **meilleur** describes a noun (adjective): *Ce gâteau est meilleur que l'autre.* — This cake is better than the other one.\n- **mieux** describes a verb (adverb): *Elle cuisine mieux que moi.* — She cooks better than me. Also *Ça va mieux.* — Things are better.\n- *Plus bon* and *plus bien* are wrong.\n- **pire** (worse) is common in abstract contexts: *La situation est pire qu'avant.* *Plus mauvais* is also correct, especially for concrete quality: *Ce vin est plus mauvais que l'autre.*\n\n### The superlative\n**Le / la / les + plus / moins + adjective (+ de)**\n\nThe superlative keeps the adjective's normal position:\n- before the noun (BAGS): *C'est la plus belle ville du pays.* — It's the most beautiful town in the country.\n- after the noun — **repeat the article**: *C'est la ville la plus polluée d'Europe.* — It's the most polluted city in Europe.\n- *C'est le sport le moins cher.* — It's the cheapest (least expensive) sport.\n\n\"In\" after a superlative = **de** (du, de la, des): *le plus grand pays du monde, l'élève le plus doué de la classe.*\n\n**With adverbs**, the article is always **le**: *C'est elle qui court le plus vite.* — She's the one who runs fastest.\n**With nouns**: *le plus de / le moins de*: *C'est lui qui a le plus d'expérience.* — He's the one with the most experience.\n**With verbs**: *C'est ce qui m'inquiète le plus.* — That's what worries me most.\n\nPossessives can replace the article: *mon meilleur ami, ma plus grande peur.*\n\n(Stretch: a superlative is often followed by the subjunctive: *C'est le meilleur livre que j'aie lu.*)\n\n### Useful expressions\n- *de plus en plus* / *de moins en moins* — more and more / less and less: *Les étés sont de plus en plus chauds.*\n- *plus … plus* / *moins … moins* — the more … the more: *Plus on lit, plus on apprend.* — The more you read, the more you learn.\n- *le plus possible* / *le moins possible* — as much / little as possible.\n- *de loin le meilleur* — by far the best.\n- *bien plus / beaucoup plus* — much more: *C'est beaucoup plus pratique.*\n- *de mieux en mieux* — better and better.\n- *le / la même … que* — the same … as: *J'ai le même téléphone que toi.*\n",
+  "pitfalls": [
+   "Saying plus bon / plus bien: ce film est plus bon → ce film est meilleur; elle chante plus bien → elle chante mieux.",
+   "Confusing meilleur and mieux: il parle meilleur que moi → il parle mieux que moi.",
+   "Using dans after a superlative: la plus grande ville dans le monde → la plus grande ville du monde.",
+   "Forgetting to repeat the article: la ville plus polluée → la ville la plus polluée.",
+   "Using que instead of de with numbers: plus que cent personnes → plus de cent personnes.",
+   "Using subject pronouns after que: plus grand que je → plus grand que moi."
+  ],
+  "check": [
+   {
+    "q": "Ce film est ___ que le livre. (better — bon)",
+    "a": [
+     "meilleur"
+    ],
+    "why": "meilleur is the comparative of the adjective bon."
+   },
+   {
+    "q": "Elle chante ___ que moi. (better — bien)",
+    "a": [
+     "mieux"
+    ],
+    "why": "mieux is the comparative of the adverb bien."
+   },
+   {
+    "q": "Paris est la plus grande ville ___ France. (preposition)",
+    "a": [
+     "de"
+    ],
+    "why": "de after a superlative = in."
+   },
+   {
+    "q": "C'est le restaurant ___ cher de la ville. (the least)",
+    "a": [
+     "le moins"
+    ],
+    "why": "Superlative: le moins + adjective."
+   },
+   {
+    "q": "J'ai ___ de livres que toi. (as many)",
+    "a": [
+     "autant"
+    ],
+    "why": "autant de + noun + que."
+   },
+   {
+    "q": "La situation est ___ qu'avant. (worse)",
+    "a": [
+     "pire",
+     "plus mauvaise"
+    ],
+    "why": "pire (or plus mauvaise) = worse."
+   },
+   {
+    "q": "C'est la ___ actrice du film. (best)",
+    "a": [
+     "meilleure"
+    ],
+    "why": "le/la meilleur(e); feminine agreement."
+   },
+   {
+    "q": "Mon frère est ___ grand que mon père. (as)",
+    "a": [
+     "aussi"
+    ],
+    "why": "aussi + adjective + que."
+   },
+   {
+    "q": "Il y a ___ de touristes chaque année. (more and more)",
+    "a": [
+     "de plus en plus"
+    ],
+    "why": "de plus en plus = more and more."
+   },
+   {
+    "q": "C'est elle qui court ___ vite. (the fastest — adverb)",
+    "a": [
+     "le plus"
+    ],
+    "why": "Adverbs always take le in the superlative."
+   }
+  ]
+ },
+ {
+  "id": "object-pronouns",
+  "group": "Pronouns",
+  "title": "Object pronouns: COD, COI, y, en & order",
+  "level": "core",
+  "summary": "Direct and indirect object pronouns, y and en, their position before the verb, and the order when several are combined.",
+  "exam": "Pronouns avoid repetition and make your writing and speaking flow naturally; correct choice (le vs lui) and order (je le lui ai dit) are strong evidence of B1–B2 control.",
+  "body": "### Direct object pronouns (COD)\nReplace a noun that follows the verb **directly** (no preposition).\n\n| me / m' | te / t' | le / l' | la / l' | nous | vous | les |\n|---|---|---|---|---|---|---|\n| me | you | him, it | her, it | us | you | them |\n\n*Tu regardes cette série ? Oui, je la regarde.* — Yes, I watch it.\n*Mes parents ? Je les appelle tous les dimanches.* — I call them every Sunday.\n\n### Indirect object pronouns (COI)\nReplace **à + person**.\n\n| me / m' | te / t' | lui | nous | vous | leur |\n|---|---|---|---|---|---|\n| (to) me | (to) you | (to) him / her | (to) us | (to) you | (to) them |\n\n*Tu as écrit à Sophie ? Oui, je lui ai écrit.* — Yes, I wrote to her.\n*Je leur parle souvent.* — I often talk to them.\n*Leur* as a pronoun never takes -s (unlike the possessive *leurs livres*).\n\n### Direct or indirect? Know your verbs\nMany verbs differ from English:\n\n| direct in French (no à) | indirect in French (à + person) |\n|---|---|\n| aider qqn (help) | téléphoner à (phone) |\n| écouter qqn (listen to) | répondre à (answer) |\n| regarder qqn (look at) | ressembler à (look like) |\n| attendre qqn (wait for) | demander à (ask) |\n| chercher qqn (look for) | dire à, parler à (say/talk to) |\n| remercier qqn (thank) | conseiller à (advise) |\n| inviter qqn (invite) | plaire à (please) |\n| appeler qqn (call) | obéir à (obey) |\n\n*Je l'attends depuis une heure.* — I've been waiting for him for an hour.\n*Ce film lui a beaucoup plu.* — She really liked this film.\n\n### Y\n**Y** replaces **à + thing / idea**, or a **place** (à, en, dans, chez, sur…): \"there\", \"about it\", \"to it\".\n*Tu vas à Lyon ? Oui, j'y vais demain.* — Yes, I'm going there tomorrow.\n*Tu penses à ton avenir ? Oui, j'y pense souvent.* — Yes, I often think about it.\n*Il faut y réfléchir.* — We need to think about it.\nFor **people** after *penser à, s'intéresser à, faire attention à*, use à + stressed pronoun: *Je pense à elle.*\n\n### En\n**En** replaces **de + noun** (things, and usually not people), including:\n- the partitive (du, de la, des): *Tu veux du café ? Oui, j'en veux bien.* — Yes, I'd like some.\n- quantities and numbers (keep the number): *Tu as des frères ? Oui, j'en ai deux.* — Yes, I have two. *Il en a beaucoup.*\n- verbs with de: *parler de, avoir besoin de, avoir envie de, se souvenir de*: *J'en ai besoin.* — I need it. *Tu en as parlé ?* — Did you talk about it?\n- places with de (from there): *Il revient de Rome ? Oui, il en revient.*\nFixed expressions: *il y en a* (there is/are some), *j'en ai marre* (I'm fed up), *s'en aller*.\n\n### Position\n**Before the conjugated verb**: *Je le vois. Je ne le vois pas.*\n**Compound tenses: before the auxiliary**: *Je l'ai vu. Je ne l'ai pas vu.* — with agreement of the past participle with a preceding COD: *Ta lettre ? Je l'ai reçue.* (No agreement with lui, leur, y, en.)\n**With verb + infinitive: before the infinitive**: *Je vais le faire. Je peux t'aider. Je ne veux pas en parler.*\n**Affirmative imperative: after the verb**: *Fais-le ! Parle-lui ! Vas-y !* (see the imperative topic)\n\n### Order of pronouns before the verb\n| 1 | 2 | 3 | 4 | 5 |\n|---|---|---|---|---|\n| me, te, se, nous, vous | le, la, les | lui, leur | y | en |\n\n- *Il me le donne.* — He gives it to me.\n- *Je le lui ai dit.* — I told him (it).\n- *Elle nous les a montrées.* — She showed them to us.\n- *Il y en a trois.* — There are three (of them).\n- *Je lui en ai parlé.* — I spoke to him about it.\n\nNote: *lui/leur* follow *le/la/les*, but *me/te/nous/vous* come before them.\n",
+  "pitfalls": [
+   "Using le/la for an indirect object: je la téléphone → je lui téléphone.",
+   "Using lui for a direct object: je lui aide → je l'aide.",
+   "Putting the pronoun after the verb: je vois le → je le vois; j'ai vu le → je l'ai vu.",
+   "Placing the pronoun before the modal instead of the infinitive: je le vais faire → je vais le faire.",
+   "Leaving out en with a number: Tu as des frères ? — J'ai deux → J'en ai deux.",
+   "Writing leurs as a pronoun: je leurs parle → je leur parle."
+  ],
+  "check": [
+   {
+    "q": "Tu vois Paul ? Oui, je ___ vois souvent. (pronoun)",
+    "a": [
+     "le"
+    ],
+    "why": "voir is direct: COD le."
+   },
+   {
+    "q": "Tu as téléphoné à ta mère ? Oui, je ___ ai téléphoné. (pronoun)",
+    "a": [
+     "lui"
+    ],
+    "why": "téléphoner à + person → lui."
+   },
+   {
+    "q": "Tu vas à la piscine ? Oui, j'___ vais demain. (pronoun)",
+    "a": [
+     "y"
+    ],
+    "why": "à + place → y."
+   },
+   {
+    "q": "Tu as des frères ? Oui, j'___ ai deux. (pronoun)",
+    "a": [
+     "en"
+    ],
+    "why": "en with a number."
+   },
+   {
+    "q": "Tu as donné le livre à Lucie ? Oui, je ___ ai donné. (two pronouns)",
+    "a": [
+     "le lui"
+    ],
+    "why": "Order: le before lui."
+   },
+   {
+    "q": "Les clés ? Je ne les ai pas ___ . (trouver, passé composé)",
+    "a": [
+     "trouvées"
+    ],
+    "why": "Preceding COD les = les clés (fem. pl.) → agreement."
+   },
+   {
+    "q": "Tu parles à tes parents ? Oui, je ___ parle tous les soirs. (pronoun)",
+    "a": [
+     "leur"
+    ],
+    "why": "parler à + people (plural) → leur."
+   },
+   {
+    "q": "Tu penses à ton examen ? Oui, j'___ pense. (pronoun)",
+    "a": [
+     "y"
+    ],
+    "why": "penser à + thing → y."
+   },
+   {
+    "q": "Il t'a montré ses photos ? Oui, il ___ a montrées. (two pronouns)",
+    "a": [
+     "me les"
+    ],
+    "why": "Order: me before les; montrées agrees with les (fem. pl.)."
+   },
+   {
+    "q": "Elle va inviter Marc et Julie ? Oui, elle va ___ inviter. (pronoun)",
+    "a": [
+     "les"
+    ],
+    "why": "Pronoun goes before the infinitive it depends on."
+   }
+  ]
+ },
+ {
+  "id": "stressed-pronouns",
+  "group": "Pronouns",
+  "title": "Stressed (disjunctive) pronouns",
+  "level": "core",
+  "summary": "Moi, toi, lui, elle, soi, nous, vous, eux, elles: used for emphasis, after prepositions, after c'est and in comparisons.",
+  "exam": "Stressed pronouns are constant in spoken interaction (moi, je pense que…; c'est lui qui…) and give natural emphasis in the oral and in informal Paper 1 text types.",
+  "body": "### The forms\n| subject | stressed |\n|---|---|\n| je | moi |\n| tu | toi |\n| il | lui |\n| elle | elle |\n| on | soi (or nous, informally) |\n| nous | nous |\n| vous | vous |\n| ils | eux |\n| elles | elles |\n\n### Uses\n**1. Emphasis** — at the start or end of a sentence, together with the subject pronoun:\n*Moi, je trouve que c'est injuste.* — Personally, I think it's unfair.\n*Il a tort, lui.* — He's wrong, (him).\n*Eux, ils ne comprennent rien.* — They don't understand anything.\n\n**2. After prepositions** (avec, sans, pour, chez, devant, derrière, à côté de, sauf, entre…):\n*Tu viens avec moi ?* — Are you coming with me?\n*Je fais ça pour toi.* — I'm doing this for you.\n*On dîne chez eux ce soir.* — We're having dinner at their place tonight.\n*Entre nous, …* — Between you and me, …\n\n**3. After c'est / ce sont**:\n*C'est moi qui ai raison.* — I'm the one who's right. (the verb agrees with *moi*)\n*C'est toi qui décides.* — It's up to you.\n*C'est lui ? — Oui, c'est lui.* — Is it him? — Yes, it's him.\n*Ce sont eux qui ont gagné.* — They're the ones who won. (*C'est eux* is also common.)\n\n**4. In comparisons** (after que):\n*Elle est plus âgée que moi.* — She's older than me.\n*Nous sommes aussi motivés qu'eux.*\n\n**5. Alone, as a one-word answer** or with aussi / non plus / seul:\n*Qui veut du gâteau ? — Moi !* — Who wants cake? — Me!\n*J'adore ce groupe. — Moi aussi !* — Me too!\n*Je n'ai pas compris. — Moi non plus.* — Me neither.\n*Lui seul connaît la vérité.* — He alone knows the truth.\n\n**6. In compound subjects**:\n*Mon frère et moi, nous partons demain.* — My brother and I are leaving tomorrow.\n*Toi et tes amis, vous êtes toujours en retard !*\n\n**7. With -même(s)** — myself, yourself, etc.:\n*Je l'ai fait moi-même.* — I did it myself.\n*Ils ont construit la cabane eux-mêmes.* — They built the hut themselves.\n*Faites-le vous-même / vous-mêmes.*\n\n**8. With certain verbs + à or de referring to people**, where an indirect pronoun before the verb is not possible:\n*penser à, songer à, faire attention à, s'intéresser à, s'adresser à, tenir à, être à* (to belong to), *se méfier de, avoir peur de, être fier de, se moquer de*:\n*Je pense souvent à elle.* — I often think about her.\n*Fais attention à lui.* — Watch out for him.\n*Ce stylo est à moi.* — This pen is mine.\n*Je suis fière d'eux.* — I'm proud of them.\n(For things, use *y* or *en*: *J'y pense. J'en suis fière.*)\n\n**9. After an affirmative imperative**: *me* and *te* become *moi* and *toi*: *Écoute-moi ! Lève-toi !*\n\n### Soi\nUsed with indefinite subjects (*on, chacun, tout le monde, personne*):\n*On est bien chez soi.* — There's no place like home.\n*Chacun pour soi.* — Every man for himself.\n*Il faut avoir confiance en soi.* — You have to believe in yourself.\n\n### Agreement after c'est … qui\nThe verb after *qui* agrees with the stressed pronoun:\n*C'est moi qui suis responsable. C'est nous qui avons organisé la fête. C'est vous qui êtes partis les premiers.*\n",
+  "pitfalls": [
+   "Using subject pronouns after prepositions: avec je, pour ils → avec moi, pour eux.",
+   "Using subject pronouns for emphasis or alone: Je, j'aime le jazz / Qui ? — Je ! → Moi, j'aime le jazz / Moi !",
+   "Wrong agreement after c'est moi qui: c'est moi qui a raison → c'est moi qui ai raison.",
+   "Using lui/leur with penser à for people: je lui pense → je pense à lui.",
+   "Writing 'Mon ami et je' → mon ami et moi."
+  ],
+  "check": [
+   {
+    "q": "Je vais au cinéma avec ___ . (them, masc.)",
+    "a": [
+     "eux"
+    ],
+    "why": "After a preposition: stressed pronoun eux."
+   },
+   {
+    "q": "C'est ___ qui as raison. (you, tu)",
+    "a": [
+     "toi"
+    ],
+    "why": "c'est + stressed pronoun; the verb agrees with toi (as)."
+   },
+   {
+    "q": "Ce sac est à Marie ? Oui, il est à ___ . (pronoun)",
+    "a": [
+     "elle"
+    ],
+    "why": "être à + stressed pronoun shows possession."
+   },
+   {
+    "q": "___ , je préfère le thé. (emphasis, je)",
+    "a": [
+     "Moi"
+    ],
+    "why": "Emphatic stressed pronoun before the subject."
+   },
+   {
+    "q": "Mon frère et ___ , nous partons demain. (I/me)",
+    "a": [
+     "moi"
+    ],
+    "why": "Compound subject: stressed pronoun."
+   },
+   {
+    "q": "Tu penses à ta grand-mère ? Oui, je pense souvent à ___ . (pronoun)",
+    "a": [
+     "elle"
+    ],
+    "why": "penser à + person → à + stressed pronoun."
+   },
+   {
+    "q": "Il est plus grand qu'___ . (them, fem.)",
+    "a": [
+     "elles"
+    ],
+    "why": "After que in comparisons: stressed pronoun."
+   },
+   {
+    "q": "Chacun pour ___ . (indefinite pronoun)",
+    "a": [
+     "soi"
+    ],
+    "why": "soi goes with chacun, on, tout le monde."
+   },
+   {
+    "q": "Ils ont construit la cabane ___ . (themselves, masc.)",
+    "a": [
+     "eux-mêmes"
+    ],
+    "why": "Stressed pronoun + -même(s)."
+   },
+   {
+    "q": "J'adore ce groupe. — Moi ___ ! (me too)",
+    "a": [
+     "aussi"
+    ],
+    "why": "moi aussi = me too (agreeing with a positive)."
+   }
+  ]
+ },
+ {
+  "id": "relative-pronouns",
+  "group": "Pronouns",
+  "title": "Relative pronouns",
+  "level": "stretch",
+  "summary": "Qui, que, dont, où, lequel and its forms (auquel, duquel), and ce qui / ce que / ce dont for linking clauses.",
+  "exam": "Relative clauses are the main way to build longer, more complex sentences in Paper 1; accurate use of dont, où and ce que is a strong Criterion A marker, and they are frequent in Paper 2 texts.",
+  "body": "### Qui and que\n- **qui** is the **subject** of the relative clause (usually followed directly by a verb):\n*La fille qui parle est ma cousine.* — The girl who is speaking is my cousin.\n*C'est un problème qui touche tout le monde.* — It's a problem that affects everyone.\n- **que / qu'** is the **direct object** (followed by a subject + verb):\n*Le livre que je lis est passionnant.* — The book (that) I'm reading is fascinating.\n*La personne qu'il admire le plus, c'est sa mère.*\n\nBoth are used for people **and** things. *Que* elides to *qu'*; *qui* never does. English can drop \"that/which\", French **never** drops *que*.\n\nWith *que* in a compound tense, the participle agrees with the antecedent: *Les photos que j'ai prises.* With *qui*, the verb agrees with the antecedent: *C'est moi qui suis…, les élèves qui sont venus.*\n\n### Dont\n**dont** replaces **de + noun** — with verbs and expressions followed by *de* (*parler de, avoir besoin de, se souvenir de, avoir peur de, être fier de, s'occuper de, rêver de*) and for possession (\"whose\"):\n*Voici le livre dont je t'ai parlé.* — Here's the book I told you about.\n*C'est le stage dont j'ai toujours rêvé.* — It's the internship I've always dreamed of.\n*Ce dont j'ai besoin, c'est de calme.* — What I need is calm.\n*L'élève dont le père est médecin…* — The student whose father is a doctor…\n*Une ville dont on connaît la richesse culturelle.* — A city whose cultural wealth is well known.\n\n### Où\n**où** = where **and** when (after a noun of time):\n*La ville où je suis né est au bord de la mer.* — The town where I was born is by the sea.\n*Le jour où je l'ai rencontré, il pleuvait.* — The day (when) I met him, it was raining.\n*À l'époque où nous habitions en Belgique…* — At the time when we lived in Belgium…\n\n### After other prepositions\n**People**: preposition + **qui**: *la personne avec qui je travaille* — the person I work with; *l'amie à qui j'ai écrit* — the friend I wrote to.\n**Things** (and sometimes people): preposition + **lequel** (agrees with the noun):\n\n| | masc. | fem. |\n|---|---|---|\n| singular | lequel | laquelle |\n| plural | lesquels | lesquelles |\n\n*L'ordinateur avec lequel je travaille est vieux.* — The computer I work with is old.\n*La raison pour laquelle je suis venu…* — The reason (why) I came…\n*Les causes pour lesquelles nous luttons.* — The causes we fight for.\n\nWith **à** and **de**, lequel contracts:\n| | lequel | laquelle | lesquels | lesquelles |\n|---|---|---|---|---|\n| à + | auquel | à laquelle | auxquels | auxquelles |\n| de + | duquel | de laquelle | desquels | desquelles |\n\n*Le projet auquel je participe est financé par la mairie.* — The project I'm taking part in is funded by the town hall. (participer à)\n*Les associations auxquelles je pense…* (penser à)\n**Duquel** is used after compound prepositions ending in *de* (*près de, à côté de, au milieu de, à cause de, en face de, au bord de*), where *dont* is not possible:\n*Le parc près duquel nous habitons.* — The park near which we live.\n*La rivière au bord de laquelle ils ont campé.* — The river on whose bank they camped.\n\n### Ce qui, ce que, ce dont (\"what\", \"which\")\nWhen there is no noun antecedent, add **ce**:\n- **ce qui** (subject): *Ce qui m'inquiète, c'est le chômage des jeunes.* — What worries me is youth unemployment.\n- **ce que** (object): *Je ne comprends pas ce que tu dis.* — I don't understand what you're saying.\n- **ce dont** (de): *Dis-moi ce dont tu as besoin.* — Tell me what you need.\n- **ce à quoi** (à): *Ce à quoi je pense…* — What I'm thinking about…\n- Referring to a whole idea (\"which\"): *Il a réussi, ce qui m'a surpris.* — He passed, which surprised me.\n- *Tout ce qui / tout ce que* — everything that: *Tout ce que tu dis est vrai.*\n\nEnglish \"what\" in a statement is **never** *quoi* or *que* alone: *I know what you want* → *Je sais ce que tu veux.*\n\n### Choosing quickly\n1. Is there a preposition before the gap? *de* → dont; place/time → où; other → qui (people) / lequel (things).\n2. No preposition: is the relative the subject (verb follows)? → qui. Otherwise → que.\n3. No noun before it? Add **ce**.\n",
+  "pitfalls": [
+   "Dropping que: le livre je lis → le livre que je lis.",
+   "Using que instead of dont with de-verbs: le film que je t'ai parlé → le film dont je t'ai parlé.",
+   "Using qui for objects: le garçon qui j'aime → le garçon que j'aime.",
+   "Using que for time: le jour que je suis arrivé → le jour où je suis arrivé.",
+   "Using quoi/qu'est-ce que for 'what' in statements: je ne sais pas qu'est-ce que tu veux → je ne sais pas ce que tu veux.",
+   "Not contracting lequel: à lequel, de lesquels → auquel, desquels."
+  ],
+  "check": [
+   {
+    "q": "Le garçon ___ parle est mon cousin. (relative pronoun)",
+    "a": [
+     "qui"
+    ],
+    "why": "Subject of parle → qui."
+   },
+   {
+    "q": "Le livre ___ je lis est passionnant. (relative pronoun)",
+    "a": [
+     "que"
+    ],
+    "why": "Direct object of lis → que."
+   },
+   {
+    "q": "Voici le film ___ je t'ai parlé. (relative pronoun)",
+    "a": [
+     "dont"
+    ],
+    "why": "parler de → dont."
+   },
+   {
+    "q": "C'est la ville ___ je suis né. (relative pronoun)",
+    "a": [
+     "où"
+    ],
+    "why": "Place → où."
+   },
+   {
+    "q": "Je ne comprends pas ___ tu dis. (what)",
+    "a": [
+     "ce que"
+    ],
+    "why": "No antecedent, object → ce que."
+   },
+   {
+    "q": "___ m'inquiète, c'est le changement climatique. (what)",
+    "a": [
+     "Ce qui"
+    ],
+    "why": "No antecedent, subject → ce qui."
+   },
+   {
+    "q": "C'est l'ordinateur avec ___ je travaille. (relative pronoun)",
+    "a": [
+     "lequel"
+    ],
+    "why": "Preposition + thing (masc. sing.) → lequel."
+   },
+   {
+    "q": "Voici le parc près ___ nous habitons. (relative pronoun)",
+    "a": [
+     "duquel"
+    ],
+    "why": "près de + lequel → duquel."
+   },
+   {
+    "q": "Les associations ___ je pense sont très actives. (penser à)",
+    "a": [
+     "auxquelles"
+    ],
+    "why": "à + lesquelles → auxquelles (fem. pl.)."
+   },
+   {
+    "q": "Tu as tout ___ tu as besoin ? (avoir besoin de)",
+    "a": [
+     "ce dont"
+    ],
+    "why": "tout ce dont: no noun antecedent + de."
+   }
+  ]
+ },
+ {
+  "id": "demonstratives-possessives",
+  "group": "Pronouns",
+  "title": "Demonstrative & possessive pronouns",
+  "level": "core",
+  "summary": "Ce/cet/cette/ces and celui/celle/ceux/celles; mon/ma/mes and le mien/la mienne — and how they agree.",
+  "exam": "These pronouns let you compare and refer back without repeating nouns (celui de mon frère, les nôtres), which improves cohesion in Paper 1 and helps you follow references in Paper 2.",
+  "body": "### Demonstrative adjectives (this, that, these, those)\n| masc. | masc. before vowel / h | fem. | plural |\n|---|---|---|---|\n| ce | cet | cette | ces |\n\n*ce livre, cet arbre, cet hôtel, cette idée, ces gens*\nTo distinguish \"this\" from \"that\", add **-ci** (here) or **-là** (there) to the noun: *ce livre-ci* (this book), *cette maison-là* (that house). In everyday use, *ce* alone covers both \"this\" and \"that\".\n\n### Demonstrative pronouns (the one, this one, those)\nThey replace *ce/cette/ces + noun* and agree with the noun replaced:\n\n| masc. sing. | fem. sing. | masc. pl. | fem. pl. |\n|---|---|---|---|\n| celui | celle | ceux | celles |\n\nThey cannot stand alone; they need **-ci / -là**, a **relative clause** or **de**:\n- **+ -ci / -là** (this one / that one): *Quel pull préfères-tu ? Celui-ci ou celui-là ?* — Which jumper do you prefer? This one or that one?\n- **+ qui / que / dont / où**: *Ceux qui veulent participer doivent s'inscrire.* — Those who want to take part must sign up. *Cette chanson est celle que je préfère.* — This song is the one I prefer.\n- **+ de** (possession — English \"'s\"): *Mon portable est plus récent que celui de mon frère.* — My phone is newer than my brother's. *Les idées de Léa sont meilleures que celles de Paul.*\n\nIn argument, **celui-ci / celle-ci** can mean \"the latter\" and **celui-là** \"the former\": *Le gouvernement a rencontré les syndicats ; ceux-ci ont rejeté la proposition.* — The government met the unions; the latter (they) rejected the proposal.\n\n### Neutral demonstratives: ce, ceci, cela, ça\n- **ce** with être: *C'est intéressant. Ce sont mes amis.*\n- **cela** (formal) / **ça** (informal) = that, it, referring to an idea: *Cela me semble injuste.* (written) / *Ça me semble injuste.* (spoken)\n- **ceci** = this (what follows): *Retenez ceci : …*\nIn formal writing (articles, letters, essays), prefer **cela** to **ça**.\n\n### Possessive adjectives (my, your…)\n| | masc. sing. | fem. sing. | plural |\n|---|---|---|---|\n| my | mon | ma | mes |\n| your (tu) | ton | ta | tes |\n| his / her / its | son | sa | ses |\n| our | notre | notre | nos |\n| your (vous) | votre | votre | vos |\n| their | leur | leur | leurs |\n\n- The possessive agrees with the **thing owned**, not the owner: *Paul aime sa mère* (his mother), *Marie aime son père* (her father).\n- Before a feminine noun starting with a vowel or silent h, use **mon, ton, son**: *mon amie, ton école, son histoire*.\n- *Son/sa* is ambiguous (his/her); add *à lui / à elle* if needed: *sa voiture à elle*.\n\n### Possessive pronouns (mine, yours…)\nThey agree with the **thing owned** and always include the definite article:\n\n| | masc. sing. | fem. sing. | masc. pl. | fem. pl. |\n|---|---|---|---|---|\n| mine | le mien | la mienne | les miens | les miennes |\n| yours (tu) | le tien | la tienne | les tiens | les tiennes |\n| his / hers | le sien | la sienne | les siens | les siennes |\n| ours | le nôtre | la nôtre | les nôtres | les nôtres |\n| yours (vous) | le vôtre | la vôtre | les vôtres | les vôtres |\n| theirs | le leur | la leur | les leurs | les leurs |\n\n*Ce n'est pas mon stylo, c'est le tien.* — It's not my pen, it's yours.\n*Ta chambre est plus grande que la mienne.* — Your room is bigger than mine.\n*Nos professeurs sont exigeants ; les leurs sont plus détendus.* — Our teachers are demanding; theirs are more relaxed.\n\nNote the **circumflex**: *notre / votre* (adjectives, no accent) but *le nôtre / le vôtre* (pronouns).\n\nThe article contracts with à and de: *Je pense à mes amis et toi, tu penses aux tiens.* *Il parle de son projet et moi du mien.*\n\nAfter *être*, you can also use **à + stressed pronoun**: *Ce livre est à moi.* = *C'est le mien.*\n",
+  "pitfalls": [
+   "Agreeing son/sa with the owner: Marie aime sa père → Marie aime son père.",
+   "Using ma before a vowel: ma amie → mon amie.",
+   "Using celui alone: je préfère celui → je préfère celui-ci / celui-là / celui que tu portes.",
+   "Using 's with de wrongly: le de mon frère → celui de mon frère.",
+   "Forgetting the article or the circumflex: c'est nôtre / c'est le notre → c'est le nôtre.",
+   "Using ce before a vowel: ce arbre → cet arbre."
+  ],
+  "check": [
+   {
+    "q": "Quelle robe préfères-tu ? ___-ci ou celle-là ? (demonstrative pronoun)",
+    "a": [
+     "Celle"
+    ],
+    "why": "robe is feminine singular → celle."
+   },
+   {
+    "q": "Ces chaussures sont plus chères que ___ de ma sœur. (demonstrative pronoun)",
+    "a": [
+     "celles"
+    ],
+    "why": "Replaces les chaussures (fem. pl.) + de."
+   },
+   {
+    "q": "J'ai oublié mon stylo. Tu peux me prêter ___ ? (yours, tu)",
+    "a": [
+     "le tien"
+    ],
+    "why": "stylo is masculine singular → le tien."
+   },
+   {
+    "q": "Ce n'est pas ma valise, c'est ___ . (his)",
+    "a": [
+     "la sienne"
+    ],
+    "why": "Agrees with valise (fem.), not with the owner."
+   },
+   {
+    "q": "Vos enfants sont calmes ; ___ sont un peu turbulents. (ours)",
+    "a": [
+     "les nôtres"
+    ],
+    "why": "Plural → les nôtres, with circumflex."
+   },
+   {
+    "q": "___ arbre est très vieux. (this)",
+    "a": [
+     "Cet"
+    ],
+    "why": "ce → cet before a masculine noun starting with a vowel."
+   },
+   {
+    "q": "Paul a perdu ___ clé. (his)",
+    "a": [
+     "sa"
+    ],
+    "why": "clé is feminine → sa (whatever the owner's gender)."
+   },
+   {
+    "q": "Ceux ___ veulent participer doivent s'inscrire. (relative pronoun)",
+    "a": [
+     "qui"
+    ],
+    "why": "celui/ceux + qui (subject)."
+   },
+   {
+    "q": "Notre maison est petite ; ___ est immense. (theirs)",
+    "a": [
+     "la leur"
+    ],
+    "why": "maison is feminine singular → la leur."
+   },
+   {
+    "q": "J'ai parlé à mes parents. Et toi, tu as parlé ___ ? (to yours)",
+    "a": [
+     "aux tiens"
+    ],
+    "why": "à + les tiens → aux tiens."
+   }
+  ]
+ },
+ {
+  "id": "questions",
+  "group": "Sentences & connectors",
+  "title": "Question forms",
+  "level": "core",
+  "summary": "Asking questions with intonation, est-ce que and inversion, question words, and the interrogatives quel and lequel.",
+  "exam": "Questions drive the interactive part of the individual oral and appear in Paper 1 interviews, surveys and formal letters, where inversion signals the right register.",
+  "body": "### Three ways to ask a yes/no question\n| register | structure | example |\n|---|---|---|\n| informal (speech) | rising intonation | *Tu viens ce soir ?* |\n| neutral (always safe) | **est-ce que** + statement | *Est-ce que tu viens ce soir ?* |\n| formal (writing) | **inversion** verb-subject | *Viens-tu ce soir ?* |\n\n**Est-ce que** becomes **est-ce qu'** before a vowel: *Est-ce qu'il pleut ?*\n\n### Inversion in detail\n- Pronoun subject: swap and add a hyphen: *Parlez-vous anglais ? Avez-vous des questions ?*\n- If the verb ends in a vowel and the pronoun is *il, elle, on*, insert **-t-**: *A-t-il fini ? Parle-t-elle français ? Va-t-on y arriver ?*\n- Noun subject: keep the noun, then add the matching pronoun after the verb: *Ton frère vient-il ?* *Les jeunes lisent-ils encore des journaux ?*\n- Compound tenses: invert the auxiliary: *As-tu vu ce film ? Est-elle partie ?*\n- Negative: *Ne viens-tu pas ? N'avez-vous jamais essayé ?*\n- With *je*, inversion is rare (except *puis-je ?*, *suis-je ?*): use *est-ce que*.\n\n### Question words\n| word | meaning | example |\n|---|---|---|\n| où | where | *Où habites-tu ?* |\n| quand | when | *Quand est-ce que le cours commence ?* |\n| comment | how | *Comment allez-vous ?* |\n| pourquoi | why | *Pourquoi est-ce qu'il est parti ?* |\n| combien (de) | how much / many | *Combien coûte ce billet ? Combien de frères as-tu ?* |\n| qui | who(m) | *Qui veut participer ? Qui as-tu invité ?* |\n| que / qu'est-ce que | what (object) | *Que fais-tu ? / Qu'est-ce que tu fais ?* |\n| qu'est-ce qui | what (subject) | *Qu'est-ce qui se passe ?* |\n| quoi | what (after a preposition; informal at end) | *À quoi penses-tu ? De quoi parlez-vous ? Tu fais quoi ?* |\n| depuis quand | since when | *Depuis quand apprends-tu le français ?* |\n\nWith question words, use **inversion** or **est-ce que**: *Où vas-tu ? / Où est-ce que tu vas ?* In informal speech, the question word may go at the end: *Tu vas où ?*\n\n**Who / what as subject or object** (stretch):\n| | subject | object |\n|---|---|---|\n| people | qui / qui est-ce qui | qui / qui est-ce que |\n| things | qu'est-ce qui | que / qu'est-ce que |\n\n*Qu'est-ce qui t'intéresse ?* — What interests you? (what = subject)\n*Qu'est-ce que tu as choisi ?* — What did you choose? (what = object)\n\n### Quel (which / what + noun)\nQuel is an **adjective** and agrees with the noun:\n| masc. sing. | fem. sing. | masc. pl. | fem. pl. |\n|---|---|---|---|\n| quel | quelle | quels | quelles |\n\n- *Quel âge as-tu ? Quelle heure est-il ? Quels sports pratiques-tu ? Quelles langues parles-tu ?*\n- *Quel est ton film préféré ?* — What is your favourite film? (**quel + être** for \"what is…?\" when asking for a specific item — never *qu'est-ce que est*)\n- With a preposition: *À quelle heure ? Dans quel pays ? Pour quelles raisons ?*\n- **Exclamations**: *Quelle belle journée ! Quel dommage !* — What a beautiful day! What a pity!\n\n### Lequel (which one)\nA **pronoun** replacing *quel + noun*, agreeing with the noun:\n*Il y a deux options. Laquelle préfères-tu ?* — There are two options. Which one do you prefer?\n*Parmi ces livres, lesquels as-tu lus ?* — Of these books, which ones have you read?\nContractions with à / de: *auquel, auxquels, auxquelles; duquel, desquels, desquelles*: *Tu parles de quel film ? Duquel ?*\n\n### Indirect questions\nAfter *je me demande, je ne sais pas, dis-moi, il m'a demandé*, there is **no inversion and no est-ce que**:\n*Je me demande pourquoi il est parti.* — I wonder why he left.\n*Dis-moi où tu habites.* — Tell me where you live.\n*Je ne sais pas si elle viendra.* — I don't know whether she'll come. (est-ce que → si)\n*Explique-moi ce que tu veux.* (qu'est-ce que → ce que)\n\n### Register in the exam\n- **Oral**: est-ce que and intonation are natural; one or two inversions show range.\n- **Formal letter, interview, speech** in Paper 1: use inversion: *Pourriez-vous m'indiquer… ? Pensez-vous que… ?*\n- Avoid stacking forms: never *Est-ce que tu viens-tu ?*\n",
+  "pitfalls": [
+   "Combining est-ce que with inversion: est-ce que viens-tu ? → est-ce que tu viens ? / viens-tu ?",
+   "Forgetting -t- in inversion: a-il ? / parle-elle ? → a-t-il ? / parle-t-elle ?",
+   "Using qu'est-ce que instead of quel: qu'est-ce qu'est ton nom ? → quel est ton nom ?",
+   "Missing agreement of quel: quel langues ? → quelles langues ?",
+   "Inverting in indirect questions: je ne sais pas où habite-t-il → je ne sais pas où il habite.",
+   "Using que after a preposition: avec que ? → avec quoi ?"
+  ],
+  "check": [
+   {
+    "q": "___ est ton film préféré ? (what / which)",
+    "a": [
+     "Quel"
+    ],
+    "why": "quel + être; film is masculine."
+   },
+   {
+    "q": "___ langues parles-tu ? (which)",
+    "a": [
+     "Quelles"
+    ],
+    "why": "quel agrees with langues (fem. pl.)."
+   },
+   {
+    "q": "___ un frère ? (avoir, il, inversion)",
+    "a": [
+     "A-t-il"
+    ],
+    "why": "Insert -t- between a vowel and il."
+   },
+   {
+    "q": "___ tu fais ce week-end ? (what — with est-ce que)",
+    "a": [
+     "Qu'est-ce que"
+    ],
+    "why": "what as object → qu'est-ce que."
+   },
+   {
+    "q": "___ s'est passé ? (what — subject)",
+    "a": [
+     "Qu'est-ce qui"
+    ],
+    "why": "what as subject → qu'est-ce qui."
+   },
+   {
+    "q": "Avec ___ es-tu sorti hier soir ? (whom)",
+    "a": [
+     "qui"
+    ],
+    "why": "Preposition + qui for people."
+   },
+   {
+    "q": "De ___ parlez-vous ? (what, after a preposition)",
+    "a": [
+     "quoi"
+    ],
+    "why": "After a preposition, what = quoi."
+   },
+   {
+    "q": "Il y a deux sacs. ___ est à toi ? (which one)",
+    "a": [
+     "Lequel"
+    ],
+    "why": "sac is masculine singular → lequel."
+   },
+   {
+    "q": "___ coûte ce billet ? (how much)",
+    "a": [
+     "Combien"
+    ],
+    "why": "combien = how much."
+   },
+   {
+    "q": "___ du sport ? (faire, vous, inversion)",
+    "a": [
+     "Faites-vous"
+    ],
+    "why": "Inversion: verb-hyphen-pronoun."
+   }
+  ]
+ },
+ {
+  "id": "reported-speech",
+  "group": "Sentences & connectors",
+  "title": "Reported speech (discours indirect)",
+  "level": "stretch",
+  "summary": "Turning direct speech into indirect speech: introducing verbs, tense shifts, questions, commands, and changes to pronouns and time expressions.",
+  "exam": "Reporting what someone said is essential for Paper 1 articles, reports and interview write-ups, and for discussing a stimulus in the oral; correct tense shifts show control of complex structures.",
+  "body": "### Introducing reported speech\nCommon reporting verbs: *dire que, affirmer que, déclarer que, expliquer que, annoncer que, ajouter que, répondre que, promettre que, admettre que, reconnaître que, prétendre que*; for questions *demander si / où / pourquoi / ce que*.\n\nUnlike English, **que cannot be left out**: *Il dit qu'il est fatigué* (not *il dit il est fatigué*).\n\n### Present reporting verb: no tense change\n*« Je suis fatigué. »* → *Il dit qu'il est fatigué.* — He says he's tired.\n*« Nous partirons demain. »* → *Ils disent qu'ils partiront demain.*\n\n### Past reporting verb: tenses shift back\n| direct speech | reported speech (after il a dit que…) |\n|---|---|\n| présent: *« Je travaille. »* | imparfait: *qu'il travaillait* |\n| passé composé: *« J'ai fini. »* | plus-que-parfait: *qu'il avait fini* |\n| futur simple: *« Je viendrai. »* | conditionnel présent: *qu'il viendrait* |\n| futur proche: *« Je vais partir. »* | aller in the imparfait: *qu'il allait partir* |\n| futur antérieur: *« J'aurai fini. »* | conditionnel passé: *qu'il aurait fini* |\n| imparfait, plus-que-parfait, conditionnel | **no change** |\n\nExamples:\n- *« J'adore ce quartier. »* → *Elle a dit qu'elle adorait ce quartier.* — She said she loved this neighbourhood.\n- *« Nous avons raté le train. »* → *Ils ont expliqué qu'ils avaient raté le train.* — They explained they had missed the train.\n- *« Le gouvernement investira dans les transports. »* → *Le ministre a annoncé que le gouvernement investirait dans les transports.* — The minister announced the government would invest in transport.\n- *« J'étais malade. »* → *Il a dit qu'il était malade.* (no change)\n\n### Reported questions\n| direct question | reported |\n|---|---|\n| yes/no question (est-ce que / inversion) | **si** (s' before il/ils) |\n| qu'est-ce que / que | **ce que** |\n| qu'est-ce qui | **ce qui** |\n| où, quand, comment, pourquoi, combien, qui, quel | same word, **no inversion** |\n\n- *« Est-ce que tu aimes le jazz ? »* → *Il m'a demandé si j'aimais le jazz.* — He asked me if I liked jazz.\n- *« Qu'est-ce que tu fais ? »* → *Elle m'a demandé ce que je faisais.* — She asked me what I was doing.\n- *« Qu'est-ce qui se passe ? »* → *Il a demandé ce qui se passait.* — He asked what was happening.\n- *« Où vas-tu ? »* → *Ma mère m'a demandé où j'allais.* — My mother asked me where I was going.\n- *« Quel âge as-tu ? »* → *Il m'a demandé quel âge j'avais.*\n\n### Reported commands\nImperative → **de + infinitive** (negative: *de ne pas* + infinitive):\n- *« Ferme la fenêtre ! »* → *Il m'a dit de fermer la fenêtre.* — He told me to close the window.\n- *« Ne touchez pas ! »* → *Le guide nous a demandé de ne pas toucher.* — The guide asked us not to touch.\n\n### Other changes\n**Pronouns and possessives** change to fit the new speaker: *« Je te prête mon vélo. »* → *Elle m'a dit qu'elle me prêtait son vélo.*\n\n**Time and place expressions** shift when the reporting is at a different time:\n\n| direct | reported |\n|---|---|\n| aujourd'hui | ce jour-là |\n| hier | la veille |\n| demain | le lendemain |\n| avant-hier | l'avant-veille |\n| la semaine dernière | la semaine précédente / d'avant |\n| la semaine prochaine | la semaine suivante / d'après |\n| maintenant | à ce moment-là |\n| ce matin | ce matin-là |\n| ici | là |\n\n*« Je pars demain. »* → *Elle a dit qu'elle partait le lendemain.* — She said she was leaving the next day.\n\n### Writing tip for Paper 1\nIn a news article or report, vary your reporting verbs and mix direct quotes with indirect speech:\n*Le directeur a affirmé que le projet avait été un succès. Il a ajouté que l'école renouvellerait l'expérience l'année suivante. « Nos élèves ont été formidables », a-t-il conclu.*\nNote the inversion after a direct quotation: *a-t-il conclu, a-t-elle expliqué, déclare le maire.*\n",
+  "pitfalls": [
+   "Dropping que: il a dit il était malade → il a dit qu'il était malade.",
+   "Not shifting tenses after a past reporting verb: il a dit qu'il viendra → il a dit qu'il viendrait.",
+   "Keeping est-ce que or inversion: il m'a demandé est-ce que j'aimais → il m'a demandé si j'aimais.",
+   "Using qu'est-ce que in reported questions: elle a demandé qu'est-ce que je faisais → elle a demandé ce que je faisais.",
+   "Using que + subjunctive for commands: il m'a dit que je ferme → il m'a dit de fermer.",
+   "Keeping demain when reporting later: elle a dit qu'elle partait demain → … le lendemain."
+  ],
+  "check": [
+   {
+    "q": "« Je suis fatigué. » → Il a dit qu'il ___ fatigué. (être)",
+    "a": [
+     "était"
+    ],
+    "why": "présent → imparfait after a past reporting verb."
+   },
+   {
+    "q": "« J'ai raté le bus. » → Elle a expliqué qu'elle ___ le bus. (rater)",
+    "a": [
+     "avait raté"
+    ],
+    "why": "passé composé → plus-que-parfait."
+   },
+   {
+    "q": "« Nous viendrons. » → Ils ont promis qu'ils ___ . (venir)",
+    "a": [
+     "viendraient"
+    ],
+    "why": "futur → conditionnel présent."
+   },
+   {
+    "q": "« Est-ce que tu aimes le jazz ? » → Il m'a demandé ___ j'aimais le jazz.",
+    "a": [
+     "si"
+    ],
+    "why": "Yes/no questions are reported with si."
+   },
+   {
+    "q": "« Qu'est-ce que tu fais ? » → Elle m'a demandé ___ je faisais.",
+    "a": [
+     "ce que"
+    ],
+    "why": "qu'est-ce que → ce que."
+   },
+   {
+    "q": "« Ferme la fenêtre ! » → Il m'a dit ___ fermer la fenêtre.",
+    "a": [
+     "de"
+    ],
+    "why": "Imperative → de + infinitive."
+   },
+   {
+    "q": "« Je pars demain. » → Elle a dit qu'elle partait ___ . (time expression)",
+    "a": [
+     "le lendemain"
+    ],
+    "why": "demain → le lendemain."
+   },
+   {
+    "q": "« Je vais déménager. » → Il a annoncé qu'il ___ déménager. (aller)",
+    "a": [
+     "allait"
+    ],
+    "why": "futur proche: va → allait."
+   },
+   {
+    "q": "« Qu'est-ce qui se passe ? » → Il a demandé ___ se passait.",
+    "a": [
+     "ce qui"
+    ],
+    "why": "qu'est-ce qui → ce qui."
+   },
+   {
+    "q": "« Ne touchez pas ! » → Le guide nous a demandé ___ toucher.",
+    "a": [
+     "de ne pas"
+    ],
+    "why": "Negative command → de ne pas + infinitive."
+   }
+  ]
+ },
+ {
+  "id": "connectors",
+  "group": "Sentences & connectors",
+  "title": "Connectors & discourse markers",
+  "level": "core",
+  "summary": "Linking words for cause, consequence, contrast, concession, addition, examples, sequencing and conclusion — with the grammar and register each one needs.",
+  "exam": "Criterion C (conceptual understanding / organisation) rewards a clear, logical structure; well-chosen connectors in the right register (car, cependant, par conséquent rather than du coup) make Paper 1 responses coherent and convincing.",
+  "body": "### Why connectors matter\nExaminers look for **cohesion** (sentences that link) and **coherence** (a logical argument). Using a range of connectors — and the grammar that follows them — shows control. Be careful with register: some connectors are spoken or informal, others formal and written.\n\nRegister key: **F** = formal / written, **N** = neutral, **I** = informal / spoken.\n\n### Cause\n| connector | grammar | register | example |\n|---|---|---|---|\n| parce que | + clause | N | *Je reste ici parce que j'ai du travail.* |\n| car | + clause, never at the start | F | *Il faut agir, car le temps presse.* |\n| puisque | + clause (known cause) | N | *Puisque tu es là, aide-moi.* |\n| comme | + clause, at the start | N | *Comme il pleuvait, nous sommes restés.* |\n| étant donné que / vu que | + clause | F / N | *Étant donné que les prix augmentent…* |\n| grâce à | + noun (positive) | N | *J'ai réussi grâce à mes professeurs.* |\n| à cause de | + noun (negative) | N | *Le match a été annulé à cause de la pluie.* |\n| en raison de | + noun | F | *Fermé en raison des travaux.* |\n\n### Consequence\n| connector | register | example |\n|---|---|---|\n| donc | N | *Je pense, donc je suis.* |\n| alors | N / I | *Il était tard, alors je suis rentré.* |\n| c'est pourquoi | N / F | *Le plastique pollue ; c'est pourquoi il faut le réduire.* |\n| par conséquent / en conséquence | F | *Les ressources diminuent ; par conséquent, les prix montent.* |\n| ainsi | F | *Ainsi, chacun peut contribuer.* |\n| si bien que / de sorte que | F | *Il a beaucoup neigé, si bien que les routes sont fermées.* |\n| du coup | **I only** — avoid in writing | *Du coup, on est partis.* |\n\n### Contrast and opposition\n| connector | register | example |\n|---|---|---|\n| mais | N | *C'est cher, mais c'est utile.* |\n| cependant / toutefois / néanmoins | F | *Cette solution est efficace. Cependant, elle coûte cher.* |\n| pourtant | N | *Il a révisé ; pourtant, il a échoué.* |\n| en revanche | F | *Les villes sont polluées ; en revanche, l'air est pur à la campagne.* |\n| par contre | I / N (avoid in formal writing) | *Par contre, je n'aime pas le froid.* |\n| alors que / tandis que | N / F + clause | *Mon frère adore lire, alors que moi, je préfère le sport.* |\n| au contraire | N | *Ce n'est pas facile ; au contraire, c'est très exigeant.* |\n| d'un côté… de l'autre / d'une part… d'autre part | N / F | *D'une part, les réseaux sociaux informent ; d'autre part, ils désinforment.* |\n\n### Concession (although, despite)\n| connector | grammar | example |\n|---|---|---|\n| bien que / quoique | + **subjonctif** | *Bien qu'il soit jeune, il est très responsable.* |\n| même si | + **indicatif** | *Même si c'est difficile, je continue.* |\n| malgré | + **noun** | *Malgré la pluie, la manifestation a eu lieu.* |\n| quand même / tout de même | adverb | *Il était malade, mais il est venu quand même.* |\n| il est vrai que… mais | + indicatif | *Il est vrai que la technologie aide, mais elle isole aussi.* |\n| certes… mais | F | *Certes, le projet est ambitieux, mais il est réalisable.* |\n\n### Addition\n*et, aussi, également* (F), *de plus, en plus* (I/N), *en outre* (F), *par ailleurs* (F), *d'ailleurs* (besides, in fact), *non seulement… mais aussi / mais encore*, *ni… ni* (negative).\n*Non seulement le vélo est écologique, mais il est aussi bon pour la santé.* — Not only is cycling green, it's also good for your health.\n\n### Examples and clarification\n*par exemple, notamment* (in particular), *comme* (such as), *tel(le)(s) que* (such as — agrees), *c'est-à-dire* (that is), *autrement dit* (in other words), *en effet* (indeed — confirms what precedes).\n*Certains pays, tels que la Suède, recyclent presque tout.* — Some countries, such as Sweden, recycle almost everything.\n\n### Sequencing\n- Start: *tout d'abord, d'abord, premièrement, en premier lieu, pour commencer*\n- Middle: *ensuite, puis, deuxièmement, en second lieu, de plus*\n- End: *enfin, finalement, en dernier lieu, pour finir*\n- In a narrative: *au début, plus tard, peu après, au bout d'un moment, à ce moment-là, soudain, tout à coup*\n\n### Expressing opinion\n*À mon avis, selon moi, d'après moi, je pense / je crois / j'estime que + indicatif, il me semble que, je suis convaincu(e) que, personnellement*; *je ne pense pas que + subjonctif*.\n\n### Concluding\n*En conclusion, pour conclure* (F/N), *en somme, en définitive, tout compte fait, en fin de compte*, *bref* (I/N — fine in a blog, less so in an essay), *pour résumer*.\n\n### Using them well\n- Vary them: don't start every sentence with *de plus*.\n- Respect the grammar: *bien que* + subjunctive; *malgré* + noun (*malgré que* is considered incorrect); *à cause de* + noun, *parce que* + clause.\n- Match register to text type: *en outre, toutefois, par conséquent* suit an article, report or formal letter; *en plus, par contre, alors* suit a blog or informal email.\n",
+  "pitfalls": [
+   "Starting a sentence with car: Car il pleuvait, je suis resté → Comme il pleuvait, je suis resté.",
+   "Using parce que with a noun: parce que la pluie → à cause de la pluie.",
+   "Using malgré with a clause: malgré il est malade → bien qu'il soit malade / malgré sa maladie.",
+   "Using the indicative after bien que: bien qu'il est riche → bien qu'il soit riche.",
+   "Using grâce à for something negative: grâce à la grève, j'ai raté le train → à cause de la grève.",
+   "Using informal markers (du coup, par contre, bref) in a formal letter or report → par conséquent, en revanche, en conclusion."
+  ],
+  "check": [
+   {
+    "q": "Il est resté chez lui ___ il était malade. (because)",
+    "a": [
+     "parce qu'",
+     "car"
+    ],
+    "why": "parce que / car + clause."
+   },
+   {
+    "q": "___ qu'il soit riche, il n'est pas heureux. (although + subjunctive)",
+    "a": [
+     "Bien"
+    ],
+    "why": "bien que + subjonctif."
+   },
+   {
+    "q": "___ la pluie, le match a eu lieu. (despite)",
+    "a": [
+     "Malgré"
+    ],
+    "why": "malgré + noun."
+   },
+   {
+    "q": "J'ai réussi ___ ton aide. (thanks to)",
+    "a": [
+     "grâce à"
+    ],
+    "why": "grâce à + noun, for a positive cause."
+   },
+   {
+    "q": "Le train a été annulé ___ la grève. (because of)",
+    "a": [
+     "à cause de",
+     "en raison de"
+    ],
+    "why": "à cause de / en raison de + noun."
+   },
+   {
+    "q": "Il n'a pas révisé ; ___ , il a échoué. (as a result — formal)",
+    "a": [
+     "par conséquent",
+     "en conséquence"
+    ],
+    "why": "Formal consequence marker."
+   },
+   {
+    "q": "Mon frère adore les maths, ___ ma sœur les déteste. (whereas)",
+    "a": [
+     "alors que",
+     "tandis que"
+    ],
+    "why": "alors que / tandis que + clause for contrast."
+   },
+   {
+    "q": "___ , je voudrais remercier mes professeurs. (first of all)",
+    "a": [
+     "Tout d'abord",
+     "D'abord",
+     "Premièrement"
+    ],
+    "why": "Sequencing: opening point."
+   },
+   {
+    "q": "___ , les réseaux sociaux présentent des avantages et des inconvénients. (to conclude)",
+    "a": [
+     "En conclusion",
+     "Pour conclure"
+    ],
+    "why": "Concluding marker."
+   },
+   {
+    "q": "Ce projet est économique ; ___ , il est écologique. (moreover)",
+    "a": [
+     "de plus",
+     "en outre",
+     "par ailleurs",
+     "en plus"
+    ],
+    "why": "Addition markers."
+   }
+  ]
+ },
+ {
+  "id": "time-expressions",
+  "group": "Sentences & connectors",
+  "title": "Time expressions: depuis, il y a, pendant, en, dans, venir de",
+  "level": "core",
+  "summary": "How to say for, since, ago, during, within and 'have just' — and which tense each expression needs.",
+  "exam": "Time expressions with the right tense (j'apprends le français depuis quatre ans, not j'ai appris…) come up in almost every oral introduction and Paper 1 recount, and are a classic English-speaker error.",
+  "body": "### Depuis: for / since (still going on)\n**Depuis + present tense** for an action that started in the past and **is still continuing**. English uses \"have been doing\"; French uses the present.\n*J'apprends le français depuis quatre ans.* — I have been learning French for four years.\n*Elle habite à Lyon depuis 2019.* — She has lived in Lyon since 2019.\n*Depuis quand / depuis combien de temps joues-tu du violon ?* — How long have you been playing the violin?\n\n**Depuis + imparfait** for \"had been doing\" (still going on at a past moment):\n*J'attendais depuis une heure quand il est enfin arrivé.* — I had been waiting for an hour when he finally arrived.\n\n**Depuis + passé composé in the negative** — something that has not happened for a period:\n*Je ne l'ai pas vu depuis deux ans.* — I haven't seen him for two years.\n\n**Depuis que + clause**: *Depuis qu'il fait du sport, il dort mieux.* — Since he started doing sport, he sleeps better.\n\n### Il y a … que / ça fait … que / voilà … que\nSame meaning as *depuis* with a duration, placed at the start, + present:\n*Il y a trois ans que je joue au tennis.* = *Ça fait trois ans que je joue au tennis.* = *Je joue au tennis depuis trois ans.* — I've been playing tennis for three years.\n*Ça fait* is informal; *il y a … que* is neutral; *voilà … que* is slightly literary.\n\n### Il y a: ago\n**Il y a + duration + passé composé (or other past tense)** = \"ago\":\n*Je suis arrivé en France il y a six mois.* — I arrived in France six months ago.\n*Il y a longtemps, les gens écrivaient des lettres.* — A long time ago, people wrote letters.\nDon't confuse with *il y a* = \"there is / are\".\n\n### Pendant: for / during (completed or limited period)\n**Pendant + duration** with any tense, for a period with a clear end:\n*J'ai vécu au Sénégal pendant deux ans.* — I lived in Senegal for two years (and then left).\n*Pendant les vacances, je vais travailler.* — During the holidays I'm going to work.\n*Pendant* is often omitted with a duration: *J'ai dormi dix heures.*\n*Pendant que* + clause = while: *Pendant que tu cuisines, je mets la table.*\n\n### Pour: intended period (future)\nWith verbs like *partir, venir, aller*, for a planned period: *Je pars en Italie pour une semaine.* — I'm going to Italy for a week.\n\n### En vs dans\n- **en + duration** = time taken to do something: *J'ai lu ce roman en deux jours.* — I read this novel in two days.\n- **dans + duration** = time from now (in … time): *Le train part dans dix minutes.* — The train leaves in ten minutes. *Je serai médecin dans dix ans.*\n- **en + month / year / season**: *en mai, en 2030, en été* (but *au printemps*).\n\n### Venir de: have just / had just\n**Venir de + infinitive** in the **present** = \"have just done\":\n*Je viens de finir mes devoirs.* — I've just finished my homework.\nIn the **imparfait** = \"had just done\":\n*Nous venions d'arriver quand l'orage a éclaté.* — We had just arrived when the storm broke.\nDon't confuse with *venir* + infinitive (no de) = \"come to do\": *Il vient manger ce soir.* — He's coming to eat tonight.\n\n### Other useful structures\n| expression | meaning | example |\n|---|---|---|\n| être en train de + inf | to be in the middle of | *Je suis en train de réviser.* |\n| être sur le point de + inf | to be about to | *Elle était sur le point de partir.* |\n| à partir de | from (starting point) | *À partir de lundi, le magasin ouvre à 9 h.* |\n| dès | from / as early as | *dès le matin, dès l'âge de six ans* |\n| jusqu'à | until | *Je travaille jusqu'à 18 h.* |\n| au bout de | after (a period) | *Au bout d'une heure, il est parti.* |\n| il y a … / dans … | ago / in | *il y a deux jours / dans deux jours* |\n| tous les / toutes les | every | *tous les jours, toutes les deux semaines* |\n\n### Summary\n| English | French | tense |\n|---|---|---|\n| I have been doing for / since | depuis | present |\n| I had been doing for | depuis | imparfait |\n| I did … ago | il y a | passé composé |\n| I did for (finished) | pendant | passé composé |\n| I took … to do | en | any |\n| in … (from now) | dans | future / present |\n| I have just done | venir de (present) | + infinitive |\n",
+  "pitfalls": [
+   "Using the passé composé with depuis for an ongoing action: j'ai appris le français depuis cinq ans → j'apprends le français depuis cinq ans.",
+   "Using depuis for a finished period: j'ai habité à Paris depuis deux ans (and then left) → pendant deux ans.",
+   "Translating 'ago' with avant: je suis arrivé deux ans avant → je suis arrivé il y a deux ans.",
+   "Confusing en and dans: je pars en dix minutes → je pars dans dix minutes.",
+   "Translating 'I have just' word for word: j'ai juste mangé → je viens de manger.",
+   "Forgetting de after venir: je viens finir (= I'm coming to finish) for 'I've just finished' → je viens de finir."
+  ],
+  "check": [
+   {
+    "q": "J'apprends le français ___ quatre ans. (for — still going on)",
+    "a": [
+     "depuis"
+    ],
+    "why": "depuis + present for an ongoing action."
+   },
+   {
+    "q": "Je ___ du piano depuis six mois. (jouer)",
+    "a": [
+     "joue"
+    ],
+    "why": "depuis takes the present tense when the action continues."
+   },
+   {
+    "q": "Je l'ai rencontré ___ trois ans. (ago)",
+    "a": [
+     "il y a"
+    ],
+    "why": "il y a + duration = ago."
+   },
+   {
+    "q": "Nous avons vécu en Suisse ___ deux ans, puis nous sommes partis. (for — finished)",
+    "a": [
+     "pendant"
+    ],
+    "why": "Completed period → pendant."
+   },
+   {
+    "q": "Il a écrit sa dissertation ___ une heure. (time taken)",
+    "a": [
+     "en"
+    ],
+    "why": "en + duration = time taken."
+   },
+   {
+    "q": "Le train part ___ dix minutes. (in — from now)",
+    "a": [
+     "dans"
+    ],
+    "why": "dans + duration = time from now."
+   },
+   {
+    "q": "Je ___ manger ; je n'ai pas faim. (venir de, présent)",
+    "a": [
+     "viens de"
+    ],
+    "why": "venir de in the present = have just."
+   },
+   {
+    "q": "Elle ___ partir quand je suis arrivé. (venir de, imparfait)",
+    "a": [
+     "venait de"
+    ],
+    "why": "venir de in the imparfait = had just."
+   },
+   {
+    "q": "___ combien de temps habites-tu ici ? (how long — ongoing)",
+    "a": [
+     "Depuis"
+    ],
+    "why": "Depuis combien de temps + present."
+   },
+   {
+    "q": "Ça fait deux heures ___ j'attends ! (conjunction)",
+    "a": [
+     "que"
+    ],
+    "why": "ça fait + duration + que + present."
+   }
+  ]
+ }
+]
