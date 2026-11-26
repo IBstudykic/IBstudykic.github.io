@@ -54,7 +54,7 @@ function renderFrench(sec, id) {
   shell('fr'); FR.sec = sec = FRSEC.some(x => x[0] === sec) ? sec : 'home'; FR.id = id || ''; FR.ctx = null;
   setHash('#/fr' + (sec !== 'home' ? '/' + sec + (id ? '/' + encodeURIComponent(id) : '') : ''));
   title(sec === 'home' ? ['French B'] : [['French B', 'fr'], FRSEC.find(x => x[0] === sec)[1]]);
-  MATH = false;
+  MATH = false; scrollTo(0, 0);
   $('#main').innerHTML = `<div class="prac fr" style="max-width:980px"><div class="frnav seg" role="tablist">${FRSEC.map(([k, l]) => `<button data-fs="${k}" class="${k === sec ? 'on' : ''}">${l}</button>`).join('')}</div><div id="frb" style="margin-top:16px"><p><span class="spin"></span> Loading…</p></div></div>`;
   document.querySelectorAll('[data-fs]').forEach(b => b.onclick = () => renderFrench(b.dataset.fs));
   { const on = document.querySelector('.frnav .on'); if (on) on.scrollIntoView({block: 'nearest', inline: 'center'}); }
@@ -329,7 +329,7 @@ function frDraft(D, dr) {
 function frShowFb(D, w) {
   const f = w.fb || {}, TT = D.exam.textTypes || [], tt = TT.find(x => x.id === w.type), L = (a) => (a || []).map(x => `<li>${esc(x)}</li>`).join('');
   FR.ctx = {label: 'your marked French Paper 1 piece', screen: `French Paper 1 task: ${w.task}\n\nStudent text:\n${w.text}\n\nMarks: A ${f.A && f.A.mark}/12, B ${f.B && f.B.mark}/12, C ${f.C && f.C.mark}/6.`};
-  title([['French B', 'fr'], ['Paper 1', 'fr'], 'Feedback']); $('#ttl').querySelectorAll('[data-go]')[1].onclick = () => renderFrench('write');
+  title([['French B', 'fr'], ['Paper 1', 'fr'], 'Feedback']); scrollTo(0, 0); $('#ttl').querySelectorAll('[data-go]')[1].onclick = () => renderFrench('write');
   const cr = (k, n, max) => `<div class="card frcrit"><div class="row"><b>${k}</b><span class="sp"></span><span class="frbig">${f[k] ? f[k].mark : '–'}<span class="meta">/${max}</span></span></div><div class="meta">${n}</div><p>${esc(f[k] ? f[k].why : '')}</p></div>`;
   frBox().innerHTML = `<div class="row"><button class="ghost" id="fBack"><svg class="i"><use href="#i-l"/></svg>Paper 1</button><span class="sp"></span><span class="meta">${new Date(w.t).toLocaleString()}</span></div>
     <div class="row" style="margin:12px 0;align-items:baseline;gap:12px"><h2 style="margin:0">${w.total}/30</h2>${f.grade ? `<span class="tag">≈ grade ${esc(f.grade)}</span>` : ''}<span class="meta">${w.words} words${tt ? ' · ' + esc(tt.name) : ''}</span></div>
@@ -373,14 +373,14 @@ function frRead(D, id) {
     catch (e) { alert('Could not write a text: ' + e.message); $('#rGen').disabled = false; $('#rGen').textContent = 'Write one'; } };
 }
 function frReadText(D, r) {
-  const p = frP(); title([['French B', 'fr'], ['Paper 2', 'fr'], r.title]); $('#ttl').querySelectorAll('[data-go]')[1].onclick = () => renderFrench('read');
+  const p = frP(); title([['French B', 'fr'], ['Paper 2', 'fr'], r.title.length > 38 ? r.title.slice(0, 36) + '…' : r.title]); scrollTo(0, 0); $('#ttl').querySelectorAll('[data-go]')[1].onclick = () => renderFrench('read');
   FR.ctx = {label: 'French reading text “' + r.title + '”', screen: `French reading text "${r.title}":\n${r.text}\n\nQuestions:\n${r.qs.map((q, k) => (k + 1) + '. ' + q.q).join('\n')}\n(Help them find answers in the text; do not just give answers before they try.)`};
   const qh = (q, k) => { const n = k + 1, inp = `<input id="ra${k}" lang="fr" autocapitalize="off" spellcheck="false" placeholder="answer">`;
     if (q.kind === 'mcq') return `<div class="frci"><div>${n}. ${esc(q.q)}</div>${q.opts.map(o => `<label class="ck" style="display:flex"><input type="radio" name="ra${k}" value="${esc(o.trim()[0])}">${esc(o)}</label>`).join('')}<div class="frcr" id="rr${k}"></div></div>`;
     if (q.kind === 'tf') return `<div class="frci"><div>${n}. ${esc(q.q)}</div><div class="row"><label class="ck"><input type="radio" name="ra${k}" value="1">Vrai</label><label class="ck"><input type="radio" name="ra${k}" value="0">Faux</label></div><input id="rj${k}" lang="fr" placeholder="Justification: the exact words from the text" style="margin-top:6px"><div class="frcr" id="rr${k}"></div></div>`;
     return `<div class="frci"><div>${n}. ${esc(q.q)}</div>${inp}<div class="frcr" id="rr${k}"></div></div>`; };
   frBox().innerHTML = `<div class="row"><button class="ghost" id="rBack"><svg class="i"><use href="#i-l"/></svg>Paper 2</button><span class="sp"></span><button id="rLis"><svg class="i"><use href="#i-speak"/></svg>Listen first</button>${r.gen ? '<button class="ghost" id="rDel">Delete</button>' : ''}</div>
-    <div class="frread"><article class="card page frpage" id="rTxt" lang="fr"><div class="meta" style="font-family:var(--f-ui)">${esc(r.theme || '')} · ${esc(r.type || '')}</div><h1>${esc(r.title)}</h1>${mdx(r.text)}</article>
+    <div class="frread"><article class="card page frpage" id="rTxt" lang="fr"><div class="meta" style="font-family:var(--f-ui)">${esc(r.theme || '')} · ${esc(r.type || '')}</div><h1>${esc(r.title)}</h1>${mdx(r.text.replace(/^#[^\n]*\n+/, ''))}</article>
     <div class="card fb" id="rQs" style="margin-top:0">${r.qs.map(qh).join('')}${frKeys('')}<div class="row" style="margin-top:12px"><button class="pri" id="rChk">Check answers</button><span class="meta" id="rSc"></span></div></div></div>`;
   frWireKeys(frBox());
   $('#rBack').onclick = () => renderFrench('read');

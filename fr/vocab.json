@@ -1,0 +1,6868 @@
+[
+ {
+  "theme": "Identités",
+  "en": "Identities",
+  "icon": "🧑",
+  "topics": [
+   {
+    "topic": "Modes de vie",
+    "en": "Lifestyles",
+    "words": [
+     {
+      "fr": "le mode de vie",
+      "en": "lifestyle"
+     },
+     {
+      "fr": "le rythme de vie",
+      "en": "pace of life"
+     },
+     {
+      "fr": "la qualité de vie",
+      "en": "quality of life"
+     },
+     {
+      "fr": "le niveau de vie",
+      "en": "standard of living"
+     },
+     {
+      "fr": "le coût de la vie",
+      "en": "cost of living"
+     },
+     {
+      "fr": "l'alimentation",
+      "en": "diet, food",
+      "g": "f"
+     },
+     {
+      "fr": "le régime alimentaire",
+      "en": "diet"
+     },
+     {
+      "fr": "la malbouffe",
+      "en": "junk food"
+     },
+     {
+      "fr": "le grignotage",
+      "en": "snacking"
+     },
+     {
+      "fr": "sédentaire",
+      "en": "sedentary"
+     },
+     {
+      "fr": "la sédentarité",
+      "en": "sedentary lifestyle"
+     },
+     {
+      "fr": "l'activité physique",
+      "en": "physical activity",
+      "g": "f"
+     },
+     {
+      "fr": "le végétarisme",
+      "en": "vegetarianism"
+     },
+     {
+      "fr": "végétalien(ne)",
+      "en": "vegan"
+     },
+     {
+      "fr": "le bio",
+      "en": "organic food"
+     },
+     {
+      "fr": "la consommation",
+      "en": "consumption"
+     },
+     {
+      "fr": "le consumérisme",
+      "en": "consumerism"
+     },
+     {
+      "fr": "la sobriété",
+      "en": "moderation, frugality"
+     },
+     {
+      "fr": "le minimalisme",
+      "en": "minimalism"
+     },
+     {
+      "fr": "la décroissance",
+      "en": "degrowth"
+     },
+     {
+      "fr": "le gaspillage",
+      "en": "waste"
+     },
+     {
+      "fr": "l'équilibre",
+      "en": "balance",
+      "g": "m"
+     },
+     {
+      "fr": "les habitudes",
+      "en": "habits",
+      "g": "f"
+     },
+     {
+      "fr": "le temps libre",
+      "en": "free time"
+     },
+     {
+      "fr": "les écrans",
+      "en": "screens",
+      "g": "m"
+     },
+     {
+      "fr": "le temps d'écran",
+      "en": "screen time"
+     },
+     {
+      "fr": "la dépendance",
+      "en": "dependence, addiction"
+     },
+     {
+      "fr": "le télétravail",
+      "en": "remote working"
+     },
+     {
+      "fr": "le confort",
+      "en": "comfort"
+     },
+     {
+      "fr": "l'épanouissement",
+      "en": "personal fulfilment",
+      "g": "m"
+     },
+     {
+      "fr": "équilibré(e)",
+      "en": "balanced"
+     },
+     {
+      "fr": "sain(e)",
+      "en": "healthy"
+     },
+     {
+      "fr": "nocif(-ive)",
+      "en": "harmful"
+     },
+     {
+      "fr": "écoresponsable",
+      "en": "eco-friendly, environmentally responsible"
+     },
+     {
+      "fr": "adopter",
+      "en": "to adopt"
+     },
+     {
+      "fr": "renoncer à",
+      "en": "to give up"
+     },
+     {
+      "fr": "se passer de",
+      "en": "to do without"
+     },
+     {
+      "fr": "se déconnecter",
+      "en": "to disconnect, switch off"
+     }
+    ],
+    "phrases": [
+     {
+      "fr": "mener une vie saine",
+      "en": "to lead a healthy life"
+     },
+     {
+      "fr": "adopter de bonnes habitudes",
+      "en": "to adopt good habits"
+     },
+     {
+      "fr": "trouver un juste équilibre entre… et…",
+      "en": "to strike the right balance between… and…"
+     },
+     {
+      "fr": "avoir une vie trépidante",
+      "en": "to have a hectic life"
+     },
+     {
+      "fr": "De plus en plus de jeunes optent pour…",
+      "en": "More and more young people are opting for…"
+     },
+     {
+      "fr": "Notre mode de vie actuel n'est pas viable à long terme.",
+      "en": "Our current lifestyle is not sustainable in the long term."
+     },
+     {
+      "fr": "changer ses habitudes de consommation",
+      "en": "to change one's consumption habits"
+     },
+     {
+      "fr": "faire le choix de la simplicité",
+      "en": "to choose a simpler way of life"
+     },
+     {
+      "fr": "se faire plaisir de temps en temps",
+      "en": "to treat oneself now and then"
+     },
+     {
+      "fr": "être accro à son portable (fam.)",
+      "en": "to be hooked on one's phone (informal)"
+     }
+    ],
+    "questions": [
+     "Comment décrirais-tu ton mode de vie ?",
+     "Penses-tu que les jeunes d'aujourd'hui mènent une vie plus saine que leurs parents ?",
+     "Quelle place les écrans occupent-ils dans ta vie quotidienne ?",
+     "Est-il possible de concilier études, loisirs et vie sociale ?",
+     "Le mode de vie occidental est-il compatible avec la protection de la planète ?",
+     "Si tu pouvais changer une de tes habitudes, laquelle choisirais-tu et pourquoi ?"
+    ]
+   },
+   {
+    "topic": "Santé et bien-être",
+    "en": "Health and wellbeing",
+    "words": [
+     {
+      "fr": "la santé",
+      "en": "health"
+     },
+     {
+      "fr": "le bien-être",
+      "en": "wellbeing"
+     },
+     {
+      "fr": "la santé mentale",
+      "en": "mental health"
+     },
+     {
+      "fr": "la santé publique",
+      "en": "public health"
+     },
+     {
+      "fr": "le sommeil",
+      "en": "sleep"
+     },
+     {
+      "fr": "le manque de sommeil",
+      "en": "lack of sleep"
+     },
+     {
+      "fr": "le stress",
+      "en": "stress"
+     },
+     {
+      "fr": "l'anxiété",
+      "en": "anxiety",
+      "g": "f"
+     },
+     {
+      "fr": "la dépression",
+      "en": "depression"
+     },
+     {
+      "fr": "l'épuisement",
+      "en": "exhaustion, burnout",
+      "g": "m"
+     },
+     {
+      "fr": "épuisé(e)",
+      "en": "exhausted"
+     },
+     {
+      "fr": "stressé(e)",
+      "en": "stressed"
+     },
+     {
+      "fr": "le surpoids",
+      "en": "being overweight"
+     },
+     {
+      "fr": "l'obésité",
+      "en": "obesity",
+      "g": "f"
+     },
+     {
+      "fr": "le tabagisme",
+      "en": "smoking (habit, addiction)"
+     },
+     {
+      "fr": "la consommation d'alcool",
+      "en": "alcohol consumption"
+     },
+     {
+      "fr": "la toxicomanie",
+      "en": "drug addiction"
+     },
+     {
+      "fr": "les troubles alimentaires",
+      "en": "eating disorders",
+      "g": "m"
+     },
+     {
+      "fr": "la maladie",
+      "en": "illness, disease"
+     },
+     {
+      "fr": "le médecin généraliste",
+      "en": "GP, family doctor"
+     },
+     {
+      "fr": "l'ordonnance",
+      "en": "prescription",
+      "g": "f"
+     },
+     {
+      "fr": "le traitement",
+      "en": "treatment"
+     },
+     {
+      "fr": "la prévention",
+      "en": "prevention"
+     },
+     {
+      "fr": "le dépistage",
+      "en": "screening, testing"
+     },
+     {
+      "fr": "le vaccin",
+      "en": "vaccine"
+     },
+     {
+      "fr": "se faire vacciner",
+      "en": "to get vaccinated"
+     },
+     {
+      "fr": "soigner",
+      "en": "to treat, care for"
+     },
+     {
+      "fr": "guérir",
+      "en": "to cure, to recover"
+     },
+     {
+      "fr": "se détendre",
+      "en": "to relax"
+     },
+     {
+      "fr": "la méditation",
+      "en": "meditation"
+     },
+     {
+      "fr": "la pleine conscience",
+      "en": "mindfulness"
+     },
+     {
+      "fr": "l'estime de soi",
+      "en": "self-esteem",
+      "g": "f"
+     },
+     {
+      "fr": "la résilience",
+      "en": "resilience"
+     },
+     {
+      "fr": "le système de santé",
+      "en": "healthcare system"
+     },
+     {
+      "fr": "la Sécurité sociale",
+      "en": "French state health insurance"
+     },
+     {
+      "fr": "la mutuelle",
+      "en": "top-up health insurance"
+     },
+     {
+      "fr": "nuisible à la santé",
+      "en": "harmful to health"
+     }
+    ],
+    "phrases": [
+     {
+      "fr": "Mieux vaut prévenir que guérir.",
+      "en": "Prevention is better than cure."
+     },
+     {
+      "fr": "prendre soin de sa santé",
+      "en": "to take care of one's health"
+     },
+     {
+      "fr": "être en pleine forme",
+      "en": "to be in great shape"
+     },
+     {
+      "fr": "nuire à la santé",
+      "en": "to damage one's health"
+     },
+     {
+      "fr": "avoir une alimentation équilibrée",
+      "en": "to have a balanced diet"
+     },
+     {
+      "fr": "Il est primordial de…",
+      "en": "It is essential to…"
+     },
+     {
+      "fr": "souffrir du stress lié aux examens",
+      "en": "to suffer from exam stress"
+     },
+     {
+      "fr": "briser le tabou de la santé mentale",
+      "en": "to break the taboo around mental health"
+     },
+     {
+      "fr": "consulter un professionnel de santé",
+      "en": "to see a health professional"
+     },
+     {
+      "fr": "Les campagnes de sensibilisation visent à…",
+      "en": "Awareness campaigns aim to…"
+     }
+    ],
+    "questions": [
+     "Que fais-tu pour rester en bonne santé ?",
+     "Selon toi, la santé mentale est-elle suffisamment prise au sérieux dans ton lycée ?",
+     "Comment gères-tu le stress des examens ?",
+     "L'État devrait-il interdire la publicité pour la malbouffe ?",
+     "Les réseaux sociaux ont-ils un impact sur le bien-être des adolescents ?",
+     "Penses-tu que l'accès aux soins devrait être gratuit pour tous ?"
+    ]
+   },
+   {
+    "topic": "Croyances et valeurs",
+    "en": "Beliefs and values",
+    "words": [
+     {
+      "fr": "la croyance",
+      "en": "belief"
+     },
+     {
+      "fr": "les valeurs",
+      "en": "values",
+      "g": "f"
+     },
+     {
+      "fr": "la religion",
+      "en": "religion"
+     },
+     {
+      "fr": "la foi",
+      "en": "faith"
+     },
+     {
+      "fr": "croyant(e)",
+      "en": "religious, believer"
+     },
+     {
+      "fr": "pratiquant(e)",
+      "en": "practising (a religion)"
+     },
+     {
+      "fr": "athée",
+      "en": "atheist"
+     },
+     {
+      "fr": "agnostique",
+      "en": "agnostic"
+     },
+     {
+      "fr": "la laïcité",
+      "en": "secularism (state neutrality towards religion)"
+     },
+     {
+      "fr": "laïque",
+      "en": "secular"
+     },
+     {
+      "fr": "la spiritualité",
+      "en": "spirituality"
+     },
+     {
+      "fr": "la morale",
+      "en": "morals, morality"
+     },
+     {
+      "fr": "moral(e)",
+      "en": "moral"
+     },
+     {
+      "fr": "le principe",
+      "en": "principle"
+     },
+     {
+      "fr": "la conviction",
+      "en": "conviction, belief"
+     },
+     {
+      "fr": "le respect",
+      "en": "respect"
+     },
+     {
+      "fr": "la tolérance",
+      "en": "tolerance"
+     },
+     {
+      "fr": "l'intolérance",
+      "en": "intolerance",
+      "g": "f"
+     },
+     {
+      "fr": "la solidarité",
+      "en": "solidarity"
+     },
+     {
+      "fr": "l'honnêteté",
+      "en": "honesty",
+      "g": "f"
+     },
+     {
+      "fr": "la fidélité",
+      "en": "loyalty, faithfulness"
+     },
+     {
+      "fr": "la générosité",
+      "en": "generosity"
+     },
+     {
+      "fr": "l'altruisme",
+      "en": "altruism",
+      "g": "m"
+     },
+     {
+      "fr": "la liberté de culte",
+      "en": "freedom of worship"
+     },
+     {
+      "fr": "les préjugés",
+      "en": "prejudices",
+      "g": "m"
+     },
+     {
+      "fr": "le fanatisme",
+      "en": "fanaticism"
+     },
+     {
+      "fr": "l'intégrisme",
+      "en": "(religious) fundamentalism",
+      "g": "m"
+     },
+     {
+      "fr": "le lieu de culte",
+      "en": "place of worship"
+     },
+     {
+      "fr": "l'église",
+      "en": "church",
+      "g": "f"
+     },
+     {
+      "fr": "la mosquée",
+      "en": "mosque"
+     },
+     {
+      "fr": "la synagogue",
+      "en": "synagogue"
+     },
+     {
+      "fr": "la fête religieuse",
+      "en": "religious festival"
+     },
+     {
+      "fr": "le jeûne",
+      "en": "fasting, fast"
+     },
+     {
+      "fr": "la superstition",
+      "en": "superstition"
+     },
+     {
+      "fr": "le sens de la vie",
+      "en": "the meaning of life"
+     },
+     {
+      "fr": "transmettre",
+      "en": "to pass on"
+     },
+     {
+      "fr": "remettre en question",
+      "en": "to question, call into question"
+     }
+    ],
+    "phrases": [
+     {
+      "fr": "attacher de l'importance à…",
+      "en": "to attach importance to…"
+     },
+     {
+      "fr": "Mes valeurs m'ont été transmises par…",
+      "en": "My values were passed on to me by…"
+     },
+     {
+      "fr": "rester fidèle à ses principes",
+      "en": "to stay true to one's principles"
+     },
+     {
+      "fr": "aller à l'encontre de ses convictions",
+      "en": "to go against one's convictions"
+     },
+     {
+      "fr": "faire preuve de tolérance",
+      "en": "to show tolerance"
+     },
+     {
+      "fr": "La laïcité garantit la liberté de conscience.",
+      "en": "Secularism guarantees freedom of conscience."
+     },
+     {
+      "fr": "remettre en cause les valeurs traditionnelles",
+      "en": "to challenge traditional values"
+     },
+     {
+      "fr": "Chacun est libre de croire ou de ne pas croire.",
+      "en": "Everyone is free to believe or not to believe."
+     },
+     {
+      "fr": "lutter contre les préjugés",
+      "en": "to fight prejudice"
+     },
+     {
+      "fr": "Cela relève de la vie privée.",
+      "en": "That is a private matter."
+     }
+    ],
+    "questions": [
+     "Quelles sont les valeurs les plus importantes pour toi ?",
+     "D'où viennent tes valeurs : de ta famille, de tes amis, de ton école ?",
+     "La religion joue-t-elle encore un rôle important dans la société d'aujourd'hui ?",
+     "Que penses-tu du principe de laïcité à la française ?",
+     "Les valeurs des jeunes sont-elles différentes de celles de leurs grands-parents ?",
+     "Peut-on bien vivre ensemble quand on ne partage pas les mêmes croyances ?"
+    ]
+   },
+   {
+    "topic": "Sous-cultures",
+    "en": "Subcultures",
+    "words": [
+     {
+      "fr": "la sous-culture",
+      "en": "subculture"
+     },
+     {
+      "fr": "la contre-culture",
+      "en": "counterculture"
+     },
+     {
+      "fr": "la culture populaire",
+      "en": "popular culture"
+     },
+     {
+      "fr": "la culture geek",
+      "en": "geek culture"
+     },
+     {
+      "fr": "la tribu urbaine",
+      "en": "urban tribe"
+     },
+     {
+      "fr": "le mouvement",
+      "en": "movement"
+     },
+     {
+      "fr": "le courant",
+      "en": "trend, current"
+     },
+     {
+      "fr": "la mode",
+      "en": "fashion"
+     },
+     {
+      "fr": "le phénomène de mode",
+      "en": "fad"
+     },
+     {
+      "fr": "le style vestimentaire",
+      "en": "dress style"
+     },
+     {
+      "fr": "l'apparence",
+      "en": "appearance",
+      "g": "f"
+     },
+     {
+      "fr": "le look",
+      "en": "look, style"
+     },
+     {
+      "fr": "le tatouage",
+      "en": "tattoo"
+     },
+     {
+      "fr": "le piercing",
+      "en": "piercing"
+     },
+     {
+      "fr": "les codes",
+      "en": "codes (of a group)",
+      "g": "m"
+     },
+     {
+      "fr": "le sentiment d'appartenance",
+      "en": "sense of belonging"
+     },
+     {
+      "fr": "appartenir à",
+      "en": "to belong to"
+     },
+     {
+      "fr": "s'identifier à",
+      "en": "to identify with"
+     },
+     {
+      "fr": "se démarquer",
+      "en": "to stand out"
+     },
+     {
+      "fr": "la marginalité",
+      "en": "being on the fringes"
+     },
+     {
+      "fr": "marginal(e)",
+      "en": "fringe, marginal"
+     },
+     {
+      "fr": "rebelle",
+      "en": "rebellious"
+     },
+     {
+      "fr": "la rébellion",
+      "en": "rebellion"
+     },
+     {
+      "fr": "le conformisme",
+      "en": "conformity"
+     },
+     {
+      "fr": "anticonformiste",
+      "en": "non-conformist"
+     },
+     {
+      "fr": "le rap",
+      "en": "rap"
+     },
+     {
+      "fr": "le hip-hop",
+      "en": "hip-hop"
+     },
+     {
+      "fr": "le graffiti",
+      "en": "graffiti"
+     },
+     {
+      "fr": "le skate",
+      "en": "skateboarding"
+     },
+     {
+      "fr": "la communauté de fans",
+      "en": "fandom"
+     },
+     {
+      "fr": "la stigmatisation",
+      "en": "stigmatisation"
+     },
+     {
+      "fr": "stigmatiser",
+      "en": "to stigmatise"
+     },
+     {
+      "fr": "le stéréotype",
+      "en": "stereotype"
+     },
+     {
+      "fr": "le cliché",
+      "en": "cliché"
+     },
+     {
+      "fr": "le jugement",
+      "en": "judgement"
+     },
+     {
+      "fr": "la jeunesse",
+      "en": "youth"
+     },
+     {
+      "fr": "l'adolescence",
+      "en": "adolescence",
+      "g": "f"
+     }
+    ],
+    "phrases": [
+     {
+      "fr": "se sentir en marge de la société",
+      "en": "to feel on the margins of society"
+     },
+     {
+      "fr": "faire partie d'un groupe",
+      "en": "to be part of a group"
+     },
+     {
+      "fr": "Ce mouvement est né dans les années 1970.",
+      "en": "This movement was born in the 1970s."
+     },
+     {
+      "fr": "revendiquer sa différence",
+      "en": "to proudly assert one's difference"
+     },
+     {
+      "fr": "juger quelqu'un sur son apparence",
+      "en": "to judge someone on their appearance"
+     },
+     {
+      "fr": "être à la mode",
+      "en": "to be fashionable"
+     },
+     {
+      "fr": "Les sous-cultures permettent aux jeunes de…",
+      "en": "Subcultures allow young people to…"
+     },
+     {
+      "fr": "être victime de préjugés",
+      "en": "to be a victim of prejudice"
+     },
+     {
+      "fr": "se forger une identité",
+      "en": "to forge an identity"
+     },
+     {
+      "fr": "passer de la marge au grand public",
+      "en": "to go from the fringe to the mainstream"
+     }
+    ],
+    "questions": [
+     "Fais-tu partie d'une sous-culture ou d'un groupe particulier ?",
+     "Pourquoi les adolescents ont-ils besoin de s'identifier à un groupe ?",
+     "Juge-t-on trop souvent les gens sur leur apparence ?",
+     "Les réseaux sociaux ont-ils fait disparaître les sous-cultures ou les ont-ils renforcées ?",
+     "Peux-tu me parler d'un mouvement culturel francophone que tu connais ?",
+     "Le tatouage est-il encore mal vu dans ton pays ?"
+    ]
+   },
+   {
+    "topic": "Langue et identité",
+    "en": "Language and identity",
+    "words": [
+     {
+      "fr": "la langue maternelle",
+      "en": "mother tongue"
+     },
+     {
+      "fr": "la langue étrangère",
+      "en": "foreign language"
+     },
+     {
+      "fr": "la langue officielle",
+      "en": "official language"
+     },
+     {
+      "fr": "la langue régionale",
+      "en": "regional language"
+     },
+     {
+      "fr": "le bilinguisme",
+      "en": "bilingualism"
+     },
+     {
+      "fr": "bilingue",
+      "en": "bilingual"
+     },
+     {
+      "fr": "plurilingue",
+      "en": "multilingual"
+     },
+     {
+      "fr": "la diversité linguistique",
+      "en": "linguistic diversity"
+     },
+     {
+      "fr": "la francophonie",
+      "en": "the French-speaking world"
+     },
+     {
+      "fr": "francophone",
+      "en": "French-speaking"
+     },
+     {
+      "fr": "l'accent",
+      "en": "accent",
+      "g": "m"
+     },
+     {
+      "fr": "le dialecte",
+      "en": "dialect"
+     },
+     {
+      "fr": "le patois",
+      "en": "local dialect"
+     },
+     {
+      "fr": "le créole",
+      "en": "Creole"
+     },
+     {
+      "fr": "l'argot",
+      "en": "slang",
+      "g": "m"
+     },
+     {
+      "fr": "le verlan",
+      "en": "verlan (French back slang)"
+     },
+     {
+      "fr": "l'anglicisme",
+      "en": "anglicism",
+      "g": "m"
+     },
+     {
+      "fr": "l'emprunt",
+      "en": "loanword",
+      "g": "m"
+     },
+     {
+      "fr": "le registre",
+      "en": "register"
+     },
+     {
+      "fr": "soutenu(e)",
+      "en": "formal (register)"
+     },
+     {
+      "fr": "familier(-ère)",
+      "en": "informal, colloquial"
+     },
+     {
+      "fr": "le patrimoine",
+      "en": "heritage"
+     },
+     {
+      "fr": "l'héritage culturel",
+      "en": "cultural heritage",
+      "g": "m"
+     },
+     {
+      "fr": "les racines",
+      "en": "roots",
+      "g": "f"
+     },
+     {
+      "fr": "l'identité",
+      "en": "identity",
+      "g": "f"
+     },
+     {
+      "fr": "l'appartenance",
+      "en": "belonging",
+      "g": "f"
+     },
+     {
+      "fr": "s'exprimer",
+      "en": "to express oneself"
+     },
+     {
+      "fr": "maîtriser",
+      "en": "to master"
+     },
+     {
+      "fr": "parler couramment",
+      "en": "to speak fluently"
+     },
+     {
+      "fr": "la disparition",
+      "en": "disappearance"
+     },
+     {
+      "fr": "menacé(e)",
+      "en": "endangered, threatened"
+     },
+     {
+      "fr": "préserver",
+      "en": "to preserve"
+     },
+     {
+      "fr": "transmettre",
+      "en": "to pass on"
+     },
+     {
+      "fr": "l'Académie française",
+      "en": "the Académie française (guardian of the language)",
+      "g": "f"
+     },
+     {
+      "fr": "la féminisation des noms de métiers",
+      "en": "feminisation of job titles"
+     },
+     {
+      "fr": "l'écriture inclusive",
+      "en": "gender-inclusive writing",
+      "g": "f"
+     },
+     {
+      "fr": "l'insécurité linguistique",
+      "en": "linguistic insecurity",
+      "g": "f"
+     }
+    ],
+    "phrases": [
+     {
+      "fr": "Une langue, c'est bien plus qu'un outil de communication.",
+      "en": "A language is much more than a tool for communication."
+     },
+     {
+      "fr": "être tiraillé(e) entre deux cultures",
+      "en": "to be torn between two cultures"
+     },
+     {
+      "fr": "se sentir chez soi dans une langue",
+      "en": "to feel at home in a language"
+     },
+     {
+      "fr": "avoir un accent à couper au couteau",
+      "en": "to have a very strong accent"
+     },
+     {
+      "fr": "Parler plusieurs langues ouvre des portes.",
+      "en": "Speaking several languages opens doors."
+     },
+     {
+      "fr": "défendre la langue française",
+      "en": "to defend the French language"
+     },
+     {
+      "fr": "Le français est langue officielle dans une trentaine de pays.",
+      "en": "French is an official language in around thirty countries."
+     },
+     {
+      "fr": "Chaque fois qu'une langue disparaît, c'est une vision du monde qui s'éteint.",
+      "en": "Every time a language dies, a whole world view disappears."
+     },
+     {
+      "fr": "passer d'une langue à l'autre",
+      "en": "to switch from one language to another"
+     },
+     {
+      "fr": "Au Québec, la loi 101 protège le français.",
+      "en": "In Quebec, Bill 101 protects French."
+     }
+    ],
+    "questions": [
+     "Quelle(s) langue(s) parles-tu à la maison ?",
+     "En quoi la langue que l'on parle façonne-t-elle notre identité ?",
+     "Pourquoi as-tu choisi d'apprendre le français ?",
+     "Est-il important de protéger les langues régionales ou minoritaires ?",
+     "Que penses-tu de l'influence de l'anglais sur le français ?",
+     "Te sens-tu différent(e) quand tu parles une autre langue ?"
+    ]
+   }
+  ]
+ },
+ {
+  "theme": "Expériences",
+  "en": "Experiences",
+  "icon": "🧭",
+  "topics": [
+   {
+    "topic": "Activités de loisirs",
+    "en": "Leisure activities",
+    "words": [
+     {
+      "fr": "les loisirs",
+      "en": "leisure activities",
+      "g": "m"
+     },
+     {
+      "fr": "le passe-temps",
+      "en": "hobby"
+     },
+     {
+      "fr": "le temps libre",
+      "en": "free time"
+     },
+     {
+      "fr": "se divertir",
+      "en": "to have fun, entertain oneself"
+     },
+     {
+      "fr": "se détendre",
+      "en": "to relax"
+     },
+     {
+      "fr": "le club",
+      "en": "club"
+     },
+     {
+      "fr": "l'association",
+      "en": "association, club",
+      "g": "f"
+     },
+     {
+      "fr": "l'activité extrascolaire",
+      "en": "extracurricular activity",
+      "g": "f"
+     },
+     {
+      "fr": "s'inscrire à",
+      "en": "to sign up for"
+     },
+     {
+      "fr": "la cotisation",
+      "en": "membership fee"
+     },
+     {
+      "fr": "l'abonnement",
+      "en": "subscription, membership",
+      "g": "m"
+     },
+     {
+      "fr": "la salle de sport",
+      "en": "gym"
+     },
+     {
+      "fr": "s'entraîner",
+      "en": "to train"
+     },
+     {
+      "fr": "l'entraînement",
+      "en": "training",
+      "g": "m"
+     },
+     {
+      "fr": "la compétition",
+      "en": "competition"
+     },
+     {
+      "fr": "le sport d'équipe",
+      "en": "team sport"
+     },
+     {
+      "fr": "la randonnée",
+      "en": "hiking, hike"
+     },
+     {
+      "fr": "l'escalade",
+      "en": "climbing",
+      "g": "f"
+     },
+     {
+      "fr": "la natation",
+      "en": "swimming"
+     },
+     {
+      "fr": "le jeu vidéo",
+      "en": "video game"
+     },
+     {
+      "fr": "le jeu de société",
+      "en": "board game"
+     },
+     {
+      "fr": "la lecture",
+      "en": "reading"
+     },
+     {
+      "fr": "la musique",
+      "en": "music"
+     },
+     {
+      "fr": "la cuisine",
+      "en": "cooking"
+     },
+     {
+      "fr": "le jardinage",
+      "en": "gardening"
+     },
+     {
+      "fr": "le bricolage",
+      "en": "DIY"
+     },
+     {
+      "fr": "la photographie",
+      "en": "photography"
+     },
+     {
+      "fr": "la sortie",
+      "en": "outing, night out"
+     },
+     {
+      "fr": "la soirée",
+      "en": "evening, party"
+     },
+     {
+      "fr": "le spectacle",
+      "en": "show"
+     },
+     {
+      "fr": "le concert",
+      "en": "concert"
+     },
+     {
+      "fr": "le musée",
+      "en": "museum"
+     },
+     {
+      "fr": "passionné(e) de",
+      "en": "passionate about"
+     },
+     {
+      "fr": "la passion",
+      "en": "passion"
+     },
+     {
+      "fr": "le divertissement",
+      "en": "entertainment"
+     }
+    ],
+    "phrases": [
+     {
+      "fr": "consacrer du temps à…",
+      "en": "to devote time to…"
+     },
+     {
+      "fr": "se passionner pour…",
+      "en": "to be passionate about…"
+     },
+     {
+      "fr": "jouer au foot / jouer du piano",
+      "en": "to play football / to play the piano"
+     },
+     {
+      "fr": "faire partie d'un club",
+      "en": "to be a member of a club"
+     },
+     {
+      "fr": "Ça me permet de décompresser.",
+      "en": "It lets me unwind."
+     },
+     {
+      "fr": "avoir un emploi du temps chargé",
+      "en": "to have a busy schedule"
+     },
+     {
+      "fr": "pratiquer un sport à haut niveau",
+      "en": "to play a sport at a high level"
+     },
+     {
+      "fr": "Les loisirs coûtent de plus en plus cher.",
+      "en": "Leisure activities are getting more and more expensive."
+     },
+     {
+      "fr": "s'adonner à…",
+      "en": "to devote oneself to…, indulge in…"
+     },
+     {
+      "fr": "tuer le temps",
+      "en": "to kill time"
+     }
+    ],
+    "questions": [
+     "Que fais-tu pendant ton temps libre ?",
+     "Comment as-tu découvert ta passion ?",
+     "Les jeunes passent-ils trop de temps devant les écrans au lieu de faire du sport ?",
+     "Les loisirs devraient-ils être accessibles à tous, quel que soit le budget ?",
+     "Est-il important d'avoir des activités en dehors des études ?",
+     "Si tu avais plus de temps, quelle nouvelle activité aimerais-tu essayer ?"
+    ]
+   },
+   {
+    "topic": "Vacances et voyages",
+    "en": "Holidays and travel",
+    "words": [
+     {
+      "fr": "les vacances",
+      "en": "holidays",
+      "g": "f"
+     },
+     {
+      "fr": "le voyage",
+      "en": "trip, journey"
+     },
+     {
+      "fr": "le séjour",
+      "en": "stay"
+     },
+     {
+      "fr": "la destination",
+      "en": "destination"
+     },
+     {
+      "fr": "le voyageur / la voyageuse",
+      "en": "traveller"
+     },
+     {
+      "fr": "le tourisme",
+      "en": "tourism"
+     },
+     {
+      "fr": "le tourisme de masse",
+      "en": "mass tourism"
+     },
+     {
+      "fr": "le surtourisme",
+      "en": "overtourism"
+     },
+     {
+      "fr": "l'écotourisme",
+      "en": "ecotourism",
+      "g": "m"
+     },
+     {
+      "fr": "la haute saison",
+      "en": "high season"
+     },
+     {
+      "fr": "le vol",
+      "en": "flight"
+     },
+     {
+      "fr": "la correspondance",
+      "en": "connection (train, flight)"
+     },
+     {
+      "fr": "l'aéroport",
+      "en": "airport",
+      "g": "m"
+     },
+     {
+      "fr": "la gare",
+      "en": "(train) station"
+     },
+     {
+      "fr": "le billet",
+      "en": "ticket"
+     },
+     {
+      "fr": "réserver",
+      "en": "to book"
+     },
+     {
+      "fr": "la réservation",
+      "en": "booking"
+     },
+     {
+      "fr": "l'hébergement",
+      "en": "accommodation",
+      "g": "m"
+     },
+     {
+      "fr": "l'auberge de jeunesse",
+      "en": "youth hostel",
+      "g": "f"
+     },
+     {
+      "fr": "le gîte",
+      "en": "holiday cottage"
+     },
+     {
+      "fr": "le camping",
+      "en": "campsite, camping"
+     },
+     {
+      "fr": "la location",
+      "en": "rental"
+     },
+     {
+      "fr": "l'itinéraire",
+      "en": "route, itinerary",
+      "g": "m"
+     },
+     {
+      "fr": "le sac à dos",
+      "en": "backpack"
+     },
+     {
+      "fr": "la valise",
+      "en": "suitcase"
+     },
+     {
+      "fr": "le passeport",
+      "en": "passport"
+     },
+     {
+      "fr": "le décalage horaire",
+      "en": "time difference, jet lag"
+     },
+     {
+      "fr": "le séjour linguistique",
+      "en": "language-study trip"
+     },
+     {
+      "fr": "l'échange scolaire",
+      "en": "school exchange",
+      "g": "m"
+     },
+     {
+      "fr": "les congés payés",
+      "en": "paid holiday",
+      "g": "m"
+     },
+     {
+      "fr": "l'empreinte carbone",
+      "en": "carbon footprint",
+      "g": "f"
+     },
+     {
+      "fr": "le dépaysement",
+      "en": "change of scenery, feeling of being somewhere new"
+     },
+     {
+      "fr": "dépaysant(e)",
+      "en": "refreshingly different, exotic"
+     },
+     {
+      "fr": "découvrir",
+      "en": "to discover"
+     },
+     {
+      "fr": "visiter",
+      "en": "to visit (a place)"
+     },
+     {
+      "fr": "le souvenir",
+      "en": "souvenir, memory"
+     }
+    ],
+    "phrases": [
+     {
+      "fr": "partir en vacances",
+      "en": "to go on holiday"
+     },
+     {
+      "fr": "faire ses valises",
+      "en": "to pack one's bags"
+     },
+     {
+      "fr": "voyager hors des sentiers battus",
+      "en": "to travel off the beaten track"
+     },
+     {
+      "fr": "voyager léger",
+      "en": "to travel light"
+     },
+     {
+      "fr": "se mettre au vert",
+      "en": "to get away to the countryside"
+     },
+     {
+      "fr": "Les voyages forment la jeunesse.",
+      "en": "Travel broadens the mind."
+     },
+     {
+      "fr": "s'ouvrir à une autre culture",
+      "en": "to open up to another culture"
+     },
+     {
+      "fr": "prendre l'avion / le train",
+      "en": "to take the plane / the train"
+     },
+     {
+      "fr": "avoir un coup de cœur pour…",
+      "en": "to fall in love with…"
+     },
+     {
+      "fr": "privilégier le train plutôt que l'avion",
+      "en": "to choose the train over the plane"
+     }
+    ],
+    "questions": [
+     "Quel est le voyage qui t'a le plus marqué(e) et pourquoi ?",
+     "Préfères-tu partir à l'aventure ou tout organiser à l'avance ?",
+     "Le tourisme de masse est-il un problème ?",
+     "Faut-il renoncer à l'avion pour protéger la planète ?",
+     "Quels sont les avantages d'un séjour linguistique ?",
+     "Où aimerais-tu aller dans le monde francophone ?"
+    ]
+   },
+   {
+    "topic": "Récits de vie",
+    "en": "Life stories",
+    "words": [
+     {
+      "fr": "le récit",
+      "en": "account, story"
+     },
+     {
+      "fr": "la biographie",
+      "en": "biography"
+     },
+     {
+      "fr": "l'autobiographie",
+      "en": "autobiography",
+      "g": "f"
+     },
+     {
+      "fr": "les mémoires",
+      "en": "memoirs",
+      "g": "m"
+     },
+     {
+      "fr": "le témoignage",
+      "en": "testimony, first-hand account"
+     },
+     {
+      "fr": "témoigner",
+      "en": "to bear witness, testify"
+     },
+     {
+      "fr": "le parcours",
+      "en": "path (through life), background"
+     },
+     {
+      "fr": "l'enfance",
+      "en": "childhood",
+      "g": "f"
+     },
+     {
+      "fr": "le souvenir d'enfance",
+      "en": "childhood memory"
+     },
+     {
+      "fr": "se souvenir de",
+      "en": "to remember"
+     },
+     {
+      "fr": "se rappeler",
+      "en": "to recall"
+     },
+     {
+      "fr": "raconter",
+      "en": "to tell"
+     },
+     {
+      "fr": "l'anecdote",
+      "en": "anecdote",
+      "g": "f"
+     },
+     {
+      "fr": "l'épreuve",
+      "en": "ordeal, hardship",
+      "g": "f"
+     },
+     {
+      "fr": "surmonter",
+      "en": "to overcome"
+     },
+     {
+      "fr": "l'obstacle",
+      "en": "obstacle",
+      "g": "m"
+     },
+     {
+      "fr": "le défi",
+      "en": "challenge"
+     },
+     {
+      "fr": "le tournant",
+      "en": "turning point"
+     },
+     {
+      "fr": "la réussite",
+      "en": "success"
+     },
+     {
+      "fr": "l'échec",
+      "en": "failure",
+      "g": "m"
+     },
+     {
+      "fr": "la vocation",
+      "en": "vocation, calling"
+     },
+     {
+      "fr": "le modèle",
+      "en": "role model"
+     },
+     {
+      "fr": "le héros",
+      "en": "hero"
+     },
+     {
+      "fr": "l'héroïne",
+      "en": "heroine",
+      "g": "f"
+     },
+     {
+      "fr": "admirer",
+      "en": "to admire"
+     },
+     {
+      "fr": "inspirer",
+      "en": "to inspire"
+     },
+     {
+      "fr": "inspirant(e)",
+      "en": "inspiring"
+     },
+     {
+      "fr": "courageux(-euse)",
+      "en": "brave"
+     },
+     {
+      "fr": "déterminé(e)",
+      "en": "determined"
+     },
+     {
+      "fr": "la persévérance",
+      "en": "perseverance"
+     },
+     {
+      "fr": "le destin",
+      "en": "fate, destiny"
+     },
+     {
+      "fr": "la vieillesse",
+      "en": "old age"
+     },
+     {
+      "fr": "le quotidien",
+      "en": "daily life"
+     },
+     {
+      "fr": "marquant(e)",
+      "en": "memorable, significant"
+     },
+     {
+      "fr": "bouleverser",
+      "en": "to turn upside down, to move deeply"
+     },
+     {
+      "fr": "la nostalgie",
+      "en": "nostalgia"
+     }
+    ],
+    "phrases": [
+     {
+      "fr": "Ce jour-là a changé ma vie.",
+      "en": "That day changed my life."
+     },
+     {
+      "fr": "garder un souvenir inoubliable de…",
+      "en": "to have an unforgettable memory of…"
+     },
+     {
+      "fr": "tirer des leçons de ses erreurs",
+      "en": "to learn from one's mistakes"
+     },
+     {
+      "fr": "partir de rien",
+      "en": "to start from nothing"
+     },
+     {
+      "fr": "faire face à l'adversité",
+      "en": "to face adversity"
+     },
+     {
+      "fr": "réaliser son rêve",
+      "en": "to fulfil one's dream"
+     },
+     {
+      "fr": "À l'âge de dix ans, …",
+      "en": "At the age of ten, …"
+     },
+     {
+      "fr": "avoir du mal à…",
+      "en": "to struggle to…"
+     },
+     {
+      "fr": "Quand j'étais petit(e), j'avais l'habitude de…",
+      "en": "When I was little, I used to…"
+     },
+     {
+      "fr": "Avec le recul, …",
+      "en": "With hindsight, …"
+     }
+    ],
+    "questions": [
+     "Quelle personne t'a le plus inspiré(e) et pourquoi ?",
+     "Peux-tu me raconter un souvenir d'enfance qui t'a marqué(e) ?",
+     "Quel a été le plus grand défi de ta vie jusqu'à présent ?",
+     "Pourquoi aime-t-on lire des biographies ou écouter des témoignages ?",
+     "Apprend-on davantage de ses échecs que de ses réussites ?",
+     "Comment imagines-tu ta vie dans dix ans ?"
+    ]
+   },
+   {
+    "topic": "Rites de passage",
+    "en": "Rites of passage",
+    "words": [
+     {
+      "fr": "le rite de passage",
+      "en": "rite of passage"
+     },
+     {
+      "fr": "le passage à l'âge adulte",
+      "en": "transition to adulthood"
+     },
+     {
+      "fr": "la cérémonie",
+      "en": "ceremony"
+     },
+     {
+      "fr": "l'étape",
+      "en": "stage, milestone",
+      "g": "f"
+     },
+     {
+      "fr": "la naissance",
+      "en": "birth"
+     },
+     {
+      "fr": "le baptême",
+      "en": "baptism, christening"
+     },
+     {
+      "fr": "la communion",
+      "en": "(first) communion"
+     },
+     {
+      "fr": "la bar-mitsva",
+      "en": "bar mitzvah"
+     },
+     {
+      "fr": "l'anniversaire",
+      "en": "birthday",
+      "g": "m"
+     },
+     {
+      "fr": "la majorité",
+      "en": "coming of age, age of majority"
+     },
+     {
+      "fr": "majeur(e)",
+      "en": "of age (legally adult)"
+     },
+     {
+      "fr": "mineur(e)",
+      "en": "under age, minor"
+     },
+     {
+      "fr": "le permis de conduire",
+      "en": "driving licence"
+     },
+     {
+      "fr": "le baccalauréat (le bac)",
+      "en": "baccalaureate (French school-leaving exam)"
+     },
+     {
+      "fr": "la remise des diplômes",
+      "en": "graduation ceremony"
+     },
+     {
+      "fr": "le bal de fin d'année",
+      "en": "end-of-year ball, prom"
+     },
+     {
+      "fr": "le premier emploi",
+      "en": "first job"
+     },
+     {
+      "fr": "le mariage",
+      "en": "marriage, wedding"
+     },
+     {
+      "fr": "se marier",
+      "en": "to get married"
+     },
+     {
+      "fr": "les fiançailles",
+      "en": "engagement",
+      "g": "f"
+     },
+     {
+      "fr": "le PACS",
+      "en": "civil partnership (France)"
+     },
+     {
+      "fr": "le divorce",
+      "en": "divorce"
+     },
+     {
+      "fr": "la retraite",
+      "en": "retirement"
+     },
+     {
+      "fr": "l'enterrement",
+      "en": "burial, funeral",
+      "g": "m"
+     },
+     {
+      "fr": "les funérailles",
+      "en": "funeral",
+      "g": "f"
+     },
+     {
+      "fr": "le deuil",
+      "en": "mourning, bereavement"
+     },
+     {
+      "fr": "le bizutage",
+      "en": "hazing, initiation ragging"
+     },
+     {
+      "fr": "l'initiation",
+      "en": "initiation",
+      "g": "f"
+     },
+     {
+      "fr": "l'autonomie",
+      "en": "independence, autonomy",
+      "g": "f"
+     },
+     {
+      "fr": "la responsabilité",
+      "en": "responsibility"
+     },
+     {
+      "fr": "symbolique",
+      "en": "symbolic"
+     },
+     {
+      "fr": "marquer",
+      "en": "to mark"
+     },
+     {
+      "fr": "célébrer",
+      "en": "to celebrate"
+     },
+     {
+      "fr": "la tradition familiale",
+      "en": "family tradition"
+     }
+    ],
+    "phrases": [
+     {
+      "fr": "quitter le nid familial",
+      "en": "to leave the family nest"
+     },
+     {
+      "fr": "passer le permis / le bac",
+      "en": "to take one's driving test / the bac"
+     },
+     {
+      "fr": "fêter ses dix-huit ans",
+      "en": "to celebrate one's 18th birthday"
+     },
+     {
+      "fr": "franchir une étape importante",
+      "en": "to reach an important milestone"
+     },
+     {
+      "fr": "voler de ses propres ailes",
+      "en": "to stand on one's own two feet"
+     },
+     {
+      "fr": "entrer dans la vie active",
+      "en": "to start working life"
+     },
+     {
+      "fr": "marquer le passage de l'enfance à l'âge adulte",
+      "en": "to mark the transition from childhood to adulthood"
+     },
+     {
+      "fr": "prendre son indépendance",
+      "en": "to become independent"
+     },
+     {
+      "fr": "faire son deuil",
+      "en": "to grieve, come to terms with a loss"
+     },
+     {
+      "fr": "Les rites de passage varient d'une culture à l'autre.",
+      "en": "Rites of passage vary from one culture to another."
+     }
+    ],
+    "questions": [
+     "Quel moment marque, selon toi, le passage à l'âge adulte ?",
+     "Existe-t-il des rites de passage importants dans ta culture ?",
+     "Avoir dix-huit ans, est-ce vraiment être adulte ?",
+     "Les rites de passage traditionnels ont-ils encore un sens aujourd'hui ?",
+     "Que penses-tu du bizutage ?",
+     "Comment as-tu fêté un anniversaire important ?"
+    ]
+   },
+   {
+    "topic": "Coutumes et traditions",
+    "en": "Customs and traditions",
+    "words": [
+     {
+      "fr": "la coutume",
+      "en": "custom"
+     },
+     {
+      "fr": "la tradition",
+      "en": "tradition"
+     },
+     {
+      "fr": "traditionnel(le)",
+      "en": "traditional"
+     },
+     {
+      "fr": "le folklore",
+      "en": "folklore"
+     },
+     {
+      "fr": "la fête",
+      "en": "celebration, festival, party"
+     },
+     {
+      "fr": "la fête nationale",
+      "en": "national holiday"
+     },
+     {
+      "fr": "le jour férié",
+      "en": "public holiday"
+     },
+     {
+      "fr": "le 14 Juillet",
+      "en": "Bastille Day (14 July)"
+     },
+     {
+      "fr": "le réveillon",
+      "en": "Christmas Eve / New Year's Eve dinner"
+     },
+     {
+      "fr": "la galette des rois",
+      "en": "Epiphany cake (Twelfth Night)"
+     },
+     {
+      "fr": "la Chandeleur",
+      "en": "Candlemas (crêpe day, 2 February)"
+     },
+     {
+      "fr": "le poisson d'avril",
+      "en": "April Fool's joke"
+     },
+     {
+      "fr": "la fête de la Musique",
+      "en": "Music Day (21 June)"
+     },
+     {
+      "fr": "le carnaval",
+      "en": "carnival"
+     },
+     {
+      "fr": "le défilé",
+      "en": "parade"
+     },
+     {
+      "fr": "le feu d'artifice",
+      "en": "fireworks"
+     },
+     {
+      "fr": "le repas de famille",
+      "en": "family meal"
+     },
+     {
+      "fr": "la gastronomie",
+      "en": "gastronomy, fine food"
+     },
+     {
+      "fr": "la spécialité régionale",
+      "en": "regional speciality"
+     },
+     {
+      "fr": "le savoir-vivre",
+      "en": "manners, etiquette"
+     },
+     {
+      "fr": "la politesse",
+      "en": "politeness"
+     },
+     {
+      "fr": "la bise",
+      "en": "kiss on the cheek (greeting)"
+     },
+     {
+      "fr": "le vouvoiement",
+      "en": "using \"vous\""
+     },
+     {
+      "fr": "le tutoiement",
+      "en": "using \"tu\""
+     },
+     {
+      "fr": "les mœurs",
+      "en": "customs, morals",
+      "g": "f"
+     },
+     {
+      "fr": "l'héritage",
+      "en": "heritage, legacy",
+      "g": "m"
+     },
+     {
+      "fr": "ancestral(e)",
+      "en": "age-old, ancestral"
+     },
+     {
+      "fr": "perpétuer",
+      "en": "to perpetuate, keep alive"
+     },
+     {
+      "fr": "se perdre",
+      "en": "to die out, be lost"
+     },
+     {
+      "fr": "l'artisanat",
+      "en": "crafts, craftsmanship",
+      "g": "m"
+     },
+     {
+      "fr": "le costume traditionnel",
+      "en": "traditional costume"
+     },
+     {
+      "fr": "le patrimoine immatériel",
+      "en": "intangible heritage"
+     },
+     {
+      "fr": "commémorer",
+      "en": "to commemorate"
+     },
+     {
+      "fr": "la commémoration",
+      "en": "commemoration"
+     },
+     {
+      "fr": "la cabane à sucre",
+      "en": "sugar shack (Québec maple-syrup tradition)"
+     }
+    ],
+    "phrases": [
+     {
+      "fr": "faire la bise",
+      "en": "to greet with a kiss on the cheek"
+     },
+     {
+      "fr": "fêter Noël en famille",
+      "en": "to celebrate Christmas with the family"
+     },
+     {
+      "fr": "C'est une tradition qui remonte au Moyen Âge.",
+      "en": "It's a tradition that dates back to the Middle Ages."
+     },
+     {
+      "fr": "perpétuer les traditions",
+      "en": "to keep traditions alive"
+     },
+     {
+      "fr": "se perdre au fil du temps",
+      "en": "to be lost over time"
+     },
+     {
+      "fr": "être attaché(e) à ses traditions",
+      "en": "to be attached to one's traditions"
+     },
+     {
+      "fr": "Chez nous, il est d'usage de…",
+      "en": "Where I come from, it is customary to…"
+     },
+     {
+      "fr": "tirer les rois",
+      "en": "to cut the Epiphany cake (and see who gets the charm)"
+     },
+     {
+      "fr": "Une tradition ne justifie pas n'importe quelle pratique.",
+      "en": "A tradition does not justify just any practice."
+     },
+     {
+      "fr": "être inscrit(e) au patrimoine mondial de l'UNESCO",
+      "en": "to be on UNESCO's World Heritage list"
+     }
+    ],
+    "questions": [
+     "Quelle est ta fête préférée et comment la célèbres-tu ?",
+     "Quelles traditions françaises ou francophones connais-tu ?",
+     "Est-il important de préserver les traditions dans un monde globalisé ?",
+     "Certaines traditions devraient-elles disparaître ?",
+     "La mondialisation menace-t-elle les coutumes locales ?",
+     "Y a-t-il une tradition familiale que tu aimerais transmettre ?"
+    ]
+   },
+   {
+    "topic": "Migration",
+    "en": "Migration",
+    "words": [
+     {
+      "fr": "la migration",
+      "en": "migration"
+     },
+     {
+      "fr": "le migrant",
+      "en": "migrant"
+     },
+     {
+      "fr": "l'immigration",
+      "en": "immigration",
+      "g": "f"
+     },
+     {
+      "fr": "l'émigration",
+      "en": "emigration",
+      "g": "f"
+     },
+     {
+      "fr": "l'immigré",
+      "en": "immigrant",
+      "g": "m"
+     },
+     {
+      "fr": "le réfugié",
+      "en": "refugee"
+     },
+     {
+      "fr": "le demandeur d'asile",
+      "en": "asylum seeker"
+     },
+     {
+      "fr": "le droit d'asile",
+      "en": "right of asylum"
+     },
+     {
+      "fr": "l'exil",
+      "en": "exile",
+      "g": "m"
+     },
+     {
+      "fr": "s'exiler",
+      "en": "to go into exile"
+     },
+     {
+      "fr": "fuir",
+      "en": "to flee"
+     },
+     {
+      "fr": "la persécution",
+      "en": "persecution"
+     },
+     {
+      "fr": "le pays d'origine",
+      "en": "country of origin"
+     },
+     {
+      "fr": "le pays d'accueil",
+      "en": "host country"
+     },
+     {
+      "fr": "l'accueil",
+      "en": "welcome, reception",
+      "g": "m"
+     },
+     {
+      "fr": "accueillir",
+      "en": "to welcome, take in"
+     },
+     {
+      "fr": "l'intégration",
+      "en": "integration",
+      "g": "f"
+     },
+     {
+      "fr": "s'intégrer",
+      "en": "to integrate"
+     },
+     {
+      "fr": "l'assimilation",
+      "en": "assimilation",
+      "g": "f"
+     },
+     {
+      "fr": "le titre de séjour",
+      "en": "residence permit"
+     },
+     {
+      "fr": "les papiers",
+      "en": "(identity) papers",
+      "g": "m"
+     },
+     {
+      "fr": "le sans-papiers",
+      "en": "undocumented migrant"
+     },
+     {
+      "fr": "la nationalité",
+      "en": "nationality"
+     },
+     {
+      "fr": "la naturalisation",
+      "en": "naturalisation"
+     },
+     {
+      "fr": "la double nationalité",
+      "en": "dual nationality"
+     },
+     {
+      "fr": "la frontière",
+      "en": "border"
+     },
+     {
+      "fr": "le passeur",
+      "en": "people smuggler"
+     },
+     {
+      "fr": "la traversée",
+      "en": "crossing"
+     },
+     {
+      "fr": "le déracinement",
+      "en": "uprooting"
+     },
+     {
+      "fr": "déraciné(e)",
+      "en": "uprooted"
+     },
+     {
+      "fr": "le mal du pays",
+      "en": "homesickness"
+     },
+     {
+      "fr": "la diaspora",
+      "en": "diaspora"
+     },
+     {
+      "fr": "la xénophobie",
+      "en": "xenophobia"
+     },
+     {
+      "fr": "la main-d'œuvre",
+      "en": "workforce, labour"
+     },
+     {
+      "fr": "le multiculturalisme",
+      "en": "multiculturalism"
+     },
+     {
+      "fr": "expulser",
+      "en": "to deport, expel"
+     },
+     {
+      "fr": "le regroupement familial",
+      "en": "family reunification"
+     }
+    ],
+    "phrases": [
+     {
+      "fr": "quitter son pays natal",
+      "en": "to leave one's native country"
+     },
+     {
+      "fr": "fuir la guerre / la misère",
+      "en": "to flee war / poverty"
+     },
+     {
+      "fr": "chercher une vie meilleure",
+      "en": "to seek a better life"
+     },
+     {
+      "fr": "obtenir le statut de réfugié",
+      "en": "to obtain refugee status"
+     },
+     {
+      "fr": "se heurter à la barrière de la langue",
+      "en": "to come up against the language barrier"
+     },
+     {
+      "fr": "être issu(e) de l'immigration",
+      "en": "to come from an immigrant background"
+     },
+     {
+      "fr": "L'immigration est une source d'enrichissement culturel.",
+      "en": "Immigration is a source of cultural enrichment."
+     },
+     {
+      "fr": "trouver sa place dans la société d'accueil",
+      "en": "to find one's place in the host society"
+     },
+     {
+      "fr": "risquer sa vie pour traverser la Méditerranée",
+      "en": "to risk one's life crossing the Mediterranean"
+     },
+     {
+      "fr": "la crise migratoire",
+      "en": "the migrant crisis"
+     }
+    ],
+    "questions": [
+     "As-tu déjà vécu dans un autre pays ? Comment t'es-tu adapté(e) ?",
+     "Pourquoi les gens décident-ils de quitter leur pays ?",
+     "Quelles difficultés un migrant peut-il rencontrer en arrivant dans un nouveau pays ?",
+     "Les pays riches ont-ils le devoir d'accueillir les réfugiés ?",
+     "L'intégration est-elle la responsabilité des migrants ou de la société d'accueil ?",
+     "L'immigration est-elle une chance pour un pays ?"
+    ]
+   }
+  ]
+ },
+ {
+  "theme": "Ingéniosité humaine",
+  "en": "Human ingenuity",
+  "icon": "💡",
+  "topics": [
+   {
+    "topic": "Divertissement",
+    "en": "Entertainment",
+    "words": [
+     {
+      "fr": "le divertissement",
+      "en": "entertainment"
+     },
+     {
+      "fr": "le cinéma",
+      "en": "cinema"
+     },
+     {
+      "fr": "la salle de cinéma",
+      "en": "cinema (venue)"
+     },
+     {
+      "fr": "le court-métrage",
+      "en": "short film"
+     },
+     {
+      "fr": "le long-métrage",
+      "en": "feature film"
+     },
+     {
+      "fr": "le réalisateur / la réalisatrice",
+      "en": "(film) director"
+     },
+     {
+      "fr": "l'acteur",
+      "en": "actor",
+      "g": "m"
+     },
+     {
+      "fr": "l'actrice",
+      "en": "actress",
+      "g": "f"
+     },
+     {
+      "fr": "la vedette",
+      "en": "star"
+     },
+     {
+      "fr": "le scénario",
+      "en": "screenplay, script"
+     },
+     {
+      "fr": "l'intrigue",
+      "en": "plot",
+      "g": "f"
+     },
+     {
+      "fr": "le personnage",
+      "en": "character"
+     },
+     {
+      "fr": "la bande-annonce",
+      "en": "trailer"
+     },
+     {
+      "fr": "la série",
+      "en": "series"
+     },
+     {
+      "fr": "la plateforme de streaming",
+      "en": "streaming platform"
+     },
+     {
+      "fr": "la télé-réalité",
+      "en": "reality TV"
+     },
+     {
+      "fr": "l'émission",
+      "en": "programme, show",
+      "g": "f"
+     },
+     {
+      "fr": "le jeu télévisé",
+      "en": "game show"
+     },
+     {
+      "fr": "le festival",
+      "en": "festival"
+     },
+     {
+      "fr": "le parc d'attractions",
+      "en": "theme park"
+     },
+     {
+      "fr": "l'humoriste",
+      "en": "comedian (m/f)",
+      "g": "m"
+     },
+     {
+      "fr": "le stand-up",
+      "en": "stand-up comedy"
+     },
+     {
+      "fr": "la bande dessinée (la BD)",
+      "en": "comic book"
+     },
+     {
+      "fr": "le manga",
+      "en": "manga"
+     },
+     {
+      "fr": "le podcast",
+      "en": "podcast"
+     },
+     {
+      "fr": "le succès",
+      "en": "hit, success"
+     },
+     {
+      "fr": "le box-office",
+      "en": "box office"
+     },
+     {
+      "fr": "le navet (fam.)",
+      "en": "flop, terrible film"
+     },
+     {
+      "fr": "les effets spéciaux",
+      "en": "special effects",
+      "g": "m"
+     },
+     {
+      "fr": "en version originale (VO)",
+      "en": "in the original language"
+     },
+     {
+      "fr": "sous-titré(e)",
+      "en": "subtitled"
+     },
+     {
+      "fr": "doublé(e)",
+      "en": "dubbed"
+     },
+     {
+      "fr": "captivant(e)",
+      "en": "gripping"
+     },
+     {
+      "fr": "divertissant(e)",
+      "en": "entertaining"
+     },
+     {
+      "fr": "émouvant(e)",
+      "en": "moving"
+     },
+     {
+      "fr": "décevant(e)",
+      "en": "disappointing"
+     }
+    ],
+    "phrases": [
+     {
+      "fr": "Ça vaut vraiment le coup.",
+      "en": "It's really worth it."
+     },
+     {
+      "fr": "Le film m'a tenu(e) en haleine du début à la fin.",
+      "en": "The film kept me on the edge of my seat from start to finish."
+     },
+     {
+      "fr": "regarder une série d'une traite",
+      "en": "to binge-watch a series"
+     },
+     {
+      "fr": "L'histoire se déroule à…",
+      "en": "The story takes place in…"
+     },
+     {
+      "fr": "Je le recommande vivement.",
+      "en": "I highly recommend it."
+     },
+     {
+      "fr": "Il s'agit de…",
+      "en": "It's about…"
+     },
+     {
+      "fr": "avoir un succès fou",
+      "en": "to be a huge success"
+     },
+     {
+      "fr": "Le divertissement n'est-il qu'une façon de fuir la réalité ?",
+      "en": "Is entertainment just a way of escaping reality?"
+     },
+     {
+      "fr": "être inspiré(e) d'une histoire vraie",
+      "en": "to be based on a true story"
+     },
+     {
+      "fr": "le septième art",
+      "en": "cinema (the seventh art)"
+     }
+    ],
+    "questions": [
+     "Quel est le dernier film ou la dernière série que tu as vu(e) ? Qu'en as-tu pensé ?",
+     "Préfères-tu aller au cinéma ou regarder des films chez toi ?",
+     "Les plateformes de streaming vont-elles faire disparaître les salles de cinéma ?",
+     "Que penses-tu de la télé-réalité ?",
+     "Le divertissement peut-il aussi être éducatif ?",
+     "Connais-tu un film ou un artiste francophone ?"
+    ]
+   },
+   {
+    "topic": "Expressions artistiques",
+    "en": "Artistic expressions",
+    "words": [
+     {
+      "fr": "l'art",
+      "en": "art",
+      "g": "m"
+     },
+     {
+      "fr": "l'artiste",
+      "en": "artist (m/f)",
+      "g": "m"
+     },
+     {
+      "fr": "l'œuvre",
+      "en": "work (of art)",
+      "g": "f"
+     },
+     {
+      "fr": "le chef-d'œuvre",
+      "en": "masterpiece"
+     },
+     {
+      "fr": "la peinture",
+      "en": "painting"
+     },
+     {
+      "fr": "le tableau",
+      "en": "painting, picture"
+     },
+     {
+      "fr": "le peintre",
+      "en": "painter"
+     },
+     {
+      "fr": "la sculpture",
+      "en": "sculpture"
+     },
+     {
+      "fr": "l'exposition",
+      "en": "exhibition",
+      "g": "f"
+     },
+     {
+      "fr": "la galerie",
+      "en": "gallery"
+     },
+     {
+      "fr": "l'art de rue",
+      "en": "street art",
+      "g": "m"
+     },
+     {
+      "fr": "la fresque",
+      "en": "mural, fresco"
+     },
+     {
+      "fr": "la chanson",
+      "en": "song"
+     },
+     {
+      "fr": "le chanteur / la chanteuse",
+      "en": "singer"
+     },
+     {
+      "fr": "le roman",
+      "en": "novel"
+     },
+     {
+      "fr": "la poésie",
+      "en": "poetry"
+     },
+     {
+      "fr": "le poème",
+      "en": "poem"
+     },
+     {
+      "fr": "le théâtre",
+      "en": "theatre"
+     },
+     {
+      "fr": "la pièce de théâtre",
+      "en": "play"
+     },
+     {
+      "fr": "la mise en scène",
+      "en": "staging, direction"
+     },
+     {
+      "fr": "la danse",
+      "en": "dance"
+     },
+     {
+      "fr": "l'architecture",
+      "en": "architecture",
+      "g": "f"
+     },
+     {
+      "fr": "l'inspiration",
+      "en": "inspiration",
+      "g": "f"
+     },
+     {
+      "fr": "la créativité",
+      "en": "creativity"
+     },
+     {
+      "fr": "créatif(-ive)",
+      "en": "creative"
+     },
+     {
+      "fr": "le talent",
+      "en": "talent"
+     },
+     {
+      "fr": "le mécène",
+      "en": "patron (of the arts)"
+     },
+     {
+      "fr": "le mécénat",
+      "en": "arts sponsorship, patronage"
+     },
+     {
+      "fr": "la censure",
+      "en": "censorship"
+     },
+     {
+      "fr": "provocateur(-trice)",
+      "en": "provocative"
+     },
+     {
+      "fr": "engagé(e)",
+      "en": "politically committed"
+     },
+     {
+      "fr": "abstrait(e)",
+      "en": "abstract"
+     },
+     {
+      "fr": "contemporain(e)",
+      "en": "contemporary"
+     },
+     {
+      "fr": "le message",
+      "en": "message"
+     },
+     {
+      "fr": "susciter",
+      "en": "to arouse, provoke (a reaction)"
+     },
+     {
+      "fr": "exprimer",
+      "en": "to express"
+     },
+     {
+      "fr": "représenter",
+      "en": "to depict, represent"
+     }
+    ],
+    "phrases": [
+     {
+      "fr": "L'art est le reflet de la société.",
+      "en": "Art is a reflection of society."
+     },
+     {
+      "fr": "susciter des émotions",
+      "en": "to evoke emotions"
+     },
+     {
+      "fr": "faire passer un message",
+      "en": "to get a message across"
+     },
+     {
+      "fr": "L'œuvre dénonce…",
+      "en": "The work denounces…"
+     },
+     {
+      "fr": "être exposé(e) au musée du Louvre",
+      "en": "to be exhibited at the Louvre"
+     },
+     {
+      "fr": "L'art doit-il être accessible à tous ?",
+      "en": "Should art be accessible to everyone?"
+     },
+     {
+      "fr": "avoir la fibre artistique",
+      "en": "to have an artistic streak"
+     },
+     {
+      "fr": "Chacun ses goûts.",
+      "en": "Each to their own."
+     },
+     {
+      "fr": "Le street art a fait son entrée dans les musées.",
+      "en": "Street art has made its way into museums."
+     },
+     {
+      "fr": "On ne peut pas rester indifférent devant…",
+      "en": "One cannot remain indifferent to…"
+     }
+    ],
+    "questions": [
+     "Quelle forme d'art t'intéresse le plus ?",
+     "L'art doit-il avoir un message ou peut-il être simplement beau ?",
+     "Le street art est-il de l'art ou du vandalisme ?",
+     "Les gouvernements devraient-ils financer les arts ?",
+     "L'intelligence artificielle peut-elle créer de l'art ?",
+     "Peux-tu me parler d'un artiste francophone que tu admires ?"
+    ]
+   },
+   {
+    "topic": "Communication et médias",
+    "en": "Communication and media",
+    "words": [
+     {
+      "fr": "les médias",
+      "en": "the media",
+      "g": "m"
+     },
+     {
+      "fr": "la presse",
+      "en": "the press"
+     },
+     {
+      "fr": "le journal",
+      "en": "newspaper"
+     },
+     {
+      "fr": "le quotidien",
+      "en": "daily newspaper"
+     },
+     {
+      "fr": "l'hebdomadaire",
+      "en": "weekly (publication)",
+      "g": "m"
+     },
+     {
+      "fr": "le magazine",
+      "en": "magazine"
+     },
+     {
+      "fr": "le journaliste",
+      "en": "journalist"
+     },
+     {
+      "fr": "l'article",
+      "en": "article",
+      "g": "m"
+     },
+     {
+      "fr": "le gros titre",
+      "en": "headline"
+     },
+     {
+      "fr": "l'actualité",
+      "en": "current affairs, news",
+      "g": "f"
+     },
+     {
+      "fr": "les informations (les infos)",
+      "en": "the news",
+      "g": "f"
+     },
+     {
+      "fr": "le journal télévisé (le JT)",
+      "en": "TV news"
+     },
+     {
+      "fr": "les réseaux sociaux",
+      "en": "social media",
+      "g": "m"
+     },
+     {
+      "fr": "la publication",
+      "en": "post (on social media)"
+     },
+     {
+      "fr": "publier",
+      "en": "to post, publish"
+     },
+     {
+      "fr": "l'influenceur",
+      "en": "influencer",
+      "g": "m"
+     },
+     {
+      "fr": "l'abonné",
+      "en": "follower, subscriber",
+      "g": "m"
+     },
+     {
+      "fr": "l'algorithme",
+      "en": "algorithm",
+      "g": "m"
+     },
+     {
+      "fr": "la bulle de filtres",
+      "en": "filter bubble"
+     },
+     {
+      "fr": "la désinformation",
+      "en": "disinformation"
+     },
+     {
+      "fr": "les fausses informations",
+      "en": "fake news",
+      "g": "f"
+     },
+     {
+      "fr": "l'infox",
+      "en": "fake news (official French term)",
+      "g": "f"
+     },
+     {
+      "fr": "la rumeur",
+      "en": "rumour"
+     },
+     {
+      "fr": "le complotisme",
+      "en": "conspiracy thinking"
+     },
+     {
+      "fr": "la source",
+      "en": "source"
+     },
+     {
+      "fr": "fiable",
+      "en": "reliable"
+     },
+     {
+      "fr": "la liberté de la presse",
+      "en": "press freedom"
+     },
+     {
+      "fr": "la publicité",
+      "en": "advertising"
+     },
+     {
+      "fr": "le cyberharcèlement",
+      "en": "cyberbullying, online harassment"
+     },
+     {
+      "fr": "la vie privée",
+      "en": "privacy"
+     },
+     {
+      "fr": "l'esprit critique",
+      "en": "critical thinking",
+      "g": "m"
+     },
+     {
+      "fr": "l'éducation aux médias",
+      "en": "media literacy",
+      "g": "f"
+     },
+     {
+      "fr": "manipuler",
+      "en": "to manipulate"
+     },
+     {
+      "fr": "diffuser",
+      "en": "to broadcast, spread"
+     },
+     {
+      "fr": "viral(e)",
+      "en": "viral"
+     },
+     {
+      "fr": "le sondage",
+      "en": "(opinion) poll"
+     }
+    ],
+    "phrases": [
+     {
+      "fr": "faire la une des journaux",
+      "en": "to make the headlines"
+     },
+     {
+      "fr": "vérifier ses sources",
+      "en": "to check one's sources"
+     },
+     {
+      "fr": "garder l'esprit critique",
+      "en": "to keep a critical mind"
+     },
+     {
+      "fr": "se tenir informé(e)",
+      "en": "to keep informed"
+     },
+     {
+      "fr": "faire le buzz",
+      "en": "to go viral, create a buzz"
+     },
+     {
+      "fr": "Les réseaux sociaux enferment les utilisateurs dans une bulle.",
+      "en": "Social media traps users in a bubble."
+     },
+     {
+      "fr": "La liberté de la presse est un pilier de la démocratie.",
+      "en": "Press freedom is a pillar of democracy."
+     },
+     {
+      "fr": "être exposé(e) à des contenus inappropriés",
+      "en": "to be exposed to inappropriate content"
+     },
+     {
+      "fr": "démêler le vrai du faux",
+      "en": "to sort fact from fiction"
+     },
+     {
+      "fr": "selon un sondage récent, …",
+      "en": "according to a recent poll, …"
+     }
+    ],
+    "questions": [
+     "Comment t'informes-tu sur l'actualité ?",
+     "Fais-tu confiance aux informations que tu vois sur les réseaux sociaux ?",
+     "Comment peut-on lutter contre les fausses informations ?",
+     "Les réseaux sociaux rapprochent-ils ou éloignent-ils les gens ?",
+     "Faut-il interdire les réseaux sociaux aux moins de quinze ans ?",
+     "Quel rôle les influenceurs jouent-ils dans la société actuelle ?"
+    ]
+   },
+   {
+    "topic": "Technologie",
+    "en": "Technology",
+    "words": [
+     {
+      "fr": "la technologie",
+      "en": "technology"
+     },
+     {
+      "fr": "le numérique",
+      "en": "digital technology"
+     },
+     {
+      "fr": "numérique",
+      "en": "digital"
+     },
+     {
+      "fr": "l'ordinateur",
+      "en": "computer",
+      "g": "m"
+     },
+     {
+      "fr": "le portable / le smartphone",
+      "en": "mobile phone, smartphone"
+     },
+     {
+      "fr": "la tablette",
+      "en": "tablet"
+     },
+     {
+      "fr": "l'application (l'appli)",
+      "en": "app",
+      "g": "f"
+     },
+     {
+      "fr": "le logiciel",
+      "en": "software"
+     },
+     {
+      "fr": "le réseau",
+      "en": "network"
+     },
+     {
+      "fr": "la connexion",
+      "en": "connection"
+     },
+     {
+      "fr": "en ligne",
+      "en": "online"
+     },
+     {
+      "fr": "télécharger",
+      "en": "to download"
+     },
+     {
+      "fr": "le mot de passe",
+      "en": "password"
+     },
+     {
+      "fr": "les données personnelles",
+      "en": "personal data",
+      "g": "f"
+     },
+     {
+      "fr": "la cybersécurité",
+      "en": "cybersecurity"
+     },
+     {
+      "fr": "le piratage",
+      "en": "hacking"
+     },
+     {
+      "fr": "le pirate informatique",
+      "en": "hacker"
+     },
+     {
+      "fr": "l'intelligence artificielle (IA)",
+      "en": "artificial intelligence (AI)",
+      "g": "f"
+     },
+     {
+      "fr": "l'agent conversationnel",
+      "en": "chatbot",
+      "g": "m"
+     },
+     {
+      "fr": "l'objet connecté",
+      "en": "connected device",
+      "g": "m"
+     },
+     {
+      "fr": "le robot",
+      "en": "robot"
+     },
+     {
+      "fr": "l'automatisation",
+      "en": "automation",
+      "g": "f"
+     },
+     {
+      "fr": "la réalité virtuelle",
+      "en": "virtual reality"
+     },
+     {
+      "fr": "le métavers",
+      "en": "metaverse"
+     },
+     {
+      "fr": "le stockage",
+      "en": "storage"
+     },
+     {
+      "fr": "le cloud",
+      "en": "the cloud (Québec: l'infonuagique)"
+     },
+     {
+      "fr": "la reconnaissance faciale",
+      "en": "facial recognition"
+     },
+     {
+      "fr": "la surveillance",
+      "en": "surveillance"
+     },
+     {
+      "fr": "la fracture numérique",
+      "en": "digital divide"
+     },
+     {
+      "fr": "l'addiction aux écrans",
+      "en": "screen addiction",
+      "g": "f"
+     },
+     {
+      "fr": "la déconnexion",
+      "en": "disconnecting, switching off"
+     },
+     {
+      "fr": "le droit à la déconnexion",
+      "en": "right to disconnect"
+     },
+     {
+      "fr": "l'obsolescence programmée",
+      "en": "planned obsolescence",
+      "g": "f"
+     },
+     {
+      "fr": "innovant(e)",
+      "en": "innovative"
+     },
+     {
+      "fr": "indispensable",
+      "en": "essential"
+     },
+     {
+      "fr": "dépendant(e)",
+      "en": "dependent"
+     }
+    ],
+    "phrases": [
+     {
+      "fr": "être accro aux écrans",
+      "en": "to be addicted to screens"
+     },
+     {
+      "fr": "On ne peut plus se passer de…",
+      "en": "We can no longer do without…"
+     },
+     {
+      "fr": "La technologie a révolutionné notre façon de…",
+      "en": "Technology has revolutionised the way we…"
+     },
+     {
+      "fr": "protéger ses données personnelles",
+      "en": "to protect one's personal data"
+     },
+     {
+      "fr": "réduire la fracture numérique",
+      "en": "to bridge the digital divide"
+     },
+     {
+      "fr": "être à la pointe de la technologie",
+      "en": "to be at the cutting edge of technology"
+     },
+     {
+      "fr": "L'IA risque de remplacer de nombreux emplois.",
+      "en": "AI could replace many jobs."
+     },
+     {
+      "fr": "C'est une arme à double tranchant.",
+      "en": "It's a double-edged sword."
+     },
+     {
+      "fr": "se servir de l'IA pour faire ses devoirs",
+      "en": "to use AI to do one's homework"
+     },
+     {
+      "fr": "faire une pause numérique",
+      "en": "to take a digital detox"
+     }
+    ],
+    "questions": [
+     "Pourrais-tu vivre une semaine sans ton portable ?",
+     "La technologie nous rend-elle plus libres ou plus dépendants ?",
+     "Que penses-tu de l'utilisation de l'intelligence artificielle à l'école ?",
+     "Faut-il avoir peur de l'intelligence artificielle ?",
+     "Comment protèges-tu tes données personnelles en ligne ?",
+     "Quelle invention technologique a le plus changé notre vie, selon toi ?"
+    ]
+   },
+   {
+    "topic": "Innovation scientifique",
+    "en": "Scientific innovation",
+    "words": [
+     {
+      "fr": "la science",
+      "en": "science"
+     },
+     {
+      "fr": "la recherche",
+      "en": "research"
+     },
+     {
+      "fr": "le chercheur / la chercheuse",
+      "en": "researcher"
+     },
+     {
+      "fr": "le scientifique",
+      "en": "scientist"
+     },
+     {
+      "fr": "le laboratoire",
+      "en": "laboratory"
+     },
+     {
+      "fr": "l'expérience",
+      "en": "experiment",
+      "g": "f"
+     },
+     {
+      "fr": "la découverte",
+      "en": "discovery"
+     },
+     {
+      "fr": "l'invention",
+      "en": "invention",
+      "g": "f"
+     },
+     {
+      "fr": "l'inventeur",
+      "en": "inventor",
+      "g": "m"
+     },
+     {
+      "fr": "l'innovation",
+      "en": "innovation",
+      "g": "f"
+     },
+     {
+      "fr": "le progrès",
+      "en": "progress"
+     },
+     {
+      "fr": "l'avancée",
+      "en": "advance, step forward",
+      "g": "f"
+     },
+     {
+      "fr": "la percée",
+      "en": "breakthrough"
+     },
+     {
+      "fr": "la médecine",
+      "en": "medicine (field)"
+     },
+     {
+      "fr": "le médicament",
+      "en": "medicine, drug"
+     },
+     {
+      "fr": "la génétique",
+      "en": "genetics"
+     },
+     {
+      "fr": "l'ADN",
+      "en": "DNA",
+      "g": "m"
+     },
+     {
+      "fr": "le clonage",
+      "en": "cloning"
+     },
+     {
+      "fr": "les OGM (organismes génétiquement modifiés)",
+      "en": "GMOs (genetically modified organisms)",
+      "g": "m"
+     },
+     {
+      "fr": "la thérapie génique",
+      "en": "gene therapy"
+     },
+     {
+      "fr": "l'espérance de vie",
+      "en": "life expectancy",
+      "g": "f"
+     },
+     {
+      "fr": "la conquête spatiale",
+      "en": "space exploration, the space race"
+     },
+     {
+      "fr": "le satellite",
+      "en": "satellite"
+     },
+     {
+      "fr": "la nanotechnologie",
+      "en": "nanotechnology"
+     },
+     {
+      "fr": "le brevet",
+      "en": "patent"
+     },
+     {
+      "fr": "le financement",
+      "en": "funding"
+     },
+     {
+      "fr": "financer",
+      "en": "to fund"
+     },
+     {
+      "fr": "mettre au point",
+      "en": "to develop, perfect"
+     },
+     {
+      "fr": "révolutionnaire",
+      "en": "revolutionary"
+     },
+     {
+      "fr": "prometteur(-euse)",
+      "en": "promising"
+     },
+     {
+      "fr": "les enjeux éthiques",
+      "en": "ethical issues",
+      "g": "m"
+     },
+     {
+      "fr": "l'expérimentation animale",
+      "en": "animal testing",
+      "g": "f"
+     },
+     {
+      "fr": "les essais cliniques",
+      "en": "clinical trials",
+      "g": "m"
+     },
+     {
+      "fr": "la bioéthique",
+      "en": "bioethics"
+     },
+     {
+      "fr": "le principe de précaution",
+      "en": "precautionary principle"
+     }
+    ],
+    "phrases": [
+     {
+      "fr": "faire une découverte",
+      "en": "to make a discovery"
+     },
+     {
+      "fr": "repousser les limites de la science",
+      "en": "to push back the boundaries of science"
+     },
+     {
+      "fr": "réaliser des progrès considérables",
+      "en": "to make considerable progress"
+     },
+     {
+      "fr": "Science sans conscience n'est que ruine de l'âme. (Rabelais)",
+      "en": "Science without conscience is but the ruin of the soul."
+     },
+     {
+      "fr": "soulever des questions éthiques",
+      "en": "to raise ethical questions"
+     },
+     {
+      "fr": "investir dans la recherche",
+      "en": "to invest in research"
+     },
+     {
+      "fr": "Grâce aux progrès de la médecine, …",
+      "en": "Thanks to medical advances, …"
+     },
+     {
+      "fr": "jouer les apprentis sorciers",
+      "en": "to play God (lit. play the sorcerer's apprentice)"
+     },
+     {
+      "fr": "Le jeu en vaut-il la chandelle ?",
+      "en": "Is it worth it?"
+     },
+     {
+      "fr": "ouvrir de nouvelles perspectives",
+      "en": "to open up new possibilities"
+     }
+    ],
+    "questions": [
+     "Quelle découverte scientifique a, selon toi, le plus changé le monde ?",
+     "Faut-il mettre des limites au progrès scientifique ?",
+     "Que penses-tu de l'expérimentation animale ?",
+     "L'exploration spatiale est-elle une bonne façon de dépenser l'argent public ?",
+     "La science peut-elle résoudre le problème du changement climatique ?",
+     "Aimerais-tu travailler dans la recherche plus tard ?"
+    ]
+   }
+  ]
+ },
+ {
+  "theme": "Organisation sociale",
+  "en": "Social organization",
+  "icon": "🤝",
+  "topics": [
+   {
+    "topic": "Relations sociales",
+    "en": "Social relationships",
+    "words": [
+     {
+      "fr": "les relations",
+      "en": "relationships",
+      "g": "f"
+     },
+     {
+      "fr": "la famille",
+      "en": "family"
+     },
+     {
+      "fr": "la famille recomposée",
+      "en": "blended family"
+     },
+     {
+      "fr": "la famille monoparentale",
+      "en": "single-parent family"
+     },
+     {
+      "fr": "la fratrie",
+      "en": "siblings"
+     },
+     {
+      "fr": "les grands-parents",
+      "en": "grandparents",
+      "g": "m"
+     },
+     {
+      "fr": "le conflit des générations",
+      "en": "generation gap"
+     },
+     {
+      "fr": "l'amitié",
+      "en": "friendship",
+      "g": "f"
+     },
+     {
+      "fr": "le copain / la copine",
+      "en": "friend; boyfriend / girlfriend"
+     },
+     {
+      "fr": "le couple",
+      "en": "couple"
+     },
+     {
+      "fr": "la relation amoureuse",
+      "en": "romantic relationship"
+     },
+     {
+      "fr": "la confiance",
+      "en": "trust"
+     },
+     {
+      "fr": "la complicité",
+      "en": "close bond, rapport"
+     },
+     {
+      "fr": "la dispute",
+      "en": "argument, quarrel"
+     },
+     {
+      "fr": "se disputer",
+      "en": "to argue"
+     },
+     {
+      "fr": "se réconcilier",
+      "en": "to make up"
+     },
+     {
+      "fr": "s'entendre bien avec",
+      "en": "to get on well with"
+     },
+     {
+      "fr": "la rupture",
+      "en": "break-up"
+     },
+     {
+      "fr": "rompre",
+      "en": "to break up"
+     },
+     {
+      "fr": "le soutien",
+      "en": "support"
+     },
+     {
+      "fr": "soutenir",
+      "en": "to support"
+     },
+     {
+      "fr": "la jalousie",
+      "en": "jealousy"
+     },
+     {
+      "fr": "jaloux(-ouse)",
+      "en": "jealous"
+     },
+     {
+      "fr": "la pression du groupe",
+      "en": "peer pressure"
+     },
+     {
+      "fr": "le harcèlement scolaire",
+      "en": "school bullying"
+     },
+     {
+      "fr": "l'entourage",
+      "en": "circle (of friends and family)",
+      "g": "m"
+     },
+     {
+      "fr": "la solitude",
+      "en": "loneliness, solitude"
+     },
+     {
+      "fr": "isolé(e)",
+      "en": "isolated"
+     },
+     {
+      "fr": "le voisinage",
+      "en": "neighbours, neighbourhood"
+     },
+     {
+      "fr": "compréhensif(-ive)",
+      "en": "understanding"
+     },
+     {
+      "fr": "bienveillant(e)",
+      "en": "kind, caring"
+     },
+     {
+      "fr": "fidèle",
+      "en": "loyal"
+     },
+     {
+      "fr": "égoïste",
+      "en": "selfish"
+     },
+     {
+      "fr": "autoritaire",
+      "en": "strict, authoritarian"
+     },
+     {
+      "fr": "le respect mutuel",
+      "en": "mutual respect"
+     }
+    ],
+    "phrases": [
+     {
+      "fr": "s'entendre comme chien et chat",
+      "en": "to fight like cat and dog"
+     },
+     {
+      "fr": "être sur la même longueur d'onde",
+      "en": "to be on the same wavelength"
+     },
+     {
+      "fr": "avoir des atomes crochus avec quelqu'un",
+      "en": "to hit it off with someone"
+     },
+     {
+      "fr": "compter sur quelqu'un",
+      "en": "to count on someone"
+     },
+     {
+      "fr": "faire confiance à quelqu'un",
+      "en": "to trust someone"
+     },
+     {
+      "fr": "garder le contact",
+      "en": "to keep in touch"
+     },
+     {
+      "fr": "Les amis, c'est la famille qu'on choisit.",
+      "en": "Friends are the family we choose."
+     },
+     {
+      "fr": "se sentir à l'aise avec…",
+      "en": "to feel comfortable with…"
+     },
+     {
+      "fr": "couper les ponts avec quelqu'un",
+      "en": "to cut ties with someone"
+     },
+     {
+      "fr": "Le conflit des générations est-il inévitable ?",
+      "en": "Is the generation gap inevitable?"
+     }
+    ],
+    "questions": [
+     "Comment décrirais-tu tes relations avec ta famille ?",
+     "Qu'est-ce qu'un véritable ami, selon toi ?",
+     "Les amitiés virtuelles sont-elles aussi importantes que les amitiés réelles ?",
+     "Comment expliquer le conflit des générations ?",
+     "Que peut-on faire pour lutter contre le harcèlement scolaire ?",
+     "La famille traditionnelle existe-t-elle encore ?"
+    ]
+   },
+   {
+    "topic": "Communauté",
+    "en": "Community",
+    "words": [
+     {
+      "fr": "la communauté",
+      "en": "community"
+     },
+     {
+      "fr": "le quartier",
+      "en": "neighbourhood, area"
+     },
+     {
+      "fr": "le voisin / la voisine",
+      "en": "neighbour"
+     },
+     {
+      "fr": "la commune",
+      "en": "municipality"
+     },
+     {
+      "fr": "la mairie",
+      "en": "town hall"
+     },
+     {
+      "fr": "le maire",
+      "en": "mayor"
+     },
+     {
+      "fr": "le citoyen / la citoyenne",
+      "en": "citizen"
+     },
+     {
+      "fr": "la citoyenneté",
+      "en": "citizenship"
+     },
+     {
+      "fr": "le vivre-ensemble",
+      "en": "living together (social harmony)"
+     },
+     {
+      "fr": "la cohésion sociale",
+      "en": "social cohesion"
+     },
+     {
+      "fr": "le lien social",
+      "en": "social bond"
+     },
+     {
+      "fr": "l'entraide",
+      "en": "mutual aid",
+      "g": "f"
+     },
+     {
+      "fr": "s'entraider",
+      "en": "to help each other"
+     },
+     {
+      "fr": "la solidarité",
+      "en": "solidarity"
+     },
+     {
+      "fr": "la mixité sociale",
+      "en": "social mix"
+     },
+     {
+      "fr": "les services publics",
+      "en": "public services",
+      "g": "m"
+     },
+     {
+      "fr": "la médiathèque",
+      "en": "(multimedia) library"
+     },
+     {
+      "fr": "la maison de quartier",
+      "en": "community centre"
+     },
+     {
+      "fr": "l'association de quartier",
+      "en": "residents' association",
+      "g": "f"
+     },
+     {
+      "fr": "la fête des voisins",
+      "en": "neighbours' day (street party)"
+     },
+     {
+      "fr": "l'exclusion",
+      "en": "exclusion",
+      "g": "f"
+     },
+     {
+      "fr": "le sans-abri / le SDF",
+      "en": "homeless person"
+     },
+     {
+      "fr": "la précarité",
+      "en": "insecurity (financial), precariousness"
+     },
+     {
+      "fr": "la pauvreté",
+      "en": "poverty"
+     },
+     {
+      "fr": "l'isolement",
+      "en": "isolation",
+      "g": "m"
+     },
+     {
+      "fr": "les personnes âgées",
+      "en": "elderly people",
+      "g": "f"
+     },
+     {
+      "fr": "le handicap",
+      "en": "disability"
+     },
+     {
+      "fr": "l'accessibilité",
+      "en": "accessibility",
+      "g": "f"
+     },
+     {
+      "fr": "les liens intergénérationnels",
+      "en": "intergenerational ties",
+      "g": "m"
+     },
+     {
+      "fr": "le communautarisme",
+      "en": "communitarianism (withdrawal into one's own group)"
+     },
+     {
+      "fr": "participer à",
+      "en": "to take part in"
+     },
+     {
+      "fr": "rassembler",
+      "en": "to bring together"
+     },
+     {
+      "fr": "local(e)",
+      "en": "local"
+     },
+     {
+      "fr": "inclusif(-ive)",
+      "en": "inclusive"
+     },
+     {
+      "fr": "l'anonymat",
+      "en": "anonymity",
+      "g": "m"
+     }
+    ],
+    "phrases": [
+     {
+      "fr": "tisser des liens",
+      "en": "to build relationships"
+     },
+     {
+      "fr": "créer du lien social",
+      "en": "to create social bonds"
+     },
+     {
+      "fr": "donner un coup de main",
+      "en": "to lend a hand"
+     },
+     {
+      "fr": "Les grandes villes favorisent l'anonymat.",
+      "en": "Big cities encourage anonymity."
+     },
+     {
+      "fr": "vivre en bonne entente avec ses voisins",
+      "en": "to live in harmony with one's neighbours"
+     },
+     {
+      "fr": "s'impliquer dans la vie de son quartier",
+      "en": "to get involved in one's neighbourhood"
+     },
+     {
+      "fr": "L'union fait la force.",
+      "en": "Unity is strength."
+     },
+     {
+      "fr": "lutter contre l'isolement des personnes âgées",
+      "en": "to fight the isolation of the elderly"
+     },
+     {
+      "fr": "favoriser le vivre-ensemble",
+      "en": "to foster social harmony"
+     },
+     {
+      "fr": "Personne ne doit être laissé pour compte.",
+      "en": "No one should be left behind."
+     }
+    ],
+    "questions": [
+     "Te sens-tu membre d'une communauté ? Laquelle ?",
+     "Qu'est-ce qui rend un quartier agréable à vivre ?",
+     "Connais-tu bien tes voisins ?",
+     "Les nouvelles technologies ont-elles renforcé ou affaibli le lien social ?",
+     "Que pourrait-on faire pour mieux intégrer les personnes âgées dans la communauté ?",
+     "Les communautés en ligne peuvent-elles remplacer les communautés réelles ?"
+    ]
+   },
+   {
+    "topic": "Engagement social",
+    "en": "Social engagement",
+    "words": [
+     {
+      "fr": "l'engagement",
+      "en": "commitment, involvement",
+      "g": "m"
+     },
+     {
+      "fr": "s'engager",
+      "en": "to get involved, commit oneself"
+     },
+     {
+      "fr": "le bénévolat",
+      "en": "volunteering"
+     },
+     {
+      "fr": "le bénévole / la bénévole",
+      "en": "volunteer"
+     },
+     {
+      "fr": "l'association caritative",
+      "en": "charity",
+      "g": "f"
+     },
+     {
+      "fr": "l'ONG (organisation non gouvernementale)",
+      "en": "NGO",
+      "g": "f"
+     },
+     {
+      "fr": "l'humanitaire",
+      "en": "humanitarian work",
+      "g": "m"
+     },
+     {
+      "fr": "le don",
+      "en": "donation"
+     },
+     {
+      "fr": "la collecte de fonds",
+      "en": "fundraising"
+     },
+     {
+      "fr": "la cause",
+      "en": "cause"
+     },
+     {
+      "fr": "militer",
+      "en": "to campaign, be an activist"
+     },
+     {
+      "fr": "le militant / la militante",
+      "en": "activist"
+     },
+     {
+      "fr": "le militantisme",
+      "en": "activism"
+     },
+     {
+      "fr": "la manifestation (la manif)",
+      "en": "demonstration, protest"
+     },
+     {
+      "fr": "manifester",
+      "en": "to demonstrate, protest"
+     },
+     {
+      "fr": "la grève",
+      "en": "strike"
+     },
+     {
+      "fr": "la pétition",
+      "en": "petition"
+     },
+     {
+      "fr": "signer",
+      "en": "to sign"
+     },
+     {
+      "fr": "la mobilisation",
+      "en": "mobilisation"
+     },
+     {
+      "fr": "se mobiliser",
+      "en": "to mobilise"
+     },
+     {
+      "fr": "revendiquer",
+      "en": "to demand, claim"
+     },
+     {
+      "fr": "la revendication",
+      "en": "demand, claim"
+     },
+     {
+      "fr": "le droit de vote",
+      "en": "right to vote"
+     },
+     {
+      "fr": "voter",
+      "en": "to vote"
+     },
+     {
+      "fr": "l'abstention",
+      "en": "abstention (not voting)",
+      "g": "f"
+     },
+     {
+      "fr": "le service civique",
+      "en": "civic service (France)"
+     },
+     {
+      "fr": "la sensibilisation",
+      "en": "awareness-raising"
+     },
+     {
+      "fr": "sensibiliser",
+      "en": "to raise awareness"
+     },
+     {
+      "fr": "le changement",
+      "en": "change"
+     },
+     {
+      "fr": "solidaire",
+      "en": "showing solidarity, caring"
+     },
+     {
+      "fr": "altruiste",
+      "en": "altruistic"
+     },
+     {
+      "fr": "l'indifférence",
+      "en": "indifference",
+      "g": "f"
+     },
+     {
+      "fr": "le CAS (Créativité, activité, service)",
+      "en": "CAS (Creativity, activity, service)"
+     },
+     {
+      "fr": "la jeunesse engagée",
+      "en": "politically active youth"
+     }
+    ],
+    "phrases": [
+     {
+      "fr": "faire du bénévolat",
+      "en": "to do voluntary work"
+     },
+     {
+      "fr": "s'engager pour une cause",
+      "en": "to commit to a cause"
+     },
+     {
+      "fr": "descendre dans la rue",
+      "en": "to take to the streets"
+     },
+     {
+      "fr": "faire bouger les choses",
+      "en": "to make things happen"
+     },
+     {
+      "fr": "sensibiliser le public à…",
+      "en": "to raise public awareness of…"
+     },
+     {
+      "fr": "Chaque geste compte.",
+      "en": "Every action counts."
+     },
+     {
+      "fr": "donner de son temps",
+      "en": "to give one's time"
+     },
+     {
+      "fr": "prendre position",
+      "en": "to take a stand"
+     },
+     {
+      "fr": "Les jeunes ne sont pas indifférents : ils s'engagent autrement.",
+      "en": "Young people aren't indifferent: they get involved in different ways."
+     },
+     {
+      "fr": "Dans le cadre du CAS, j'ai…",
+      "en": "As part of CAS, I…"
+     }
+    ],
+    "questions": [
+     "As-tu déjà fait du bénévolat ? Qu'est-ce que cela t'a apporté ?",
+     "Peux-tu me parler de ton projet CAS ?",
+     "Les jeunes s'engagent-ils moins qu'avant ?",
+     "Une pétition en ligne peut-elle vraiment changer les choses ?",
+     "Le vote devrait-il être obligatoire ?",
+     "Pour quelle cause serais-tu prêt(e) à manifester ?"
+    ]
+   },
+   {
+    "topic": "Éducation",
+    "en": "Education",
+    "words": [
+     {
+      "fr": "l'éducation",
+      "en": "education",
+      "g": "f"
+     },
+     {
+      "fr": "l'enseignement",
+      "en": "teaching, education",
+      "g": "m"
+     },
+     {
+      "fr": "l'école primaire",
+      "en": "primary school",
+      "g": "f"
+     },
+     {
+      "fr": "le collège",
+      "en": "secondary school (ages 11–15)"
+     },
+     {
+      "fr": "le lycée",
+      "en": "upper secondary school (ages 15–18)"
+     },
+     {
+      "fr": "l'université (la fac)",
+      "en": "university",
+      "g": "f"
+     },
+     {
+      "fr": "les grandes écoles",
+      "en": "elite higher-education institutions (France)",
+      "g": "f"
+     },
+     {
+      "fr": "les études",
+      "en": "studies",
+      "g": "f"
+     },
+     {
+      "fr": "l'élève",
+      "en": "pupil (m/f)",
+      "g": "m"
+     },
+     {
+      "fr": "l'étudiant",
+      "en": "student",
+      "g": "m"
+     },
+     {
+      "fr": "le professeur (le/la prof)",
+      "en": "teacher"
+     },
+     {
+      "fr": "l'emploi du temps",
+      "en": "timetable",
+      "g": "m"
+     },
+     {
+      "fr": "la matière",
+      "en": "subject"
+     },
+     {
+      "fr": "le programme",
+      "en": "syllabus, curriculum"
+     },
+     {
+      "fr": "le cours",
+      "en": "lesson, class"
+     },
+     {
+      "fr": "les devoirs",
+      "en": "homework",
+      "g": "m"
+     },
+     {
+      "fr": "l'examen",
+      "en": "exam",
+      "g": "m"
+     },
+     {
+      "fr": "réviser",
+      "en": "to revise"
+     },
+     {
+      "fr": "la note",
+      "en": "mark, grade"
+     },
+     {
+      "fr": "le bulletin scolaire",
+      "en": "school report"
+     },
+     {
+      "fr": "échouer à",
+      "en": "to fail (an exam)"
+     },
+     {
+      "fr": "redoubler",
+      "en": "to repeat a year"
+     },
+     {
+      "fr": "le décrochage scolaire",
+      "en": "dropping out of school"
+     },
+     {
+      "fr": "l'échec scolaire",
+      "en": "academic failure",
+      "g": "m"
+     },
+     {
+      "fr": "l'égalité des chances",
+      "en": "equal opportunities",
+      "g": "f"
+     },
+     {
+      "fr": "l'uniforme scolaire",
+      "en": "school uniform",
+      "g": "m"
+     },
+     {
+      "fr": "la discipline",
+      "en": "discipline"
+     },
+     {
+      "fr": "l'apprentissage",
+      "en": "learning; apprenticeship",
+      "g": "m"
+     },
+     {
+      "fr": "l'orientation",
+      "en": "careers guidance",
+      "g": "f"
+     },
+     {
+      "fr": "la filière",
+      "en": "stream, track (of study)"
+     },
+     {
+      "fr": "les frais de scolarité",
+      "en": "tuition fees",
+      "g": "m"
+     },
+     {
+      "fr": "la bourse",
+      "en": "grant, scholarship"
+     },
+     {
+      "fr": "la pédagogie",
+      "en": "teaching methods"
+     },
+     {
+      "fr": "l'enseignement à distance",
+      "en": "distance learning",
+      "g": "m"
+     },
+     {
+      "fr": "la scolarité",
+      "en": "schooling"
+     },
+     {
+      "fr": "le baccalauréat international",
+      "en": "International Baccalaureate"
+     }
+    ],
+    "phrases": [
+     {
+      "fr": "passer un examen",
+      "en": "to sit an exam (not \"to pass\")"
+     },
+     {
+      "fr": "réussir un examen",
+      "en": "to pass an exam"
+     },
+     {
+      "fr": "rater un examen",
+      "en": "to fail an exam"
+     },
+     {
+      "fr": "sécher les cours (fam.)",
+      "en": "to skip classes"
+     },
+     {
+      "fr": "avoir de bonnes notes",
+      "en": "to get good marks"
+     },
+     {
+      "fr": "être fort(e) en… / nul(le) en…",
+      "en": "to be good at… / hopeless at…"
+     },
+     {
+      "fr": "apprendre par cœur",
+      "en": "to learn by heart"
+     },
+     {
+      "fr": "faire des études de médecine",
+      "en": "to study medicine"
+     },
+     {
+      "fr": "L'éducation est la clé de la réussite.",
+      "en": "Education is the key to success."
+     },
+     {
+      "fr": "L'école doit préparer les élèves à la vie.",
+      "en": "School should prepare pupils for life."
+     },
+     {
+      "fr": "mettre l'accent sur…",
+      "en": "to put the emphasis on…"
+     }
+    ],
+    "questions": [
+     "Quelle est ta matière préférée et pourquoi ?",
+     "Que penses-tu du programme du Baccalauréat International ?",
+     "Le système scolaire de ton pays prépare-t-il bien les élèves à la vie active ?",
+     "Les examens sont-ils le meilleur moyen d'évaluer les élèves ?",
+     "Que penses-tu de l'uniforme scolaire ?",
+     "L'université devrait-elle être gratuite ?",
+     "Que comptes-tu faire après le lycée ?"
+    ]
+   },
+   {
+    "topic": "Le monde du travail",
+    "en": "The working world",
+    "words": [
+     {
+      "fr": "le travail",
+      "en": "work"
+     },
+     {
+      "fr": "l'emploi",
+      "en": "job, employment",
+      "g": "m"
+     },
+     {
+      "fr": "le métier",
+      "en": "job, trade, profession"
+     },
+     {
+      "fr": "le poste",
+      "en": "position, post"
+     },
+     {
+      "fr": "le chômage",
+      "en": "unemployment"
+     },
+     {
+      "fr": "le chômeur / la chômeuse",
+      "en": "unemployed person"
+     },
+     {
+      "fr": "le CV",
+      "en": "CV, résumé"
+     },
+     {
+      "fr": "la lettre de motivation",
+      "en": "cover letter"
+     },
+     {
+      "fr": "l'entretien d'embauche",
+      "en": "job interview",
+      "g": "m"
+     },
+     {
+      "fr": "embaucher",
+      "en": "to hire"
+     },
+     {
+      "fr": "licencier",
+      "en": "to dismiss, lay off"
+     },
+     {
+      "fr": "démissionner",
+      "en": "to resign"
+     },
+     {
+      "fr": "le salaire",
+      "en": "salary, wages"
+     },
+     {
+      "fr": "le salarié / la salariée",
+      "en": "employee"
+     },
+     {
+      "fr": "l'employeur",
+      "en": "employer",
+      "g": "m"
+     },
+     {
+      "fr": "le patron / la patronne",
+      "en": "boss"
+     },
+     {
+      "fr": "l'entreprise",
+      "en": "company, business",
+      "g": "f"
+     },
+     {
+      "fr": "le stage",
+      "en": "internship, work placement"
+     },
+     {
+      "fr": "le stagiaire",
+      "en": "intern, trainee"
+     },
+     {
+      "fr": "le contrat à durée indéterminée (CDI)",
+      "en": "permanent contract"
+     },
+     {
+      "fr": "le contrat à durée déterminée (CDD)",
+      "en": "fixed-term contract"
+     },
+     {
+      "fr": "le petit boulot",
+      "en": "casual job"
+     },
+     {
+      "fr": "le job d'été",
+      "en": "summer job"
+     },
+     {
+      "fr": "à temps partiel",
+      "en": "part-time"
+     },
+     {
+      "fr": "à temps plein",
+      "en": "full-time"
+     },
+     {
+      "fr": "les horaires",
+      "en": "working hours",
+      "g": "m"
+     },
+     {
+      "fr": "les heures supplémentaires",
+      "en": "overtime",
+      "g": "f"
+     },
+     {
+      "fr": "le télétravail",
+      "en": "remote working"
+     },
+     {
+      "fr": "la reconversion professionnelle",
+      "en": "career change"
+     },
+     {
+      "fr": "les compétences",
+      "en": "skills",
+      "g": "f"
+     },
+     {
+      "fr": "l'expérience professionnelle",
+      "en": "work experience",
+      "g": "f"
+     },
+     {
+      "fr": "l'ambition",
+      "en": "ambition",
+      "g": "f"
+     },
+     {
+      "fr": "le syndicat",
+      "en": "trade union"
+     },
+     {
+      "fr": "l'inégalité salariale",
+      "en": "pay gap",
+      "g": "f"
+     },
+     {
+      "fr": "l'épanouissement professionnel",
+      "en": "job fulfilment",
+      "g": "m"
+     },
+     {
+      "fr": "le marché du travail",
+      "en": "job market"
+     }
+    ],
+    "phrases": [
+     {
+      "fr": "postuler à un emploi",
+      "en": "to apply for a job"
+     },
+     {
+      "fr": "gagner sa vie",
+      "en": "to earn a living"
+     },
+     {
+      "fr": "faire carrière dans…",
+      "en": "to have a career in…"
+     },
+     {
+      "fr": "être au chômage",
+      "en": "to be unemployed"
+     },
+     {
+      "fr": "concilier vie professionnelle et vie privée",
+      "en": "to balance work and private life"
+     },
+     {
+      "fr": "travailler d'arrache-pied",
+      "en": "to work flat out"
+     },
+     {
+      "fr": "monter sa propre entreprise",
+      "en": "to start one's own business"
+     },
+     {
+      "fr": "gravir les échelons",
+      "en": "to climb the career ladder"
+     },
+     {
+      "fr": "Le marché du travail est de plus en plus concurrentiel.",
+      "en": "The job market is increasingly competitive."
+     },
+     {
+      "fr": "Il n'y a pas de sot métier.",
+      "en": "There's no such thing as a worthless job."
+     }
+    ],
+    "questions": [
+     "Quel métier aimerais-tu exercer plus tard et pourquoi ?",
+     "As-tu déjà eu un petit boulot ou fait un stage ?",
+     "Qu'est-ce qui compte le plus pour toi dans un emploi : le salaire ou l'épanouissement ?",
+     "Le télétravail est-il l'avenir du travail ?",
+     "L'intelligence artificielle va-t-elle supprimer des emplois ?",
+     "Faut-il travailler moins pour vivre mieux ?"
+    ]
+   },
+   {
+    "topic": "Ordre public",
+    "en": "Law and order",
+    "words": [
+     {
+      "fr": "la loi",
+      "en": "law (a law)"
+     },
+     {
+      "fr": "le droit",
+      "en": "law (system); right"
+     },
+     {
+      "fr": "la justice",
+      "en": "justice, the justice system"
+     },
+     {
+      "fr": "le tribunal",
+      "en": "court"
+     },
+     {
+      "fr": "le juge",
+      "en": "judge"
+     },
+     {
+      "fr": "l'avocat",
+      "en": "lawyer",
+      "g": "m"
+     },
+     {
+      "fr": "le procès",
+      "en": "trial"
+     },
+     {
+      "fr": "la police",
+      "en": "police"
+     },
+     {
+      "fr": "le policier / la policière",
+      "en": "police officer"
+     },
+     {
+      "fr": "le gendarme",
+      "en": "gendarme (police officer with military status)"
+     },
+     {
+      "fr": "le crime",
+      "en": "(serious) crime"
+     },
+     {
+      "fr": "la criminalité",
+      "en": "crime (rate)"
+     },
+     {
+      "fr": "la délinquance",
+      "en": "delinquency, petty crime"
+     },
+     {
+      "fr": "le vol",
+      "en": "theft"
+     },
+     {
+      "fr": "le cambriolage",
+      "en": "burglary"
+     },
+     {
+      "fr": "l'agression",
+      "en": "assault, attack",
+      "g": "f"
+     },
+     {
+      "fr": "le meurtre",
+      "en": "murder"
+     },
+     {
+      "fr": "la violence",
+      "en": "violence"
+     },
+     {
+      "fr": "la sécurité",
+      "en": "safety, security"
+     },
+     {
+      "fr": "l'insécurité",
+      "en": "lack of safety",
+      "g": "f"
+     },
+     {
+      "fr": "la victime",
+      "en": "victim (always feminine)"
+     },
+     {
+      "fr": "le suspect",
+      "en": "suspect"
+     },
+     {
+      "fr": "le coupable",
+      "en": "culprit, guilty party"
+     },
+     {
+      "fr": "innocent(e)",
+      "en": "innocent"
+     },
+     {
+      "fr": "arrêter",
+      "en": "to arrest"
+     },
+     {
+      "fr": "condamner",
+      "en": "to sentence, convict"
+     },
+     {
+      "fr": "la peine",
+      "en": "sentence, penalty"
+     },
+     {
+      "fr": "la prison",
+      "en": "prison"
+     },
+     {
+      "fr": "la peine de mort",
+      "en": "death penalty"
+     },
+     {
+      "fr": "l'amende",
+      "en": "fine",
+      "g": "f"
+     },
+     {
+      "fr": "la sanction",
+      "en": "sanction, penalty"
+     },
+     {
+      "fr": "la récidive",
+      "en": "reoffending"
+     },
+     {
+      "fr": "la réinsertion",
+      "en": "rehabilitation, reintegration"
+     },
+     {
+      "fr": "le casier judiciaire",
+      "en": "criminal record"
+     },
+     {
+      "fr": "la vidéosurveillance",
+      "en": "CCTV"
+     },
+     {
+      "fr": "la majorité pénale",
+      "en": "age of criminal responsibility"
+     }
+    ],
+    "phrases": [
+     {
+      "fr": "respecter la loi",
+      "en": "to obey the law"
+     },
+     {
+      "fr": "enfreindre la loi",
+      "en": "to break the law"
+     },
+     {
+      "fr": "porter plainte",
+      "en": "to press charges, file a complaint"
+     },
+     {
+      "fr": "être condamné(e) à cinq ans de prison",
+      "en": "to be sentenced to five years in prison"
+     },
+     {
+      "fr": "Nul n'est censé ignorer la loi.",
+      "en": "Ignorance of the law is no excuse."
+     },
+     {
+      "fr": "rendre la justice",
+      "en": "to administer justice"
+     },
+     {
+      "fr": "lutter contre la délinquance",
+      "en": "to fight crime"
+     },
+     {
+      "fr": "La prison favorise-t-elle la réinsertion ou la récidive ?",
+      "en": "Does prison encourage rehabilitation or reoffending?"
+     },
+     {
+      "fr": "être présumé(e) innocent(e)",
+      "en": "to be presumed innocent"
+     },
+     {
+      "fr": "le sentiment d'insécurité",
+      "en": "the feeling of being unsafe"
+     }
+    ],
+    "questions": [
+     "Te sens-tu en sécurité dans ta ville ?",
+     "Pourquoi certains jeunes tombent-ils dans la délinquance ?",
+     "La prison est-elle la meilleure façon de punir les criminels ?",
+     "Que penses-tu de la vidéosurveillance dans les espaces publics ?",
+     "La peine de mort peut-elle se justifier ?",
+     "Faut-il punir plus sévèrement les mineurs ?"
+    ]
+   }
+  ]
+ },
+ {
+  "theme": "Partage de la planète",
+  "en": "Sharing the planet",
+  "icon": "🌍",
+  "topics": [
+   {
+    "topic": "Environnement",
+    "en": "The environment",
+    "words": [
+     {
+      "fr": "l'environnement",
+      "en": "the environment",
+      "g": "m"
+     },
+     {
+      "fr": "le changement climatique",
+      "en": "climate change"
+     },
+     {
+      "fr": "le réchauffement climatique",
+      "en": "global warming"
+     },
+     {
+      "fr": "l'effet de serre",
+      "en": "greenhouse effect",
+      "g": "m"
+     },
+     {
+      "fr": "les gaz à effet de serre",
+      "en": "greenhouse gases",
+      "g": "m"
+     },
+     {
+      "fr": "les émissions de CO2",
+      "en": "CO2 emissions",
+      "g": "f"
+     },
+     {
+      "fr": "la pollution",
+      "en": "pollution"
+     },
+     {
+      "fr": "polluer",
+      "en": "to pollute"
+     },
+     {
+      "fr": "les déchets",
+      "en": "waste, rubbish",
+      "g": "m"
+     },
+     {
+      "fr": "le recyclage",
+      "en": "recycling"
+     },
+     {
+      "fr": "recycler",
+      "en": "to recycle"
+     },
+     {
+      "fr": "trier",
+      "en": "to sort (waste)"
+     },
+     {
+      "fr": "le tri sélectif",
+      "en": "waste sorting"
+     },
+     {
+      "fr": "le plastique à usage unique",
+      "en": "single-use plastic"
+     },
+     {
+      "fr": "le gaspillage alimentaire",
+      "en": "food waste"
+     },
+     {
+      "fr": "la biodiversité",
+      "en": "biodiversity"
+     },
+     {
+      "fr": "l'espèce menacée",
+      "en": "endangered species",
+      "g": "f"
+     },
+     {
+      "fr": "la déforestation",
+      "en": "deforestation"
+     },
+     {
+      "fr": "la sécheresse",
+      "en": "drought"
+     },
+     {
+      "fr": "l'inondation",
+      "en": "flood",
+      "g": "f"
+     },
+     {
+      "fr": "la canicule",
+      "en": "heatwave"
+     },
+     {
+      "fr": "la catastrophe naturelle",
+      "en": "natural disaster"
+     },
+     {
+      "fr": "les ressources naturelles",
+      "en": "natural resources",
+      "g": "f"
+     },
+     {
+      "fr": "les énergies renouvelables",
+      "en": "renewable energy",
+      "g": "f"
+     },
+     {
+      "fr": "les énergies fossiles",
+      "en": "fossil fuels",
+      "g": "f"
+     },
+     {
+      "fr": "l'énergie nucléaire",
+      "en": "nuclear power",
+      "g": "f"
+     },
+     {
+      "fr": "l'éolienne",
+      "en": "wind turbine",
+      "g": "f"
+     },
+     {
+      "fr": "le panneau solaire",
+      "en": "solar panel"
+     },
+     {
+      "fr": "le développement durable",
+      "en": "sustainable development"
+     },
+     {
+      "fr": "durable",
+      "en": "sustainable, lasting"
+     },
+     {
+      "fr": "la transition écologique",
+      "en": "ecological transition"
+     },
+     {
+      "fr": "l'empreinte carbone",
+      "en": "carbon footprint",
+      "g": "f"
+     },
+     {
+      "fr": "la neutralité carbone",
+      "en": "carbon neutrality"
+     },
+     {
+      "fr": "l'écoanxiété",
+      "en": "eco-anxiety",
+      "g": "f"
+     },
+     {
+      "fr": "protéger",
+      "en": "to protect"
+     },
+     {
+      "fr": "menacer",
+      "en": "to threaten"
+     },
+     {
+      "fr": "épuiser",
+      "en": "to deplete, exhaust"
+     },
+     {
+      "fr": "préserver",
+      "en": "to preserve"
+     }
+    ],
+    "phrases": [
+     {
+      "fr": "prendre conscience de l'urgence climatique",
+      "en": "to become aware of the climate emergency"
+     },
+     {
+      "fr": "réduire son empreinte carbone",
+      "en": "to reduce one's carbon footprint"
+     },
+     {
+      "fr": "lutter contre le réchauffement climatique",
+      "en": "to fight global warming"
+     },
+     {
+      "fr": "Il est grand temps d'agir.",
+      "en": "It's high time to act."
+     },
+     {
+      "fr": "Il n'y a pas de planète B.",
+      "en": "There is no planet B."
+     },
+     {
+      "fr": "mettre en place des mesures",
+      "en": "to implement measures"
+     },
+     {
+      "fr": "les petits gestes du quotidien",
+      "en": "small everyday actions"
+     },
+     {
+      "fr": "privilégier les transports en commun",
+      "en": "to favour public transport"
+     },
+     {
+      "fr": "avoir des conséquences désastreuses sur…",
+      "en": "to have disastrous consequences for…"
+     },
+     {
+      "fr": "Si rien n'est fait, …",
+      "en": "If nothing is done, …"
+     },
+     {
+      "fr": "appliquer le principe du pollueur-payeur",
+      "en": "to apply the polluter-pays principle"
+     }
+    ],
+    "questions": [
+     "Que fais-tu personnellement pour protéger l'environnement ?",
+     "Les gestes individuels suffisent-ils à sauver la planète ?",
+     "Qui doit agir en priorité : les gouvernements, les entreprises ou les citoyens ?",
+     "Que penses-tu des jeunes militants pour le climat ?",
+     "Es-tu optimiste ou pessimiste quant à l'avenir de la planète ?",
+     "Faut-il taxer davantage les voyages en avion ?"
+    ]
+   },
+   {
+    "topic": "Droits de l'homme",
+    "en": "Human rights",
+    "words": [
+     {
+      "fr": "les droits de l'homme",
+      "en": "human rights",
+      "g": "m"
+     },
+     {
+      "fr": "les droits humains",
+      "en": "human rights (increasingly used term)",
+      "g": "m"
+     },
+     {
+      "fr": "la Déclaration universelle des droits de l'homme",
+      "en": "Universal Declaration of Human Rights"
+     },
+     {
+      "fr": "les droits de l'enfant",
+      "en": "children's rights",
+      "g": "m"
+     },
+     {
+      "fr": "la dignité",
+      "en": "dignity"
+     },
+     {
+      "fr": "la liberté",
+      "en": "freedom"
+     },
+     {
+      "fr": "la liberté d'expression",
+      "en": "freedom of expression"
+     },
+     {
+      "fr": "le droit à l'éducation",
+      "en": "right to education"
+     },
+     {
+      "fr": "l'accès à l'eau potable",
+      "en": "access to drinking water",
+      "g": "m"
+     },
+     {
+      "fr": "la démocratie",
+      "en": "democracy"
+     },
+     {
+      "fr": "la dictature",
+      "en": "dictatorship"
+     },
+     {
+      "fr": "le régime autoritaire",
+      "en": "authoritarian regime"
+     },
+     {
+      "fr": "l'oppression",
+      "en": "oppression",
+      "g": "f"
+     },
+     {
+      "fr": "opprimé(e)",
+      "en": "oppressed"
+     },
+     {
+      "fr": "la répression",
+      "en": "repression, crackdown"
+     },
+     {
+      "fr": "le prisonnier politique",
+      "en": "political prisoner"
+     },
+     {
+      "fr": "la torture",
+      "en": "torture"
+     },
+     {
+      "fr": "la discrimination",
+      "en": "discrimination"
+     },
+     {
+      "fr": "le travail des enfants",
+      "en": "child labour"
+     },
+     {
+      "fr": "l'esclavage moderne",
+      "en": "modern slavery",
+      "g": "m"
+     },
+     {
+      "fr": "la traite des êtres humains",
+      "en": "human trafficking"
+     },
+     {
+      "fr": "le mariage forcé",
+      "en": "forced marriage"
+     },
+     {
+      "fr": "le défenseur des droits humains",
+      "en": "human rights defender"
+     },
+     {
+      "fr": "la violation",
+      "en": "violation"
+     },
+     {
+      "fr": "bafouer",
+      "en": "to flout, trample on"
+     },
+     {
+      "fr": "respecter",
+      "en": "to respect"
+     },
+     {
+      "fr": "garantir",
+      "en": "to guarantee"
+     },
+     {
+      "fr": "dénoncer",
+      "en": "to denounce, expose"
+     },
+     {
+      "fr": "revendiquer ses droits",
+      "en": "to claim one's rights"
+     },
+     {
+      "fr": "inaliénable",
+      "en": "inalienable"
+     },
+     {
+      "fr": "fondamental(e)",
+      "en": "fundamental"
+     },
+     {
+      "fr": "universel(le)",
+      "en": "universal"
+     },
+     {
+      "fr": "la justice sociale",
+      "en": "social justice"
+     },
+     {
+      "fr": "l'impunité",
+      "en": "impunity",
+      "g": "f"
+     }
+    ],
+    "phrases": [
+     {
+      "fr": "Tous les êtres humains naissent libres et égaux en dignité et en droits.",
+      "en": "All human beings are born free and equal in dignity and rights."
+     },
+     {
+      "fr": "défendre les droits de l'homme",
+      "en": "to defend human rights"
+     },
+     {
+      "fr": "porter atteinte aux droits fondamentaux",
+      "en": "to undermine fundamental rights"
+     },
+     {
+      "fr": "être privé(e) de liberté",
+      "en": "to be deprived of one's freedom"
+     },
+     {
+      "fr": "dénoncer les violations des droits humains",
+      "en": "to denounce human rights violations"
+     },
+     {
+      "fr": "La liberté des uns s'arrête là où commence celle des autres.",
+      "en": "One person's freedom ends where another's begins."
+     },
+     {
+      "fr": "avoir le droit de…",
+      "en": "to have the right to…"
+     },
+     {
+      "fr": "fermer les yeux sur…",
+      "en": "to turn a blind eye to…"
+     },
+     {
+      "fr": "Les droits humains sont universels et indivisibles.",
+      "en": "Human rights are universal and indivisible."
+     },
+     {
+      "fr": "faire pression sur un gouvernement",
+      "en": "to put pressure on a government"
+     }
+    ],
+    "questions": [
+     "Quel droit humain te semble le plus important ?",
+     "Les droits de l'homme sont-ils vraiment universels ?",
+     "Que peut-on faire, à titre individuel, pour défendre les droits humains ?",
+     "La liberté d'expression doit-elle avoir des limites ?",
+     "Faut-il boycotter les produits fabriqués par des enfants ?",
+     "Les pays démocratiques respectent-ils toujours les droits humains ?"
+    ]
+   },
+   {
+    "topic": "Paix et conflits",
+    "en": "Peace and conflict",
+    "words": [
+     {
+      "fr": "la paix",
+      "en": "peace"
+     },
+     {
+      "fr": "la guerre",
+      "en": "war"
+     },
+     {
+      "fr": "le conflit",
+      "en": "conflict"
+     },
+     {
+      "fr": "la guerre civile",
+      "en": "civil war"
+     },
+     {
+      "fr": "le conflit armé",
+      "en": "armed conflict"
+     },
+     {
+      "fr": "l'armée",
+      "en": "army",
+      "g": "f"
+     },
+     {
+      "fr": "le soldat",
+      "en": "soldier"
+     },
+     {
+      "fr": "envahir",
+      "en": "to invade"
+     },
+     {
+      "fr": "l'invasion",
+      "en": "invasion",
+      "g": "f"
+     },
+     {
+      "fr": "l'occupation",
+      "en": "occupation",
+      "g": "f"
+     },
+     {
+      "fr": "la résistance",
+      "en": "resistance"
+     },
+     {
+      "fr": "le terrorisme",
+      "en": "terrorism"
+     },
+     {
+      "fr": "l'attentat",
+      "en": "(terrorist) attack",
+      "g": "m"
+     },
+     {
+      "fr": "la menace",
+      "en": "threat"
+     },
+     {
+      "fr": "les victimes civiles",
+      "en": "civilian casualties",
+      "g": "f"
+     },
+     {
+      "fr": "le génocide",
+      "en": "genocide"
+     },
+     {
+      "fr": "le crime de guerre",
+      "en": "war crime"
+     },
+     {
+      "fr": "l'arme nucléaire",
+      "en": "nuclear weapon",
+      "g": "f"
+     },
+     {
+      "fr": "le désarmement",
+      "en": "disarmament"
+     },
+     {
+      "fr": "le cessez-le-feu",
+      "en": "ceasefire"
+     },
+     {
+      "fr": "le traité de paix",
+      "en": "peace treaty"
+     },
+     {
+      "fr": "la négociation",
+      "en": "negotiation"
+     },
+     {
+      "fr": "négocier",
+      "en": "to negotiate"
+     },
+     {
+      "fr": "la diplomatie",
+      "en": "diplomacy"
+     },
+     {
+      "fr": "le dialogue",
+      "en": "dialogue"
+     },
+     {
+      "fr": "la médiation",
+      "en": "mediation"
+     },
+     {
+      "fr": "la réconciliation",
+      "en": "reconciliation"
+     },
+     {
+      "fr": "les sanctions économiques",
+      "en": "economic sanctions",
+      "g": "f"
+     },
+     {
+      "fr": "les Nations unies (l'ONU)",
+      "en": "the United Nations (UN)",
+      "g": "f"
+     },
+     {
+      "fr": "les Casques bleus",
+      "en": "UN peacekeepers",
+      "g": "m"
+     },
+     {
+      "fr": "le pacifisme",
+      "en": "pacifism"
+     },
+     {
+      "fr": "pacifique",
+      "en": "peaceful"
+     },
+     {
+      "fr": "la non-violence",
+      "en": "non-violence"
+     },
+     {
+      "fr": "le devoir de mémoire",
+      "en": "duty to remember"
+     },
+     {
+      "fr": "le réfugié de guerre",
+      "en": "war refugee"
+     }
+    ],
+    "phrases": [
+     {
+      "fr": "déclarer la guerre à…",
+      "en": "to declare war on…"
+     },
+     {
+      "fr": "signer un accord de paix",
+      "en": "to sign a peace agreement"
+     },
+     {
+      "fr": "résoudre un conflit par le dialogue",
+      "en": "to resolve a conflict through dialogue"
+     },
+     {
+      "fr": "maintenir la paix",
+      "en": "to keep the peace"
+     },
+     {
+      "fr": "L'histoire se répète.",
+      "en": "History repeats itself."
+     },
+     {
+      "fr": "vivre dans la peur",
+      "en": "to live in fear"
+     },
+     {
+      "fr": "mettre fin aux hostilités",
+      "en": "to put an end to hostilities"
+     },
+     {
+      "fr": "Plus jamais ça !",
+      "en": "Never again!"
+     },
+     {
+      "fr": "tirer les leçons de l'histoire",
+      "en": "to learn the lessons of history"
+     },
+     {
+      "fr": "La paix ne se décrète pas, elle se construit.",
+      "en": "Peace cannot be decreed; it has to be built."
+     }
+    ],
+    "questions": [
+     "Pourquoi les conflits armés existent-ils encore aujourd'hui ?",
+     "L'ONU est-elle efficace pour maintenir la paix ?",
+     "Quel rôle les jeunes peuvent-ils jouer dans la construction de la paix ?",
+     "Pourquoi le devoir de mémoire est-il important ?",
+     "Les médias montrent-ils la réalité de la guerre ?",
+     "La non-violence peut-elle vraiment changer le monde ?"
+    ]
+   },
+   {
+    "topic": "Égalité",
+    "en": "Equality",
+    "words": [
+     {
+      "fr": "l'égalité",
+      "en": "equality",
+      "g": "f"
+     },
+     {
+      "fr": "l'inégalité",
+      "en": "inequality",
+      "g": "f"
+     },
+     {
+      "fr": "l'équité",
+      "en": "fairness, equity",
+      "g": "f"
+     },
+     {
+      "fr": "l'égalité femmes-hommes",
+      "en": "gender equality",
+      "g": "f"
+     },
+     {
+      "fr": "le féminisme",
+      "en": "feminism"
+     },
+     {
+      "fr": "le sexisme",
+      "en": "sexism"
+     },
+     {
+      "fr": "le patriarcat",
+      "en": "patriarchy"
+     },
+     {
+      "fr": "la parité",
+      "en": "parity (equal representation)"
+     },
+     {
+      "fr": "le plafond de verre",
+      "en": "glass ceiling"
+     },
+     {
+      "fr": "l'écart salarial",
+      "en": "pay gap",
+      "g": "m"
+     },
+     {
+      "fr": "la charge mentale",
+      "en": "mental load"
+     },
+     {
+      "fr": "les violences faites aux femmes",
+      "en": "violence against women",
+      "g": "f"
+     },
+     {
+      "fr": "le harcèlement de rue",
+      "en": "street harassment"
+     },
+     {
+      "fr": "les stéréotypes de genre",
+      "en": "gender stereotypes",
+      "g": "m"
+     },
+     {
+      "fr": "le racisme",
+      "en": "racism"
+     },
+     {
+      "fr": "l'homophobie",
+      "en": "homophobia",
+      "g": "f"
+     },
+     {
+      "fr": "la discrimination",
+      "en": "discrimination"
+     },
+     {
+      "fr": "les préjugés",
+      "en": "prejudices",
+      "g": "m"
+     },
+     {
+      "fr": "la diversité",
+      "en": "diversity"
+     },
+     {
+      "fr": "l'inclusion",
+      "en": "inclusion",
+      "g": "f"
+     },
+     {
+      "fr": "la minorité",
+      "en": "minority"
+     },
+     {
+      "fr": "les personnes en situation de handicap",
+      "en": "people with disabilities",
+      "g": "f"
+     },
+     {
+      "fr": "la justice sociale",
+      "en": "social justice"
+     },
+     {
+      "fr": "le fossé",
+      "en": "gap, divide"
+     },
+     {
+      "fr": "l'écart entre riches et pauvres",
+      "en": "gap between rich and poor",
+      "g": "m"
+     },
+     {
+      "fr": "la discrimination positive",
+      "en": "positive discrimination, affirmative action"
+     },
+     {
+      "fr": "les quotas",
+      "en": "quotas",
+      "g": "m"
+     },
+     {
+      "fr": "la mixité",
+      "en": "gender mix, co-education"
+     },
+     {
+      "fr": "défavorisé(e)",
+      "en": "disadvantaged"
+     },
+     {
+      "fr": "privilégié(e)",
+      "en": "privileged"
+     },
+     {
+      "fr": "marginalisé(e)",
+      "en": "marginalised"
+     },
+     {
+      "fr": "égalitaire",
+      "en": "egalitarian"
+     },
+     {
+      "fr": "exclure",
+      "en": "to exclude"
+     },
+     {
+      "fr": "lutter contre",
+      "en": "to fight against"
+     },
+     {
+      "fr": "l'émancipation",
+      "en": "emancipation",
+      "g": "f"
+     }
+    ],
+    "phrases": [
+     {
+      "fr": "À travail égal, salaire égal.",
+      "en": "Equal pay for equal work."
+     },
+     {
+      "fr": "briser le plafond de verre",
+      "en": "to break the glass ceiling"
+     },
+     {
+      "fr": "faire évoluer les mentalités",
+      "en": "to change attitudes"
+     },
+     {
+      "fr": "être victime de discrimination",
+      "en": "to suffer discrimination"
+     },
+     {
+      "fr": "lutter pour l'égalité des droits",
+      "en": "to fight for equal rights"
+     },
+     {
+      "fr": "Il reste encore beaucoup de chemin à parcourir.",
+      "en": "There is still a long way to go."
+     },
+     {
+      "fr": "L'égalité des chances reste un idéal.",
+      "en": "Equal opportunity remains an ideal."
+     },
+     {
+      "fr": "remettre en cause les stéréotypes",
+      "en": "to challenge stereotypes"
+     },
+     {
+      "fr": "partager les tâches ménagères",
+      "en": "to share household chores"
+     },
+     {
+      "fr": "donner la parole aux minorités",
+      "en": "to give a voice to minorities"
+     }
+    ],
+    "questions": [
+     "L'égalité entre les femmes et les hommes est-elle une réalité dans ton pays ?",
+     "Que penses-tu des quotas pour garantir la parité ?",
+     "Les stéréotypes de genre sont-ils encore présents à l'école ?",
+     "Comment peut-on réduire les inégalités sociales ?",
+     "La discrimination positive est-elle juste ?",
+     "As-tu déjà été témoin d'une situation de discrimination ?"
+    ]
+   },
+   {
+    "topic": "Mondialisation",
+    "en": "Globalization",
+    "words": [
+     {
+      "fr": "la mondialisation",
+      "en": "globalisation"
+     },
+     {
+      "fr": "mondial(e)",
+      "en": "global, worldwide"
+     },
+     {
+      "fr": "l'économie",
+      "en": "economy",
+      "g": "f"
+     },
+     {
+      "fr": "le commerce international",
+      "en": "international trade"
+     },
+     {
+      "fr": "le libre-échange",
+      "en": "free trade"
+     },
+     {
+      "fr": "la multinationale",
+      "en": "multinational (company)"
+     },
+     {
+      "fr": "la délocalisation",
+      "en": "offshoring"
+     },
+     {
+      "fr": "délocaliser",
+      "en": "to relocate (production) abroad"
+     },
+     {
+      "fr": "relocaliser",
+      "en": "to bring production back home"
+     },
+     {
+      "fr": "l'exportation",
+      "en": "export",
+      "g": "f"
+     },
+     {
+      "fr": "l'importation",
+      "en": "import",
+      "g": "f"
+     },
+     {
+      "fr": "le marché",
+      "en": "market"
+     },
+     {
+      "fr": "la concurrence",
+      "en": "competition"
+     },
+     {
+      "fr": "la croissance économique",
+      "en": "economic growth"
+     },
+     {
+      "fr": "la société de consommation",
+      "en": "consumer society"
+     },
+     {
+      "fr": "la consommation de masse",
+      "en": "mass consumption"
+     },
+     {
+      "fr": "le pays en développement",
+      "en": "developing country"
+     },
+     {
+      "fr": "le pays émergent",
+      "en": "emerging country"
+     },
+     {
+      "fr": "les inégalités Nord-Sud",
+      "en": "North-South inequalities",
+      "g": "f"
+     },
+     {
+      "fr": "la main-d'œuvre bon marché",
+      "en": "cheap labour"
+     },
+     {
+      "fr": "l'exploitation",
+      "en": "exploitation",
+      "g": "f"
+     },
+     {
+      "fr": "la chaîne d'approvisionnement",
+      "en": "supply chain"
+     },
+     {
+      "fr": "la mode jetable",
+      "en": "fast fashion"
+     },
+     {
+      "fr": "le commerce équitable",
+      "en": "fair trade"
+     },
+     {
+      "fr": "le circuit court",
+      "en": "short supply chain (local produce)"
+     },
+     {
+      "fr": "le protectionnisme",
+      "en": "protectionism"
+     },
+     {
+      "fr": "l'altermondialisme",
+      "en": "alter-globalisation movement",
+      "g": "m"
+     },
+     {
+      "fr": "l'interdépendance",
+      "en": "interdependence",
+      "g": "f"
+     },
+     {
+      "fr": "l'uniformisation culturelle",
+      "en": "cultural standardisation",
+      "g": "f"
+     },
+     {
+      "fr": "l'américanisation",
+      "en": "Americanisation",
+      "g": "f"
+     },
+     {
+      "fr": "le métissage culturel",
+      "en": "cultural mixing"
+     },
+     {
+      "fr": "l'échange",
+      "en": "exchange",
+      "g": "m"
+     },
+     {
+      "fr": "le village planétaire",
+      "en": "global village"
+     },
+     {
+      "fr": "le géant du numérique",
+      "en": "tech giant"
+     }
+    ],
+    "phrases": [
+     {
+      "fr": "Le monde est devenu un village planétaire.",
+      "en": "The world has become a global village."
+     },
+     {
+      "fr": "consommer local",
+      "en": "to buy local"
+     },
+     {
+      "fr": "tirer profit de la mondialisation",
+      "en": "to benefit from globalisation"
+     },
+     {
+      "fr": "les gagnants et les perdants de la mondialisation",
+      "en": "the winners and losers of globalisation"
+     },
+     {
+      "fr": "avoir accès à des produits du monde entier",
+      "en": "to have access to products from all over the world"
+     },
+     {
+      "fr": "L'uniformisation des cultures menace la diversité.",
+      "en": "Cultural standardisation threatens diversity."
+     },
+     {
+      "fr": "Penser global, agir local.",
+      "en": "Think global, act local."
+     },
+     {
+      "fr": "une course effrénée au profit",
+      "en": "a frantic race for profit"
+     },
+     {
+      "fr": "à l'échelle mondiale",
+      "en": "on a global scale"
+     },
+     {
+      "fr": "fabriqué(e) à l'autre bout du monde",
+      "en": "made on the other side of the world"
+     }
+    ],
+    "questions": [
+     "Quels sont, selon toi, les avantages et les inconvénients de la mondialisation ?",
+     "La mondialisation menace-t-elle les cultures locales ?",
+     "Fais-tu attention à l'origine des produits que tu achètes ?",
+     "Que penses-tu de la mode jetable ?",
+     "La mondialisation a-t-elle réduit ou augmenté les inégalités ?",
+     "Pourrait-on vivre sans produits importés ?"
+    ]
+   },
+   {
+    "topic": "Éthique",
+    "en": "Ethics",
+    "words": [
+     {
+      "fr": "l'éthique",
+      "en": "ethics",
+      "g": "f"
+     },
+     {
+      "fr": "éthique",
+      "en": "ethical"
+     },
+     {
+      "fr": "la morale",
+      "en": "morality"
+     },
+     {
+      "fr": "le dilemme",
+      "en": "dilemma"
+     },
+     {
+      "fr": "la responsabilité",
+      "en": "responsibility"
+     },
+     {
+      "fr": "responsable",
+      "en": "responsible"
+     },
+     {
+      "fr": "le devoir",
+      "en": "duty"
+     },
+     {
+      "fr": "la conscience",
+      "en": "conscience"
+     },
+     {
+      "fr": "juste",
+      "en": "fair, just"
+     },
+     {
+      "fr": "injuste",
+      "en": "unfair"
+     },
+     {
+      "fr": "le bien et le mal",
+      "en": "right and wrong"
+     },
+     {
+      "fr": "l'intégrité",
+      "en": "integrity",
+      "g": "f"
+     },
+     {
+      "fr": "la corruption",
+      "en": "corruption"
+     },
+     {
+      "fr": "corrompu(e)",
+      "en": "corrupt"
+     },
+     {
+      "fr": "la transparence",
+      "en": "transparency"
+     },
+     {
+      "fr": "le lanceur d'alerte / la lanceuse d'alerte",
+      "en": "whistle-blower"
+     },
+     {
+      "fr": "la tricherie",
+      "en": "cheating"
+     },
+     {
+      "fr": "tricher",
+      "en": "to cheat"
+     },
+     {
+      "fr": "le plagiat",
+      "en": "plagiarism"
+     },
+     {
+      "fr": "le dopage",
+      "en": "doping"
+     },
+     {
+      "fr": "l'euthanasie",
+      "en": "euthanasia",
+      "g": "f"
+     },
+     {
+      "fr": "la fin de vie",
+      "en": "end of life"
+     },
+     {
+      "fr": "la procréation médicalement assistée (PMA)",
+      "en": "assisted reproduction (e.g. IVF)"
+     },
+     {
+      "fr": "la gestation pour autrui (GPA)",
+      "en": "surrogacy"
+     },
+     {
+      "fr": "le bien-être animal",
+      "en": "animal welfare"
+     },
+     {
+      "fr": "la consommation responsable",
+      "en": "ethical consumption"
+     },
+     {
+      "fr": "l'écoblanchiment",
+      "en": "greenwashing",
+      "g": "m"
+     },
+     {
+      "fr": "justifier",
+      "en": "to justify"
+     },
+     {
+      "fr": "condamnable",
+      "en": "reprehensible"
+     },
+     {
+      "fr": "inacceptable",
+      "en": "unacceptable"
+     },
+     {
+      "fr": "légitime",
+      "en": "legitimate"
+     },
+     {
+      "fr": "la limite",
+      "en": "limit, boundary"
+     },
+     {
+      "fr": "le mensonge",
+      "en": "lie"
+     },
+     {
+      "fr": "mentir",
+      "en": "to lie"
+     }
+    ],
+    "phrases": [
+     {
+      "fr": "La fin justifie-t-elle les moyens ?",
+      "en": "Does the end justify the means?"
+     },
+     {
+      "fr": "se poser des questions éthiques",
+      "en": "to ask oneself ethical questions"
+     },
+     {
+      "fr": "avoir bonne / mauvaise conscience",
+      "en": "to have a clear / guilty conscience"
+     },
+     {
+      "fr": "agir en son âme et conscience",
+      "en": "to act according to one's conscience"
+     },
+     {
+      "fr": "franchir la ligne rouge",
+      "en": "to cross the red line"
+     },
+     {
+      "fr": "être confronté(e) à un dilemme",
+      "en": "to be faced with a dilemma"
+     },
+     {
+      "fr": "Tout ce qui est légal n'est pas forcément moral.",
+      "en": "Not everything legal is necessarily moral."
+     },
+     {
+      "fr": "prendre ses responsabilités",
+      "en": "to face up to one's responsibilities"
+     },
+     {
+      "fr": "Où faut-il fixer la limite ?",
+      "en": "Where should we draw the line?"
+     },
+     {
+      "fr": "d'un point de vue éthique",
+      "en": "from an ethical point of view"
+     }
+    ],
+    "questions": [
+     "Est-il parfois acceptable de mentir ?",
+     "Utiliser l'IA pour faire ses devoirs, est-ce tricher ?",
+     "Les entreprises ont-elles une responsabilité morale envers la société ?",
+     "Faut-il légaliser l'euthanasie ?",
+     "Est-il éthique de manger de la viande ?",
+     "Les lanceurs d'alerte sont-ils des héros ou des traîtres ?"
+    ]
+   },
+   {
+    "topic": "Environnement urbain et rural",
+    "en": "Urban and rural environment",
+    "words": [
+     {
+      "fr": "la ville",
+      "en": "town, city"
+     },
+     {
+      "fr": "la campagne",
+      "en": "countryside"
+     },
+     {
+      "fr": "le milieu urbain",
+      "en": "urban environment"
+     },
+     {
+      "fr": "le milieu rural",
+      "en": "rural environment"
+     },
+     {
+      "fr": "urbain(e)",
+      "en": "urban"
+     },
+     {
+      "fr": "rural(e)",
+      "en": "rural"
+     },
+     {
+      "fr": "la banlieue",
+      "en": "suburbs"
+     },
+     {
+      "fr": "le centre-ville",
+      "en": "town centre"
+     },
+     {
+      "fr": "le quartier",
+      "en": "neighbourhood"
+     },
+     {
+      "fr": "la métropole",
+      "en": "metropolis, big city"
+     },
+     {
+      "fr": "le village",
+      "en": "village"
+     },
+     {
+      "fr": "l'exode rural",
+      "en": "rural exodus",
+      "g": "m"
+     },
+     {
+      "fr": "l'urbanisation",
+      "en": "urbanisation",
+      "g": "f"
+     },
+     {
+      "fr": "l'étalement urbain",
+      "en": "urban sprawl",
+      "g": "m"
+     },
+     {
+      "fr": "le désert médical",
+      "en": "medical desert (area with too few doctors)"
+     },
+     {
+      "fr": "les transports en commun",
+      "en": "public transport",
+      "g": "m"
+     },
+     {
+      "fr": "les embouteillages",
+      "en": "traffic jams",
+      "g": "m"
+     },
+     {
+      "fr": "le bruit",
+      "en": "noise"
+     },
+     {
+      "fr": "la pollution de l'air",
+      "en": "air pollution"
+     },
+     {
+      "fr": "les espaces verts",
+      "en": "green spaces",
+      "g": "m"
+     },
+     {
+      "fr": "la piste cyclable",
+      "en": "cycle lane"
+     },
+     {
+      "fr": "la zone piétonne",
+      "en": "pedestrian zone"
+     },
+     {
+      "fr": "le logement",
+      "en": "housing"
+     },
+     {
+      "fr": "le loyer",
+      "en": "rent"
+     },
+     {
+      "fr": "le logement social",
+      "en": "social housing"
+     },
+     {
+      "fr": "la cité",
+      "en": "housing estate"
+     },
+     {
+      "fr": "le gratte-ciel",
+      "en": "skyscraper"
+     },
+     {
+      "fr": "la ville intelligente",
+      "en": "smart city"
+     },
+     {
+      "fr": "l'agriculture",
+      "en": "agriculture, farming",
+      "g": "f"
+     },
+     {
+      "fr": "l'agriculteur",
+      "en": "farmer",
+      "g": "m"
+     },
+     {
+      "fr": "la ferme",
+      "en": "farm"
+     },
+     {
+      "fr": "le néorural",
+      "en": "city dweller who moves to the countryside"
+     },
+     {
+      "fr": "isolé(e)",
+      "en": "isolated"
+     },
+     {
+      "fr": "animé(e)",
+      "en": "lively"
+     },
+     {
+      "fr": "paisible",
+      "en": "peaceful"
+     },
+     {
+      "fr": "bruyant(e)",
+      "en": "noisy"
+     },
+     {
+      "fr": "les commerces de proximité",
+      "en": "local shops",
+      "g": "m"
+     }
+    ],
+    "phrases": [
+     {
+      "fr": "vivre au calme",
+      "en": "to live in peace and quiet"
+     },
+     {
+      "fr": "loin de l'agitation de la ville",
+      "en": "far from the hustle and bustle of the city"
+     },
+     {
+      "fr": "être pris(e) dans les embouteillages",
+      "en": "to be stuck in traffic"
+     },
+     {
+      "fr": "avoir tout à portée de main",
+      "en": "to have everything close at hand"
+     },
+     {
+      "fr": "Les loyers sont hors de prix.",
+      "en": "Rents are extortionate."
+     },
+     {
+      "fr": "quitter la ville pour la campagne",
+      "en": "to leave the city for the countryside"
+     },
+     {
+      "fr": "végétaliser les villes",
+      "en": "to green cities"
+     },
+     {
+      "fr": "la ville du quart d'heure",
+      "en": "the 15-minute city"
+     },
+     {
+      "fr": "Les campagnes se vident.",
+      "en": "The countryside is emptying out."
+     },
+     {
+      "fr": "Le coût de la vie y est moins élevé.",
+      "en": "The cost of living is lower there."
+     }
+    ],
+    "questions": [
+     "Préfères-tu vivre en ville ou à la campagne ? Pourquoi ?",
+     "Quels sont les principaux problèmes de ta ville ?",
+     "Comment pourrait-on rendre les villes plus agréables à vivre ?",
+     "Pourquoi de nombreux jeunes quittent-ils la campagne ?",
+     "Le télétravail peut-il redonner vie aux zones rurales ?",
+     "Comment imagines-tu la ville du futur ?"
+    ]
+   }
+  ]
+ },
+ {
+  "theme": "Expressions utiles",
+  "en": "Useful language for every task",
+  "icon": "💬",
+  "topics": [
+   {
+    "topic": "Donner son avis",
+    "en": "Giving opinions",
+    "words": [
+     {
+      "fr": "À mon avis, …",
+      "en": "In my opinion, …"
+     },
+     {
+      "fr": "Selon moi, …",
+      "en": "In my view, …"
+     },
+     {
+      "fr": "D'après moi, …",
+      "en": "As I see it, …"
+     },
+     {
+      "fr": "Je pense que…",
+      "en": "I think that…"
+     },
+     {
+      "fr": "Je trouve que…",
+      "en": "I find that…"
+     },
+     {
+      "fr": "Je crois que…",
+      "en": "I believe that…"
+     },
+     {
+      "fr": "Il me semble que…",
+      "en": "It seems to me that…"
+     },
+     {
+      "fr": "J'estime que…",
+      "en": "I consider that…"
+     },
+     {
+      "fr": "Je suis convaincu(e) que…",
+      "en": "I am convinced that…"
+     },
+     {
+      "fr": "Je reste persuadé(e) que…",
+      "en": "I remain convinced that…"
+     },
+     {
+      "fr": "Personnellement, …",
+      "en": "Personally, …"
+     },
+     {
+      "fr": "En ce qui me concerne, …",
+      "en": "As far as I'm concerned, …"
+     },
+     {
+      "fr": "Pour ma part, …",
+      "en": "For my part, …"
+     },
+     {
+      "fr": "J'ai l'impression que…",
+      "en": "I have the impression that…"
+     },
+     {
+      "fr": "Je ne pense pas que + subjonctif",
+      "en": "I don't think that… (+ subjunctive)"
+     },
+     {
+      "fr": "Je doute que + subjonctif",
+      "en": "I doubt that… (+ subjunctive)"
+     },
+     {
+      "fr": "Il est évident que…",
+      "en": "It is obvious that…"
+     },
+     {
+      "fr": "Il est indéniable que…",
+      "en": "It is undeniable that…"
+     },
+     {
+      "fr": "Force est de constater que…",
+      "en": "One has to acknowledge that…"
+     },
+     {
+      "fr": "Ce qui me frappe, c'est…",
+      "en": "What strikes me is…"
+     },
+     {
+      "fr": "Je suis pour / contre…",
+      "en": "I am for / against…"
+     },
+     {
+      "fr": "Je suis favorable à…",
+      "en": "I am in favour of…"
+     }
+    ],
+    "phrases": [],
+    "questions": []
+   },
+   {
+    "topic": "Exprimer son accord ou son désaccord",
+    "en": "Agreeing & disagreeing",
+    "words": [
+     {
+      "fr": "Je suis d'accord avec toi / vous.",
+      "en": "I agree with you."
+     },
+     {
+      "fr": "Je suis tout à fait d'accord.",
+      "en": "I completely agree."
+     },
+     {
+      "fr": "Je partage ton / votre avis.",
+      "en": "I share your view."
+     },
+     {
+      "fr": "Tu as / Vous avez raison.",
+      "en": "You're right."
+     },
+     {
+      "fr": "C'est vrai.",
+      "en": "That's true."
+     },
+     {
+      "fr": "Absolument !",
+      "en": "Absolutely!"
+     },
+     {
+      "fr": "Exactement !",
+      "en": "Exactly!"
+     },
+     {
+      "fr": "Bien sûr.",
+      "en": "Of course."
+     },
+     {
+      "fr": "Je suis d'accord jusqu'à un certain point.",
+      "en": "I agree up to a point."
+     },
+     {
+      "fr": "Certes, … mais…",
+      "en": "Admittedly, … but…"
+     },
+     {
+      "fr": "Je ne suis pas d'accord.",
+      "en": "I don't agree."
+     },
+     {
+      "fr": "Je ne suis pas du tout d'accord.",
+      "en": "I don't agree at all."
+     },
+     {
+      "fr": "Je ne partage pas ce point de vue.",
+      "en": "I don't share that point of view."
+     },
+     {
+      "fr": "Tu as / Vous avez tort.",
+      "en": "You're wrong."
+     },
+     {
+      "fr": "Au contraire, …",
+      "en": "On the contrary, …"
+     },
+     {
+      "fr": "Ce n'est pas tout à fait vrai.",
+      "en": "That's not entirely true."
+     },
+     {
+      "fr": "Pas du tout !",
+      "en": "Not at all!"
+     },
+     {
+      "fr": "Je vois les choses autrement.",
+      "en": "I see things differently."
+     },
+     {
+      "fr": "Je comprends ton point de vue, mais…",
+      "en": "I understand your point of view, but…"
+     },
+     {
+      "fr": "C'est discutable.",
+      "en": "That's debatable."
+     },
+     {
+      "fr": "Tu exagères !",
+      "en": "You're exaggerating!"
+     },
+     {
+      "fr": "Là, je ne te suis pas.",
+      "en": "That's where you lose me."
+     }
+    ],
+    "phrases": [],
+    "questions": []
+   },
+   {
+    "topic": "Structurer une argumentation",
+    "en": "Structuring an argument",
+    "words": [
+     {
+      "fr": "Tout d'abord, …",
+      "en": "First of all, …"
+     },
+     {
+      "fr": "Premièrement, …",
+      "en": "Firstly, …"
+     },
+     {
+      "fr": "Ensuite, …",
+      "en": "Next, …"
+     },
+     {
+      "fr": "Puis, …",
+      "en": "Then, …"
+     },
+     {
+      "fr": "Enfin, …",
+      "en": "Finally, …"
+     },
+     {
+      "fr": "De plus, …",
+      "en": "Moreover, …"
+     },
+     {
+      "fr": "En outre, …",
+      "en": "Furthermore, …"
+     },
+     {
+      "fr": "Par ailleurs, …",
+      "en": "Besides, / In addition, …"
+     },
+     {
+      "fr": "D'une part…, d'autre part…",
+      "en": "On the one hand…, on the other hand…"
+     },
+     {
+      "fr": "Cependant, …",
+      "en": "However, …"
+     },
+     {
+      "fr": "Pourtant, …",
+      "en": "Yet, …"
+     },
+     {
+      "fr": "Néanmoins, …",
+      "en": "Nevertheless, …"
+     },
+     {
+      "fr": "En revanche, …",
+      "en": "By contrast, …"
+     },
+     {
+      "fr": "Bien que + subjonctif",
+      "en": "Although… (+ subjunctive)"
+     },
+     {
+      "fr": "Alors que…",
+      "en": "Whereas…"
+     },
+     {
+      "fr": "En effet, …",
+      "en": "Indeed, (to justify a point just made)"
+     },
+     {
+      "fr": "Prenons l'exemple de…",
+      "en": "Let's take the example of…"
+     },
+     {
+      "fr": "Par conséquent, …",
+      "en": "Consequently, …"
+     },
+     {
+      "fr": "C'est pourquoi…",
+      "en": "That is why…"
+     },
+     {
+      "fr": "Donc, …",
+      "en": "So, / Therefore, …"
+     },
+     {
+      "fr": "Ainsi, …",
+      "en": "Thus, …"
+     },
+     {
+      "fr": "Il convient de se demander si…",
+      "en": "It is worth asking whether…"
+     },
+     {
+      "fr": "En conclusion, …",
+      "en": "In conclusion, …"
+     },
+     {
+      "fr": "Pour conclure, …",
+      "en": "To conclude, …"
+     },
+     {
+      "fr": "En somme, …",
+      "en": "All in all, …"
+     }
+    ],
+    "phrases": [],
+    "questions": []
+   },
+   {
+    "topic": "Décrire une image",
+    "en": "Describing a picture",
+    "words": [
+     {
+      "fr": "Sur cette image / photo, on voit…",
+      "en": "In this picture / photo, we can see…"
+     },
+     {
+      "fr": "Il s'agit d'une photo qui représente…",
+      "en": "It's a photo showing…"
+     },
+     {
+      "fr": "au premier plan",
+      "en": "in the foreground"
+     },
+     {
+      "fr": "au second plan",
+      "en": "in the middle ground"
+     },
+     {
+      "fr": "à l'arrière-plan",
+      "en": "in the background"
+     },
+     {
+      "fr": "au centre",
+      "en": "in the centre"
+     },
+     {
+      "fr": "à gauche / à droite",
+      "en": "on the left / on the right"
+     },
+     {
+      "fr": "en haut / en bas",
+      "en": "at the top / at the bottom"
+     },
+     {
+      "fr": "dans le coin supérieur gauche",
+      "en": "in the top left-hand corner"
+     },
+     {
+      "fr": "à côté de",
+      "en": "next to"
+     },
+     {
+      "fr": "devant / derrière",
+      "en": "in front of / behind"
+     },
+     {
+      "fr": "La scène se passe…",
+      "en": "The scene takes place…"
+     },
+     {
+      "fr": "On dirait que…",
+      "en": "It looks like…"
+     },
+     {
+      "fr": "Je suppose que…",
+      "en": "I suppose that…"
+     },
+     {
+      "fr": "Cette photo a sans doute été prise…",
+      "en": "This photo was probably taken…"
+     },
+     {
+      "fr": "Les personnes ont l'air…",
+      "en": "The people look…"
+     },
+     {
+      "fr": "L'atmosphère est… (paisible, tendue)",
+      "en": "The atmosphere is… (peaceful, tense)"
+     },
+     {
+      "fr": "Ce qui attire mon attention, c'est…",
+      "en": "What catches my eye is…"
+     },
+     {
+      "fr": "L'image fait penser à…",
+      "en": "The image brings to mind…"
+     },
+     {
+      "fr": "La légende indique que…",
+      "en": "The caption indicates that…"
+     },
+     {
+      "fr": "Le slogan dit que…",
+      "en": "The slogan says that…"
+     },
+     {
+      "fr": "Cette image illustre bien le thème de…",
+      "en": "This image is a good illustration of the theme of…"
+     },
+     {
+      "fr": "L'image soulève la question de…",
+      "en": "The image raises the question of…"
+     },
+     {
+      "fr": "Cette photo me fait réfléchir à…",
+      "en": "This photo makes me think about…"
+     }
+    ],
+    "phrases": [],
+    "questions": []
+   },
+   {
+    "topic": "Émettre des hypothèses et nuancer",
+    "en": "Hypothesising & nuancing",
+    "words": [
+     {
+      "fr": "Si j'étais…, je + conditionnel",
+      "en": "If I were…, I would…"
+     },
+     {
+      "fr": "Si j'avais su, j'aurais…",
+      "en": "If I had known, I would have…"
+     },
+     {
+      "fr": "Au cas où + conditionnel",
+      "en": "In case…"
+     },
+     {
+      "fr": "À condition que + subjonctif",
+      "en": "Provided that… (+ subjunctive)"
+     },
+     {
+      "fr": "Il se peut que + subjonctif",
+      "en": "It may be that… (+ subjunctive)"
+     },
+     {
+      "fr": "Il est possible que + subjonctif",
+      "en": "It is possible that… (+ subjunctive)"
+     },
+     {
+      "fr": "Il est probable que…",
+      "en": "It is likely that…"
+     },
+     {
+      "fr": "peut-être",
+      "en": "perhaps"
+     },
+     {
+      "fr": "sans doute",
+      "en": "probably"
+     },
+     {
+      "fr": "Supposons que + subjonctif",
+      "en": "Let's suppose that… (+ subjunctive)"
+     },
+     {
+      "fr": "Imaginons que…",
+      "en": "Let's imagine that…"
+     },
+     {
+      "fr": "En théorie…, mais en pratique…",
+      "en": "In theory…, but in practice…"
+     },
+     {
+      "fr": "Dans une certaine mesure, …",
+      "en": "To a certain extent, …"
+     },
+     {
+      "fr": "Il faut nuancer ce propos.",
+      "en": "This statement needs to be qualified."
+     },
+     {
+      "fr": "Tout dépend de…",
+      "en": "It all depends on…"
+     },
+     {
+      "fr": "Ce n'est pas si simple.",
+      "en": "It's not that simple."
+     },
+     {
+      "fr": "D'un côté…, de l'autre…",
+      "en": "On one side…, on the other…"
+     },
+     {
+      "fr": "Il ne faut pas généraliser.",
+      "en": "One shouldn't generalise."
+     },
+     {
+      "fr": "Il est vrai que…, mais…",
+      "en": "It is true that…, but…"
+     },
+     {
+      "fr": "dans la plupart des cas",
+      "en": "in most cases"
+     },
+     {
+      "fr": "Cela dit, …",
+      "en": "That said, …"
+     },
+     {
+      "fr": "Quoi qu'il en soit, …",
+      "en": "Be that as it may, …"
+     }
+    ],
+    "phrases": [],
+    "questions": []
+   },
+   {
+    "topic": "Lettre et courriel formels",
+    "en": "Formal letter/email formulas",
+    "words": [
+     {
+      "fr": "Madame, Monsieur,",
+      "en": "Dear Sir or Madam,"
+     },
+     {
+      "fr": "Monsieur le Directeur, / Madame la Directrice,",
+      "en": "Dear Head Teacher / Director,"
+     },
+     {
+      "fr": "Madame la Maire, / Monsieur le Maire,",
+      "en": "Dear Mayor,"
+     },
+     {
+      "fr": "Objet : …",
+      "en": "Subject: …"
+     },
+     {
+      "fr": "Je me permets de vous écrire afin de…",
+      "en": "I am writing to you in order to…"
+     },
+     {
+      "fr": "Je vous écris au sujet de…",
+      "en": "I am writing regarding…"
+     },
+     {
+      "fr": "Suite à notre conversation téléphonique, …",
+      "en": "Further to our phone conversation, …"
+     },
+     {
+      "fr": "En réponse à votre annonce parue dans…",
+      "en": "In response to your advertisement in…"
+     },
+     {
+      "fr": "Je souhaiterais obtenir des renseignements sur…",
+      "en": "I would like some information about…"
+     },
+     {
+      "fr": "Je vous serais reconnaissant(e) de bien vouloir…",
+      "en": "I would be grateful if you could…"
+     },
+     {
+      "fr": "Pourriez-vous m'indiquer…",
+      "en": "Could you tell me…"
+     },
+     {
+      "fr": "Je tiens à vous faire part de…",
+      "en": "I wish to inform you of…"
+     },
+     {
+      "fr": "Je me permets d'attirer votre attention sur…",
+      "en": "I would like to draw your attention to…"
+     },
+     {
+      "fr": "Vous trouverez ci-joint…",
+      "en": "Please find attached…"
+     },
+     {
+      "fr": "Je reste à votre disposition pour tout renseignement complémentaire.",
+      "en": "I remain at your disposal for any further information."
+     },
+     {
+      "fr": "Je vous remercie de l'attention que vous porterez à ma demande.",
+      "en": "Thank you for considering my request."
+     },
+     {
+      "fr": "En vous remerciant par avance, …",
+      "en": "Thanking you in advance, …"
+     },
+     {
+      "fr": "Dans l'attente de votre réponse, …",
+      "en": "Looking forward to your reply, …"
+     },
+     {
+      "fr": "Je vous prie d'agréer, Madame, Monsieur, l'expression de mes salutations distinguées.",
+      "en": "Yours faithfully / Yours sincerely."
+     },
+     {
+      "fr": "Veuillez agréer, Madame, Monsieur, mes salutations distinguées.",
+      "en": "Yours faithfully (shorter form)."
+     },
+     {
+      "fr": "Cordialement,",
+      "en": "Kind regards, (email)"
+     },
+     {
+      "fr": "Bien cordialement,",
+      "en": "Best regards, (email)"
+     }
+    ],
+    "phrases": [],
+    "questions": []
+   },
+   {
+    "topic": "Registre familier et connecteurs",
+    "en": "Informal register & connectors",
+    "words": [
+     {
+      "fr": "Salut ! / Coucou !",
+      "en": "Hi!"
+     },
+     {
+      "fr": "Cher Paul, / Chère Léa,",
+      "en": "Dear Paul, / Dear Léa,"
+     },
+     {
+      "fr": "Ça va ? / Quoi de neuf ?",
+      "en": "How are you? / What's new?"
+     },
+     {
+      "fr": "Merci pour ton message !",
+      "en": "Thanks for your message!"
+     },
+     {
+      "fr": "Ça fait longtemps !",
+      "en": "It's been ages!"
+     },
+     {
+      "fr": "Devine quoi !",
+      "en": "Guess what!"
+     },
+     {
+      "fr": "Tu sais quoi ?",
+      "en": "You know what?"
+     },
+     {
+      "fr": "Dis-moi ce que tu en penses.",
+      "en": "Tell me what you think."
+     },
+     {
+      "fr": "Écris-moi vite !",
+      "en": "Write back soon!"
+     },
+     {
+      "fr": "Bon, je te laisse.",
+      "en": "Right, I'll let you go."
+     },
+     {
+      "fr": "À bientôt ! / À plus !",
+      "en": "See you soon! / Later!"
+     },
+     {
+      "fr": "Bisous, / Grosses bises,",
+      "en": "Love, / Lots of love,"
+     },
+     {
+      "fr": "du coup (fam.)",
+      "en": "so, as a result"
+     },
+     {
+      "fr": "en fait",
+      "en": "actually, in fact"
+     },
+     {
+      "fr": "bref",
+      "en": "anyway, in short"
+     },
+     {
+      "fr": "mais bon",
+      "en": "but anyway, still"
+     },
+     {
+      "fr": "franchement",
+      "en": "honestly"
+     },
+     {
+      "fr": "carrément (fam.)",
+      "en": "totally, absolutely"
+     },
+     {
+      "fr": "genre (fam.)",
+      "en": "like (filler)"
+     },
+     {
+      "fr": "trop + adjectif (fam.)",
+      "en": "really, so (e.g. trop bien = really good)"
+     },
+     {
+      "fr": "C'est génial ! / C'est top !",
+      "en": "It's great!"
+     },
+     {
+      "fr": "Ça me saoule. (fam.)",
+      "en": "It really annoys me."
+     },
+     {
+      "fr": "J'ai la flemme. (fam.)",
+      "en": "I can't be bothered."
+     },
+     {
+      "fr": "Ça ne me dit rien.",
+      "en": "I don't fancy it."
+     }
+    ],
+    "phrases": [],
+    "questions": []
+   },
+   {
+    "topic": "Gagner du temps à l'oral",
+    "en": "Filler & time-buying phrases for the oral",
+    "words": [
+     {
+      "fr": "Euh…",
+      "en": "Um…"
+     },
+     {
+      "fr": "Alors…",
+      "en": "So…"
+     },
+     {
+      "fr": "Bon… / Ben…",
+      "en": "Well…"
+     },
+     {
+      "fr": "Voyons…",
+      "en": "Let's see…"
+     },
+     {
+      "fr": "Comment dire…",
+      "en": "How can I put it…"
+     },
+     {
+      "fr": "C'est une bonne question.",
+      "en": "That's a good question."
+     },
+     {
+      "fr": "Laissez-moi réfléchir un instant.",
+      "en": "Let me think for a moment."
+     },
+     {
+      "fr": "Je n'y avais jamais pensé, mais…",
+      "en": "I'd never thought about it, but…"
+     },
+     {
+      "fr": "C'est difficile à dire.",
+      "en": "It's hard to say."
+     },
+     {
+      "fr": "Si j'ai bien compris, vous voulez dire que…",
+      "en": "If I've understood correctly, you mean that…"
+     },
+     {
+      "fr": "Pourriez-vous répéter la question, s'il vous plaît ?",
+      "en": "Could you repeat the question, please?"
+     },
+     {
+      "fr": "Pourriez-vous reformuler la question ?",
+      "en": "Could you rephrase the question?"
+     },
+     {
+      "fr": "Qu'entendez-vous par… ?",
+      "en": "What do you mean by…?"
+     },
+     {
+      "fr": "Je ne connais pas le mot exact, mais c'est…",
+      "en": "I don't know the exact word, but it's…"
+     },
+     {
+      "fr": "c'est-à-dire",
+      "en": "that is to say"
+     },
+     {
+      "fr": "autrement dit",
+      "en": "in other words"
+     },
+     {
+      "fr": "Disons que…",
+      "en": "Let's say that…"
+     },
+     {
+      "fr": "Je dirais que…",
+      "en": "I would say that…"
+     },
+     {
+      "fr": "Comme je le disais, …",
+      "en": "As I was saying, …"
+     },
+     {
+      "fr": "Pour revenir à la question, …",
+      "en": "To get back to the question, …"
+     },
+     {
+      "fr": "J'allais dire que…",
+      "en": "I was going to say that…"
+     },
+     {
+      "fr": "En tout cas, …",
+      "en": "In any case, …"
+     },
+     {
+      "fr": "Je vois ce que vous voulez dire.",
+      "en": "I see what you mean."
+     }
+    ],
+    "phrases": [],
+    "questions": []
+   }
+  ]
+ }
+]

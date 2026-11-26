@@ -1,0 +1,1464 @@
+{
+ "overview": "# IB French B SL — the course at a glance\n\nFrench B SL (current syllabus, first assessment 2020) is built around **five prescribed themes** and assesses four skills: writing, reading, listening and speaking. Everything you do is meant to show that you can use French **for a real purpose, with a real audience, in a recognisable text type**.\n\n## Assessment components\n\n| Component | What you do | Time | Marks | Weighting |\n|---|---|---|---|---|\n| **Paper 1** — productive skills (writing) | One task chosen from **three**, each linked to a different theme and suggesting text types. Write **250–400 words**. | 1 h 15 | 30 | 25 % |\n| **Paper 2** — receptive skills | **Listening** section (several audio texts, questions in French) and **reading** section (several written texts, questions in French). | 45 min listening + 1 h reading | 25 (listening) + 40 (reading) = 65 | 50 % (25 % each) |\n| **Individual oral** (internal assessment, moderated by the IB) | Choose a **visual stimulus** linked to a theme, with a caption in French; prepare for 15 min, then presentation + follow-up discussion + general conversation. | 15 min preparation, 12–15 min oral | 30 | 25 % |\n\nNo dictionaries are allowed in any written paper.\n\n## The five themes\n\n| Theme (French) | English | Recommended topics (examples) |\n|---|---|---|\n| **Identités** | Identities | lifestyles, health and well-being, beliefs and values, subcultures, language and identity |\n| **Expériences** | Experiences | leisure activities, holidays and travel, life stories, rites of passage, customs and traditions, migration |\n| **Ingéniosité humaine** | Human ingenuity | entertainment, artistic expressions, communication and media, technology, scientific innovation |\n| **Organisation sociale** | Social organization | social relationships, community, social engagement, education, the working world, law and order |\n| **Partage de la planète** | Sharing the planet | the environment, human rights, peace and conflict, equality, globalization, ethics, urban and rural environment |\n\nThe topics are suggestions, not a closed list: any text, prompt or stimulus will sit under one of the five themes, but may touch several topics at once.\n\n## How the criteria work\n\n### Paper 1 (30 marks)\n| Criterion | Marks | What the examiner asks |\n|---|---|---|\n| **A — Language** | 12 | How accurately and effectively do you use vocabulary and grammar? Is there variety and some complexity? |\n| **B — Message** | 12 | Are your ideas relevant to the task, developed with detail and examples, and clearly organised? |\n| **C — Conceptual understanding** | 6 | Have you chosen a suitable text type and used its conventions? Are register, tone and style right for the audience, context and purpose? |\n\n### Individual oral (30 marks)\n| Criterion | Marks | Focus |\n|---|---|---|\n| **A — Language** | 12 | accuracy, range and fluency of spoken French (including pronunciation and intonation) |\n| **B1 — Message: visual stimulus** | 6 | relevance of the presentation to the stimulus, links to the theme and to francophone culture(s) |\n| **B2 — Message: conversation** | 6 | relevance and development of your answers in the follow-up and general conversation |\n| **C — Interactive skills** | 6 | understanding questions, keeping the conversation going, responding and developing naturally |\n\nEach criterion is marked with **level descriptors** (\"best fit\"): the examiner reads the whole piece and chooses the band whose description matches it best. Paper 2 is marked with a markscheme of set answers.\n\n### What separates a 7 from a 5 (in practice)\nGrade boundaries change every session, so there is no fixed mark for a 7. As a guide, these are the habits that move a script from the middle bands to the top:\n\n| Area | Typical \"5\" | Typical \"7\" |\n|---|---|---|\n| **Language (A)** | Mostly correct present/past/future; simple sentences joined by *et, mais, parce que*; repeated vocabulary; errors that occasionally obscure meaning. | Wide and precise vocabulary; confident use of complex structures (relative pronouns *qui/que/dont/où*, subjunctive after *il faut que / bien que*, conditional, *si* clauses, passive, *en + participe présent*); errors are minor and do not affect communication. |\n| **Message (B)** | Ideas are relevant but listed rather than developed; some parts of the task are under-treated. | Every part of the task is addressed; each idea is developed with explanation, example or consequence; logical paragraphs with linking words (*tout d'abord, en revanche, par conséquent*). |\n| **Conceptual understanding (C)** | Text type recognisable but conventions are partial; register slips (e.g. *tu* in a formal letter). | Text type, register and tone are consistently appropriate; conventions are fully and naturally used; the writing clearly \"talks to\" the intended reader. |\n| **Oral interaction** | Answers are short; needs prompting; struggles with unexpected questions. | Develops answers spontaneously, asks for clarification naturally, links ideas to personal experience and to francophone contexts. |\n| **Paper 2** | Gets most multiple-choice right but loses marks on justifications and short answers. | Locates exact words, respects word limits, checks grammar clues (gender, number, tense) in gap fills and references. |\n\n## Suggested revision approach\n\n1. **Vocabulary by theme** — build a list of 40–60 useful words and expressions per theme, including opinion and linking phrases. Revise them actively (flashcards, self-tests).\n2. **Text types** — learn the conventions of the 13 text types in this guide. Write at least one timed piece (1 h 15) in each category (personal, professional, mass media).\n3. **Grammar priorities** — agreements (adjectives, past participles with *être*), tense consistency, *passé composé* vs *imparfait*, conditional and subjunctive in common triggers. Keep a personal \"error log\" and check it before every piece.\n4. **Reading and listening** — every week, read one authentic text (news site, magazine, blog) and listen to one podcast or news item in French. Then do the practice texts in this guide under timed conditions.\n5. **Oral** — practise describing images aloud every day for two minutes; use the 15 practice stimuli here and record yourself. Prepare a few personal anecdotes for each theme that you can adapt.\n6. **Past-paper style practice** — in the last month, sit full papers under timed conditions using materials provided by your teacher, and mark them against the criteria.",
+ "textTypes": [
+  {
+   "id": "blog",
+   "name": "Blog (blog post)",
+   "category": "personal",
+   "register": "informal to semi-formal; personal, lively, addresses readers directly",
+   "conventions": "- A **catchy title** and, if useful, a date and the blogger's name/pseudonym\n- **First person** (*je*), personal experiences and feelings\n- **Direct address** to readers (*vous* or *tu* depending on the audience), rhetorical questions\n- Short, clear paragraphs; possibly subheadings\n- A lively, conversational tone (exclamations, some humour) without slang overload\n- An **ending that invites interaction**: question to readers, invitation to comment or share\n- Optional: \"posted on…\", tags, mention of comments",
+   "template": "# [Titre accrocheur]\n*Publié le [date] par [pseudo]*\n\nSalut à tous ! / Bonjour chers lecteurs !\n\n[Introduction : pourquoi j'écris ce billet aujourd'hui]\n\n**[Sous-titre 1]**\n[Récit / expérience personnelle + sentiments]\n\n**[Sous-titre 2]**\n[Réflexion, opinion, exemples]\n\n**[Sous-titre 3]**\n[Conseils ou conclusion personnelle]\n\nEt vous, qu'en pensez-vous ? Laissez-moi un commentaire ci-dessous !\nÀ bientôt,\n[pseudo]",
+   "phrases": [
+    {
+     "fr": "Aujourd'hui, j'ai envie de vous parler de…",
+     "en": "Today I want to tell you about…"
+    },
+    {
+     "fr": "Vous ne devinerez jamais ce qui m'est arrivé !",
+     "en": "You'll never guess what happened to me!"
+    },
+    {
+     "fr": "Je dois avouer que…",
+     "en": "I have to admit that…"
+    },
+    {
+     "fr": "Ce qui m'a le plus marqué(e), c'est…",
+     "en": "What struck me most was…"
+    },
+    {
+     "fr": "Pour être honnête,…",
+     "en": "To be honest,…"
+    },
+    {
+     "fr": "Je vous conseille vivement de…",
+     "en": "I strongly advise you to…"
+    },
+    {
+     "fr": "Avec le recul, je pense que…",
+     "en": "Looking back, I think that…"
+    },
+    {
+     "fr": "N'hésitez pas à partager vos expériences en commentaire.",
+     "en": "Feel free to share your experiences in the comments."
+    },
+    {
+     "fr": "Et vous, avez-vous déjà… ?",
+     "en": "What about you, have you ever…?"
+    },
+    {
+     "fr": "À très vite pour un nouveau billet !",
+     "en": "See you soon for a new post!"
+    }
+   ]
+  },
+  {
+   "id": "journal",
+   "name": "Journal intime (diary entry)",
+   "category": "personal",
+   "register": "informal, intimate, reflective; written for oneself",
+   "conventions": "- **Date** (and sometimes time/place) at the top: *Lundi 12 mars, 22 h*\n- An opening such as *Cher journal,* (optional but recognisable)\n- **First person**, written for yourself: no audience to persuade\n- **Emotions and reflection** are central: feelings, doubts, hopes, self-questioning\n- Mixture of tenses: what happened (*passé composé / imparfait*), how you feel now (present), what you will do (future / conditional)\n- Spontaneous style: exclamations, rhetorical questions to oneself, ellipses (…)\n- Ending with a resolution, a hope, or a sign-off (*Bon, il est tard, je vais dormir.*)",
+   "template": "[Jour, date], [heure]\n\nCher journal,\n\nQuelle journée ! [Ce qui s'est passé aujourd'hui]\n\n[Mes sentiments : j'étais…, je me sentais…, j'ai eu peur / honte / envie de…]\n\n[Réflexion : pourquoi est-ce que je réagis comme ça ? Est-ce que j'ai eu raison ?]\n\n[Décision / espoir pour demain : demain, je vais… / j'espère que…]\n\nBon, il est tard. À demain,\n[prénom]",
+   "phrases": [
+    {
+     "fr": "Cher journal, il faut absolument que je te raconte…",
+     "en": "Dear diary, I absolutely have to tell you…"
+    },
+    {
+     "fr": "Je n'arrive toujours pas à y croire.",
+     "en": "I still can't believe it."
+    },
+    {
+     "fr": "J'avais le cœur qui battait à toute vitesse.",
+     "en": "My heart was racing."
+    },
+    {
+     "fr": "Je me sens à la fois… et…",
+     "en": "I feel both… and…"
+    },
+    {
+     "fr": "Je me demande si j'ai eu raison de…",
+     "en": "I wonder if I was right to…"
+    },
+    {
+     "fr": "Si seulement j'avais…",
+     "en": "If only I had…"
+    },
+    {
+     "fr": "Au fond, je crois que…",
+     "en": "Deep down, I think that…"
+    },
+    {
+     "fr": "Demain, je vais prendre mon courage à deux mains.",
+     "en": "Tomorrow I'll pluck up my courage."
+    },
+    {
+     "fr": "Ça m'a fait réfléchir.",
+     "en": "It made me think."
+    },
+    {
+     "fr": "Bon, je te laisse, je tombe de sommeil.",
+     "en": "Right, I'll leave you, I'm falling asleep."
+    }
+   ]
+  },
+  {
+   "id": "email_informel",
+   "name": "Courriel / lettre informelle (informal email/letter)",
+   "category": "personal",
+   "register": "informal; friendly; tu-form to a friend or family member",
+   "conventions": "- Email: **À / Objet** lines (short, friendly subject). Letter: place and date top right (*Lyon, le 3 mai*)\n- Friendly **greeting**: *Salut Hugo, / Cher Hugo, / Chère Anna, / Coucou !*\n- An opening that refers to the relationship or a previous message (*Merci pour ton message…*)\n- **Tu-form** throughout, consistent possessives (*ton, ta, tes*)\n- News, feelings, questions to the reader; natural, conversational tone\n- Paragraphs for each main point\n- Friendly **closing**: *Grosses bises, / Je t'embrasse, / À bientôt, / Amitiés,* + first name; optional P.-S.",
+   "template": "À : [adresse]\nObjet : [sujet court et sympa]\n\nSalut [prénom] / Cher [prénom], Chère [prénom],\n\nMerci pour ton dernier message ! Je suis désolé(e) de ne pas t'avoir répondu plus tôt, mais…\n\n[Nouvelle principale / récit]\n\n[Détails, sentiments, opinion]\n\n[Question(s) au destinataire / conseils / projet commun]\n\nJ'attends ta réponse avec impatience !\nGrosses bises / Amitiés,\n[prénom]\n\nP.-S. [petit détail amusant]",
+   "phrases": [
+    {
+     "fr": "Ça fait une éternité qu'on ne s'est pas parlé !",
+     "en": "It's been ages since we talked!"
+    },
+    {
+     "fr": "J'espère que tout va bien pour toi et ta famille.",
+     "en": "I hope all is well with you and your family."
+    },
+    {
+     "fr": "Je t'écris pour te raconter…",
+     "en": "I'm writing to tell you about…"
+    },
+    {
+     "fr": "Tu ne vas pas me croire, mais…",
+     "en": "You won't believe me, but…"
+    },
+    {
+     "fr": "À ta place, je…",
+     "en": "If I were you, I would…"
+    },
+    {
+     "fr": "Qu'est-ce que tu en penses ?",
+     "en": "What do you think?"
+    },
+    {
+     "fr": "Ça te dirait de… ?",
+     "en": "Would you fancy…?"
+    },
+    {
+     "fr": "Donne-moi de tes nouvelles !",
+     "en": "Let me know how you are!"
+    },
+    {
+     "fr": "Passe le bonjour à tes parents.",
+     "en": "Say hello to your parents."
+    },
+    {
+     "fr": "Grosses bises / Je t'embrasse",
+     "en": "Lots of love / Hugs"
+    }
+   ]
+  },
+  {
+   "id": "lettre_formelle",
+   "name": "Lettre / courriel formel(le) (formal letter/email)",
+   "category": "professional",
+   "register": "formal; vous-form; polite, precise, impersonal where possible",
+   "conventions": "- **Sender's name and address** top left; **recipient** (name/title, organisation, address) on the right below\n- **Place and date**: *Genève, le 14 mai 2026*\n- **Objet :** a precise subject line (*Objet : demande de stage d'été*)\n- **Formal salutation** using the title, never the first name: *Madame, / Monsieur, / Madame la Directrice, / Monsieur le Maire,*\n- **Vous-form** consistently; no contractions, slang or exclamation marks\n- Clear structure: reason for writing → developed arguments/details → request or proposal → availability\n- Polite conditional (*je souhaiterais, pourriez-vous*)\n- **Formule de politesse** matching the salutation: *Je vous prie d'agréer, Madame la Directrice, l'expression de mes salutations distinguées.* / *Veuillez agréer, Monsieur, mes salutations respectueuses.*\n- **Signature**: first name + surname (and role if relevant)\n- Email version: subject line, *Madame, Monsieur,* and a slightly shorter closing (*Cordialement,* is acceptable in emails but weaker in a letter)",
+   "template": "[Prénom Nom]\n[Adresse]\n[Code postal, ville]\n[Courriel]\n\n                                    [Titre / Nom du destinataire]\n                                    [Organisme]\n                                    [Adresse]\n\n                                    [Ville], le [date]\n\nObjet : [objet précis]\n\nMadame, / Monsieur, / Madame la Directrice,\n\nJe me permets de vous écrire au sujet de… / afin de…\n\n[Paragraphe 1 : présentation et raison de la lettre]\n\n[Paragraphe 2 : arguments, faits, exemples]\n\n[Paragraphe 3 : demande ou proposition concrète]\n\nJe reste à votre disposition pour tout renseignement complémentaire.\n\nDans l'attente de votre réponse, je vous prie d'agréer, [même titre que l'appel], l'expression de mes salutations distinguées.\n\n[Signature]\n[Prénom Nom]",
+   "phrases": [
+    {
+     "fr": "Je me permets de vous écrire au sujet de…",
+     "en": "I am writing to you regarding…"
+    },
+    {
+     "fr": "Suite à votre annonce parue dans…",
+     "en": "Following your advertisement in…"
+    },
+    {
+     "fr": "Je souhaiterais attirer votre attention sur…",
+     "en": "I would like to draw your attention to…"
+    },
+    {
+     "fr": "Je tiens à vous faire part de mon inquiétude.",
+     "en": "I wish to express my concern."
+    },
+    {
+     "fr": "Il me semble essentiel que…",
+     "en": "It seems essential to me that…"
+    },
+    {
+     "fr": "Pourriez-vous m'indiquer… ?",
+     "en": "Could you tell me…?"
+    },
+    {
+     "fr": "Je vous serais reconnaissant(e) de bien vouloir…",
+     "en": "I would be grateful if you would…"
+    },
+    {
+     "fr": "Vous trouverez ci-joint…",
+     "en": "Please find attached…"
+    },
+    {
+     "fr": "Je reste à votre entière disposition pour un entretien.",
+     "en": "I remain fully available for an interview."
+    },
+    {
+     "fr": "Dans l'attente de votre réponse,",
+     "en": "Looking forward to your reply,"
+    },
+    {
+     "fr": "Je vous prie d'agréer, Madame, l'expression de mes salutations distinguées.",
+     "en": "Yours faithfully / sincerely (formal closing)."
+    },
+    {
+     "fr": "Veuillez agréer, Monsieur le Maire, mes salutations respectueuses.",
+     "en": "Yours respectfully, Mr Mayor."
+    }
+   ]
+  },
+  {
+   "id": "article",
+   "name": "Article (newspaper/magazine article)",
+   "category": "mass media",
+   "register": "semi-formal to formal; informative, objective or engaging depending on the publication",
+   "conventions": "- **Headline (titre)** that is short and striking; often a **subtitle (chapeau)** summarising the key information\n- **Byline**: *par [nom], journaliste / élève de terminale*\n- The **chapeau** or first paragraph answers who/what/where/when/why\n- Clear paragraphs, possibly with **intertitres** (subheadings)\n- **Third person** mostly; facts, figures and **quotations** (*« … », explique Julie, 17 ans*)\n- Register matched to the publication (school magazine = lighter; regional newspaper = more neutral)\n- A conclusion that opens up the topic (perspective, call to action, question)",
+   "template": "# [Titre accrocheur]\n### [Chapeau : une ou deux phrases qui résument le sujet]\n*par [Prénom Nom]*\n\n[Introduction : le fait, le contexte, pourquoi c'est important]\n\n**[Intertitre 1]**\n[Développement : faits, chiffres, exemples]\n\n**[Intertitre 2]**\n[Témoignage : « … », raconte X, 16 ans.]\n\n**[Intertitre 3]**\n[Autre point de vue / solutions]\n\n[Conclusion : bilan, perspective, question ouverte]",
+   "phrases": [
+    {
+     "fr": "Selon une enquête récente,…",
+     "en": "According to a recent survey,…"
+    },
+    {
+     "fr": "De plus en plus de jeunes…",
+     "en": "More and more young people…"
+    },
+    {
+     "fr": "Le phénomène ne date pas d'hier.",
+     "en": "This phenomenon is nothing new."
+    },
+    {
+     "fr": "« … », explique / affirme / reconnaît X.",
+     "en": "\"…\", explains / states / admits X."
+    },
+    {
+     "fr": "D'un côté… de l'autre…",
+     "en": "On the one hand… on the other…"
+    },
+    {
+     "fr": "Il faut toutefois nuancer ce constat.",
+     "en": "This finding should however be qualified."
+    },
+    {
+     "fr": "Les chiffres parlent d'eux-mêmes.",
+     "en": "The figures speak for themselves."
+    },
+    {
+     "fr": "Reste à savoir si…",
+     "en": "It remains to be seen whether…"
+    },
+    {
+     "fr": "En définitive,…",
+     "en": "Ultimately,…"
+    },
+    {
+     "fr": "Affaire à suivre !",
+     "en": "One to watch!"
+    }
+   ]
+  },
+  {
+   "id": "discours",
+   "name": "Discours / présentation (speech/presentation)",
+   "category": "mass media",
+   "register": "formal or semi-formal; persuasive; oral features addressed to a live audience",
+   "conventions": "- **Greeting the audience** appropriately: *Madame la Directrice, chers professeurs, chers camarades,*\n- **Introduce yourself** and the purpose of the speech\n- Clear **announced structure** (*Je vais d'abord… puis…*)\n- **Oral features**: direct address (*vous, nous*), rhetorical questions, repetition (anaphora), the rule of three, exclamations\n- Persuasive techniques: examples, figures, personal anecdote, appeal to shared values\n- Signposting so listeners can follow (*Premièrement… Ensuite… Enfin…*)\n- A strong **conclusion** with a call to action, and **thanks**: *Je vous remercie de votre attention.*",
+   "template": "[Mesdames et Messieurs, / Chers camarades, chers professeurs,]\n\nJe m'appelle [prénom], je suis [rôle], et je suis ici aujourd'hui pour vous parler de [sujet].\n\nImaginez un instant… / Saviez-vous que… ? [accroche]\n\nJe voudrais d'abord…, ensuite…, et enfin….\n\nPremièrement, [argument 1 + exemple]\nDeuxièmement, [argument 2 + chiffre / anecdote]\nEnfin, [argument 3 / solution concrète]\n\nAlors, que pouvons-nous faire ? Nous pouvons…, nous devons…, nous allons…\n\nEnsemble, [slogan / appel à l'action] !\nJe vous remercie de votre attention.",
+   "phrases": [
+    {
+     "fr": "Je suis très heureux(-se) d'être parmi vous aujourd'hui.",
+     "en": "I am very happy to be with you today."
+    },
+    {
+     "fr": "Permettez-moi de commencer par une question :",
+     "en": "Allow me to start with a question:"
+    },
+    {
+     "fr": "Saviez-vous que… ?",
+     "en": "Did you know that…?"
+    },
+    {
+     "fr": "Je voudrais aborder trois points.",
+     "en": "I would like to address three points."
+    },
+    {
+     "fr": "Imaginez un monde où…",
+     "en": "Imagine a world where…"
+    },
+    {
+     "fr": "C'est pourquoi je vous demande de…",
+     "en": "That is why I am asking you to…"
+    },
+    {
+     "fr": "Nous avons tous un rôle à jouer.",
+     "en": "We all have a part to play."
+    },
+    {
+     "fr": "Il n'est pas trop tard pour agir.",
+     "en": "It's not too late to act."
+    },
+    {
+     "fr": "Ensemble, nous pouvons faire la différence !",
+     "en": "Together we can make a difference!"
+    },
+    {
+     "fr": "Je vous remercie de votre attention.",
+     "en": "Thank you for your attention."
+    }
+   ]
+  },
+  {
+   "id": "brochure",
+   "name": "Brochure / dépliant (brochure/leaflet)",
+   "category": "mass media",
+   "register": "semi-formal; informative and persuasive; addresses the reader (vous)",
+   "conventions": "- **Name of the organisation/event** and a **slogan**\n- **Headings and subheadings** that organise information into blocks (often as questions: *Qui sommes-nous ? Pourquoi participer ?*)\n- **Bullet points**, short sentences, imperatives (*Venez, Découvrez, Inscrivez-vous*)\n- Practical information: **dates, times, place, prices, contact details**\n- Persuasive features: benefits for the reader, short testimonial, positive adjectives\n- Indication of layout/visuals is acceptable (*[photo : …]*) but the text must do the work\n- A clear **call to action** at the end",
+   "template": "# [Nom de l'organisation / de l'événement]\n## [Slogan]\n\n**Qui sommes-nous ?**\n[Présentation courte]\n\n**Pourquoi nous rejoindre ?**\n- [avantage 1]\n- [avantage 2]\n- [avantage 3]\n\n**Nos activités**\n- [activité + horaire]\n- [activité + horaire]\n\n**Ils en parlent**\n« [témoignage] » — [prénom, âge]\n\n**Infos pratiques**\nLieu : … | Dates : … | Tarif : … | Contact : …\n\n**N'attendez plus : inscrivez-vous dès aujourd'hui !**",
+   "phrases": [
+    {
+     "fr": "Vous cherchez… ? Ne cherchez plus !",
+     "en": "Looking for…? Look no further!"
+    },
+    {
+     "fr": "Découvrez nos activités pour tous les âges.",
+     "en": "Discover our activities for all ages."
+    },
+    {
+     "fr": "Rejoignez-nous !",
+     "en": "Join us!"
+    },
+    {
+     "fr": "Inscription gratuite / sur place / en ligne",
+     "en": "Free registration / on site / online"
+    },
+    {
+     "fr": "Ouvert à tous, sans conditions.",
+     "en": "Open to everyone, no conditions."
+    },
+    {
+     "fr": "Places limitées : réservez vite !",
+     "en": "Limited places: book quickly!"
+    },
+    {
+     "fr": "Pour plus de renseignements, contactez-nous au…",
+     "en": "For more information, contact us at…"
+    },
+    {
+     "fr": "Venez nombreux !",
+     "en": "Come one, come all!"
+    },
+    {
+     "fr": "Nos points forts :",
+     "en": "Our strengths:"
+    },
+    {
+     "fr": "Une occasion unique de…",
+     "en": "A unique opportunity to…"
+    }
+   ]
+  },
+  {
+   "id": "critique",
+   "name": "Critique (film/book/event review)",
+   "category": "mass media",
+   "register": "semi-formal; evaluative; personal opinion supported by reasons",
+   "conventions": "- **Title** with the name of the work/event; often a **rating** (stars, /10)\n- **Factual information**: title, director/author/artist, genre, date, place\n- A **brief summary** without revealing the ending (*sans rien dévoiler*)\n- **Evaluation** of specific aspects: plot, characters, acting, music, staging, atmosphere\n- Balanced judgement: strengths **and** weaknesses\n- Evaluative vocabulary (*captivant, décevant, bouleversant, prévisible*)\n- **Recommendation** to a target audience (*à voir absolument / à éviter*) and verdict",
+   "template": "# [Titre de l'œuvre] : [jugement en quelques mots]\n**Note : ★★★★☆**\n*Genre : … | Réalisé par / Écrit par : … | Sortie : …*\n\n[Introduction : contexte, attentes]\n\n**L'histoire**\n[Résumé court, sans dévoiler la fin]\n\n**Les points forts**\n[jeu des acteurs, scénario, musique, message…]\n\n**Les points faibles**\n[longueurs, fin prévisible…]\n\n**Verdict**\n[Recommandation : pour qui ? pourquoi ?]",
+   "phrases": [
+    {
+     "fr": "Sorti en…, ce film raconte l'histoire de…",
+     "en": "Released in…, this film tells the story of…"
+    },
+    {
+     "fr": "Sans dévoiler la fin,…",
+     "en": "Without giving away the ending,…"
+    },
+    {
+     "fr": "Le scénario est captivant / prévisible.",
+     "en": "The plot is gripping / predictable."
+    },
+    {
+     "fr": "Les acteurs sont très convaincants.",
+     "en": "The actors are very convincing."
+    },
+    {
+     "fr": "La bande originale est une vraie réussite.",
+     "en": "The soundtrack is a real success."
+    },
+    {
+     "fr": "J'ai été un peu déçu(e) par…",
+     "en": "I was a bit disappointed by…"
+    },
+    {
+     "fr": "Le seul bémol, c'est…",
+     "en": "The only drawback is…"
+    },
+    {
+     "fr": "On ne s'ennuie pas une seconde.",
+     "en": "You're never bored for a second."
+    },
+    {
+     "fr": "À voir absolument !",
+     "en": "A must-see!"
+    },
+    {
+     "fr": "Je le recommande à tous ceux qui…",
+     "en": "I recommend it to everyone who…"
+    }
+   ]
+  },
+  {
+   "id": "interview",
+   "name": "Interview (interview)",
+   "category": "mass media",
+   "register": "semi-formal; question–answer format; register adapted to the interviewee",
+   "conventions": "- **Title** (often a quotation from the interviewee) and an **introduction** presenting the person and the context\n- Clear **Q/A layout** with names or initials (*Journaliste : … / Inès : …*)\n- Questions that are **open and logically ordered**, with follow-up questions that react to the answers\n- Answers show the interviewee's **personality and voice** (first person, opinions, anecdotes)\n- **Register** matches the relationship (*vous* for an adult/expert; *tu* possible for a classmate in a school magazine)\n- Ending: final question (*Un conseil pour nos lecteurs ?*) and **thanks**",
+   "template": "# « [Citation forte de la personne] »\n*[Introduction : qui est la personne, pourquoi on l'interroge, où/quand l'interview a eu lieu]*\n\n**[Journaliste] :** Bonjour [nom], merci de nous recevoir. Pouvez-vous vous présenter ?\n**[Nom] :** …\n\n**[J] :** Comment avez-vous commencé… ?\n**[N] :** …\n\n**[J] :** Quelles difficultés avez-vous rencontrées ?\n**[N] :** …\n\n**[J] :** Quels sont vos projets pour l'avenir ?\n**[N] :** …\n\n**[J] :** Un dernier conseil pour nos lecteurs ?\n**[N] :** …\n\n**[J] :** Merci beaucoup pour votre temps !\n*Propos recueillis par [Prénom Nom]*",
+   "phrases": [
+    {
+     "fr": "Merci d'avoir accepté de répondre à nos questions.",
+     "en": "Thank you for agreeing to answer our questions."
+    },
+    {
+     "fr": "Pouvez-vous vous présenter en quelques mots ?",
+     "en": "Can you introduce yourself in a few words?"
+    },
+    {
+     "fr": "Qu'est-ce qui vous a poussé(e) à… ?",
+     "en": "What made you…?"
+    },
+    {
+     "fr": "Comment avez-vous vécu… ?",
+     "en": "How did you experience…?"
+    },
+    {
+     "fr": "Pouvez-vous nous donner un exemple ?",
+     "en": "Can you give us an example?"
+    },
+    {
+     "fr": "Si c'était à refaire, que changeriez-vous ?",
+     "en": "If you had to do it again, what would you change?"
+    },
+    {
+     "fr": "Quels sont vos projets pour l'avenir ?",
+     "en": "What are your plans for the future?"
+    },
+    {
+     "fr": "Un dernier mot pour nos lecteurs ?",
+     "en": "A last word for our readers?"
+    },
+    {
+     "fr": "Propos recueillis par…",
+     "en": "Interview conducted by…"
+    },
+    {
+     "fr": "C'est moi qui vous remercie.",
+     "en": "Thank you (it's my pleasure)."
+    }
+   ]
+  },
+  {
+   "id": "rapport",
+   "name": "Rapport / proposition (report/proposal)",
+   "category": "professional",
+   "register": "formal; impersonal, factual, structured; recommendations",
+   "conventions": "- **Title**, **recipient** (*À l'attention de…*), **author**, **date**, **subject**\n- **Introduction** stating the purpose and the method (survey, observation, interviews)\n- **Numbered or titled sections** (*1. Contexte 2. Résultats 3. Analyse 4. Recommandations*)\n- **Objective, impersonal style**: facts and figures, passive voice, *on*, nominal phrases (*la mise en place de…*)\n- Proposal: concrete measures, budget/timeline/people involved\n- **Conclusion and recommendations**, often as a list\n- No emotional language, no exclamation marks",
+   "template": "# Rapport sur [sujet] / Proposition de projet : [nom]\n\n**À l'attention de :** [destinataire]\n**Rédigé par :** [nom, fonction]\n**Date :** [date]\n\n**1. Introduction / Objet du rapport**\nCe rapport a pour objectif de… Il s'appuie sur [un sondage réalisé auprès de X élèves / des entretiens].\n\n**2. Constat / Résultats**\n- [résultat chiffré 1]\n- [résultat chiffré 2]\n\n**3. Analyse**\n[causes, conséquences]\n\n**4. Recommandations / Propositions**\n1. [mesure 1 : qui, quand, coût]\n2. [mesure 2]\n3. [mesure 3]\n\n**5. Conclusion**\nEn conclusion, il est recommandé de…",
+   "phrases": [
+    {
+     "fr": "Ce rapport a pour objectif de…",
+     "en": "The aim of this report is to…"
+    },
+    {
+     "fr": "Une enquête a été menée auprès de…",
+     "en": "A survey was carried out among…"
+    },
+    {
+     "fr": "Il ressort de cette enquête que…",
+     "en": "This survey shows that…"
+    },
+    {
+     "fr": "La majorité des personnes interrogées…",
+     "en": "The majority of those questioned…"
+    },
+    {
+     "fr": "Près d'un tiers des élèves déclarent…",
+     "en": "Almost a third of students state…"
+    },
+    {
+     "fr": "Plusieurs facteurs expliquent cette situation.",
+     "en": "Several factors explain this situation."
+    },
+    {
+     "fr": "Il serait souhaitable de…",
+     "en": "It would be desirable to…"
+    },
+    {
+     "fr": "Nous recommandons la mise en place de…",
+     "en": "We recommend setting up…"
+    },
+    {
+     "fr": "Le coût estimé s'élève à…",
+     "en": "The estimated cost amounts to…"
+    },
+    {
+     "fr": "En conclusion, il apparaît que…",
+     "en": "In conclusion, it appears that…"
+    }
+   ]
+  },
+  {
+   "id": "editorial",
+   "name": "Éditorial / texte d'opinion (editorial/opinion essay)",
+   "category": "mass media",
+   "register": "formal or semi-formal; argumentative; clear personal stance",
+   "conventions": "- **Title** that announces the stance or asks a provocative question\n- Byline (editorial: author/role, e.g. *l'équipe de rédaction*)\n- **Introduction**: hook, context, the question at stake, the writer's position\n- **Argued paragraphs**: one argument per paragraph, supported by examples/figures\n- **Concession and refutation** (*Certes… mais…*, *On pourrait objecter que… Pourtant…*)\n- Rich **logical connectors**; may use *nous* to involve readers\n- **Conclusion** restating the position and opening up (call to action, question)\n- An essay (dissertation) follows the same logic but is more neutral, with no byline or direct address",
+   "template": "# [Titre : prise de position ou question]\n*par [nom], [rôle]*\n\n[Accroche : fait frappant / question]\n[Contexte + problématique + ma position : Je suis convaincu(e) que…]\n\n[Argument 1 + exemple]\n\n[Argument 2 + exemple / chiffre]\n\n[Concession : Certes, certains affirment que… Cependant,…]\n\n[Conclusion : synthèse + ouverture / appel]",
+   "phrases": [
+    {
+     "fr": "Le débat fait rage depuis des mois :…",
+     "en": "The debate has been raging for months:…"
+    },
+    {
+     "fr": "Je suis fermement convaincu(e) que…",
+     "en": "I am firmly convinced that…"
+    },
+    {
+     "fr": "Force est de constater que…",
+     "en": "One has to admit that…"
+    },
+    {
+     "fr": "Certes,… mais…",
+     "en": "Admittedly,… but…"
+    },
+    {
+     "fr": "On pourrait objecter que…",
+     "en": "One could object that…"
+    },
+    {
+     "fr": "Il n'en reste pas moins que…",
+     "en": "The fact remains that…"
+    },
+    {
+     "fr": "Non seulement… mais aussi…",
+     "en": "Not only… but also…"
+    },
+    {
+     "fr": "Par conséquent,…",
+     "en": "Consequently,…"
+    },
+    {
+     "fr": "Il est grand temps de…",
+     "en": "It is high time to…"
+    },
+    {
+     "fr": "En somme,…",
+     "en": "In short,…"
+    }
+   ]
+  },
+  {
+   "id": "instructions",
+   "name": "Instructions / guide de conseils (set of instructions/guidelines)",
+   "category": "professional",
+   "register": "neutral; clear and direct; imperative or infinitive",
+   "conventions": "- **Title** stating the purpose (*Guide pratique : bien accueillir votre correspondant*)\n- Short **introduction** saying who the guide is for and why\n- **Numbered steps** or bullet points in a logical order\n- **Imperative** (*Vérifiez…, N'oubliez pas de…*) or **infinitive** (*Vérifier…, Ne pas oublier de…*) used consistently\n- Short, precise sentences; time markers (*d'abord, ensuite, une fois que…*)\n- Warnings and tips highlighted (*Attention ! / Astuce :*)\n- Ending: summary, contact for help, or encouragement",
+   "template": "# Guide pratique : [objectif]\n\n[Introduction : à qui s'adresse ce guide et pourquoi]\n\n**Avant de commencer**\n- [matériel / préparation]\n\n**Étape 1 :** [action à l'impératif]\n**Étape 2 :** [action]\n**Étape 3 :** [action]\n\n**Attention !** [erreur à éviter]\n**Astuce :** [conseil pratique]\n\n**En cas de problème**\n[qui contacter, quoi faire]\n\n[Phrase finale encourageante]",
+   "phrases": [
+    {
+     "fr": "Ce guide s'adresse à…",
+     "en": "This guide is intended for…"
+    },
+    {
+     "fr": "Avant toute chose,…",
+     "en": "First of all,…"
+    },
+    {
+     "fr": "Commencez par…",
+     "en": "Start by…"
+    },
+    {
+     "fr": "Une fois que…, vous pouvez…",
+     "en": "Once…, you can…"
+    },
+    {
+     "fr": "N'oubliez pas de…",
+     "en": "Don't forget to…"
+    },
+    {
+     "fr": "Évitez de…",
+     "en": "Avoid…"
+    },
+    {
+     "fr": "Attention : ne jamais…",
+     "en": "Warning: never…"
+    },
+    {
+     "fr": "Astuce : pensez à…",
+     "en": "Tip: remember to…"
+    },
+    {
+     "fr": "En cas de doute, adressez-vous à…",
+     "en": "If in doubt, contact…"
+    },
+    {
+     "fr": "Et voilà, le tour est joué !",
+     "en": "And there you go, job done!"
+    }
+   ]
+  },
+  {
+   "id": "forum",
+   "name": "Publication sur les réseaux sociaux / forum (social media posting/forum)",
+   "category": "personal",
+   "register": "informal; spontaneous; interactive; adapted to an online community",
+   "conventions": "- **Platform features**: username/pseudonym, date/time, possibly a thread title or hashtags (#…)\n- For a forum reply: **reference to the original question** or poster (*@Lucas78, je ne suis pas d'accord…*)\n- Short paragraphs, **direct and personal tone**, opinions clearly stated\n- Interactive features: questions to other users, invitation to react, emoji mentioned sparingly (*:)*)\n- Some informal expressions are fine, but sentences must remain correct French — no SMS spelling\n- Ending that keeps the conversation going (*Qu'en pensez-vous ?*)",
+   "template": "**Forum [nom] › [titre du fil]**\n**[pseudo]** — [date, heure]\n\n@[pseudo de la personne], [réaction à son message]\n\n[Mon avis + raison 1]\n\n[Exemple personnel / raison 2]\n\n[Conseil / nuance]\n\nEt vous, vous en pensez quoi ?\n#[motclé] #[motclé]",
+   "phrases": [
+    {
+     "fr": "Salut tout le monde !",
+     "en": "Hi everyone!"
+    },
+    {
+     "fr": "Je rebondis sur ce que dit @… :",
+     "en": "I'm following up on what @… said:"
+    },
+    {
+     "fr": "Perso, je trouve que…",
+     "en": "Personally, I find that…"
+    },
+    {
+     "fr": "Je suis tout à fait d'accord avec toi.",
+     "en": "I completely agree with you."
+    },
+    {
+     "fr": "Je ne suis pas du tout de cet avis.",
+     "en": "I don't share that opinion at all."
+    },
+    {
+     "fr": "Ça m'est arrivé aussi l'année dernière.",
+     "en": "That happened to me too last year."
+    },
+    {
+     "fr": "Mon conseil : …",
+     "en": "My advice: …"
+    },
+    {
+     "fr": "Franchement, ça vaut le coup.",
+     "en": "Honestly, it's worth it."
+    },
+    {
+     "fr": "Partagez si vous êtes d'accord !",
+     "en": "Share if you agree!"
+    },
+    {
+     "fr": "Vous en pensez quoi ?",
+     "en": "What do you think?"
+    }
+   ]
+  }
+ ],
+ "prompts": [
+  {
+   "theme": "Identités",
+   "type": "blog",
+   "text": "Votre école a organisé une semaine « sans écrans » à laquelle vous avez participé. Sur votre blog, racontez comment s'est passée cette semaine, ce que vous avez découvert sur vos habitudes et dites si vous recommanderiez l'expérience à d'autres jeunes."
+  },
+  {
+   "theme": "Identités",
+   "type": "discours",
+   "text": "Votre lycée accueille chaque année de nombreux élèves arrivés récemment de l'étranger. En tant que délégué(e) des élèves, vous prenez la parole à l'assemblée de rentrée. Rédigez votre discours pour montrer que la diversité des langues et des cultures est une richesse et proposer des actions concrètes pour mieux accueillir ces élèves."
+  },
+  {
+   "theme": "Identités",
+   "type": "article",
+   "text": "Le magazine de votre école prépare un numéro spécial sur le bien-être. Écrivez un article sur le stress des élèves en période d'examens : expliquez-en les causes, donnez des conseils pratiques et intégrez le témoignage d'un(e) camarade."
+  },
+  {
+   "theme": "Identités",
+   "type": "journal",
+   "text": "Aujourd'hui, un(e) ami(e) proche s'est moqué(e) de votre façon de vous habiller devant toute la classe. Le soir, vous écrivez dans votre journal intime. Exprimez ce que vous avez ressenti et réfléchissez à ce que signifie pour vous « être soi-même »."
+  },
+  {
+   "theme": "Identités",
+   "type": "forum",
+   "text": "Sur un forum francophone pour adolescents, un internaute pose la question suivante : « Est-ce qu'on doit forcément suivre les tendances pour être accepté au lycée ? » Rédigez votre réponse en donnant votre opinion, des exemples personnels et un conseil."
+  },
+  {
+   "theme": "Identités",
+   "type": "brochure",
+   "text": "Le centre sportif municipal de votre ville constate que les adolescents font de moins en moins d'activité physique. Il vous demande de rédiger le texte d'une brochure qui présente les bienfaits du sport pour la santé physique et mentale, ainsi que les activités proposées aux 13-18 ans."
+  },
+  {
+   "theme": "Expériences",
+   "type": "email_informel",
+   "text": "Vous venez de passer trois semaines dans une famille d'accueil dans un pays francophone. Écrivez un courriel à un(e) ami(e) pour lui raconter votre séjour, lui décrire une coutume locale qui vous a surpris(e) et lui expliquer ce que cette expérience vous a appris."
+  },
+  {
+   "theme": "Expériences",
+   "type": "critique",
+   "text": "Vous avez assisté à un festival de musique ou à une fête traditionnelle dans votre région. Rédigez une critique de cet événement pour le site web d'un magazine culturel destiné aux jeunes, en évaluant l'organisation, l'ambiance et les artistes."
+  },
+  {
+   "theme": "Expériences",
+   "type": "interview",
+   "text": "Pour un projet sur la migration, vous avez interviewé une personne âgée de votre quartier qui est venue s'installer dans votre pays il y a cinquante ans. Rédigez l'interview qui sera publiée dans le journal de votre école : son départ, son arrivée, les difficultés et ce qu'elle a gardé de sa culture d'origine."
+  },
+  {
+   "theme": "Expériences",
+   "type": "lettre_formelle",
+   "text": "Une association de protection de la nature au Québec recrute des jeunes bénévoles pour un chantier d'été dans un parc national. Écrivez une lettre de motivation à la responsable du programme pour présenter votre candidature et expliquer ce que vous pourriez apporter."
+  },
+  {
+   "theme": "Expériences",
+   "type": "instructions",
+   "text": "Votre école organise un échange avec un lycée francophone et plusieurs familles vont accueillir un(e) correspondant(e). Rédigez un guide de conseils pratiques pour aider les élèves à préparer cet accueil et à faire de ce séjour une réussite pour tout le monde."
+  },
+  {
+   "theme": "Expériences",
+   "type": "article",
+   "text": "Un magazine international destiné aux jeunes francophones publie une série intitulée « Grandir ailleurs ». Écrivez un article qui présente une fête ou un rite de passage important dans votre culture, explique son origine et se demande s'il a encore du sens pour les jeunes d'aujourd'hui."
+  },
+  {
+   "theme": "Ingéniosité humaine",
+   "type": "editorial",
+   "text": "Dans votre lycée, de plus en plus d'élèves utilisent l'intelligence artificielle pour faire leurs devoirs. Pour le journal de l'école, rédigez un éditorial qui répond à la question : « Faut-il autoriser l'intelligence artificielle dans le travail scolaire ? »"
+  },
+  {
+   "theme": "Ingéniosité humaine",
+   "type": "critique",
+   "text": "Vous avez récemment vu un film ou une série dont l'histoire se déroule dans un futur dominé par la technologie. Écrivez une critique pour un site de cinéma francophone : présentez l'œuvre, évaluez-la et dites si la vision de l'avenir qu'elle propose vous semble crédible."
+  },
+  {
+   "theme": "Ingéniosité humaine",
+   "type": "rapport",
+   "text": "La direction de votre établissement envisage d'interdire totalement les téléphones portables pendant la journée scolaire. Le conseil des élèves a réalisé un sondage et vous demande de rédiger un rapport pour la direction présentant les résultats et des recommandations."
+  },
+  {
+   "theme": "Ingéniosité humaine",
+   "type": "discours",
+   "text": "Votre école organise une journée de l'innovation. Vous devez présenter, devant les élèves et un jury, une invention (ancienne ou récente) qui a changé la vie quotidienne selon vous. Rédigez votre discours en expliquant pourquoi cette invention mérite d'être célébrée et quelles sont ses limites."
+  },
+  {
+   "theme": "Ingéniosité humaine",
+   "type": "forum",
+   "text": "Vous avez découvert le travail d'un(e) jeune artiste de votre ville (musique, street art, photographie…) qui mérite d'être mieux connu(e). Rédigez une publication pour les réseaux sociaux de votre association culturelle afin de présenter cet(te) artiste et d'inviter le public à son prochain événement."
+  },
+  {
+   "theme": "Ingéniosité humaine",
+   "type": "instructions",
+   "text": "Dans la résidence pour personnes âgées où vous faites du bénévolat, beaucoup de résidents voudraient appeler leur famille en vidéo mais n'osent pas utiliser une tablette. Rédigez pour le bulletin de la résidence une série d'instructions simples et rassurantes pour passer un appel vidéo."
+  },
+  {
+   "theme": "Organisation sociale",
+   "type": "lettre_formelle",
+   "text": "Dans votre ville, il n'existe aucun lieu où les adolescents peuvent se retrouver le soir et le week-end. Écrivez une lettre au maire pour décrire la situation, expliquer ses conséquences et proposer la création d'un espace jeunes."
+  },
+  {
+   "theme": "Organisation sociale",
+   "type": "rapport",
+   "text": "Le conseil des élèves souhaite que chaque élève consacre quelques heures par trimestre à une action bénévole dans la communauté. Rédigez une proposition destinée à la direction : décrivez le projet, son organisation, ses avantages et les difficultés possibles."
+  },
+  {
+   "theme": "Organisation sociale",
+   "type": "interview",
+   "text": "Pour la rubrique « Métiers » du magazine de votre lycée, vous avez interviewé un(e) jeune de 18 ans qui a choisi l'apprentissage plutôt que des études longues. Rédigez l'interview : son parcours, son quotidien, les avantages et les inconvénients de ce choix."
+  },
+  {
+   "theme": "Organisation sociale",
+   "type": "email_informel",
+   "text": "Votre cousin(e) francophone hésite entre poursuivre ses études à l'université et commencer tout de suite à travailler. Il/Elle vous demande votre avis. Écrivez-lui un courriel pour l'aider à réfléchir et lui donner des conseils."
+  },
+  {
+   "theme": "Organisation sociale",
+   "type": "editorial",
+   "text": "Votre établissement envisage de rendre l'uniforme scolaire obligatoire l'année prochaine. Dans la revue de l'école, rédigez un texte d'opinion qui répond à la question : « L'uniforme favorise-t-il vraiment l'égalité entre les élèves ? »"
+  },
+  {
+   "theme": "Organisation sociale",
+   "type": "brochure",
+   "text": "Une association de votre quartier organise un service gratuit d'aide aux devoirs pour les enfants du primaire et cherche des lycéens bénévoles. Rédigez le texte de la brochure qui présente l'association, ses activités et les raisons de s'engager."
+  },
+  {
+   "theme": "Partage de la planète",
+   "type": "article",
+   "text": "Les vêtements à très bas prix se vendent de plus en plus, surtout en ligne. Pour un magazine destiné aux adolescents, écrivez un article sur les conséquences de la « mode jetable » pour l'environnement et pour les travailleurs, et proposez des alternatives réalistes."
+  },
+  {
+   "theme": "Partage de la planète",
+   "type": "discours",
+   "text": "À l'occasion de la Journée mondiale de l'environnement, vous prononcez un discours devant tous les élèves de votre école. Présentez les problèmes liés aux déchets dans votre établissement et convainquez votre public de changer ses habitudes."
+  },
+  {
+   "theme": "Partage de la planète",
+   "type": "blog",
+   "text": "Le week-end dernier, vous avez participé avec d'autres bénévoles à une opération de nettoyage d'une plage ou d'une rivière. Sur votre blog, racontez cette journée, décrivez ce que vous avez trouvé et expliquez ce que cette expérience a changé dans votre manière de voir les choses."
+  },
+  {
+   "theme": "Partage de la planète",
+   "type": "lettre_formelle",
+   "text": "Le supermarché de votre quartier emballe presque tous ses fruits et légumes dans du plastique. Écrivez une lettre formelle à la directrice du magasin pour exprimer votre préoccupation et proposer des solutions concrètes."
+  },
+  {
+   "theme": "Partage de la planète",
+   "type": "forum",
+   "text": "Sur un forum consacré au sport, un utilisateur affirme que « le sport féminin n'intéresse personne ». Rédigez votre réponse pour défendre l'égalité entre les femmes et les hommes dans le sport, avec des arguments et des exemples."
+  },
+  {
+   "theme": "Partage de la planète",
+   "type": "rapport",
+   "text": "Votre école veut réduire sa consommation d'énergie. Membre du comité environnement, vous avez observé les habitudes dans l'établissement pendant un mois. Rédigez un rapport pour le conseil d'établissement présentant vos observations et vos recommandations."
+  }
+ ],
+ "paper1Tips": "# Paper 1 — writing (SL)\n\n**Format:** 1 h 15 · one task from a choice of three · 250–400 words · 30 marks (A Language /12, B Message /12, C Conceptual understanding /6) · 25 % of the final grade. Each task is linked to a different theme and usually suggests three text types; you choose the one that fits best. No dictionary.\n\n## 1. Planning your 1 h 15\n\n| Time | What to do |\n|---|---|\n| **0–5 min** | Read all three tasks. Choose the one where you have the **vocabulary** and **ideas**, not just the one on your favourite topic. |\n| **5–15 min** | **Decode the task**: underline the *text type*, the *audience* (who reads it?), the *purpose* (inform, persuade, describe, complain, advise?) and **every part** of the instruction (e.g. *racontez… expliquez… proposez…*). Choose your text type and decide the register (*tu/vous*). |\n| **15–20 min** | **Plan**: 4–6 paragraphs, one idea per paragraph, with an example or detail for each. Jot down key vocabulary and 3–4 complex structures you want to use. |\n| **20–60 min** | **Write**, following the conventions template in your head (title / greeting / closing…). |\n| **60–75 min** | **Proofread** with the checklist below. Count your words roughly (lines × average words per line). |\n\n## 2. Word count strategy\n- The required range is **250–400 words**. Aim for about **320–370**: enough room to develop ideas, short enough to keep control of accuracy.\n- Writing well beyond 400 words does not earn extra credit and increases the chance of errors; examiners are told how to treat material beyond the limit, so keep your best ideas inside it.\n- Writing well below 250 makes it very hard to develop the message (criterion B).\n- Know your handwriting: count the words on a typical line of yours in advance (for many students, 9–11 words), so you can estimate quickly.\n\n## 3. Hitting criterion B — Message (/12)\n- **Answer every part of the task.** If it says *racontez, décrivez et expliquez*, all three must be visible — ideally one paragraph each.\n- **Develop, don't list**: idea → explanation → example → consequence. *\"Le sport réduit le stress. Par exemple, après une heure de basket, je me sens plus calme et je dors mieux, ce qui m'aide à me concentrer en classe.\"*\n- Use **specific details** (names, places, numbers, anecdotes) rather than vague generalisations.\n- **Organise** with clear paragraphs and connectors: *tout d'abord, de plus, en revanche, par conséquent, c'est pourquoi, en conclusion*.\n- Stay **relevant**: every paragraph must serve the purpose of the task.\n\n## 4. Hitting criterion C — Conceptual understanding (/6)\n- **Text type**: choose the one that fits the task best and show its **conventions** (see the *Text types* section: e.g. a formal letter needs place/date, *Objet*, *Madame/Monsieur*, a full *formule de politesse*).\n- **Audience**: who is reading? A friend → *tu*, friendly tone; the mayor → *vous*, formal; teenagers on a forum → lively but correct.\n- **Purpose**: is your text informing, persuading, advising, narrating? The tone must support it (imperatives in instructions, rhetorical questions in a speech, balanced arguments in an editorial).\n- **Context**: refer to the situation given (the school, the event, the town) so the text feels real.\n- **Consistency**: don't switch from *tu* to *vous*; don't end a formal letter with *Bisous*.\n\n## 5. Language — criterion A (/12)\n- Show **range**: several tenses (present, *passé composé*, *imparfait*, future, conditional), and some complex structures:\n  - relative pronouns: *qui, que, dont, où, ce qui, ce que*\n  - subjunctive after *il faut que, bien que, pour que, je ne pense pas que*\n  - *si* clauses: *si + imparfait → conditionnel*\n  - *en + participe présent*, *après avoir + participe passé*, *avant de + infinitif*\n- But **accuracy first**: a correct simple sentence is better than an incorrect complex one.\n- Vary vocabulary: avoid repeating *très, bien, chose, faire, il y a*.\n\n## 6. Proofreading checklist\n- [ ] **Agreements**: adjectives (gender/number), *les élèves sont contents*, past participles with *être* (*elle est partie*) and with *avoir* when the direct object comes first (*la lettre que j'ai écrite*)\n- [ ] **Verb endings**: *ils parlent / ils parlaient / ils parleront / ils parleraient*; irregular verbs (*ils font, ils vont, ils sont, ils ont*)\n- [ ] **Auxiliary**: *être* with movement verbs and reflexives (*je suis allé(e), nous nous sommes levés*)\n- [ ] **Tenses**: *passé composé* for completed events, *imparfait* for description/background; consistent tense in the narrative\n- [ ] **Accents**: *é, è, ê, à, ù, ç* — especially *à* (preposition) vs *a* (verb), *où* vs *ou*, *là* vs *la*\n- [ ] **Homophones**: *ces/ses/c'est/s'est*, *et/est*, *son/sont*, *on/ont*, *ce/se*\n- [ ] **Negation**: both parts (*ne… pas, ne… jamais, ne… plus*)\n- [ ] **Register**: *tu/vous* consistent; possessives match (*ton/votre*)\n- [ ] **Conventions** of the text type present at the start and the end\n- [ ] **All parts of the task** covered; word count roughly 320–370\n\n## 7. Worked example\n\n**Task (Partage de la planète):** *Le conseil municipal de votre ville envisage de transformer le seul parc du centre-ville en parking. Écrivez une lettre formelle au maire pour exprimer votre désaccord et proposer une solution alternative.*\n\n**Decoding:** text type = formal letter · audience = the mayor (*vous*, *Monsieur le Maire*) · purpose = protest + propose · two compulsory parts: *exprimer votre désaccord* **and** *proposer une solution*.\n\n### Model answer (about 330 words, not counting the addresses)\n\n```\nLéa Martin\n12, rue des Lilas\n44000 Nantes\n\n                                    Monsieur le Maire\n                                    Hôtel de ville\n                                    44000 Nantes\n\n                                    Nantes, le 14 mai 2026\n\nObjet : projet de parking à la place du parc Beauséjour\n\nMonsieur le Maire,\n\nJe me permets de vous écrire en tant qu'élève du lycée du quartier et habitante de Beauséjour depuis dix ans. J'ai appris dans la presse locale que le conseil municipal envisage de remplacer le parc par un parking de deux cents places. Je tiens à vous faire part de mon profond désaccord.\n\nTout d'abord, ce parc est le seul espace vert du centre-ville. Chaque jour, des familles, des personnes âgées et des élèves s'y retrouvent pour se détendre, faire du sport ou simplement respirer. Le supprimer reviendrait à priver des milliers d'habitants d'un lieu de rencontre essentiel, surtout pour ceux qui n'ont pas de jardin.\n\nEnsuite, les arbres du parc jouent un rôle important pour l'environnement. En été, ils rafraîchissent le quartier, où les températures dépassent désormais souvent trente-cinq degrés. Remplacer cette verdure par du béton aggraverait la chaleur et la pollution, alors que notre ville s'est engagée à réduire ses émissions. De plus, le parc abrite de nombreux oiseaux ainsi que des ruches installées par une association du quartier, que les écoles primaires visitent régulièrement.\n\nJe comprends néanmoins que le manque de places de stationnement pose problème aux commerçants. C'est pourquoi je souhaiterais vous proposer une autre solution : agrandir le parking situé près de la gare, qui est à moitié vide en semaine, et mettre en place une navette gratuite vers le centre. Par ailleurs, de nouvelles pistes cyclables encourageraient les habitants à laisser leur voiture chez eux. Une telle solution permettrait de répondre aux besoins des commerçants tout en préservant le cadre de vie de tous.\n\nAvec plusieurs camarades, nous avons déjà recueilli plus de cinq cents signatures en faveur de la protection du parc. Nous serions heureux de vous les remettre et de présenter nos idées lors d'une prochaine réunion du conseil municipal, à laquelle de nombreux habitants souhaitent également participer.\n\nEn espérant que vous prendrez notre demande en considération, je vous prie d'agréer, Monsieur le Maire, l'expression de mes salutations distinguées.\n\nLéa Martin\n```\n\n### Why it scores well\n\n**Criterion C — conventions and register**\n- Full formal layout: sender's address, recipient, *Nantes, le 14 mai 2026*, a precise *Objet*.\n- Salutation *Monsieur le Maire,* is **repeated identically** in the *formule de politesse* — a detail examiners notice.\n- Consistent *vous*, polite conditional (*je souhaiterais vous proposer*, *nous serions heureux*), no exclamation marks or slang.\n- The writer states who she is and why she has the right to speak (*élève… habitante de Beauséjour depuis dix ans*): the letter clearly addresses a real reader in a real context.\n\n**Criterion B — message**\n- Both parts of the task are covered: **disagreement** (paragraphs 2–3) and **alternative solution** (paragraph 4).\n- Each argument is **developed**: social argument → who uses the park → consequence; environmental argument → heat in summer → link to the town's commitments.\n- **Concession** (*Je comprends néanmoins que…*) shows balanced thinking and makes the proposal more persuasive.\n- Clear organisation with connectors: *Tout d'abord, Ensuite, néanmoins, C'est pourquoi, Par ailleurs*; a concrete final action (petition, meeting).\n\n**Criterion A — language**\n- Range of structures: *reviendrait à priver* (conditional + infinitive), relative clauses (*qui est à moitié vide, où les températures…*), contrast with *alors que*, the gerund *en espérant que*, the pronominal construction *s'est engagée à*.\n- Precise vocabulary: *espace vert, verdure, béton, stationnement, navette, pistes cyclables, recueilli des signatures*.\n- Accurate agreements (*la presse locale*, *nous avons recueilli*), correct prepositions (*priver de*, *s'engager à*, *en faveur de*).\n\n**What would lower the mark:** forgetting the alternative solution (B), writing *Cher Monsieur le Maire* or *Cordialement* only (C), or a series of short sentences that all start with *Le parc est…* (A).",
+ "paper2": "# Paper 2 — receptive skills (SL)\n\n**Format:** listening section **45 min / 25 marks** and reading section **1 h / 40 marks** — together **50 %** of the final grade (25 % each). Each section usually contains several texts linked to different themes, with questions in French that you answer in French. No dictionary.\n\n## Listening — strategies\n- **Use the reading time.** Before each recording, read the questions and underline key words: question words (*qui, quand, combien, pourquoi*), names, numbers, negatives.\n- **Predict**: what kind of answer is expected? A number? A place? A reason? A feeling? Write a guess lightly if it helps.\n- **The recordings are played more than once** (normally twice, with a pause between): on the first listening get the gist and answer what you can; on the second, check and fill gaps.\n- **Listen for signposts**: *d'abord, ensuite, par contre, mais, finalement, pourtant* — answers often follow them.\n- **Numbers, dates and times** come fast: practise *soixante-dix, quatre-vingt-dix, mille neuf cent…*, and the 24-hour clock (*dix-neuf heures trente*).\n- **Distractors**: speakers often mention two options and then reject one (*On voulait partir en juin… finalement, c'était en septembre*). Wait for the final answer.\n- **Synonyms**: the question rarely uses the exact words of the recording.\n- **Spelling**: write clearly; in listening, answers are usually judged on comprehension, so a small spelling slip may be accepted if the meaning is unambiguous — but don't rely on it.\n- **Never leave a blank** — a reasonable guess can earn a mark.\n\n## Reading — strategies\n- **Skim first** (title, subtitle, headings, first lines of paragraphs) to identify text type, purpose and structure.\n- **Questions usually follow the order of the text.** Use paragraph references in the question to locate the area.\n- **Scan for key words** and their synonyms; then read the sentence before and after carefully.\n- **Use grammar clues**: gender, number, tense, part of speech help you eliminate wrong answers.\n- **Answer only what is asked**: in short answers, extra wrong information can cancel a correct answer.\n\n## Common question types\n\n| Type | What to do | Trap to avoid |\n|---|---|---|\n| **Multiple choice (QCM)** | Eliminate options that are false, not mentioned, or only partly true. The right answer is usually a paraphrase. | An option that copies words from the text but changes the meaning (negation, wrong person, wrong time). |\n| **Vrai / Faux + justification** | Tick V or F **and** copy the **exact words** from the text that prove it. Usually both are needed for the mark. | Copying a whole paragraph (not precise), paraphrasing instead of quoting, or quoting words that prove the opposite. Keep the quotation short and relevant. |\n| **Matching headings / sentence halves** | Read every heading; match the obvious ones first; there are usually **extra options**. Check grammar fit for sentence halves (agreement, verb form, logic). | Matching on one shared word rather than on the overall idea of the paragraph. |\n| **Gap fill (from a list or from the text)** | Decide which part of speech is missing (noun, verb, adjective…) and its form (masculine/feminine, singular/plural, tense). | A word that has the right meaning but the wrong grammatical form. |\n| **Short answer** | Answer briefly in French, using words from the text where possible; respect any word limit (*trois mots maximum*). | Adding extra details that are wrong; answering in English; writing a full sentence when a phrase is enough is fine, but don't add contradictions. |\n| **Who said what? (Qui… ?)** | Several people are quoted: track each person's opinion with a mark in the margin. | Attributing a quotation to the person *mentioned* in it instead of the one *speaking*. |\n| **Word meaning (Trouvez le mot qui signifie…)** | Go to the given paragraph; look for a word of the **same grammatical type** and form as the definition (a verb for a verb, plural for plural). | Copying a whole phrase when one word is required, or a word from the wrong paragraph. |\n| **Reference questions (À qui / à quoi se réfère « il / le / dont / en / y » ?)** | Look **backwards** in the text for the nearest noun that agrees in gender and number and makes sense. Test it by replacing the pronoun. | Choosing the closest noun automatically even when it does not make sense or doesn't agree. |\n| **Identifying the purpose / tone / audience** | Think about text type and register: who is speaking to whom, and why? | Choosing a detail instead of the overall purpose. |\n\n## Classic traps\n- **Negatives and restrictions**: *ne… jamais, ne… que (= only), sans, ni… ni…* completely change the meaning.\n- **Faux amis**: *actuellement* = currently; *assister à* = to attend; *librairie* = bookshop; *une journée* = a day; *sensible* = sensitive; *rester* = to stay.\n- **Modal nuance**: *il pourrait* (possibility) is not *il va* (certainty); *selon l'auteur* means it is an opinion.\n- **Quantities**: *la plupart* (most), *moins de la moitié* (less than half), *environ* (about).\n- **Justifications** must justify the **whole** statement, not just part of it.\n\n## Timing\n- **Reading (1 h, 40 marks)**: roughly 1 minute per mark plus checking. If there are three texts, spend about 18 minutes on each and keep 5 minutes to review. Don't get stuck on one question: mark it and come back.\n- **Listening (45 min)**: the timing is set by the recordings, so use every pause to read ahead to the next questions and to tidy up answers.\n- Write answers clearly in the spaces provided; crossed-out, ambiguous answers (two options) get no mark.",
+ "reading": [
+  {
+   "id": "r1-identites-blog",
+   "title": "Entre deux langues : le blog de Yasmine",
+   "theme": "Identités",
+   "type": "blog",
+   "text": "# Entre deux langues : le blog de Yasmine\n*Publié le 18 octobre par Yasmine_MTL*\n\n**[1]** Je m'appelle Yasmine, j'ai dix-sept ans et j'habite à Montréal depuis l'âge de six ans. Mes parents sont nés au Maroc ; à la maison, nous parlons un mélange d'arabe dialectal et de français, avec parfois quelques mots d'anglais quand mon petit frère revient du hockey. Pendant longtemps, j'ai eu l'impression de ne pas savoir qui j'étais vraiment. Aujourd'hui, j'ai envie de vous raconter comment j'ai changé d'avis.\n\n**[2]** À l'école primaire, j'avais honte de mon accent quand je parlais arabe devant mes amies. Je répondais en français à ma grand-mère, qui fronçait les sourcils sans rien dire. Je pensais qu'il fallait choisir : être « d'ici » ou être « de là-bas ». Résultat : je me sentais étrangère partout, même dans ma propre famille.\n\n**[3]** Tout a basculé l'été de mes quinze ans, lors d'un séjour de trois semaines à Fès. Ma tante m'a confié la caisse de sa petite librairie pendant qu'elle était à l'hôpital avec mon oncle. Les clients me parlaient tour à tour en arabe, en français, parfois en espagnol. Sans m'en rendre compte, je passais d'une langue à l'autre au milieu d'une phrase, et personne ne trouvait ça bizarre. Pour la première fois, mon mélange n'était pas un défaut : c'était un outil.\n\n**[4]** De retour au Québec, j'ai commencé à observer les gens autour de moi. Dans mon école, plus de la moitié des élèves parlent une autre langue que le français à la maison. Certains la cachent, d'autres en sont fiers. J'ai lancé avec deux camarades un club de conversation où chacun apprend aux autres quelques expressions de sa langue maternelle. Nous avons commencé à quatre ; nous sommes maintenant une vingtaine chaque jeudi midi.\n\n**[5]** Je ne dis pas que tout est simple. Quand j'écris une dissertation, je dois faire attention aux anglicismes, et ma grand-mère se moque encore gentiment de mes fautes en arabe. Mais j'ai compris une chose : l'identité n'est pas une boîte avec une seule étiquette. C'est plutôt une maison avec plusieurs fenêtres, et chacune donne sur un paysage différent.\n\n**[6]** Et vous ? Avez-vous déjà eu l'impression de devoir choisir entre deux cultures ? Racontez-moi votre histoire dans les commentaires. Je lirai tout, promis !",
+   "qs": [
+    {
+     "kind": "mcq",
+     "q": "Depuis quand Yasmine habite-t-elle à Montréal ?",
+     "opts": [
+      "A. Depuis sa naissance",
+      "B. Depuis l'âge de six ans",
+      "C. Depuis l'âge de quinze ans",
+      "D. Depuis trois semaines"
+     ],
+     "a": "B"
+    },
+    {
+     "kind": "tf",
+     "q": "Quand elle était petite, Yasmine répondait en arabe à sa grand-mère.",
+     "a": false,
+     "just": "Je répondais en français à ma grand-mère"
+    },
+    {
+     "kind": "word",
+     "q": "Trouvez le mot du paragraphe 3 qui signifie « a changé complètement ».",
+     "a": [
+      "basculé",
+      "a basculé"
+     ]
+    },
+    {
+     "kind": "short",
+     "q": "Pourquoi Yasmine s'occupait-elle de la librairie de sa tante ? (paragraphe 3)",
+     "a": [
+      "parce que sa tante était à l'hôpital avec son oncle",
+      "sa tante était à l'hôpital"
+     ],
+     "note": "Accept any answer showing that the aunt was at the hospital (with the uncle)."
+    },
+    {
+     "kind": "tf",
+     "q": "Dans la librairie, les clients trouvaient étrange que Yasmine change de langue.",
+     "a": false,
+     "just": "personne ne trouvait ça bizarre"
+    },
+    {
+     "kind": "word",
+     "q": "Trouvez le mot du paragraphe 3 qui signifie « une imperfection, un point faible ».",
+     "a": [
+      "défaut",
+      "un défaut"
+     ]
+    },
+    {
+     "kind": "mcq",
+     "q": "Combien de personnes participent maintenant au club de conversation ?",
+     "opts": [
+      "A. Quatre",
+      "B. Deux",
+      "C. Environ vingt",
+      "D. Plus de la moitié des élèves de l'école"
+     ],
+     "a": "C"
+    },
+    {
+     "kind": "tf",
+     "q": "Le club de conversation se réunit le jeudi à l'heure du déjeuner.",
+     "a": true,
+     "just": "chaque jeudi midi"
+    },
+    {
+     "kind": "short",
+     "q": "À quoi Yasmine compare-t-elle l'identité dans le paragraphe 5 ?",
+     "a": [
+      "à une maison avec plusieurs fenêtres",
+      "une maison avec plusieurs fenêtres"
+     ],
+     "note": "Do not accept « une boîte avec une seule étiquette » alone: that is what identity is NOT."
+    },
+    {
+     "kind": "short",
+     "q": "Que demande Yasmine à ses lecteurs à la fin du billet ?",
+     "a": [
+      "de raconter leur histoire dans les commentaires",
+      "de lui raconter leur histoire",
+      "d'écrire un commentaire"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "r2-experiences-interview",
+   "title": "Un mois en train à travers l'Europe",
+   "theme": "Expériences",
+   "type": "interview",
+   "text": "# Un mois en train à travers l'Europe : rencontre avec Lucas\n*Après son baccalauréat, Lucas Ferrand, 19 ans, a décidé de parcourir l'Europe uniquement en train. Il nous raconte son aventure.*\n\n**Lucas, pourquoi le train plutôt que l'avion ?**\nD'abord pour des raisons écologiques : sur une même distance, un trajet en avion pollue beaucoup plus qu'un trajet en train. Mais honnêtement, c'était aussi une question de rythme. En avion, on décolle d'un endroit et on atterrit dans un autre sans rien voir entre les deux. En train, on regarde le paysage changer petit à petit : les champs, les montagnes, puis la mer.\n\n**Quel itinéraire avez-vous suivi ?**\nJe suis parti de Lyon le 2 juillet. Je suis passé par Milan, Vienne, Budapest et Cracovie, puis je suis remonté vers Berlin et Copenhague avant de rentrer par Bruxelles. Au total, onze pays et à peu près soixante heures de train. J'avais un pass qui me permettait de voyager librement pendant un mois, mais il fallait quand même réserver certaines places à l'avance, surtout dans les trains de nuit.\n\n**Y a-t-il eu des moments difficiles ?**\nOui, bien sûr ! Entre Vienne et Budapest, mon train a eu quatre heures de retard à cause d'une panne. J'ai raté ma correspondance et j'ai dû dormir sur un banc de la gare. Sur le moment, j'étais furieux. Mais une famille hongroise qui attendait aussi m'a offert à manger et m'a appris quelques mots de sa langue. Finalement, c'est un de mes meilleurs souvenirs.\n\n**Avez-vous dépensé beaucoup d'argent ?**\nMoins que prévu. J'avais économisé 1 500 euros en travaillant dans un supermarché pendant l'année. Je dormais dans des auberges de jeunesse ou chez des habitants rencontrés sur une plateforme d'hébergement gratuit, et je cuisinais souvent moi-même. Il me restait même 200 euros à mon retour !\n\n**Qu'est-ce que ce voyage a changé pour vous ?**\nJ'ai pris confiance en moi. Avant, je n'osais pas demander mon chemin à un inconnu ; maintenant, je sais me débrouiller presque partout. J'ai aussi compris que l'Europe est à la fois très diverse et très proche : en une nuit de train, on change de langue, parfois de monnaie, et pourtant on se sent toujours un peu chez soi.\n\n**Un conseil pour ceux qui voudraient se lancer ?**\nNe planifiez pas tout ! Gardez quelques jours libres pour l'imprévu. Les plus belles rencontres arrivent souvent quand on s'y attend le moins.",
+   "qs": [
+    {
+     "kind": "mcq",
+     "q": "En plus de l'écologie, quelle raison Lucas donne-t-il pour préférer le train ?",
+     "opts": [
+      "A. Le train est plus rapide.",
+      "B. On peut voir le paysage évoluer.",
+      "C. Le train est moins cher.",
+      "D. On rencontre plus de gens."
+     ],
+     "a": "B"
+    },
+    {
+     "kind": "tf",
+     "q": "Lucas a commencé son voyage à Lyon.",
+     "a": true,
+     "just": "Je suis parti de Lyon le 2 juillet"
+    },
+    {
+     "kind": "short",
+     "q": "Combien de pays Lucas a-t-il traversés ?",
+     "a": [
+      "onze",
+      "11",
+      "onze pays"
+     ]
+    },
+    {
+     "kind": "tf",
+     "q": "Grâce à son pass, Lucas n'avait jamais besoin de réserver.",
+     "a": false,
+     "just": "il fallait quand même réserver certaines places à l'avance"
+    },
+    {
+     "kind": "short",
+     "q": "Pourquoi Lucas a-t-il raté sa correspondance ?",
+     "a": [
+      "parce que son train a eu quatre heures de retard",
+      "à cause d'une panne",
+      "son train avait du retard à cause d'une panne"
+     ],
+     "note": "Accept either the delay or the breakdown."
+    },
+    {
+     "kind": "word",
+     "q": "Dans la réponse à la question « Y a-t-il eu des moments difficiles ? », trouvez le mot qui signifie « très en colère ».",
+     "a": [
+      "furieux"
+     ]
+    },
+    {
+     "kind": "mcq",
+     "q": "Comment Lucas a-t-il financé son voyage ?",
+     "opts": [
+      "A. Ses parents l'ont payé.",
+      "B. Il avait travaillé dans un supermarché.",
+      "C. Il a reçu une bourse.",
+      "D. Il a travaillé pendant le voyage."
+     ],
+     "a": "B"
+    },
+    {
+     "kind": "short",
+     "q": "Combien d'argent restait-il à Lucas à la fin du voyage ?",
+     "a": [
+      "200 euros",
+      "deux cents euros"
+     ]
+    },
+    {
+     "kind": "tf",
+     "q": "Avant le voyage, Lucas avait du mal à parler à des inconnus.",
+     "a": true,
+     "just": "je n'osais pas demander mon chemin à un inconnu"
+    },
+    {
+     "kind": "word",
+     "q": "Dans la dernière réponse, trouvez le mot qui signifie « ce qui n'a pas été prévu ».",
+     "a": [
+      "imprévu",
+      "l'imprévu"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "r3-ingeniosite-article",
+   "title": "Low-tech : quand l'innovation rime avec simplicité",
+   "theme": "Ingéniosité humaine",
+   "type": "article",
+   "text": "# Low-tech : quand l'innovation rime avec simplicité\n### Robots, intelligence artificielle, voitures autonomes… Et si le progrès passait aussi par des objets simples que chacun peut fabriquer et réparer ?\n\n**[1]** On associe souvent l'innovation aux robots, à l'intelligence artificielle ou aux voitures autonomes. Pourtant, un nombre croissant d'ingénieurs et de bricoleurs défendent une autre idée du progrès : la « low-tech », c'est-à-dire des technologies simples, peu coûteuses et faciles à réparer.\n\n**[2]** À Grenoble, l'association L'Atelier Simple organise depuis trois ans des ateliers ouverts à tous. Le samedi matin, une quinzaine de participants, de 16 à 75 ans, se retrouvent dans un ancien garage pour fabriquer ensemble des objets utiles : un séchoir solaire pour les fruits, un four isolé qui termine la cuisson sans électricité, ou encore une machine à laver actionnée par un vélo. « Nous ne sommes pas contre la technologie, précise Camille Roux, ingénieure et cofondatrice de l'association. Nous voulons simplement que les gens comprennent les objets qu'ils utilisent et puissent les réparer eux-mêmes. »\n\n**[3]** Selon elle, la plupart des appareils modernes sont conçus pour être remplacés plutôt que réparés. Les vis sont cachées, les pièces sont collées, et les modes d'emploi ne disent rien sur leur fonctionnement interne. « Quand votre grille-pain tombe en panne, vous en achetez un neuf. C'est absurde, à la fois pour votre porte-monnaie et pour la planète. »\n\n**[4]** Les objets fabriqués à l'atelier utilisent surtout des matériaux de récupération : vieilles planches, bocaux en verre, roues de vélo. Les plans sont publiés gratuitement sur le site de l'association, et des groupes au Maroc, au Québec et à Madagascar les ont déjà adaptés à leurs propres besoins. À Antananarivo, par exemple, un lycée a construit trois séchoirs solaires pour conserver les mangues de son jardin.\n\n**[5]** Tout le monde n'est pas convaincu. Certains critiques estiment que la low-tech est une mode réservée à des citadins aisés qui ont du temps libre. « Pour beaucoup de familles, réparer soi-même n'est pas un choix écologique, c'est une nécessité depuis toujours », rappelle un sociologue interrogé par notre journal. D'autres soulignent que ces solutions ne peuvent pas remplacer les grandes infrastructures, comme les hôpitaux ou les réseaux électriques.\n\n**[6]** Camille Roux ne le nie pas. « La low-tech ne va pas sauver le monde à elle seule. Mais elle nous oblige à poser une bonne question avant chaque achat : est-ce que j'en ai vraiment besoin, et est-ce que je pourrai le réparer ? » Une question qui, pour elle, est déjà une forme d'innovation.",
+   "qs": [
+    {
+     "kind": "mcq",
+     "q": "D'après le paragraphe 1, la « low-tech » désigne des technologies…",
+     "opts": [
+      "A. très avancées et coûteuses.",
+      "B. simples et faciles à réparer.",
+      "C. réservées aux ingénieurs.",
+      "D. fabriquées par des robots."
+     ],
+     "a": "B"
+    },
+    {
+     "kind": "tf",
+     "q": "Les ateliers de L'Atelier Simple sont réservés aux membres de l'association.",
+     "a": false,
+     "just": "des ateliers ouverts à tous"
+    },
+    {
+     "kind": "short",
+     "q": "Où les participants se retrouvent-ils le samedi matin ?",
+     "a": [
+      "dans un ancien garage",
+      "un ancien garage"
+     ]
+    },
+    {
+     "kind": "tf",
+     "q": "Camille Roux est opposée à la technologie.",
+     "a": false,
+     "just": "Nous ne sommes pas contre la technologie"
+    },
+    {
+     "kind": "word",
+     "q": "Trouvez le mot du paragraphe 3 qui signifie « dissimulées ».",
+     "a": [
+      "cachées"
+     ]
+    },
+    {
+     "kind": "mcq",
+     "q": "Pour Camille Roux, acheter un nouveau grille-pain quand l'ancien est en panne, c'est…",
+     "opts": [
+      "A. pratique.",
+      "B. inévitable.",
+      "C. absurde.",
+      "D. écologique."
+     ],
+     "a": "C"
+    },
+    {
+     "kind": "word",
+     "q": "Trouvez dans le paragraphe 4 l'expression qui signifie « matériaux déjà utilisés que l'on réutilise ».",
+     "a": [
+      "matériaux de récupération",
+      "de récupération"
+     ]
+    },
+    {
+     "kind": "short",
+     "q": "Qu'a construit le lycée d'Antananarivo, et dans quel but ?",
+     "a": [
+      "trois séchoirs solaires pour conserver les mangues de son jardin",
+      "des séchoirs solaires pour conserver les mangues"
+     ],
+     "note": "Both elements needed: solar dryers + to preserve (the garden's) mangoes."
+    },
+    {
+     "kind": "tf",
+     "q": "Selon le sociologue, réparer soi-même est une pratique nouvelle pour beaucoup de familles.",
+     "a": false,
+     "just": "c'est une nécessité depuis toujours"
+    },
+    {
+     "kind": "mcq",
+     "q": "Dans la phrase « Camille Roux ne le nie pas » (paragraphe 6), à quoi se réfère « le » ?",
+     "opts": [
+      "A. À l'association L'Atelier Simple",
+      "B. Aux limites de la low-tech soulignées par les critiques",
+      "C. Au sociologue",
+      "D. Aux réseaux électriques"
+     ],
+     "a": "B"
+    }
+   ]
+  },
+  {
+   "id": "r4-organisation-brochure",
+   "title": "Conseil des jeunes de Montclair",
+   "theme": "Organisation sociale",
+   "type": "brochure",
+   "text": "# Conseil des jeunes de Montclair : faites entendre votre voix !\n\n**Qu'est-ce que le Conseil des jeunes ?**\nCréé en 2019 par la mairie, le Conseil des jeunes réunit 24 habitants âgés de 13 à 18 ans. Pendant deux ans, ils représentent les jeunes de la ville auprès du maire et des élus municipaux. Leur mission : proposer, discuter et réaliser des projets concrets pour améliorer la vie quotidienne à Montclair.\n\n**Qui peut se présenter ?**\nTout jeune qui habite ou est scolarisé à Montclair et qui a entre 13 et 18 ans au 1er septembre. Il n'est pas nécessaire d'être de nationalité française. Il suffit de remplir le formulaire de candidature, d'écrire une courte lettre de motivation (dix lignes maximum) et d'obtenir l'autorisation d'un parent ou d'un responsable légal.\n\n**Comment se passent les élections ?**\nLes élections ont lieu en octobre dans les cinq collèges et lycées de la ville. Chaque établissement élit quatre conseillers. Les quatre autres places sont réservées aux jeunes qui ne sont pas scolarisés à Montclair ou qui suivent une formation professionnelle : ces derniers sont désignés par tirage au sort parmi les candidats.\n\n**Qu'avons-nous déjà réalisé ?**\n- un skatepark rénové, dessiné avec l'aide de ses utilisateurs ;\n- une « boîte à dons » devant la médiathèque, où chacun peut déposer ou prendre des livres et des vêtements ;\n- des bus gratuits le samedi soir jusqu'à minuit pendant l'été ;\n- une campagne contre le harcèlement en ligne, présentée dans toutes les écoles primaires.\n\n**Quel engagement ?**\nLes conseillers se réunissent en séance plénière une fois par mois, le mercredi après-midi, à la mairie. Ils travaillent aussi en commissions (environnement, culture et sport, solidarité) toutes les deux semaines. Les réunions n'ont jamais lieu pendant les heures de cours. Le mandat est bénévole, mais chaque conseiller reçoit une attestation qui peut être jointe à un dossier d'études supérieures ou à un CV.\n\n**Le mot de la présidente sortante**\n« Quand je suis arrivée au Conseil, j'étais très timide. J'ai appris à prendre la parole en public, à négocier un budget et à écouter des avis différents du mien. Surtout, j'ai découvert que les adultes nous écoutent vraiment quand nos idées sont bien préparées. » — Inès, 17 ans\n\n**Intéressé(e) ?**\nDéposez votre dossier avant le 30 septembre à l'accueil de la mairie ou sur le site de la ville. Une réunion d'information aura lieu le 15 septembre à 18 h à la médiathèque. Venez nombreux !",
+   "qs": [
+    {
+     "kind": "mcq",
+     "q": "Combien de temps dure le mandat d'un conseiller ?",
+     "opts": [
+      "A. Un an",
+      "B. Deux ans",
+      "C. Un mois",
+      "D. Jusqu'à ses 18 ans"
+     ],
+     "a": "B"
+    },
+    {
+     "kind": "tf",
+     "q": "Il faut avoir la nationalité française pour se présenter.",
+     "a": false,
+     "just": "Il n'est pas nécessaire d'être de nationalité française"
+    },
+    {
+     "kind": "short",
+     "q": "Citez deux choses qu'il faut faire pour poser sa candidature.",
+     "a": [
+      "remplir le formulaire de candidature",
+      "écrire une (courte) lettre de motivation",
+      "obtenir l'autorisation d'un parent ou d'un responsable légal"
+     ],
+     "note": "Any two of the three listed answers; one mark only if both are correct."
+    },
+    {
+     "kind": "short",
+     "q": "Comment choisit-on les jeunes qui ne sont pas scolarisés à Montclair ?",
+     "a": [
+      "par tirage au sort",
+      "tirage au sort"
+     ]
+    },
+    {
+     "kind": "mcq",
+     "q": "Quelle réalisation du Conseil concerne les transports ?",
+     "opts": [
+      "A. Le skatepark",
+      "B. La boîte à dons",
+      "C. Les bus gratuits le samedi soir",
+      "D. La campagne contre le harcèlement"
+     ],
+     "a": "C"
+    },
+    {
+     "kind": "tf",
+     "q": "Certaines réunions ont lieu pendant les heures de cours.",
+     "a": false,
+     "just": "Les réunions n'ont jamais lieu pendant les heures de cours"
+    },
+    {
+     "kind": "word",
+     "q": "Dans la section « Quel engagement ? », trouvez le mot qui signifie « sans être payé ».",
+     "a": [
+      "bénévole"
+     ]
+    },
+    {
+     "kind": "tf",
+     "q": "Avant d'entrer au Conseil, Inès était à l'aise pour parler en public.",
+     "a": false,
+     "just": "j'étais très timide"
+    },
+    {
+     "kind": "short",
+     "q": "Selon Inès, à quelle condition les adultes écoutent-ils vraiment les jeunes ?",
+     "a": [
+      "quand leurs idées sont bien préparées",
+      "si leurs idées sont bien préparées"
+     ]
+    },
+    {
+     "kind": "short",
+     "q": "Quelle est la date limite pour déposer un dossier ?",
+     "a": [
+      "le 30 septembre",
+      "30 septembre",
+      "avant le 30 septembre"
+     ],
+     "note": "Do not accept 15 septembre (information meeting)."
+    }
+   ]
+  },
+  {
+   "id": "r5-planete-lettre",
+   "title": "Lettre au proviseur : le gaspillage à la cantine",
+   "theme": "Partage de la planète",
+   "type": "lettre_formelle",
+   "text": "Amina Diallo\nClub Environnement — Lycée des Tilleuls\n\n                                    À l'attention de Monsieur le Proviseur\n                                    Lycée des Tilleuls\n\n                                    Lyon, le 4 mars\n\n**Objet : proposition pour réduire le gaspillage alimentaire à la cantine**\n\nMonsieur le Proviseur,\n\n**[1]** Je me permets de vous écrire au nom du club Environnement du lycée, dont je suis la représentante. Depuis le mois de janvier, nous menons une enquête sur le gaspillage alimentaire au restaurant scolaire, et les résultats nous ont beaucoup surpris.\n\n**[2]** Pendant deux semaines, avec l'accord du chef cuisinier, nous avons pesé chaque jour les restes laissés dans les assiettes. En moyenne, 42 kilos de nourriture partaient à la poubelle à chaque déjeuner, soit environ 110 grammes par élève. Le pain, les légumes cuits et les desserts lactés sont les aliments les plus jetés. Si l'on multiplie ces chiffres par le nombre de jours de classe, cela représente plusieurs tonnes par an.\n\n**[3]** Nous avons également interrogé 300 élèves au moyen d'un questionnaire anonyme. Deux raisons principales expliquent ce gaspillage : les portions sont souvent trop grandes pour les plus jeunes, et beaucoup d'élèves n'ont pas assez de temps pour manger, car la file d'attente est très longue entre midi et midi et demi.\n\n**[4]** Nous souhaiterions donc vous soumettre trois propositions. Premièrement, permettre à chaque élève de choisir entre une petite et une grande portion. Deuxièmement, placer le pain en libre-service à la fin de la file plutôt que de le distribuer automatiquement sur chaque plateau. Troisièmement, échelonner les horaires de passage par niveau afin de réduire l'attente.\n\n**[5]** Ces mesures ne coûteraient presque rien. Au contraire, un lycée voisin, qui a adopté un système semblable l'année dernière, a réduit ses déchets de moitié et a pu utiliser l'argent économisé pour acheter davantage de produits locaux. Le chef cuisinier, que nous avons consulté, est d'ailleurs favorable à notre projet.\n\n**[6]** Nous serions très heureux de pouvoir vous présenter notre enquête plus en détail lors d'un prochain conseil d'administration. Nous restons à votre disposition pour toute question.\n\nJe vous prie d'agréer, Monsieur le Proviseur, l'expression de mes salutations respectueuses.\n\nAmina Diallo, pour le club Environnement",
+   "qs": [
+    {
+     "kind": "mcq",
+     "q": "Pourquoi Amina écrit-elle cette lettre ?",
+     "opts": [
+      "A. Pour se plaindre de la qualité des repas",
+      "B. Pour proposer des solutions contre le gaspillage",
+      "C. Pour demander l'embauche d'un nouveau cuisinier",
+      "D. Pour inviter le proviseur à rejoindre le club"
+     ],
+     "a": "B"
+    },
+    {
+     "kind": "tf",
+     "q": "Le club a mené son enquête sans l'autorisation du cuisinier.",
+     "a": false,
+     "just": "avec l'accord du chef cuisinier"
+    },
+    {
+     "kind": "short",
+     "q": "Quelle quantité de nourriture est jetée en moyenne à chaque déjeuner ?",
+     "a": [
+      "42 kilos",
+      "quarante-deux kilos",
+      "environ 110 grammes par élève"
+     ],
+     "note": "Accept either 42 kg (total) or about 110 g per student."
+    },
+    {
+     "kind": "mcq",
+     "q": "Selon le paragraphe 2, quels aliments sont les plus jetés ?",
+     "opts": [
+      "A. La viande et le poisson",
+      "B. Le pain, les légumes cuits et les desserts lactés",
+      "C. Les fruits et les salades",
+      "D. Les pâtes et le riz"
+     ],
+     "a": "B"
+    },
+    {
+     "kind": "short",
+     "q": "D'après le questionnaire, quelles sont les deux raisons principales du gaspillage ?",
+     "a": [
+      "les portions sont trop grandes pour les plus jeunes",
+      "les élèves n'ont pas assez de temps pour manger (la file d'attente est trop longue)"
+     ],
+     "note": "Both reasons are required for the mark."
+    },
+    {
+     "kind": "word",
+     "q": "Trouvez le mot du paragraphe 4 qui signifie « répartir à des moments différents ».",
+     "a": [
+      "échelonner"
+     ]
+    },
+    {
+     "kind": "tf",
+     "q": "Selon Amina, ces mesures coûteraient cher au lycée.",
+     "a": false,
+     "just": "Ces mesures ne coûteraient presque rien"
+    },
+    {
+     "kind": "short",
+     "q": "Qu'a fait le lycée voisin avec l'argent économisé ?",
+     "a": [
+      "il a acheté davantage de produits locaux",
+      "acheter davantage de produits locaux",
+      "acheter plus de produits locaux"
+     ]
+    },
+    {
+     "kind": "mcq",
+     "q": "Dans « dont je suis la représentante » (paragraphe 1), à quoi se réfère « dont » ?",
+     "opts": [
+      "A. Au lycée",
+      "B. Au club Environnement",
+      "C. Au proviseur",
+      "D. À l'enquête"
+     ],
+     "a": "B"
+    },
+    {
+     "kind": "tf",
+     "q": "Amina aimerait présenter l'enquête lors d'un conseil d'administration.",
+     "a": true,
+     "just": "pouvoir vous présenter notre enquête plus en détail lors d'un prochain conseil d'administration"
+    }
+   ]
+  }
+ ],
+ "oral": "# The individual oral (SL) — step by step\n\n**Weighting:** 25 % · internally assessed by your teacher and moderated by the IB · **30 marks**: A Language /12, B1 Message (visual stimulus) /6, B2 Message (conversation) /6, C Interactive skills /6.\n\nThe oral is based on a **visual stimulus** (a photo, poster, illustration or advertisement) linked to one of the five themes, with a **short caption in French**. The image is chosen by your teacher, relates to the francophone world and is one you have not seen before. At SL you are normally offered a choice between two stimuli linked to different themes — check the exact arrangements with your teacher.\n\n## The four stages\n\n| Stage | Time | What happens |\n|---|---|---|\n| **1. Supervised preparation** | 15 min | You study the stimulus alone, under supervision, and make notes. No dictionary or other resources. |\n| **2. Presentation** | 3–4 min | You present the stimulus and link it to the theme and to francophone culture(s). The teacher does not interrupt. |\n| **3. Follow-up discussion** | 4–5 min | The teacher asks questions about your presentation and the theme of the stimulus. |\n| **4. General conversation** | 5–6 min | Conversation on **at least one other theme** from the course. |\n\nThe whole oral (stages 2–4) lasts **12–15 minutes** and is recorded.\n\n## Using the 15 minutes of preparation\n\n| Minutes | Task |\n|---|---|\n| 0–2 | Choose the stimulus where you have the most vocabulary and ideas. Read the caption carefully: what does it suggest? Is there a play on words or a question? |\n| 2–6 | **Describe**: list what you see (people, place, actions, details, colours, text, mood). |\n| 6–10 | **Interpret**: identify the theme and topic; think of **links to the francophone world** (a country, a city, a tradition, a news story, something studied in class) and to your own experience. |\n| 10–13 | **Structure** your note sheet. |\n| 13–15 | Rehearse the opening sentence and the transitions in your head. |\n\n**Note sheet**: you may take in **notes of up to 10 bullet points** (ask your teacher about any local rules). Use them as prompts, **not a script** — a few key words per bullet, never full sentences to read aloud. Reading from notes sounds unnatural and weakens criteria A and C.\n\nExample note sheet (10 bullets):\n1. Thème + légende → double sens ?\n2. Lieu, 1er plan / arrière-plan\n3. Personnes : qui, quoi, émotions\n4. Détail frappant / contraste\n5. Lien thème : sujet précis\n6. Lien francophone : exemple concret\n7. Interprétation : message principal\n8. Expérience personnelle\n9. Nuance / limite\n10. Conclusion + question ouverte\n\n## A presentation structure for a visual stimulus\n\n1. **Introduction (20 s)** — the theme, the topic and the caption: *La photo que j'ai choisie illustre le thème… La légende dit…*\n2. **Description (45–60 s)** — the place, people, actions, details, atmosphere: *Au premier plan… à l'arrière-plan… à gauche/à droite… on dirait que… ils ont l'air…*\n3. **Link to the theme and to francophone culture(s) (60 s)** — explain which issue the image raises and give **specific** francophone examples (a country, a city, a practice, a debate).\n4. **Personal interpretation (45–60 s)** — what the image and caption mean to you; your opinion, an experience, a nuance: *Selon moi… Ce qui me frappe… Cela me rappelle…*\n5. **Conclusion (15 s)** — sum up and, if you like, open the discussion with a question.\n\nAvoid simply describing for four minutes: criterion B1 rewards **relevance to the stimulus, development and links to the target culture(s)**.\n\n## The follow-up discussion and the general conversation\n- **Follow-up (4–5 min)**: the teacher builds on what you said, asks you to clarify or go deeper, and broadens the topic within the **same theme**. Expect *pourquoi ?*, *pouvez-vous donner un exemple ?*, *et dans votre pays ?*, *que se passerait-il si… ?*\n- **General conversation (5–6 min)**: the teacher moves to **at least one other theme** studied in class. Prepare by having 2–3 opinions, examples and personal anecdotes for every theme.\n- Questions get progressively more open and abstract; this is your chance to show a range of tenses and structures (conditional, subjunctive, *si* clauses).\n\n## Interactive skills (criterion C) — tips\n- **Answer, then develop**: opinion → reason → example → nuance (aim for 3–5 sentences per answer, not one word, not a monologue).\n- **Show you are listening**: pick up the teacher's words (*Vous me demandez si… Eh bien…*).\n- **Ask for clarification naturally** if needed: *Pardon, pourriez-vous répéter la question ?* / *Qu'entendez-vous par… ?* That is a sign of interaction, not a weakness.\n- **Gain thinking time** without English: *C'est une bonne question… Voyons… Je n'y avais jamais pensé, mais…*\n- **Take the initiative**: add a related idea, an example, or even ask the teacher's view (*Et vous, qu'en pensez-vous ?*).\n- **Repair** mistakes calmly: *Pardon, je voulais dire…*\n\n## Useful expressions\n- **Describing**: *Sur cette image, on voit… / Il s'agit de… / Au centre… / Dans le coin supérieur gauche… / Il semble que… / On dirait que…*\n- **Interpreting**: *Cette image évoque… / Le photographe veut sans doute montrer… / La légende suggère que…*\n- **Francophone link**: *En France, comme au Sénégal ou au Québec… / J'ai lu un article sur… / Dans le monde francophone, ce phénomène…*\n- **Opinion**: *Personnellement, je trouve que… / Je ne suis pas sûr(e) que ce soit… / Il me semble essentiel que…*\n\n## Model presentation (about 350 words)\n\n**Imagined stimulus** — *Theme: Partage de la planète. Caption: « Cultiver la ville ».* A flat rooftop in a big city: wooden planters full of tomatoes, lettuces and flowers; a teenage girl and an elderly man are watering the plants together; in the background, apartment blocks, cranes and a grey sky.\n\nBonjour. La photo que j'ai choisie est liée au thème **Partage de la planète**, et plus précisément aux environnements urbains. Sa légende est : « Cultiver la ville ».\n\nSur cette photo, on voit le toit plat d'un grand immeuble, au cœur d'une ville. Au premier plan, il y a des bacs en bois remplis de tomates, de salades et de fleurs. Une adolescente et un homme âgé sont en train d'arroser les plantes ensemble ; ils ont l'air concentrés mais détendus. À l'arrière-plan, on aperçoit d'autres immeubles, des grues et un ciel un peu gris. Le contraste entre le vert des plantes et le béton de la ville est très frappant.\n\nÀ mon avis, cette image montre que la nature peut retrouver une place même dans les grandes villes. Dans plusieurs villes francophones, comme Paris ou Montréal, on voit se développer des jardins partagés et des potagers sur les toits. D'après ce que j'ai lu, certaines municipalités encouragent ces projets, parce que les plantes rafraîchissent les bâtiments en été et favorisent la biodiversité, par exemple les abeilles.\n\nMais pour moi, le message le plus important de la photo n'est pas seulement écologique : il est aussi social. Ce qui me frappe, c'est que les deux personnes appartiennent à des générations très différentes. Le jardin devient un lieu de rencontre où l'on partage des connaissances : le monsieur apprend peut-être à la jeune fille à reconnaître les légumes, et elle pourrait lui montrer comment publier des photos du jardin sur les réseaux sociaux.\n\nLa légende, « Cultiver la ville », a donc un double sens. On cultive des légumes, bien sûr, mais on cultive aussi des liens entre les habitants. Personnellement, j'ai participé l'année dernière à un petit jardin dans mon école, et j'ai remarqué que des élèves qui ne se parlaient jamais ont commencé à travailler ensemble.\n\nCependant, il faut rester réaliste : ces jardins ne peuvent pas nourrir toute une ville. Ils sont surtout un symbole et un moyen de sensibiliser les citadins. En conclusion, je pense que cette photo nous invite à repenser la ville comme un espace à partager, entre les générations et avec la nature. Merci.\n\n**Why it works:** clear introduction naming the theme and caption; a methodical description (*au premier plan, à l'arrière-plan*); links to the francophone world given carefully (*D'après ce que j'ai lu…*) without inventing statistics; a personal interpretation that explains the **double meaning of the caption**; a personal experience; a nuance (*il faut rester réaliste*); and varied structures (*ce qui me frappe, c'est que…*, *elle pourrait lui montrer*, relative clauses, perception verb + infinitive *on voit se développer*). It lasts about three and a half minutes at a natural pace.",
+ "stimuli": [
+  {
+   "theme": "Identités",
+   "caption": "Être soi, malgré les filtres ?",
+   "scene": "A teenage girl sits on her bed holding a smartphone; the screen shows her own face with a beauty filter (smooth skin, bigger eyes), while the mirror behind her reflects her real face, with freckles and messy hair.",
+   "prompts": [
+    "Pourquoi les jeunes utilisent-ils autant les filtres, à votre avis ?",
+    "Les réseaux sociaux ont-ils une influence sur l'image que vous avez de vous-même ?",
+    "Faudrait-il signaler obligatoirement les photos retouchées ?",
+    "Qu'est-ce qui construit l'identité d'un adolescent aujourd'hui ?",
+    "Comment pourrait-on aider les jeunes à avoir plus confiance en eux ?"
+   ]
+  },
+  {
+   "theme": "Identités",
+   "caption": "Ma langue, mon trésor",
+   "scene": "In a primary-school classroom in Brussels, children of different origins stand in front of a world map; each holds a card with the word « bonjour » written in their family's language (Arabic, Lingala, Polish, Turkish, Dutch…). A teacher smiles in the background.",
+   "prompts": [
+    "Quel rôle la langue joue-t-elle dans votre identité ?",
+    "Est-ce important de transmettre sa langue maternelle à ses enfants ? Pourquoi ?",
+    "Quels sont les avantages et les difficultés d'être bilingue ?",
+    "Dans un pays comme la Belgique ou le Canada, comment plusieurs langues peuvent-elles cohabiter ?",
+    "Si vous pouviez parler parfaitement une autre langue, laquelle choisiriez-vous ?"
+   ]
+  },
+  {
+   "theme": "Identités",
+   "caption": "Bouger pour aller mieux",
+   "scene": "Early morning in a public park in Dakar: groups of young people and adults jog along the beach road, some doing stretching exercises together; the sun is rising over the sea.",
+   "prompts": [
+    "Que faites-vous personnellement pour rester en bonne santé ?",
+    "Pourquoi le sport collectif est-il bon pour la santé mentale ?",
+    "Les jeunes d'aujourd'hui sont-ils moins actifs que ceux d'autrefois ?",
+    "Quelle est la responsabilité des écoles en matière de santé ?",
+    "Le sport en plein air est-il accessible à tout le monde dans votre ville ?"
+   ]
+  },
+  {
+   "theme": "Expériences",
+   "caption": "Partir loin pour se trouver ?",
+   "scene": "A young backpacker stands alone on a station platform with a large rucksack, looking at a departures board showing destinations such as Marseille, Genève and Lyon. Her face shows both excitement and nervousness.",
+   "prompts": [
+    "Avez-vous déjà voyagé sans vos parents ? Racontez.",
+    "Qu'est-ce qu'on apprend sur soi-même en voyageant ?",
+    "Est-ce que voyager est un luxe réservé à certains jeunes ?",
+    "Préférez-vous un voyage organisé ou l'aventure ? Pourquoi ?",
+    "Une année de césure après le lycée, est-ce une bonne idée ?"
+   ]
+  },
+  {
+   "theme": "Expériences",
+   "caption": "La fête qui nous rassemble",
+   "scene": "A street in a Martinique town during carnival: dancers in bright feathered costumes, musicians with drums, and families of all ages watching and laughing from the pavements.",
+   "prompts": [
+    "Pourquoi les fêtes traditionnelles sont-elles importantes pour une communauté ?",
+    "Décrivez une fête ou une tradition que vous aimez dans votre culture.",
+    "Les traditions doivent-elles évoluer avec le temps ?",
+    "Le tourisme menace-t-il l'authenticité des fêtes traditionnelles ?",
+    "Quelle tradition aimeriez-vous découvrir dans le monde francophone ?"
+   ]
+  },
+  {
+   "theme": "Expériences",
+   "caption": "Nouvelle ville, nouvelle vie",
+   "scene": "A family stands outside an apartment building in Montréal in winter, surrounded by cardboard boxes and suitcases. The two children stare in wonder at the snow; the parents look tired but hopeful.",
+   "prompts": [
+    "Quelles difficultés rencontre une famille qui s'installe dans un nouveau pays ?",
+    "Comment peut-on faciliter l'intégration des nouveaux arrivants ?",
+    "Avez-vous déjà déménagé ? Comment l'avez-vous vécu ?",
+    "Qu'est-ce qu'on garde de sa culture d'origine quand on émigre ?",
+    "Pourquoi beaucoup de personnes choisissent-elles d'émigrer au Québec, selon vous ?"
+   ]
+  },
+  {
+   "theme": "Ingéniosité humaine",
+   "caption": "Mon prof est-il un robot ?",
+   "scene": "A secondary-school classroom: students wear headphones and work on laptops where a chatbot answers their questions; at the front, the teacher watches, arms folded, with a thoughtful expression.",
+   "prompts": [
+    "L'intelligence artificielle peut-elle remplacer un professeur ?",
+    "Comment utilisez-vous la technologie pour apprendre ?",
+    "Quels sont les dangers de l'IA pour les élèves ?",
+    "Faut-il apprendre à l'école à utiliser l'IA de manière responsable ?",
+    "À quoi ressemblera l'école dans vingt ans ?"
+   ]
+  },
+  {
+   "theme": "Ingéniosité humaine",
+   "caption": "L'art descend dans la rue",
+   "scene": "A huge colourful mural on the side of a building in a Paris suburb shows the face of a young woman surrounded by birds. Local residents walk past; a child points at the painting; an artist on a ladder finishes a detail.",
+   "prompts": [
+    "Le street art est-il un art comme un autre ?",
+    "Quel rôle l'art peut-il jouer dans un quartier ?",
+    "Faut-il que l'art soit gratuit et accessible à tous ?",
+    "Quelle forme d'expression artistique préférez-vous ? Pourquoi ?",
+    "Connaissez-vous un artiste francophone qui vous inspire ?"
+   ]
+  },
+  {
+   "theme": "Ingéniosité humaine",
+   "caption": "Toujours connectés, jamais ensemble ?",
+   "scene": "A family of four at a dinner table in a modern kitchen: each person looks at their own screen (phone, tablet), the food is getting cold, and the dog stares at them from the floor.",
+   "prompts": [
+    "Combien de temps passez-vous sur vos écrans chaque jour ?",
+    "La technologie rapproche-t-elle ou éloigne-t-elle les familles ?",
+    "Faudrait-il des règles sur les écrans à la maison ?",
+    "Quels sont les avantages des réseaux sociaux pour rester en contact ?",
+    "Pourriez-vous vivre une semaine sans téléphone ?"
+   ]
+  },
+  {
+   "theme": "Organisation sociale",
+   "caption": "Un métier entre les mains",
+   "scene": "A young apprentice baker, about 17, in a white apron, takes a tray of baguettes out of the oven under the watchful eye of an older master baker in a small bakery in Lyon.",
+   "prompts": [
+    "Que pensez-vous de l'apprentissage par rapport aux études universitaires ?",
+    "Les métiers manuels sont-ils assez valorisés dans la société ?",
+    "Quel métier aimeriez-vous faire plus tard ? Pourquoi ?",
+    "Que peut-on apprendre d'une personne plus âgée et expérimentée ?",
+    "L'école prépare-t-elle bien les jeunes au monde du travail ?"
+   ]
+  },
+  {
+   "theme": "Organisation sociale",
+   "caption": "Ensemble, on va plus loin",
+   "scene": "Teenagers wearing yellow vests with the logo of a neighbourhood association distribute food parcels to elderly people and families outside a community centre in Lausanne.",
+   "prompts": [
+    "Avez-vous déjà fait du bénévolat ? Racontez.",
+    "Le bénévolat devrait-il être obligatoire pour les lycéens ?",
+    "Pourquoi certaines personnes ont-elles besoin de l'aide des associations ?",
+    "Quel est le rôle des jeunes dans la vie de leur quartier ?",
+    "Que pourrait faire votre école pour la communauté locale ?"
+   ]
+  },
+  {
+   "theme": "Organisation sociale",
+   "caption": "Le respect, ça commence à l'école",
+   "scene": "A school corridor with a large poster that reads « Non au harcèlement » ; a group of students of different ages surround a younger boy who looks relieved, one of them with a hand on his shoulder.",
+   "prompts": [
+    "Pourquoi le harcèlement scolaire est-il si difficile à arrêter ?",
+    "Quel rôle les témoins peuvent-ils jouer ?",
+    "Le cyberharcèlement est-il plus grave que le harcèlement « classique » ?",
+    "Quelles règles devraient exister dans une école pour protéger les élèves ?",
+    "Comment créer un bon climat dans une classe ?"
+   ]
+  },
+  {
+   "theme": "Partage de la planète",
+   "caption": "La planète n'a pas de plan B",
+   "scene": "A youth climate march in a Swiss city: hundreds of teenagers carry hand-painted placards (a melting Earth, « Agissez maintenant ! »); in the foreground, a girl with a megaphone leads the chanting.",
+   "prompts": [
+    "Les manifestations peuvent-elles vraiment faire changer les choses ?",
+    "Que faites-vous personnellement pour protéger l'environnement ?",
+    "Qui est le plus responsable : les gouvernements, les entreprises ou les citoyens ?",
+    "Les jeunes sont-ils plus engagés pour le climat que leurs parents ?",
+    "Si vous étiez ministre de l'Environnement, quelle serait votre première mesure ?"
+   ]
+  },
+  {
+   "theme": "Partage de la planète",
+   "caption": "Chaque goutte compte",
+   "scene": "In a village in Burkina Faso, a group of girls in school uniform fill yellow jerrycans at a new water pump; a sign beside the pump shows that it was built with the help of the community.",
+   "prompts": [
+    "Pourquoi l'accès à l'eau est-il un droit fondamental ?",
+    "Quel lien voyez-vous entre l'accès à l'eau et l'éducation des filles ?",
+    "Gaspille-t-on l'eau dans votre pays ? Comment ?",
+    "Comment les pays riches peuvent-ils aider sans imposer leurs solutions ?",
+    "Quels petits gestes quotidiens peuvent réduire la consommation d'eau ?"
+   ]
+  },
+  {
+   "theme": "Partage de la planète",
+   "caption": "Le même terrain, les mêmes rêves",
+   "scene": "A girls' football team in a working-class district of Marseille celebrates a goal on a city pitch; some boys watching behind the fence applaud. One player wears a T-shirt saying « Le foot, c'est pour tout le monde ».",
+   "prompts": [
+    "Les filles et les garçons ont-ils les mêmes chances dans le sport ?",
+    "Pourquoi le sport féminin est-il moins médiatisé ?",
+    "Le sport peut-il aider à lutter contre les inégalités sociales ?",
+    "Avez-vous déjà été témoin d'une situation injuste dans le sport ?",
+    "Quelles mesures pourraient favoriser l'égalité dans le sport ?"
+   ]
+  }
+ ]
+}
